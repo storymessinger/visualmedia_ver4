@@ -1,0 +1,36 @@
+@import '../../../../assets/css/_variables.scss';
+
+.row {
+    padding: 2rem 3rem 3rem;
+    flex-flow:column;
+}
+.partners {
+    // row
+    display: flex;
+    flex-wrap:wrap;
+    max-width: 1250px;
+    padding: 2rem 0 2rem 0;
+
+    .partners-title {
+        padding-bottom: 1rem;
+        padding-left: 0rem;
+        margin-bottom: 3.5rem;
+    }
+    .partner-box {
+        margin-bottom: 2rem;
+
+        .partner-img img:hover {
+            -webkit-filter: grayscale(100%) contrast(80%);
+        }
+        .partner-img {
+            display: flex;
+            overflow:hidden;
+            flex-flow: column;
+            align-items: center;
+            margin: 0 0.5rem 0.5rem 0.5rem;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

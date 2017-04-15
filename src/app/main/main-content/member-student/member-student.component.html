@@ -1,0 +1,254 @@
+
+<router-outlet></router-outlet>
+
+<div class="flex-content">
+  <div class="content col-sm container-fluid">
+    <div class="row content-row no-gutters">
+
+      <div class="people col-sm-12">
+        <div class="people-status col-sm-12">
+          <h2 id="faculty">
+            FACULTY
+          </h2>
+        </div>
+        <!-- card container-->
+        <div *ngFor="let person of datas.professor " class="people-box col-sm-12 col-md-6 col-lg-4">
+          <div class="people-img">
+            <div class="people-img-box">
+              <img default="http://placehold.it/399x399" [srcset]=" imgPath + person.img">
+              <a md-fab [routerLink]="[ '/main/people/person/', person.id ]" ><md-icon>add</md-icon></a>
+            </div>
+          </div>
+
+          <div class="people-text">
+            <h3 class="name">{{person.name}}</h3>
+            <p class="text-center menu01">
+              {{person.topics}} <br>
+              {{person.email}} <br>
+              {{person.team}} <br>
+              {{person.affiliation}}
+            </p>
+            <sub class="menu01">{{person.status}}</sub>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="people col-sm-12">
+        <div class="people-status col-sm-12">
+          <h2 id="post">
+            POST DOCTORS
+          </h2>
+        </div>
+        <!-- card container-->
+        <div *ngFor="let person of datas.postdoc" class="people-box col-sm-12 col-md-6 col-lg-4">
+          <div class="people-img">
+            <div class="people-img-box">
+              <img default="http://placehold.it/399x399" [srcset]=" imgPath + person.img">
+              <a md-fab [routerLink]="[ '/main/all/person/', person.id ]" ><md-icon>add</md-icon></a>
+            </div>
+          </div>
+          <div class="people-text">
+            <h3 class="name">{{person.name}}</h3>
+            <p class="text-center menu01">
+              {{person.topics}} <br>
+              {{person.email}} <br>
+              {{person.team}} <br>
+              {{person.affiliation}}
+            </p>
+            <sub class="menu01">{{person.status}}</sub>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="people col-sm-12">
+        <div class="people-status col-sm-12">
+          <h2 id="phd">
+            PH.D STUDENT
+          </h2>
+        </div>
+        <!-- card container-->
+        <div *ngFor="let person of datas.doctor" class="people-box col-sm-12 col-md-6 col-lg-4">
+          <div class="people-img">
+            <div class="people-img-box">
+              <img default="http://placehold.it/399x399" [srcset]=" imgPath + person.img">
+              <a md-fab [routerLink]="[ '/main/all/person/', person.id ]" ><md-icon>add</md-icon></a>
+            </div>
+          </div>
+          <div class="people-text">
+            <h3 class="name">{{person.name}}</h3>
+            <p class="text-center menu01">
+              {{person.topics}} <br>
+              {{person.email}} <br>
+              {{person.team}} <br>
+              {{person.affiliation}}
+            </p>
+            <sub class="menu01">{{person.status}}</sub>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="people col-sm-12">
+        <h2 class="people-status col-sm-12" id="master">
+          Master Students
+        </h2>
+        <!-- card container-->
+        <div *ngFor="let person of datas.master" class="people-box col-sm-12 col-md-6 col-lg-4">
+          <div class="people-img">
+            <div class="people-img-box">
+              <img default="http://placehold.it/399x399" [srcset]=" imgPath + person.img">
+              <a md-fab [routerLink]="[ '/main/all/person/', person.id ]" ><md-icon>add</md-icon></a>
+            </div>
+          </div>
+          <div class="people-text">
+            <h3 class="name">{{person.name}}</h3>
+            <p class="text-center menu01">
+              {{person.topics}} <br>
+              {{person.email}} <br>
+              {{person.team}} <br>
+              {{person.affiliation}}
+            </p>
+            <sub class="menu01">{{person.status}}</sub>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="people col-sm-12">
+        <h2 class="people-status col-sm-12" id="researcher">
+          Researchers
+        </h2>
+        <!-- card container-->
+        <div *ngFor="let person of datas.researcher" class="people-box col-sm-12 col-md-6 col-lg-4">
+          <div class="people-img">
+            <div class="people-img-box">
+              <img default="http://placehold.it/399x399" [srcset]=" imgPath + person.img">
+              <a md-fab [routerLink]="[ '/main/all/person/', person.id ]" ><md-icon>add</md-icon></a>
+            </div>
+          </div>
+          <div class="people-text">
+            <h3 class="name">{{person.name}}</h3>
+            <p class="text-center menu01">
+              {{person.topics}} <br>
+              {{person.email}} <br>
+              {{person.team}} <br>
+              {{person.affiliation}}
+            </p>
+            <sub class="menu01">{{person.status}}</sub>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="people col-sm-12">
+        <h2 class="people-status col-sm-12" id="intern">
+          Interns
+        </h2>
+        <!-- card container-->
+        <div *ngFor="let person of datas.intern" class="people-box col-sm-12 col-md-6 col-lg-4">
+          <div class="people-img">
+            <div class="people-img-box">
+              <img default="http://placehold.it/399x399" [srcset]=" imgPath + person.img">
+              <a md-fab [routerLink]="[ '/main/all/person/', person.id ]" ><md-icon>add</md-icon></a>
+            </div>
+          </div>
+          <div class="people-text">
+            <h3 class="name">{{person.name}}</h3>
+            <p class="text-center menu01">
+              {{person.topics}} <br>
+              {{person.email}} <br>
+              {{person.team}} <br>
+              {{person.affiliation}}
+            </p>
+            <sub class="menu01">{{person.status}}</sub>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="people col-sm-12">
+        <h2 class="people-status col-sm-12" id="alumni_phd">
+          Ph.D Alumni
+        </h2>
+        <!-- card container-->
+        <div *ngFor="let person of datas.alumni_phd" class="people-box col-sm-12 col-md-6 col-lg-4">
+          <div class="people-img">
+            <div class="people-img-box">
+              <img default="http://placehold.it/399x399" [srcset]=" imgPath + person.img">
+              <a md-fab [routerLink]="[ '/main/all/person/', person.id ]" ><md-icon>add</md-icon></a>
+            </div>
+          </div>
+          <div class="people-text">
+            <h3 class="name">{{person.name}}</h3>
+            <p class="text-center menu01">
+              {{person.topics}} <br>
+              {{person.email}} <br>
+              {{person.affiliation}}
+            </p>
+            <sub class="menu01">{{person.status}}</sub>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="people col-sm-12">
+        <h2 class="people-status col-sm-12" id="alumni_master">
+          Master Alumni
+        </h2>
+        <!-- card container-->
+        <div *ngFor="let person of datas.alumni_master" class="people-box col-sm-12 col-md-6 col-lg-4">
+          <div class="people-img">
+            <div class="people-img-box">
+              <img default="http://placehold.it/399x399" [srcset]=" imgPath + person.img">
+              <a md-fab [routerLink]="[ '/main/all/person/', person.id ]" ><md-icon>add</md-icon></a>
+            </div>
+          </div>
+          <div class="people-text">
+            <h3 class="name">{{person.name}}</h3>
+            <p class="text-center menu01">
+              {{person.topics}} <br>
+              {{person.email}} <br>
+              {{person.team}} <br>
+              {{person.affiliation}}
+            </p>
+            <sub class="menu01">{{person.status}}</sub>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="people col-sm-12">
+        <h2 class="people-status col-sm-12" id="former">
+          Former Members
+        </h2>
+        <!-- card container-->
+        <div *ngFor="let person of datas.former" class="people-box col-sm-12 col-md-6 col-lg-4">
+          <div class="people-img">
+            <div class="people-img-box">
+              <img default="http://placehold.it/399x399" [srcset]=" imgPath + person.img">
+              <a md-fab [routerLink]="[ '/main/all/person/', person.id ]" ><md-icon>add</md-icon></a>
+            </div>
+          </div>
+          <div class="people-text">
+            <h3 class="name">{{person.name}}</h3>
+            <p class="text-center menu01">
+              {{person.topics}} <br>
+              {{person.email}} <br>
+              {{person.team}} <br>
+              {{person.affiliation}}
+            </p>
+            <sub class="menu01">{{person.status}}</sub>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>

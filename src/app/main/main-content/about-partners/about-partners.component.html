@@ -1,0 +1,18 @@
+<div class="flex-content">
+  <div class="make_dimmer"></div>
+  <div class="content col-sm container-fluid">
+
+    <div class="row">
+      <div *ngFor="let key of datas | keys" class="partners col-sm-12">
+        <h2 class="partners-title col-sm-12">{{key}}</h2>
+        <div *ngFor="let partner of datas[key]" class="partner-box col-sm-12 col-md-4 col-lg-3">
+          <a [href]='partner.link' class="partner-img">
+            <img [src]=' imgPath + partner.logo'>
+          </a>
+          <p class="menu01 text-center">{{partner.name}}</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

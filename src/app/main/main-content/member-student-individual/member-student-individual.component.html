@@ -1,0 +1,115 @@
+<div class="flex-content">
+  <div class="content col-sm-12 container-fluid">
+    <div class="row">
+      <div class="person-img">
+        <img default="http://placehold.it/399x399" [srcset]=" imgPath + datas.img">
+
+        <h3>E-mail</h3>
+        <p>{{datas.email}}</p>
+        <h3>Mailing Address</h3>
+        <p>example address</p>
+
+      </div>
+
+
+      <div class="person-desc">
+        <h1>{{datas.name}}</h1>
+        <p>{{datas.type}}</p>
+        <p>Visual Media Lab <br> 
+           Graduate School of Culture and Technology, KAIST</p>
+        <hr/>
+        <h3>Research Interest</h3>
+        <p class="topics">{{datas.topics}}</p>
+
+        <!--<hr/>
+        <h3>Education</h3>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td class="table-year">2002</td>
+              <td>
+                Ph.D. Computer Science
+                <br> University of Southern California, advisor Prof. Ulrich Neumann
+                <br> - Thesis "Facial Animation by Expression Cloning"
+              </td>
+            </tr>
+            <tr>
+              <td class="table-year">1996</td>
+              <td>
+                M.S. Computer Engineering 
+                <br> University of Southern California, advisor Prof. George Bekey Thornton
+              </td>
+            </tr>
+            <tr>
+              <td class="table-year">1994</td>
+              <td>
+                M.S. Computer Engineering 
+                <br> University of Southern California, advisor Prof. George Bekey Thornton
+              </td>
+            </tr>
+          </tbody>
+        </table>-->
+        
+        <hr/>
+        <h3>Publications</h3>
+
+        <table class="table">
+          <tbody>
+
+            <tr>
+              <td class="table-year">2011, Eurographics</td>
+              <td>
+                “A Smoke Visualization Model for Capturing Surface-like Features”
+              </td>
+            </tr>
+
+            <tr>
+              <td class="table-year">2011, CASA Short paper</td>
+              <td>
+                “Multilinear Fluid Simulation with Model Reduction for Pressure Projection”
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+        <h3>Projects</h3>
+        <div class="projects">
+          <div *ngFor="let project of projects" class="project-item">
+            <img src="http://placehold.it/399x399">
+            <!--<img default="http://placehold.it/399x399" [srcset]="imgPath">-->
+            <p>{{projects.name}}</p>
+          </div>
+        </div>
+
+        <hr/>
+
+        <h3>Videos</h3>
+        <div class="projects">
+          <div class="video-item">
+            <img src="http://placehold.it/400x300">
+            <p>Multiprojection Project</p>
+          </div>
+          <div class="video-item">
+            <img src="http://placehold.it/400x300">
+            <p>Multiprojection Project</p>
+          </div>
+          <div class="video-item">
+            <img src="http://placehold.it/400x300">
+            <p>Multiprojection Project</p>
+          </div>
+          <div class="video-item">
+            <img src="http://placehold.it/400x300">
+            <p>Multiprojection Project</p>
+          </div>
+          <div class="video-item">
+            <img src="http://placehold.it/400x300">
+            <p>Multiprojection Project</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>

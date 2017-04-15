@@ -1,0 +1,81 @@
+<div class="flex-content">
+  <div class="content col-sm-12 container-fluid">
+
+    <div *ngFor="let data of datas" class="row project-list no-gutters">
+
+      <div class="col-sm-12 project-year display-4" [id]='data[0].year'>
+        {{data[0].year}}
+      </div>
+
+      <hr/>
+
+      <div *ngFor="let project of data" class="col-sm-12 project">
+        <div class="col-sm-12 project-title h2">
+          {{project.name}}
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-5 project-desc">
+          <table class="table menu01">
+            <tbody>
+
+              <tr>
+                <td class="table-year">Full name</td>
+                <td>
+                  {{project.name}}
+                </td>
+              </tr>
+
+              <tr>
+                <td class="table-year">Team</td>
+                <td>
+                  {{project.team}}
+                </td>
+              </tr>
+
+              <tr>
+                <td class="table-year">Area</td>
+                <td>
+                  Immersive media display system, Multi-projection contents optimization 
+                </td>
+              </tr>
+
+              <tr>
+                <td class="table-year">Partners</td>
+                <td>
+                  KAI Co., CJ CGV Co
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-5 project-img">
+          <img src="http://placehold.it/800x600"> 
+          <!--<img default="http://placehold.it/800x600" 
+              [srcset]= 'imgPath + project.img + " 800w, " +
+                        imgPath+ project.smallimg + " 300w "'
+              sizes="(min-width:767px) 300px, 800px">-->
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-2 project-funding">
+          <hr/>
+          <p class="menu01">Funding</p>
+          <p class="menu02">{{project.funding_name}}</p>
+          <hr/>
+          <p class="menu01">Manager</p>
+          <a [routerLink]='["../people", "person", project.people_id]'>{{project.people_name}}</a>
+        </div>
+
+      </div>
+      <div class="col-sm-12" style="height:100px;">
+      </div>
+
+
+      <hr/>
+    </div>
+    
+    
+    <!--<ngb-pagination class="pagination" [masmize]="5" [collectionSize]="170"  [(page)]="page" [boundaryLinks]="true"></ngb-pagination>-->
+
+  </div>
+</div>

@@ -1,0 +1,91 @@
+@import '../../../../assets/css/_variables.scss';
+@import '../../../../assets/css/_materialShadow.scss';
+
+.content {
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.project-list {
+    max-width: 1200px;
+    .project-year {
+        margin-bottom: 3.5rem;
+    }
+}
+
+.project {
+    display:flex;
+    flex-flow: row wrap;
+    margin-bottom: 3.5rem;
+    .project-title {
+        margin-top: 1.5rem;
+        margin-bottom: 3.5rem;
+        padding:0;
+    }
+}
+
+.project-desc {
+    padding: 0;
+    padding-right: 3.5rem;
+    table {
+        max-width: 600px;
+
+        .table-year {
+            width: 4.5rem;
+            padding-left: 0;
+        }
+    }
+}
+
+.project-img {
+    // max-height: 500px;
+    width: 300px;
+    max-width: 300px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    img {
+        width:100%;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+.project-funding {
+    display: flex;
+    padding-left:1.5rem;
+    flex-flow:column;
+    hr {
+        margin: 0;
+        margin-bottom: 12px;
+    }
+}
+
+hr {
+    margin-bottom: 0;
+    width:100%;
+}
+
+@media (max-width: 767px) {
+    .project-img {
+        width: 100%;
+        order: 3;
+        min-height:300px;
+        max-width:none;
+    }
+}
+@media (max-width: 991px) {
+    .project-funding {
+        padding-left:0rem;
+        margin-bottom: 1.5rem;
+    }
+}

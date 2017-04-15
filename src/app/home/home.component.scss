@@ -1,0 +1,224 @@
+@import '../../assets/css/_variables.scss';
+@import '../../assets/css/_materialShadow.scss';
+
+#navbar {
+    opacity: 0;
+}
+.main {
+    margin-top: 0 !important;
+}
+
+.indexPage-nav {
+        display: none;
+}
+
+.menu_btn {
+    display:none;
+}
+
+.search-nav {
+    list-style: none;
+    
+    .search {
+
+
+        display: none !important;
+
+
+        position: absolute;
+        right: 3rem;
+        .search_btn {
+            cursor: pointer;
+        }
+        input {
+            width: 55px;
+            transition: width 0.25s ease-in-out;
+
+            border: none;
+            background: transparent;
+            margin-left: 0.5rem;
+            border-bottom: 1.8px $primary_orange solid;
+            color: $primary_orange;
+            font-weight:300;
+            font-size: 0.95rem;
+        }
+        input:focus {
+            outline: none;
+            width: 150px;
+        }
+    }
+}
+
+
+.navbar {
+    // opacity: 0;
+    // top: -80px;
+    background-color: rgba(255,255,255,0);
+
+    .navbar-brand {
+        img {
+            filter: contrast(0) brightness(100);
+        }
+    }
+    
+    // flexbox
+    display: flex;
+    flex-flow:row;
+    align-items: center;
+
+    // material-like shadow
+    @include card(1);
+
+    padding-bottom: 0;
+    padding-top: 0;
+    height: $navbar_height;
+
+    img {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        cursor:pointer;
+    }
+
+    ul.navbar-nav {
+        flex-grow: 1;
+        flex-flow:row;
+    }
+
+    .form {
+        flex-grow: 0;
+    }
+
+    .nav-link {
+        color: $primary_white;
+        padding: 0 1.5rem;
+    }
+}
+// From under 750px,
+// Navbar leaves only the logo and the menu btn
+@media (max-width: 900px) {
+    .navbar {
+        .menu_btn {
+            display: unset;
+            margin: 0;
+        }
+        .menu_btn:active {
+            top: 2rem;
+        }
+        .navbar-brand, .navbar-nav {
+            display: none;
+        }
+    }
+
+}
+
+@media (max-width: 544px) {
+    .navbar-nav {
+        display: none;
+    }
+}
+
+
+
+
+// for overlay noscroll issue
+.noscroll {
+    overflow: hidden;
+    // this is for ios
+    height: 100%;
+}
+
+.header {
+    position: relative;
+    background-position: 50% center;
+    background-size: cover;
+    // for this page to be 'scroll-available'
+    height: 100vh;
+    .title {
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        p {
+            color: $primary_white;
+        }
+        .display-2 {
+            color: $primary_white;
+            margin-bottom: 1rem;
+        }
+        h3 {
+            color: $primary_yellow;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .title p {
+        display: none;
+    }
+    .title {
+        h2 {
+            font-size: 1.25rem;
+        }
+        .display-2 {
+            font-size: 2.5rem;
+        }
+    }
+    
+
+}
+
+.content {
+    padding: 0 2rem 5rem 2rem;
+    .news {
+        max-width: 1050px;
+        margin: auto;
+    }
+    .Heading {
+        padding: 4rem 0 4rem 0;
+    }
+    .card-deck-wrapper {
+        margin:auto;
+        .card-deck {
+            justify-content: center;
+            .card {
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+    .card-columns {
+        margin:auto;
+        .issueCard {
+            margin:auto;
+            max-width: 300px;
+            margin-bottom: 1.5rem;
+            img.sel-img {
+                // -webkit-animation: sel-img-animation 0.3s 1;
+                filter: brightness(30%);
+            }
+
+        }
+    }
+}
+.card {
+    max-width: 300px;
+}
+
+.news-img {
+    width: 100%
+}
+
+@media (max-width: 575px) {
+    .card {
+        margin:auto;
+    }
+}
+
+
+.footer {
+    // need some space around the footer box
+    padding: 3rem 5rem 3rem 5rem;
+    background-color: $primary_dark_grey;
+    color: $primary_white;
+    margin: 0;
+    height: 400px;
+}
+

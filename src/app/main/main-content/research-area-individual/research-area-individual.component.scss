@@ -1,0 +1,120 @@
+@import '../../../../assets/css/_variables.scss';
+
+.imgDiv {
+
+    min-height:80vh;
+    position: relative;
+    background:
+        linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size:cover;
+    background-position: 50% center;
+    .title {
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        color: rgba(255,255,255,0.87);
+        
+    }
+}
+
+@media (max-width: 556px) {
+    .imgDiv {
+        min-height: 80vh;
+        .title {
+            font-size: 2rem;
+        }
+    }
+} 
+
+.team {
+    margin-bottom: 3.5rem;
+    h2 { margin-bottom: 1.5rem}
+
+    .yellow {
+        color: $primary_yellow;
+    }
+}
+
+.related {
+    margin-bottom: 6rem;
+    h2 { margin-bottom: 1.5rem}
+    .links {
+        color: rgba(0,0,0,0.54);
+        margin-bottom: 1rem;
+        &:hover {
+            color: $primary_orange;
+        }
+    }
+}
+
+
+
+.people {
+    // row
+    display: flex;
+    flex-wrap:wrap;
+    max-width: 1250px;
+    
+    margin-bottom: 1rem;
+
+    .people-status {
+        margin-bottom: 2.5rem;
+        padding:0;
+    }
+
+    .people-box {
+        margin: auto;
+        margin-bottom: 3.5rem;
+        padding: 0 1.5rem;
+
+        .people-img {
+            display: flex;
+            align-items: center;
+            img {
+                border-radius: 50%;
+                margin: 0 auto;
+                width: 240px;
+            }
+        }
+
+        .people-img-box:hover {
+            img {
+                filter: grayscale(100%) contrast(80%);
+            }
+            a {
+                display: block;
+            }
+        }
+        .people-img-box a {
+            background-color: $primary_light_grey;
+            color: $primary_dark_grey;
+
+            position: absolute;
+            display:none;
+            left:120px; 
+            top:90px; 
+
+            box-shadow: 0 0 0 rgba(0,0,0,0);
+        }
+
+        .people-img-box a:hover {
+            box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 
+                        0 6px 10px 0 rgba(0,0,0,.14), 
+                        0 1px 18px 0 rgba(0,0,0,.12);
+        }
+
+        .people-text {
+            display: flex;
+            justify-content: center;
+            flex-flow:column;
+            align-items: center;
+            .name {
+                margin-bottom:0.75rem;
+            }
+            sub {
+                color: $primary_orange;
+            }
+        }
+    }
+}

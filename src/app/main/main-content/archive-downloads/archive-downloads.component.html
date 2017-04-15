@@ -1,0 +1,33 @@
+<div class="flex-content">
+  <div class="content col-sm container-fluid">
+
+    <div *ngFor="let data of datas" class="row list">
+      <!--<h2 class="year-title" [id]='id' >{{id}}</h2>-->
+      <div class="col-sm-12 year display-4" [id]='data[0].year'>
+        {{data[0].year}}
+      </div>
+
+      <div *ngFor="let download of data" class="data-box">
+        <div class="data-img">
+          <img default="http://placehold.it/799x799" [srcset]=" imgPath + download.img">
+          
+        </div>
+        <div class="data-desc">
+          <h3 >{{download.title}}</h3>
+          <p class="menu01">{{download.desc}}</p>
+        </div>
+        <div class="data-type">
+          <h5 ><a [href]='imgPath + download.file' target="_blank">{{download.type | uppercase }}</a><md-icon class="material-icons">file_download</md-icon></h5>
+          
+          <p class="menu01">
+            {{download.additional}}
+          </p>
+        </div>
+      </div>
+
+      <hr/>
+
+    </div>
+
+  </div>
+</div>

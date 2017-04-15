@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600');
+@import '_variables.scss';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 .display-1, .display-2, .display-3, .display-4 {
+        font-family: 'Lato', sans-serif;
+    }
+}
+
+html {
+    // fonts decided from the clients. Lato. Currently using light regular bold
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+// this is for the holyGrail layout
+body {
+    
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+    .main {
+        display: flex;
+    }
+}
+
+.main {
+    // this margin is for the fixed navbar height margin. (6rem of nav)
+    margin-top: $navbar_height;
+}
+
+// for sidebar margin
+.flex-content {
+    margin-left: $sidebar-width;
+    flex-grow:1;
+    display: flex;
+}
+
+@media (max-width: 1479px) {
+    .flex-content {
+        margin-left: 0;
+    }
+}
+
+// This is the part where beside functional aspects, the major contents ALL go in
+.content {
+    margin: 0 ;
+    padding: 0;
+    justify-content: center;
+
+    // Speical
+    min-height:100vh;
+    background-color:#fafafa;
+
+
+    .row {
+        // margin: 3.5rem 6rem 6rem 6rem;
+        margin: 3.5rem 6rem 6rem 6rem;
+        // flex-flow:column;
+    }
+    .divider {
+        border-top: 1px solid rgba(0,0,0,0.1);
+        margin: 0 6rem;
+        height:1px;
+        width:100%;
+    }
+    .start-row {
+        border-top: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .content {
+        .row {
+            margin: 3.5rem 1.5rem 6rem 1.5rem;
+        }
+    }
+}
+
+
+///// hide the scroll but able to scroll 
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 1px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: $primary_orange;
+}
+
+

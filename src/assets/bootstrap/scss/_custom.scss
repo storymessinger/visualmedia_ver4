@@ -1,0 +1,140 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+// bootstrap overrides
+//
+// copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+
+html {
+  font-size: 14px;
+}
+
+// grid
+
+@include media-breakpoint-up(sm) { // more than 576px
+  html {
+    font-size: 16px;
+  }
+}
+
+
+
+// // 폰트 기본 사이즈 16에서 14로
+// $font-size-root: 14px;
+
+// 주요색깔
+$brand-primary:             #f05a29;
+$brand-success:             #5cb85c !default;
+$brand-info:                #5bc0de !default;
+$brand-warning:             #f0ad4e !default;
+$brand-danger:              #d9534f !default;
+
+// dropdown matching to the navbar height
+$dropdown-padding-y:             .5rem;
+$dropdown-margin-top:            2.25rem;
+
+// breadcrumbs
+$breadcrumb-bg:                 $brand-primary;
+$breadcrumb-divider-color:      white;
+$breadcrumb-divider:            ">";
+// $breadcrumb-active-color:       $gray-light !default;
+
+
+// 박스의 fillet 없애기
+$border-radius:          0rem;
+$border-radius-lg:       0rem;
+$border-radius-sm:       0rem;
+
+// 리스트 그룹 active 색깔
+$list-group-active-color:       $brand-primary;
+$list-group-active-bg:          rgba(0,0,0,0);
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:            $brand-primary;
+// $link-decoration:       none !default;
+$link-hover-color:      darken($link-color, 15%);
+// $link-hover-decoration: underline !default;
+
+
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// $font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+// $font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
+// $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+// $font-family-base:       $font-family-sans-serif !default;
+// $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+// $font-size-lg:   1.25rem !default;
+// $font-size-sm:   .875rem !default;
+// $font-size-xs:   .75rem !default;
+// $font-weight-normal: normal !default;
+// $font-weight-bold: bold !default;
+// $font-weight-base: $font-weight-normal !default;
+$line-height-base: 1.5;
+
+// $font-size-h1: 2.5rem;
+$font-size-h2: 2.2rem;
+$font-size-h3: 1.625rem;
+// $font-size-h4: 1.5rem !default;
+$font-size-h5: 1.25rem;
+// $font-size-h6: 1rem !default;
+
+html { p {color: rgba(0,0,0,0.75)} }
+html {.bodyText{ font-size: 1rem; }}
+html {.menu01{ font-size: 0.812rem; color:rgba(0,0,0,0.87);}}
+html {.menu02{ font-size: 0.812rem; color:rgba(0,0,0,0.54);}}
+html {.text-center{ text-align: center;}}
+
+// $headings-margin-bottom: ($spacer / 2) !default;
+$headings-margin-bottom: ($spacer);
+// $headings-font-family:   inherit !default;
+// $headings-font-weight:   400;
+// $headings-line-height:   1.1 !default;
+$headings-color:        rgba(0,0,0,0.75);
+html { .display-2, .display-4 { color: rgba(0,0,0,0.54)}};
+
+// $display1-size: 6rem !default;
+$display2-size: 5rem;
+// $display3-size: 4.5rem !default;
+$display4-size: 2.5rem;
+
+// $display1-weight:     300 !default;
+$display2-weight:     600;
+// $display3-weight:     300 !default;
+$display4-weight:     600 ;
+// $display-line-height: $headings-line-height !default;
+
+$lead-font-size:   1.25rem !default;
+$lead-font-weight: 300 !default;
+
+$small-font-size: 80% !default;
+
+$text-muted: $gray-light !default;
+
+$abbr-border-color: $gray-light !default;
+
+$blockquote-small-color:  $gray-light !default;
+$blockquote-font-size:    ($font-size-base * 1.25) !default;
+$blockquote-border-color: $gray-lighter !default;
+$blockquote-border-width: .25rem !default;
+
+$hr-border-color: rgba($black,.1) !default;
+$hr-border-width: $border-width !default;
+
+$mark-padding: .2em !default;
+
+$dt-font-weight: $font-weight-bold !default;
+
+$kbd-box-shadow:         inset 0 -.1rem 0 rgba($black,.25) !default;
+$nested-kbd-font-weight: $font-weight-bold !default;
+
+$list-inline-padding: 5px !default;

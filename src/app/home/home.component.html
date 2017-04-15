@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>visual media lab website</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+</head>
+
+<body>
+  <nav class="navbar navbar-light fixed-top" id="nav-animation">
+    <img class="menu_btn" (click)=clickMenuBtn($event) [src]=menuIconPath fill-opacity="0" width="30px">
+    <a routerLink="/" class="indexpage-nav-btn navbar-brand" >
+      <img [src]='logoIconPath' height="56" id="logo-animation">
+    </a>
+    <ul class="nav navbar-nav">
+      <li class="menu01 nav-item"><a class="nav-link" routerLink="/main/info" >ABOUT</a></li>
+      <li class="menu01 nav-item"><a class="nav-link" [routerLink]="['/main/people']" fragment="post">PEOPLE</a></li>
+      <li class="menu01 nav-item"><a class="nav-link" routerLink="/main/area">RESEARCH</a></li>
+      <li class="menu01 nav-item"><a class="nav-link" routerLink="/main/news" >NEWS & EVENT</a></li>
+      <li class="menu01 nav-item"><a class="nav-link" routerLink="/main/downloads">ARCHIVE</a></li>
+    </ul>
+    <ul class="search-nav">
+      <li class="search">
+        <img class="search_btn" (click)=clickSearchBtn() [src]=searchIconPath fill-opacity="0" width="30px">
+        <input id="searchBar">
+      </li>
+    </ul>
+  </nav>
+
+
+  <div class="indexPage-nav">
+    <div class="list-group">
+      <a class="menu01 list-group-item" routerLink="/main/info">About</a>
+      <a class="menu01 list-group-item" href="/member/professor">Member</a>
+      <a class="menu01 list-group-item" href="/project">Research</a>
+      <a class="menu01 list-group-item" href="/news">News and Events</a>
+      <a class="menu01 list-group-item" href="/archive/download">Archive</a>
+    </div>
+  </div>
+
+
+
+  <div class="main">
+    <div class="col-sm">
+      <div class="row header" [style.background-image]="'url(' + mainImgPath + ')'">
+        <div class="title text-center">
+          <div class="display-2 title-text">VISUAL MEDIA LAB</div>
+          <h3 class="title-text">Where Creativity Meets Techonology</h3>
+          <p class="title-text">focuses on developing fundamental computer graphics technology and software applications specifically for the creation
+            of movie visual effects and animated films. Since its foundation in 2006, VML has emphasized both R&D and contens
+            production as a core part of lab activity. About 20 Ph.D. and master program students along have published numerous
+            papers at premium graphics conferences and showcased animations at international computer animated festivals.
+            The close relationship with industry has allowed VML to contribute its technology to recently released movies.</p>
+        </div>
+      </div>
+      <div class="row content" id="nav-trigger">
+
+        <div class="Heading col-sm-12 text-center" scrollSpy>
+          <h1>Reseach Area</h1>
+          <p>The main research area includes motion and facial animation of virtual chararcter, immersive display system and
+            human interaction system</p>
+        </div>
+        <div class="card-deck-wrapper col-sm-12">
+          <div class="card-deck">
+            <div *ngFor="let team of teams" class="card">
+              <img class="img-fluid card-img-top" 
+                   src="http://placehold.it/400x400" [srcset]='imgPath + team.img'>
+              <div class="card-block">
+                <h4 class="card-title">{{team.shortname}}</h4>
+                <p class="card-text">{{team.desc}}</p>
+                <p class="card-text"><small class="text-muted">{{team.fullname}}</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="scale-trigger" class="col-sm-12 news">
+          <div  id="scale-animation" class="Heading text-center col-sm-12">
+            <h1>Recent News and Media</h1>
+            <p>The main research area includes motion and facial animation of virtual chararcter, immersive display system and
+              human interaction system</p>
+          </div>
+
+          <div class="card-columns">
+            <div *ngFor="let issue of issues" class="card issueCard">
+              <img class="news-img card-img-top img-fluid" 
+                  src='http://placehold.it//400x400'
+                  [srcset]='imgPath+ issue.img'>
+              <div class="card-block">
+                <h4 class="card-title">{{issue.title}}</h4>
+                <p class="card-text desc">{{issue.desc}}</p>
+                <p class="card-text"><small class="text-muted">{{issue.date}}</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="footer row container-fluid">
+    <div class="col-sm-12">
+    </div>
+  </div>
+</body>
+<!-- Core JS Files-->
+
+</html>

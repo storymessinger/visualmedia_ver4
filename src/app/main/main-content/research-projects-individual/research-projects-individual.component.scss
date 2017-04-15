@@ -1,0 +1,134 @@
+@import '../../../../assets/css/_variables.scss';
+
+.front-image-max {
+    position:relative;
+    flex-grow:1;
+    margin-left:-$sidebar-width;
+    img {
+        margin-left:0;
+        width: 100vw;
+        padding-left:250px;
+    }
+}
+
+@media (max-width: 1479px) {
+    .front-image-max {
+        img {
+            margin-left:$sidebar-width;
+            padding-left:0px;
+        }
+    }
+}
+
+.project-desc {
+    .team {
+        display: inline-block;
+        margin-bottom:1rem;
+    }
+    .display-4 {
+        margin-bottom: 2rem;
+    }
+}
+.pad {
+    padding:1rem;
+    background-color:$primary_white;
+    border: 1px solid $primary_light_grey;
+    cursor:pointer;
+    margin-right:2rem;
+    margin-bottom:2rem;
+}
+
+.project-manager {
+    display: flex;
+    flex-wrap:wrap;
+    max-width: 1250px;
+
+    .people-box {
+        margin: auto;
+        margin-bottom: 3.5rem;
+        padding: 0 1.5rem;
+
+        .people-img {
+            display: flex;
+            align-items: center;
+            img {
+                border-radius: 50%;
+                margin: 0 auto;
+                width: 120px;
+            }
+        }
+
+        .people-img-box:hover {
+            img {
+                filter: grayscale(100%) contrast(80%);
+            }
+            a {
+                display: block;
+            }
+        }
+        
+        .people-img-box a {
+            background-color: $primary_light_grey;
+            color: $primary_dark_grey;
+
+            position: absolute;
+            display:none;
+            left:120px; 
+            top:90px; 
+
+            box-shadow: 0 0 0 rgba(0,0,0,0);
+        }
+
+
+        .people-img-box a:hover {
+            box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 
+                        0 6px 10px 0 rgba(0,0,0,.14), 
+                        0 1px 18px 0 rgba(0,0,0,.12);
+        }
+
+
+        .people-text {
+            margin-top: 1.5rem;
+            display: flex;
+            justify-content: center;
+            flex-flow:column;
+            align-items: center;
+            .name {
+                margin-bottom:0.75rem;
+            }
+            sub {
+                color: $primary_orange;
+            }
+        }
+    }
+}
+
+
+.project-partners {
+    display: flex;
+    flex-wrap:wrap;
+    max-width: 1250px;
+    .partner-box {
+        margin-bottom: 2rem;
+
+        .partner-img img:hover {
+            -webkit-filter: grayscale(100%) contrast(80%);
+        }
+        .partner-img {
+            display: flex;
+            overflow:hidden;
+            flex-flow: column;
+            align-items: center;
+            margin: 0 0.5rem 0.5rem 0.5rem;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 990px) {
+    .row {
+        margin: 3.5rem 3.5rem 6rem 3.5rem;
+    }
+}

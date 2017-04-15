@@ -1,0 +1,52 @@
+<div class="flex-content">
+  <div class="content col-sm container-fluid">
+    <div class="row content-row no-gutters">
+
+      <div class="list-box col-sm-12">
+        <h2 class="list-title col-sm-12">PEOPLE</h2>
+        <!-- card container-->
+        <div (click)='routing("person", person.id)' 
+            *ngFor="let person of result_people" 
+            class="people-box col-sm-12 col-md-6 col-lg-4">
+          <div class="people-desc">
+            <div class="people-img">
+              <div class="people-img-box">
+                <img default="http://placehold.it/399x399" [srcset]=" imgPath + person.img">
+              </div>
+            </div>
+            <h5 class="name">{{person.name}}</h5>
+            <p class="menu02">
+              {{person.topics}} 
+            </p>
+            <sub class="menu01">{{person.status}}</sub>
+          </div>
+        </div>
+      </div>
+
+      <div class="list-box col-sm-12">
+        <h2 class="list-title col-sm-12">PUBLICATIONS</h2>
+
+        <div (click)='routing("publications", publication.id, publication.type)' 
+        *ngFor="let publication of result_publications" class="object-box col-sm-12 col-md-6 col-lg-6 col-xl-2">
+          <div class="object-desc">
+            <h5>{{publication.title}}</h5>
+            <p class="menu02">{{publication.year}}</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="list-box col-sm-12">
+        <h2 class="list-title col-sm-12">PROJECTS</h2>
+        <div (click)='routing("projects", project.id)' 
+        *ngFor="let project of result_projects" class="object-box col-sm-12 col-md-6 col-lg-6 col-xl-2">
+          <div class="object-desc">
+            <h5>{{project.name}}</h5>
+            <p class="menu02">{{project.year}}</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

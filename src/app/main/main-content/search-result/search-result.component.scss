@@ -1,0 +1,108 @@
+@import '../../../../assets/css/_variables.scss';
+
+.content-row {
+    justify-content: center;
+    align-items: center;
+}
+
+.list-box {
+    // row
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1250px;
+    margin-bottom: 3.5rem;
+
+    .list-title {
+        padding: 0;
+        margin-bottom: 3.5rem
+    }
+
+    .menu02 {
+        margin-bottom:0;
+    }
+}
+
+.object-desc, .people-desc {
+    transition: all 0.25s ease-out;
+    cursor:pointer;
+}
+
+.object-box {
+    max-width: 400px;
+    margin-bottom: 1.5rem;
+    .object-desc {
+        padding: 1rem;
+        min-height:100%;
+        border: 1px solid $primary_light_grey;
+        background-color: $primary_white;
+        h5, p {
+            color:inherit;
+        }
+    }
+    .object-desc:hover {
+        border: 1px solid rgba(240,91,40,0.8);
+        background-color: rgba(240,91,40,0.8);
+        box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.1) !important;
+        color: rgba(255,255,255,0.8);
+        img {
+            filter: grayscale(100%) contrast(80%);
+        }
+    }
+}
+
+.people-box {
+    margin-bottom: 3.5rem;
+    padding: 0;
+    .people-desc {
+        min-height:100%;
+        max-width:240px;
+        border: 1px solid $primary_light_grey;
+        background-color: $primary_white;
+        padding-bottom:1rem;
+        h5, p {
+            color:inherit;
+        }
+    }
+    .people-desc:hover {
+        border: 1px solid rgba(240,91,40,0.5);
+        background-color: rgba(240,91,40,0.8);
+        box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.1) !important;
+        color: rgba(255,255,255,0.8);
+        img {
+            filter: grayscale(100%) contrast(80%);
+        }
+    }
+    .people-img {
+        display: flex;
+        align-items: center;
+        img {
+            margin: 0 auto;
+            width: 100%;
+        }
+    }
+    
+    .name {
+        padding: 0 1rem;
+        margin-top: 1.5rem;
+        margin-bottom:0.75rem;
+    }
+    .menu02 {
+        padding:0 1rem;
+    }
+    .menu01 {
+        padding:0 1rem;
+        color: $primary_orange;
+    }
+}
+
+@media (min-width: 1199px) {
+    .object-box {
+        h5 {
+            font-size: 1rem;
+        }
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
+}

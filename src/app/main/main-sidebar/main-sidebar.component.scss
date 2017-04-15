@@ -1,0 +1,126 @@
+@import '../../../assets/css/_variables.scss';
+
+.disable {
+    color: $primary_light_grey !important;
+}
+
+.sidebar {
+    background-color: #fff;
+    transition: all 0.5s ease;
+    position: fixed;
+    height: 100vh;
+    width: $sidebar-width;
+    left: 0;
+    z-index: 1001;
+    display: flex;
+    overflow-y: auto;
+
+    border-right: 1px solid $primary_light_grey;
+    .sidebarInner {
+        // flex: 1;
+        // height: 3000px;
+        // display: flex;
+        width: 100%;
+        min-height: 100%;
+        position: relative;
+
+        padding-bottom: 96px;
+        nav {
+            width: 100%;
+            padding: 12px 0 10px;
+            dt {
+                padding: 11px 0 11px 22px;
+            }
+            dt.navbar_expanded {
+                background-color: $primary_light_grey;
+            }
+            dt:hover {
+                cursor: pointer;
+                background-color: $primary_light_grey;
+            }
+
+            .hideOverflow {
+                overflow: hidden;
+
+                dd.open {
+                    margin-top: 0;
+                }
+                dd {
+                    margin-top: -700px;
+                    transition: margin 0.5s ease-out;
+                    margin-bottom: 0px;
+                    .active {
+                        color: $primary_orange;
+                    }
+                    dl{
+                        display: block;
+
+                        letter-spacing: .1px;
+                        padding: 0px 0px 0px 0px;
+                        margin-bottom: 0;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+
+                        color: $primary_dark_grey;
+                        text-decoration: none;
+                    }
+                    a {
+                        display:  block;
+                        color: $primary_dark_grey;
+                    }
+                    a.secondMenu {
+                        padding: 12px 0px 12px 46px;
+                    }
+                    a.thirdMenu {
+                        font-size: 0.7rem;
+                        padding: 10px 0px 10px 70px;
+                    }
+                    a.secondMenu:hover, a.thirdMenu:hover{
+                        cursor: pointer;
+                        background-color: $primary_light_grey;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sidebar_btn {
+    display: none;
+}
+
+//// Sidebar under 1480px
+//// Based on Google
+@media (max-width: 1479px) {
+
+    .sidebar {
+        left:-$sidebar-width;
+    }
+    .open {
+        left: 0rem;
+    }
+    .sidebar_btn {
+        display: unset;
+    }
+
+//// Dimmer
+    // make background dimmer when sidebar opened
+    .make_dimmer {
+        transition: all 0.3s ease;
+        display:none;
+    }
+
+    .dimmer {
+        display:block;
+        background:#000;
+        opacity:0.5;
+        position:fixed; /*enter code here important to use fixed, not absolute */
+        // lower than 1001(sidebar)
+        z-index: 1000;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+    }
+}

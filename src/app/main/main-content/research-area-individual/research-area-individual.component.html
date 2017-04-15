@@ -1,0 +1,53 @@
+<div class="flex-content">
+  <div class="content col-sm container-fluid">
+
+    <div class="col-sm-12 imgDiv" [style.background-image]="'url(' + mainImgPath + datas.img + ')'">
+      <h1 class="title">{{datas.area | uppercase }}</h1>
+    </div>
+    <div class="row no-gutters">
+
+      <div class="col-sm-12 team">
+        <h2>{{datas.team}} Team</h2>
+
+        <p class="yellow">{{datas.teamdesc01}}</p>
+        <p>{{datas.teamdesc02}}</p>
+      </div>
+
+      <div class="col-sm-12 related">
+        <h2>Related Thesis</h2>
+
+        <div *ngFor='let name of paperNames'>
+          <a href="#" class="links">{{name}}</a>
+        </div>
+
+      </div>
+
+
+      <div class="col-sm-12 people">
+        <h2 class="people-status col-sm-12">
+          Members
+        </h2>
+        <div *ngFor="let person of people" class="people-box col-sm-12 col-md-6 col-lg-4">
+          <div class="people-img">
+            <div class="people-img-box">
+              <img [src]=" imgPath + person.img">
+              <a md-fab routerLink="."><md-icon>add</md-icon></a>
+            </div>
+          </div>
+
+          <div class="people-text">
+            <h3 class="name">{{person.name}}</h3>
+            <p class="text-center menu01">
+              {{person.topics}} <br>
+              {{person.email}} <br>
+              {{person.team}} <br>
+              {{person.affiliation}}
+            </p>
+            <sub class="menu01">{{person.status}}</sub>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

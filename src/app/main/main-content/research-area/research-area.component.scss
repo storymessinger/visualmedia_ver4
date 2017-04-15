@@ -1,0 +1,36 @@
+.row {
+    margin: 0
+}
+.area {
+    position: relative;
+}
+
+.area-desc {
+    display:flex;
+    flex-flow:column;
+    min-height: 100vh;
+    justify-content: center;
+    h2 {
+        color: rgba(255,255,255,0.8);
+    }
+    text-decoration: none;
+}
+.area-desc:hover {
+    filter: brightness(1.1);
+}
+
+.desc-01 {
+    background: url('/assets/imgs/ResearchArea/RA_EVE.png');
+    background-size: cover;
+    filter: brightness(0.8);
+}
+.desc-02 {
+    background: url('/assets/imgs/ResearchArea/RA_Character.png');
+    background-size: cover;
+    filter: brightness(0.8);
+}
+.desc-03 {
+    background: url('/assets/imgs/ResearchArea/RA_CFL2.png');
+    background-size: cover;
+    filter: brightness(0.8);
+}

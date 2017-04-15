@@ -1,0 +1,23 @@
+  <div #tween id="navbar-animation" class="breadcrumb-row row">
+    <ol class="breadcrumb col-xs">
+      <a routerLink="">
+        <img [src]='logoIconPath' height="78" class="logo-white">
+      </a>
+      <li>
+        <img [src]='menuIconPath' (click)='onClicked()' fill-opacity="0" width="24px" class="sb_menu">
+      </li>
+      <li class="breadcrumb-item"><a class="bodyText" routerLink="">Home</a></li>
+      <li class="breadcrumb-item" *ngFor="let breadcrumb of breadcrumbs">
+        <a class="bodyText" routerLink="{{breadcrumb.url}}">{{breadcrumb.label}}</a>
+      </li>
+
+    </ol>
+
+    <div class="search-btn">
+      <md-icon class="open-search" (click)='tweenSearch()'>search</md-icon>
+      <md-icon class="close-search" (click)='closeSearch()'>clear</md-icon>
+    </div>
+    <div class="search">
+      <input #myInput placeholder="Search" class="search_bar" (keyup.enter)="startSearch($event)" >
+    </div>
+  </div>

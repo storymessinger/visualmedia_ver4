@@ -1,0 +1,83 @@
+@import '../../../../assets/css/_variables.scss';
+
+.front-image-max {
+    position:relative;
+    flex-grow:1;
+    margin-left:-$sidebar-width;
+    img {
+        margin-left:0;
+        width: 100vw;
+    }
+    .front-title {
+        margin-left:0;
+        color: $primary_white;
+        position: absolute;
+        bottom: 1rem;
+        width: 100%;
+        left: 20.5rem;
+    }
+}
+
+// 임시 조치. 나중에 바꿔볼것
+@media (max-width: 1479px) {
+    .front-image-max {
+        img {
+            margin-left:$sidebar-width;
+        }
+        .front-title {
+            left: 5rem;
+            margin-left:$sidebar-width;
+        }
+    }
+}
+
+.desc-box {
+    flex-flow: column;
+}
+
+.about-title {
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.about {
+    display: flex;
+}
+
+// .sebm-google-map-container {
+.about-img {
+    padding-left:5rem; 
+    height: 300px;
+    width: 100%;
+    border: 1px solid $primary-orange;
+}
+
+.about-box {
+    display:flex;
+    flex-flow:column;
+    margin-bottom: 3.5rem;
+
+    .orange {
+        color: $primary_orange;
+    }
+
+    .about-subtitle {
+        margin-bottom: 1rem;
+    }
+
+    .about-text {
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .about {
+        flex-flow:column;
+    }
+}
+@media (max-width: 575px) {
+    .front-title {
+        display: none;
+    }
+}

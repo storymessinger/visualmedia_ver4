@@ -1,0 +1,147 @@
+@import '../../../assets/css/_variables.scss';
+@import '../../../assets/css/_materialShadow.scss';
+
+
+.breadcrumb-row {
+    position: fixed;
+    right:0;
+    left:0;
+    z-index:1030;
+    margin:0;
+}
+
+
+.breadcrumb-row {
+    // flexbox
+    display: flex;
+    align-items: center;
+
+    padding: 0 0 0 28px;
+    height: $navbar_height;
+
+    // background-image: linear-gradient(to right, #f05a29 0%,#ffffff 100%);
+    background-color: $primary_orange;
+
+    //font-relate
+    font-size: 1.2rem;
+
+    // material-shadow
+    @include card(1);
+
+    .breadcrumb {
+        background-color: rgba(255,255,255,0);
+        height: 3.6rem;
+        display: flex;
+        align-items: center;
+        margin: 0;
+
+        padding: 0;
+
+        .breadcrumb-item {
+            color: $primary_white;
+            a {
+                color:inherit;
+            }
+        }
+    }
+}
+
+
+.search-btn {
+    width:30px;
+    cursor: pointer;
+    position: absolute;
+    right: 3rem;
+    bottom: 0.8rem;
+    md-icon {
+        font-size:30px;
+        color: white;
+        width:100%;
+    }
+    .close-search {
+        display:none;
+    }
+}
+
+.search {
+    display:none;
+    opacity:0;
+    position: absolute;
+    left: 3rem;
+    bottom: 0.5rem;
+    input {
+        width:80vw;
+        transition: width 0.25s ease-in-out;
+        border: none;
+        background: transparent;
+        margin-left: 0.5rem;
+        color: $primary_white;
+        //placeholder
+        font-weight:300;
+        font-size: 2.2rem;
+    }
+    input:focus {
+        outline: none;
+    }
+}
+
+.sb_menu {
+    display: none;
+}
+
+.logo-white {
+    margin-right: 3rem;
+}
+
+@media (max-width: 1479px) {
+    .sb_menu {
+        display: inherit;
+        color: rgba(255,255,255,1);
+        background-color: rgba(255,255,255,0);
+        margin-right: 2rem;
+
+        cursor: pointer;
+
+    }
+    .logo-white {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .search {
+        display: none;
+    }
+    .breadcrumb-row {
+        justify-content: center;
+    }
+
+
+    .sb_menu {
+        position: fixed;
+        top:2rem;
+        left:2rem;
+    }
+    .logo-white {
+        display: inherit;
+        width: 120px;
+    }
+    .breadcrumb-item {
+        display: none;
+    }
+
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #dedede;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #dedede;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #dedede;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #dedede;
+}

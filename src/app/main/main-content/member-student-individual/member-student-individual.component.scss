@@ -1,0 +1,68 @@
+@import '../../../../assets/css/_variables.scss';
+
+
+p, td {
+    color: rgba(0,0,0,0.54);
+}
+
+@media (min-width: 1250px) {
+    .row {
+        justify-content: center;
+    }
+}
+
+.person-img {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 3.5rem;
+    margin-bottom: 3.5rem;
+    
+    img {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.person-desc {
+    max-width: 700px;
+
+    flex-grow: 1;
+    min-height: 100vh;
+    hr {
+        margin-bottom: 1.5rem;
+    }
+    .topics {
+        margin-bottom: 0.3rem;
+    }
+    table {
+        max-width: 600px;
+        margin-bottom: 3.5rem;
+
+        .table-year {
+            width: 10rem;
+            padding-left: 0;
+        }
+    }
+    .projects {
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        // padding: 0 1.5rem;
+        width:100%;
+        .project-item {
+            width:330px;
+            margin-bottom: 1.5rem;
+            img {
+                width: 100%;
+            }
+        }
+        .video-item {
+            width:220px;
+            margin-bottom: 1.5rem;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+      

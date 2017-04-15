@@ -1,0 +1,66 @@
+@import '../../../../assets/css/_variables.scss';
+
+.content {
+    display:flex;
+    flex-flow:column;
+    // align-items: center;
+}
+
+.list {
+    max-width: 1200px;
+    .year {
+        padding: 0;
+        margin-bottom: 3.5rem;
+    }
+}
+
+hr {
+    margin-bottom: 0;
+    width:100%;
+}
+
+.data-box {
+    display:flex;
+    margin-bottom: 3.5rem;
+    ////
+    width:100%;
+
+    .data-img {
+        width: 240px;
+        min-width:240px;
+        min-height:180px;
+        img {
+            width: 100%;
+        }
+    }
+
+    .data-desc {
+        flex-grow:1;
+        margin: 0 1.5rem;
+        .people_name {
+            display: flex;
+            flex-flow: row;
+            a {
+                color: rgba(0,0,0,0.75);
+                margin-right: 0.5rem;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 991px) {
+    .data-box {
+        flex-flow:column;
+        .data-desc {
+            margin: 2rem 0 2rem 0;
+        }
+    }
+    .data-img {
+        width:100% !important;
+    }
+
+
+}
+@media (max-width: 575px) {
+}
