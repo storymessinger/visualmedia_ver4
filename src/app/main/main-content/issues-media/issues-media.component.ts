@@ -1,17 +1,17 @@
-import { DataService } from './../../../shared/data.service';
+import { MockDataService } from './../../../shared/mockdata.service';
 import { DOCUMENT } from '@angular/platform-browser';
 import { ScrollAbleService } from './../../../shared/scroll-able.service';
 import { PageScrollInstance, PageScrollService, PageScrollConfig } from 'ng2-page-scroll';
 import { Subscription } from 'rxjs/Rx';
 
-import { Component, OnInit, OnDestroy, Inject, DoCheck } from '@angular/core';
+import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
 
 @Component({
   selector: 'app-issues-media',
   templateUrl: './issues-media.component.html',
   styleUrls: ['./issues-media.component.scss']
 })
-export class IssuesMediaComponent implements OnInit, DoCheck, OnDestroy {
+export class IssuesMediaComponent implements OnInit, OnDestroy {
 
 
   datas:any;
@@ -21,7 +21,7 @@ export class IssuesMediaComponent implements OnInit, DoCheck, OnDestroy {
   private subscription: Subscription;
 
   constructor(
-    private dataService:DataService,
+    private mockDataService:MockDataService,
     private scrollAbleService:ScrollAbleService,
     private pageScrollService: PageScrollService, 
     @Inject(DOCUMENT) private document: any
@@ -41,11 +41,8 @@ export class IssuesMediaComponent implements OnInit, DoCheck, OnDestroy {
   }
 
   ngOnInit() {
-    this.dataService.getIssues();
-  }
-
-  ngDoCheck() {
-    this.datas = this.dataService.medias;
+    this.mockDataService.getIssues();
+    this.datas = this.mockDataService.medias;
   }
 
   ngOnDestroy() {

@@ -4,7 +4,7 @@
         <img [src]='logoIconPath' height="78" class="logo-white">
       </a>
       <li>
-        <img [src]='menuIconPath' (click)='onClicked()' fill-opacity="0" width="24px" class="sb_menu">
+        <md-icon class="sb_menu" (click)='onClicked()'>menu</md-icon>
       </li>
       <li class="breadcrumb-item"><a class="bodyText" routerLink="">Home</a></li>
       <li class="breadcrumb-item" *ngFor="let breadcrumb of breadcrumbs">

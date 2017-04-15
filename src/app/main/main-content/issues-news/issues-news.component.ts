@@ -1,8 +1,8 @@
-import { DataService } from './../../../shared/data.service';
+import { MockDataService } from './../../../shared/mockdata.service';
 import { Subscription } from 'rxjs/Rx';
 import { PageScrollService, PageScrollConfig, PageScrollInstance } from 'ng2-page-scroll';
 import { ScrollAbleService } from './../../../shared/scroll-able.service';
-import { Component, OnInit, Inject, OnDestroy, DoCheck } from '@angular/core';
+import { Component, OnInit, Inject, OnDestroy } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
 import * as _ from 'underscore';
 
@@ -11,7 +11,7 @@ import * as _ from 'underscore';
   templateUrl: './issues-news.component.html',
   styleUrls: ['./issues-news.component.scss']
 })
-export class IssuesNewsComponent implements OnInit, DoCheck, OnDestroy {
+export class IssuesNewsComponent implements OnInit,  OnDestroy {
 
   datas:any;
   id: string;
@@ -19,9 +19,7 @@ export class IssuesNewsComponent implements OnInit, DoCheck, OnDestroy {
   imgPath:string = './assets/Contents/';
 
   constructor(
-    private dataService:DataService,
-
-    ////
+    private mockDataService:MockDataService,
     private scrollAbleService:ScrollAbleService,
     private pageScrollService: PageScrollService, 
     @Inject(DOCUMENT) private document: any
@@ -40,11 +38,8 @@ export class IssuesNewsComponent implements OnInit, DoCheck, OnDestroy {
   }
 
   ngOnInit() {
-    this.dataService.getIssues();
-  }
-
-  ngDoCheck() {
-    this.datas = this.dataService.news;
+    this.mockDataService.getIssues();
+    this.datas = this.mockDataService.news;
   }
 
   ngOnDestroy() {

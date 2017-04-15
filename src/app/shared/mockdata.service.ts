@@ -37,8 +37,17 @@ export class MockDataService {
       let sub= _.values(_.groupBy(GoogleData.downloads,"year")).reverse();
       this.downloads = sub.map( subArr => this.dateSort_descend(subArr));
   }
-
   
+  getIssues():any {
+        let groupedIssues = _.groupBy(GoogleData.issues, 'type');
+        let subNews = _.values(_.groupBy(groupedIssues['news'],"year")).reverse();
+        let subMedias = _.values(_.groupBy(groupedIssues['media'],"year")).reverse();
+
+        this.issues = this.dateSort_descend(GoogleData.issues);
+        this.news = subNews.map( subArr => this.dateSort_descend(subArr));
+        this.medias = subMedias.map( subArr => this.dateSort_descend(subArr));
+  }
+
   // getResearchArea() {
   //   this.http.get('main/researchArea-data')
   //     .map(res => res.json())
@@ -46,8 +55,6 @@ export class MockDataService {
   //       this.researchArea = items;
   //     });
   // }
-
-
 
   // getMembers(id:number = null) {
   //   if(id) {
@@ -163,20 +170,6 @@ export class MockDataService {
   //     });
   // }
 
-  // getIssues():any {
-  //   this.http.get('main/issues-data')
-  //     .map(res => res.json())
-  //     .subscribe(items => {
-  //       let groupedIssues = _.groupBy(items, 'type');
-  //       let subNews = _.values(_.groupBy(groupedIssues['news'],"year")).reverse();
-  //       let subMedias = _.values(_.groupBy(groupedIssues['media'],"year")).reverse();
-
-  //       this.news = subNews.map( subArr => this.dateSort_descend(subArr));
-  //       this.medias = subMedias.map( subArr => this.dateSort_descend(subArr));
-  //       this.issues = this.dateSort_descend(items);
-        
-  //     })
-  // }
 
   dateSort_descend(input) {
     let ascend = _.chain(input)
