@@ -1,16 +1,16 @@
+import { MockDataService } from './../../../shared/mockdata.service';
 import { Subscription } from 'rxjs/Rx';
 import { DOCUMENT } from '@angular/platform-browser';
 import { PageScrollService, PageScrollInstance, PageScrollConfig } from 'ng2-page-scroll';
 import { ScrollAbleService } from './../../../shared/scroll-able.service';
-import { DataService } from './../../../shared/data.service';
-import { Component, OnInit, OnDestroy, OnChanges, DoCheck, Inject } from '@angular/core';
+import { Component, OnInit, OnDestroy, OnChanges, Inject } from '@angular/core';
 
 @Component({
   selector: 'app-archive-downloads',
   templateUrl: './archive-downloads.component.html',
   styleUrls: ['./archive-downloads.component.scss']
 })
-export class ArchiveDownloadsComponent implements OnInit, DoCheck {
+export class ArchiveDownloadsComponent implements OnInit {
 
   datas:any;
   id: string;
@@ -18,7 +18,7 @@ export class ArchiveDownloadsComponent implements OnInit, DoCheck {
   imgPath:string = './assets/Contents/';
 
   constructor(
-    private dataService: DataService,
+    private mockDataService:MockDataService,
     private scrollAbleService:ScrollAbleService,
     private pageScrollService: PageScrollService,
     @Inject(DOCUMENT) private document: any
@@ -32,11 +32,8 @@ export class ArchiveDownloadsComponent implements OnInit, DoCheck {
     }
 
   ngOnInit() {
-    this.dataService.getDownloads();
-  }
-
-  ngDoCheck () {
-    this.datas = this.dataService.downloads;
+    this.mockDataService.getDownloads();
+    this.datas = this.mockDataService.downloads;
   }
 
   clickScrollTo(name) {

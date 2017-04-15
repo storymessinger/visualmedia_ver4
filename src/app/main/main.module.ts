@@ -1,3 +1,4 @@
+import { MockDataService } from './../shared/mockdata.service';
 import { AboutSponserComponent } from './main-content/about-sponser/about-sponser.component';
 import { VideoThumbnailDirective } from './../shared/video-thumbnail.directive';
 import { DefaultImageDirective } from './../shared/default-image.directive';
@@ -100,6 +101,7 @@ import { MaterialModule } from '@angular/material';
     ScrollAbleService,
     PageScrollService,
     SearchService,
-    DataService]
+    DataService,
+    MockDataService]
 })
 export class MainModule { }

@@ -15,9 +15,9 @@
 
         <h5>{{datas.conference}}</h5>
 
-        <h5 *ngIf="datas.journal = ''">{{datas.journal}}</h5>
+        <h5 *ngIf="datas.journal">{{datas.journal}}</h5>
 
-        <h5 *ngIf="datas.thesisInfo = ''">{{datas.thesisInfo}}</h5>
+        <h5 *ngIf="datas.thesisInfo">{{datas.thesisInfo}}</h5>
 
         <p>
           <a [href]='imgPath + datas.paper'>Paper</a> / 

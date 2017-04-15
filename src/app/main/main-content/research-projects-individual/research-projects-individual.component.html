@@ -27,10 +27,10 @@
       </div>
       <div class="project-partners col-12">
         <div class="partner-box col-sm-12 col-md-4 col-lg-3">
-          <div *ngIf=" first_data.funding_img != '' " class="partner-img">
+          <div *ngIf="first_data.funding_img" class="partner-img">
             <img default="http://placehold.it/399x399" [srcset]=" imgPath + first_data.funding_img">
           </div>
-          <p *ngIf="partner.funding_name = ''" class="menu01 text-center">{{partner.funding_name}}</p>
+          <p *ngIf="partner.funding_name" class="menu01 text-center">{{partner.funding_name}}</p>
         </div>
       </div>
     </div>

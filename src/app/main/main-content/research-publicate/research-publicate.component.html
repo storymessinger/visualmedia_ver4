@@ -22,8 +22,8 @@
               {{name}},
             </a>
           </div>
-          <p class="menu01" *ngIf='publication.conference = ""'>Conference: {{publication.conference}}</p>
-          <p class="menu01" *ngIf='publication.journal= ""'>Journal: {{publication.journal}}</p>
+          <p class="menu01" *ngIf='publication.conference'>Conference: {{publication.conference}}</p>
+          <p class="menu01" *ngIf='publication.journal'>Journal: {{publication.journal}}</p>
           <p class="menu01"><a [routerLink]="[ '/main/publicate/individual/', publication.id ]">Project Page</a> / <a [href]='imgPath + publication.paper'>Paper</a></p>
         </div>
       </div>
