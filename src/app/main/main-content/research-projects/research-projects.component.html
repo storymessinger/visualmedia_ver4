@@ -27,7 +27,7 @@
               <tr>
                 <td class="table-year">Team</td>
                 <td>
-                  {{project.team}}
+                  {{project.teams?.shortname}}
                 </td>
               </tr>
 
@@ -60,10 +60,10 @@
         <div class="col-sm-12 col-md-6 col-lg-2 project-funding">
           <hr/>
           <p class="menu01">Funding</p>
-          <p class="menu02">{{project.funding_name}}</p>
+          <a [href]='project.funding?.link' class="menu02">{{project.funding?.name}}</a>
           <hr/>
           <p class="menu01">Manager</p>
-          <a [routerLink]='["../people", "person", project.people_id]'>{{project.people_name}}</a>
+          <a [routerLink]='["../people", "person", project.people_id]'>{{project.people?.name}}</a>
         </div>
 
       </div>
@@ -73,7 +73,6 @@
 
       <hr/>
     </div>
-    
     
     <!--<ngb-pagination class="pagination" [masmize]="5" [collectionSize]="170"  [(page)]="page" [boundaryLinks]="true"></ngb-pagination>-->
 

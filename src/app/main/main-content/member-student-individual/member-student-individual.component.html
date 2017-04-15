@@ -6,8 +6,6 @@
 
         <h3>E-mail</h3>
         <p>{{datas.email}}</p>
-        <h3>Mailing Address</h3>
-        <p>example address</p>
 
       </div>
 
@@ -20,6 +18,7 @@
         <hr/>
         <h3>Research Interest</h3>
         <p class="topics">{{datas.topics}}</p>
+
 
         <!--<hr/>
         <h3>Education</h3>
@@ -51,60 +50,35 @@
         </table>-->
         
         <hr/>
-        <h3>Publications</h3>
+        <h3 *ngIf="datas.id !== 1" >Publications</h3>
 
-        <table class="table">
+        <table *ngIf="datas.id !== 1" class="table">
           <tbody>
-
-            <tr>
-              <td class="table-year">2011, Eurographics</td>
+            <tr *ngFor="let pub of datas.publications">
+              <td class="table-year">{{pub.conference}}</td>
               <td>
-                “A Smoke Visualization Model for Capturing Surface-like Features”
+                {{pub.title}}
               </td>
             </tr>
-
-            <tr>
-              <td class="table-year">2011, CASA Short paper</td>
-              <td>
-                “Multilinear Fluid Simulation with Model Reduction for Pressure Projection”
-              </td>
-            </tr>
-
           </tbody>
         </table>
 
-        <h3>Projects</h3>
+        <h3 *ngIf="datas.projects" >Projects</h3>
         <div class="projects">
-          <div *ngFor="let project of projects" class="project-item">
-            <img src="http://placehold.it/399x399">
-            <!--<img default="http://placehold.it/399x399" [srcset]="imgPath">-->
-            <p>{{projects.name}}</p>
+          <div *ngIf="datas.projects" class="project-item">
+            <!--<img default="http://placehold.it/399x399" [srcset]="imgPath + datas.projects.img">-->
+            <h5>{{datas.projects.name}} ({{datas.projects.year}})</h5>
           </div>
         </div>
 
         <hr/>
 
-        <h3>Videos</h3>
+        <h3 *ngIf="datas.seminars.length != 0 " >Seminars</h3>
         <div class="projects">
-          <div class="video-item">
-            <img src="http://placehold.it/400x300">
-            <p>Multiprojection Project</p>
-          </div>
-          <div class="video-item">
-            <img src="http://placehold.it/400x300">
-            <p>Multiprojection Project</p>
-          </div>
-          <div class="video-item">
-            <img src="http://placehold.it/400x300">
-            <p>Multiprojection Project</p>
-          </div>
-          <div class="video-item">
-            <img src="http://placehold.it/400x300">
-            <p>Multiprojection Project</p>
-          </div>
-          <div class="video-item">
-            <img src="http://placehold.it/400x300">
-            <p>Multiprojection Project</p>
+          <div *ngFor="let seminar of datas.seminars " class="video-item">
+            <img videoThumbnail [videoUrl]='seminar.link' 
+                sizes="(min-width:990px) 300px, 800px" class="videos">
+            <p>{{seminar.title}}</p>
           </div>
         </div>
 

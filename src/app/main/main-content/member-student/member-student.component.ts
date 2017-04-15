@@ -1,9 +1,9 @@
-import { DataService } from './../../../shared/data.service';
 import { Subscription } from 'rxjs/Rx';
 import { ScrollAbleService } from '../../../shared/scroll-able.service';
-import { Component, OnDestroy, ElementRef, Inject, DoCheck, OnInit } from '@angular/core';
+import { Component, OnDestroy, ElementRef, Inject, OnInit } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
 import { PageScrollConfig, PageScrollInstance, PageScrollService } from 'ng2-page-scroll';
+import { MockDataService } from './../../../shared/mockdata.service';
 import * as _ from 'underscore';
 
 @Component({
@@ -11,14 +11,14 @@ import * as _ from 'underscore';
   templateUrl: './member-student.component.html',
   styleUrls: ['./member-student.component.scss']
 })
-export class MemberStudentComponent implements OnInit, DoCheck, OnDestroy {
+export class MemberStudentComponent implements OnInit, OnDestroy {
 
   imgPath:string = './assets/Contents/';
   public datas:any;
   subscription:Subscription;
 
   constructor(
-    private dataService:DataService,
+    private mockDataService:MockDataService,
     private scrollAbleService:ScrollAbleService,
     private pageScrollService: PageScrollService, 
     @Inject(DOCUMENT) private document: any
@@ -42,11 +42,8 @@ export class MemberStudentComponent implements OnInit, DoCheck, OnDestroy {
   }
 
   ngOnInit() {
-    this.dataService.getMembers();
-  }
-
-  ngDoCheck() {
-    this.datas = _.groupBy(this.dataService.people, 'type');
+    this.mockDataService.getMembers();
+    this.datas = this.mockDataService.people;
   }
 
   ngOnDestroy() {

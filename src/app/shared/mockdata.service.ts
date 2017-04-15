@@ -48,6 +48,102 @@ export class MockDataService {
         this.medias = subMedias.map( subArr => this.dateSort_descend(subArr));
   }
 
+  getMembers(id:number = null) {
+    if(id) {
+      const found_person= GoogleData.people.find( person => person.id == id);
+      // add projects
+      GoogleData.projects.forEach( pro => {
+        if ( pro.people_id == found_person.id ) {
+          found_person['projects'] = {
+            name: pro.name,
+            year: pro.year,
+            // img: pro.img
+          }
+        }
+      })
+      // add seminars 
+        //
+      found_person['seminars'] = [];
+        //
+      GoogleData.seminars.forEach( sem => {
+        if ( sem.people_id == found_person.id ) {
+          found_person['seminars'].push({
+            title: sem.title,
+            link: sem.link
+          })
+        }
+      })
+      // add publications
+        //
+      found_person['publications'] = [];
+        //
+      GoogleData.publications.forEach( pub => {
+
+        if (pub.authors instanceof Array) {
+          const arr:any[] = pub.authors; // 1 2 11 23
+          if(arr.some( item => item == found_person.id)) {  // 1 2 11 23 == 2 
+            found_person['publications'].push({
+              title: pub.title,
+              conference: pub.conference
+            })
+          }
+        } else {
+          if ( pub.authors == found_person.id) {
+            found_person['publications'].push({
+              title: pub.title,
+              conference: pub.conference
+            })
+          }
+        }
+      })
+
+      this.people_person = found_person;
+
+    } else {
+      this.people = _.groupBy(GoogleData.people, 'type');
+    }
+  }
+
+
+  getProjects(id:number = null) {
+    if(id) {
+    //  this.http.get('main/projects-data-individual/'+ id)
+    //   .map(res => res.json())
+    //   .subscribe(items => {
+    //     console.log('items: ' + items);
+    //     this.projects_individual = items;
+    //   });
+  } else {
+    const projects = GoogleData.projects;
+
+    projects.forEach( project => {
+      const found_team = GoogleData.teams.find( team => team.id == project.teams_id);
+      const found_people = GoogleData.people.find( person => person.id == project.people_id);
+      const found_funding = GoogleData.partners.find( partner => partner.id == project.funding_id);
+      if ( found_team !== undefined ) {
+        project['teams'] = {
+          shortname: found_team.shortname
+        };
+      }
+      if ( found_people !== undefined ) {
+        project['people'] = {
+          name: found_people.name
+        };
+      }
+      if ( found_funding !== undefined ) {
+        project['funding'] = {
+          name: found_funding.name,
+          link: found_funding.link
+        };
+      }
+    })
+    let sub = _.values(_.groupBy(projects, "year")).reverse();
+    this.projects = sub.map( subArr => this.dateSort_descend(subArr));
+    }
+  }
+
+
+
   // getResearchArea() {
   //   this.http.get('main/researchArea-data')
   //     .map(res => res.json())
@@ -56,22 +152,6 @@ export class MockDataService {
   //     });
   // }
 
-  // getMembers(id:number = null) {
-  //   if(id) {
-  //    this.http.get('main/people-data-person/' + id)
-  //     .map(res => res.json())
-  //     .subscribe(items => {
-  //       this.people_person = items;
-  //     });
-  //   } else {
-  //    this.http.get('main/people-data')
-  //     .map(res => res.json())
-  //     .subscribe(items => {
-  //       this.people = items;
-  //     });
-  //   }
-    
-  // }
 
   // getPartners() {
   //   this.http.get('main/partner-data')
@@ -81,23 +161,6 @@ export class MockDataService {
   //     })
   // }
 
-  // getProjects(id:number = null) {
-  //   if(id) {
-  //    this.http.get('main/projects-data-individual/'+ id)
-  //     .map(res => res.json())
-  //     .subscribe(items => {
-  //       console.log('items: ' + items);
-  //       this.projects_individual = items;
-  //     });
-  //   } else {
-  //    this.http.get('main/projects-data')
-  //     .map(res => res.json())
-  //     .subscribe(items => {
-  //       let sub= _.values(_.groupBy(items,"year")).reverse();
-  //       this.projects = sub.map( subArr => this.dateSort_descend(subArr));
-  //     });
-  //   }
-  // }
 
   // getPublication(id:number = null) {
   //   if(id) {

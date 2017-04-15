@@ -1915,7 +1915,10 @@ export const GoogleData =
       "fullname" : "",
       "area" : "",
       "description" : "",
-      "partners_id" : "1+5",
+      "partners_id" : [
+        1,
+        5
+      ],
       "funding_id" : 3,
       "teams_id" : 1,
       "people_id" : 4,
@@ -2378,7 +2381,15 @@ export const GoogleData =
       "type" : "international",
       "year" : 2017,
       "title" : "Sparse Rig Parameter Optimization for Character Animation",
-      "authors" : "4+2+16+26+76+24+1",
+      "authors" : [
+        4,
+        2,
+        16,
+        26,
+        76,
+        24,
+        1
+      ],
       "conference" : "Eurographics, 2017 (To Appear) ",
       "journal" : " Computer Graphics Forum, 2017 (To Appear)",
       "thesisInfo" : "",
@@ -2394,7 +2405,16 @@ export const GoogleData =
       "type" : "international",
       "year" : 2016,
       "title" : "SketchiMo: Sketch-based Motion Editing for Articulated Characters",
-      "authors" : "24+2+76+29+10+11+18+1",
+      "authors" : [
+        24,
+        2,
+        76,
+        29,
+        10,
+        11,
+        18,
+        1
+      ],
       "conference" : "ACM SIGGRAPH, 2016",
       "journal" : "ACM Transaction on Graphics, Volume 35, Issue 4, p.146:1-146:12, July 2016",
       "thesisInfo" : "",
@@ -2410,7 +2430,13 @@ export const GoogleData =
       "type" : "international",
       "year" : 2016,
       "title" : "Rich360: Optimized Spherical Representation from Structured Panoramic Camera Arrays",
-      "authors" : "5+12+8+25+1",
+      "authors" : [
+        5,
+        12,
+        8,
+        25,
+        1
+      ],
       "conference" : "ACM SIGGRAPH, 2016",
       "journal" : "ACM Transaction on Graphics, Volume 35, Issue 4, p.63:1-63:11, July 2016",
       "thesisInfo" : "",
@@ -2426,7 +2452,13 @@ export const GoogleData =
       "type" : "international",
       "year" : 2016,
       "title" : "Online Real-time Locomotive Motion Transformation Based on Biomechanical Observations",
-      "authors" : "55+10+1+77+78",
+      "authors" : [
+        55,
+        10,
+        1,
+        77,
+        78
+      ],
       "conference" : "Computer Animation and Social Agents (CASA), 2016 ",
       "journal" : "Computer Animation and Virtual Worlds, Volume 27, Issue 3-4, Pages 378-384, May-August 2016",
       "thesisInfo" : "",
@@ -2442,7 +2474,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2016,
       "title" : "ScreenX: Public Immersive Theatres with Uniform Movie Viewing Experiences",
-      "authors" : "5+7+25+1",
+      "authors" : [
+        5,
+        7,
+        25,
+        1
+      ],
       "conference" : "",
       "journal" : " IEEE Transactions on Visualization and Computer Graphics, Volume: PP, Issue: 99, February 2016",
       "thesisInfo" : "",
@@ -2458,7 +2495,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2016,
       "title" : "Data-guided Model Predictive Control Based on Smoothed Contact Dynamics",
-      "authors" : "55+11+1+78",
+      "authors" : [
+        55,
+        11,
+        1,
+        78
+      ],
       "conference" : " Eurographics, 2016 ",
       "journal" : " Computer Graphics Forum, Volume 35, Issue 2, Pages 533-543, May 2016",
       "thesisInfo" : "",
@@ -2474,7 +2516,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2015,
       "title" : "Auto-Calibration of Multi-Projector Displays with a Single Handheld Camera",
-      "authors" : "14+9+6+1",
+      "authors" : [
+        14,
+        9,
+        6,
+        1
+      ],
       "conference" : " IEEE Visualization Conference (VIS), 2015",
       "journal" : "",
       "thesisInfo" : "",
@@ -2490,7 +2537,14 @@ export const GoogleData =
       "type" : "international",
       "year" : 2015,
       "title" : "Interactive Rigging with Intuitive Tools",
-      "authors" : "33+24+2+79+80+1",
+      "authors" : [
+        33,
+        24,
+        2,
+        79,
+        80,
+        1
+      ],
       "conference" : "ACM SIGGRAPH, 2015 (Best Student Poster Paper)",
       "journal" : "",
       "thesisInfo" : "",
@@ -2506,7 +2560,14 @@ export const GoogleData =
       "type" : "international",
       "year" : 2015,
       "title" : "Interactive Rigging with Intuitive Tools",
-      "authors" : "33+24+2+79+80+1",
+      "authors" : [
+        33,
+        24,
+        2,
+        79,
+        80,
+        1
+      ],
       "conference" : "Pacific Graphics, 2015 (Best Student Paper)",
       "journal" : "Computer Graphics Forum, Volume 34, Issue 7, Pages 123–132, October 2015",
       "thesisInfo" : "",
@@ -2522,7 +2583,13 @@ export const GoogleData =
       "type" : "international",
       "year" : 2015,
       "title" : "On Simulating a Miscible Liquid Drop Settling in an Initially Still Surrounding Liquid for Mixing Pattern Generation",
-      "authors" : "81+82+1+77+78",
+      "authors" : [
+        81,
+        82,
+        1,
+        77,
+        78
+      ],
       "conference" : "",
       "journal" : "IEEE Computer Graphics & Applications, Vol. 35, No. 1, pp.46-55, 2015",
       "thesisInfo" : "",
@@ -2538,7 +2605,10 @@ export const GoogleData =
       "type" : "international",
       "year" : 2015,
       "title" : "A Geometric Approach to Animating Thin Surface Features in Smoothed Particle Hydrodynamics Water",
-      "authors" : "28+1",
+      "authors" : [
+        28,
+        1
+      ],
       "conference" : "",
       "journal" : "Computer Animation and Virtual Worlds, Volume 26, Issue 2, pages 161?172, March/April 2015",
       "thesisInfo" : "",
@@ -2554,7 +2624,13 @@ export const GoogleData =
       "type" : "international",
       "year" : 2015,
       "title" : "High-quality Depth Estimation Using an Exemplar 3D Model for Stereo Conversion",
-      "authors" : "5+25+7+12+1",
+      "authors" : [
+        5,
+        25,
+        7,
+        12,
+        1
+      ],
       "conference" : "Pacific Graphics, 2015",
       "journal" : " IEEE Transactions on Visualization and Computer Graphics vol.21, no.7, pages 835-847, July 2015",
       "thesisInfo" : "",
@@ -2570,7 +2646,11 @@ export const GoogleData =
       "type" : "international",
       "year" : 2014,
       "title" : "Data-Driven Reconstruction of Human Locomotion Using a Single Smartphone",
-      "authors" : "11+24+1",
+      "authors" : [
+        11,
+        24,
+        1
+      ],
       "conference" : "Pacific Graphics, 2014",
       "journal" : "Computer Graphics Forum, Volume 33, Issue 7, pages 11–19O, October 2014",
       "thesisInfo" : "",
@@ -2586,7 +2666,14 @@ export const GoogleData =
       "type" : "international",
       "year" : 2014,
       "title" : "Data-driven Control of Flapping Flight",
-      "authors" : "83+84+85+24+1+86",
+      "authors" : [
+        83,
+        84,
+        85,
+        24,
+        1,
+        86
+      ],
       "conference" : "ACM SIGGRAPH, 2014",
       "journal" : "",
       "thesisInfo" : "",
@@ -2602,7 +2689,11 @@ export const GoogleData =
       "type" : "international",
       "year" : 2014,
       "title" : "Data-Driven Motion Capture Using A Single Smartphone",
-      "authors" : "11+24+1",
+      "authors" : [
+        11,
+        24,
+        1
+      ],
       "conference" : "Computer Graphics International, 2014, Short Paper",
       "journal" : "",
       "thesisInfo" : "",
@@ -2618,7 +2709,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2014,
       "title" : "On-line Real-time Physics-based Predictive Motion Control with Balance Recovery",
-      "authors" : "55+1+77+78",
+      "authors" : [
+        55,
+        1,
+        77,
+        78
+      ],
       "conference" : "Eurographics, 2014",
       "journal" : "Computer Graphics Forum, Volume 33, Issue 2, June 2014",
       "thesisInfo" : "",
@@ -2634,7 +2730,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2014,
       "title" : "Visual Fluid Animation via Lifting Wavelet Transform",
-      "authors" : "87+88+1+89",
+      "authors" : [
+        87,
+        88,
+        1,
+        89
+      ],
       "conference" : "Computer Animation and Social Agents (CASA), 2014 ",
       "journal" : "Computer Animation and Virtual Worlds, Volume 25, Issue 3-4, pages 475–485, May-August 2014",
       "thesisInfo" : "",
@@ -2650,7 +2751,14 @@ export const GoogleData =
       "type" : "international",
       "year" : 2014,
       "title" : "Depth Manipulation using Disparity Histogram Analysis for Stereoscopic 3D",
-      "authors" : "7+25+5+8+37+1",
+      "authors" : [
+        7,
+        25,
+        5,
+        8,
+        37,
+        1
+      ],
       "conference" : "",
       "journal" : "The Visual Computer, pp 455-465, Volume 30, Issue 4, April 2014",
       "thesisInfo" : "",
@@ -2666,7 +2774,13 @@ export const GoogleData =
       "type" : "international",
       "year" : 2013,
       "title" : "A Geometric Approach to Animating Thin Surface Features in SPH Water",
-      "authors" : "28+90+26+87+1",
+      "authors" : [
+        28,
+        90,
+        26,
+        87,
+        1
+      ],
       "conference" : "Computer Animation and Social Agents (CASA), 2013",
       "journal" : "",
       "thesisInfo" : "",
@@ -2682,7 +2796,14 @@ export const GoogleData =
       "type" : "international",
       "year" : 2013,
       "title" : "Data-driven Control of Flapping Flight",
-      "authors" : "83+84+85+24+1+86",
+      "authors" : [
+        83,
+        84,
+        85,
+        24,
+        1,
+        86
+      ],
       "conference" : "",
       "journal" : "ACM Transactions on Graphics, Volume 32, Issue 5, Article No. 151, September 2013",
       "thesisInfo" : "",
@@ -2698,7 +2819,14 @@ export const GoogleData =
       "type" : "international",
       "year" : 2013,
       "title" : "Depth Map Generation for Building Images",
-      "authors" : "8+7+5+25+37+1",
+      "authors" : [
+        8,
+        7,
+        5,
+        25,
+        37,
+        1
+      ],
       "conference" : "Computer Graphics International, 2013, Short Paper",
       "journal" : "",
       "thesisInfo" : "",
@@ -2714,7 +2842,14 @@ export const GoogleData =
       "type" : "international",
       "year" : 2013,
       "title" : "Depth Manipulation using Disparity Histogram Analysis for Stereoscopic 3D",
-      "authors" : "7+25+5+8+37+1",
+      "authors" : [
+        7,
+        25,
+        5,
+        8,
+        37,
+        1
+      ],
       "conference" : " Computer Animation and Social Agents (CASA), 2013, Poster Paper",
       "journal" : "",
       "thesisInfo" : "",
@@ -2730,7 +2865,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2013,
       "title" : "Heterogeneous CPU-GPU Parallel Approach to a Multigrid Poisson Solver for Incompressible Fluid Simulation",
-      "authors" : "27+91+1+92",
+      "authors" : [
+        27,
+        91,
+        1,
+        92
+      ],
       "conference" : "Computer Animation and Social Agents (CASA), 2013",
       "journal" : " Computer Animation and Virtual Worlds, Volume 24, Issue 3-4, pages 185-193, May-August 2013",
       "thesisInfo" : "",
@@ -2746,7 +2886,13 @@ export const GoogleData =
       "type" : "international",
       "year" : 2013,
       "title" : "Realistic Paint Simulation based on Fluidity, Diffusion, and Absorption",
-      "authors" : "26+28+6+36+1",
+      "authors" : [
+        26,
+        28,
+        6,
+        36,
+        1
+      ],
       "conference" : "Computer Animation and Social Agents (CASA), 2013",
       "journal" : " Computer Animation and Virtual Worlds, Volume 24, Issue 3-4, pages 297-306, May-August 2013",
       "thesisInfo" : "",
@@ -2762,7 +2908,13 @@ export const GoogleData =
       "type" : "international",
       "year" : 2012,
       "title" : "Video Panorama for 2D to 3D Conversion",
-      "authors" : "2+93+25+5+1",
+      "authors" : [
+        2,
+        93,
+        25,
+        5,
+        1
+      ],
       "conference" : "Pacific Graphics, 2012",
       "journal" : "Computer Graphics Forum, Volume 31(7pt2), p.2213-2222, 2012",
       "thesisInfo" : "",
@@ -2778,7 +2930,14 @@ export const GoogleData =
       "type" : "international",
       "year" : 2012,
       "title" : "Spacetime Expression Cloning for Blendshapes",
-      "authors" : "29+76+30+24+94+1",
+      "authors" : [
+        29,
+        76,
+        30,
+        24,
+        94,
+        1
+      ],
       "conference" : "ACM SIGGRAPH, 2012",
       "journal" : " ACM Transaction On Graphics, Volume 31(2), p.14:1-14:12, 2012",
       "thesisInfo" : "",
@@ -2794,7 +2953,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2012,
       "title" : "A procedural flow generation method using coordinate transformation",
-      "authors" : "41+59+30+1",
+      "authors" : [
+        41,
+        59,
+        30,
+        1
+      ],
       "conference" : "Computer Graphics International, 2012 ",
       "journal" : "",
       "thesisInfo" : "",
@@ -2810,7 +2974,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2012,
       "title" : "An Efficient Diffusion Model for Viscous Fingering",
-      "authors" : "6+59+66+1",
+      "authors" : [
+        6,
+        59,
+        66,
+        1
+      ],
       "conference" : "Computer Graphics International, 2012 ",
       "journal" : "The Visual Computer: Volume 28, Issue 6-8 (2012), p.563-571",
       "thesisInfo" : "",
@@ -2826,7 +2995,14 @@ export const GoogleData =
       "type" : "international",
       "year" : 2012,
       "title" : "Simulating Water Turbulence in Particle Fluids",
-      "authors" : "28+48+6+26+66+1",
+      "authors" : [
+        28,
+        48,
+        6,
+        26,
+        66,
+        1
+      ],
       "conference" : "Computer Graphics International, 2012 ",
       "journal" : "",
       "thesisInfo" : "",
@@ -2842,7 +3018,13 @@ export const GoogleData =
       "type" : "international",
       "year" : 2012,
       "title" : "Weighted Pose Space Editing for Facial Animation",
-      "authors" : "29+30+44+76+1",
+      "authors" : [
+        29,
+        30,
+        44,
+        76,
+        1
+      ],
       "conference" : "",
       "journal" : "The Visual Computer: Volume 28, Issue 3 (2012), p.319-327 ",
       "thesisInfo" : "",
@@ -2858,7 +3040,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2011,
       "title" : "Compression and Direct Manipulation of Complex Blendshape Models",
-      "authors" : "30+95+76+1",
+      "authors" : [
+        30,
+        95,
+        76,
+        1
+      ],
       "conference" : "ACM SIGGRAPH ASIA, 2011 ",
       "journal" : "ACM Transaction On Graphics, Volume 30 Issue 6, p.164:1-164:10, December 2011",
       "thesisInfo" : "",
@@ -2874,7 +3061,13 @@ export const GoogleData =
       "type" : "international",
       "year" : 2011,
       "title" : "Artist Friendly Facial Animation Retargeting",
-      "authors" : "29+30+44+76+1",
+      "authors" : [
+        29,
+        30,
+        44,
+        76,
+        1
+      ],
       "conference" : "ACM SIGGRAPH ASIA, 2011 ",
       "journal" : "ACM Transaction On Graphics, Volume 30 Issue 6, p.162:1-162:10, December 2011",
       "thesisInfo" : "",
@@ -2890,7 +3083,13 @@ export const GoogleData =
       "type" : "international",
       "year" : 2011,
       "title" : "A Single Image Representation Model for Efficient Stereoscopic Image Creation",
-      "authors" : "25+27+93+5+1",
+      "authors" : [
+        25,
+        27,
+        93,
+        5,
+        1
+      ],
       "conference" : "Pacific Graphics, 2011 ",
       "journal" : "Computer Graphics Forum, Vol.30, N0.7, p.2067-2076, September 2011",
       "thesisInfo" : "",
@@ -2906,7 +3105,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2011,
       "title" : "Facial Retargeting by Adding Supplemental Blendshapes",
-      "authors" : "44+29+4+1",
+      "authors" : [
+        44,
+        29,
+        4,
+        1
+      ],
       "conference" : "Pacific Graphics 2011, Short Paper ",
       "journal" : "",
       "thesisInfo" : "",
@@ -2922,7 +3126,13 @@ export const GoogleData =
       "type" : "international",
       "year" : 2011,
       "title" : "Pose Space Editing of Blendshape Based Facial Animation",
-      "authors" : "29+30+44+76+1",
+      "authors" : [
+        29,
+        30,
+        44,
+        76,
+        1
+      ],
       "conference" : "Computer Graphics International Workshop, 2011 ",
       "journal" : "",
       "thesisInfo" : "",
@@ -2938,7 +3148,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2011,
       "title" : "Disparity Graph Editing for Stereoscopic Contents Creation",
-      "authors" : "45+29+2+1",
+      "authors" : [
+        45,
+        29,
+        2,
+        1
+      ],
       "conference" : "Computer Graphics International Workshop, 2011 ",
       "journal" : "",
       "thesisInfo" : "",
@@ -2954,7 +3169,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2011,
       "title" : "Multilinear Fluid Simulation with Model Reduction for Pressure Projection",
-      "authors" : "47+59+49+1",
+      "authors" : [
+        47,
+        59,
+        49,
+        1
+      ],
       "conference" : "Computer Animation and Social Agents (CASA), 2011, Short Paper",
       "journal" : "",
       "thesisInfo" : "",
@@ -2970,7 +3190,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2011,
       "title" : "A Smoke Visualization Model for Capturing Surface-like Features",
-      "authors" : "59+29+57+1",
+      "authors" : [
+        59,
+        29,
+        57,
+        1
+      ],
       "conference" : "Eurographics, 2011 ",
       "journal" : "Computer Graphics Forum, Volume 29, Issue 8, pages 2352–2362, December 2011",
       "thesisInfo" : "",
@@ -2986,7 +3211,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2011,
       "title" : "Simulating SPH Fluid with Multi-Level Vorticity",
-      "authors" : "28+2+47+1",
+      "authors" : [
+        28,
+        2,
+        47,
+        1
+      ],
       "conference" : "Computer Animation and Social Agents (CASA), 2011 ",
       "journal" : "the International Journal of Virtual Reality, 10(1):p.21-27, 2011",
       "thesisInfo" : "",
@@ -3002,7 +3232,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2011,
       "title" : "Stereoscopic Image Generation of Background Terrain Scenes",
-      "authors" : "48+8+2+1",
+      "authors" : [
+        48,
+        8,
+        2,
+        1
+      ],
       "conference" : "Computer Animation and Social Agents (CASA), 2011 ",
       "journal" : "Computer Animation and Virtual Worlds, Volume 22, Issue 203, p.317-323, April-May 2011",
       "thesisInfo" : "",
@@ -3018,7 +3253,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2011,
       "title" : "Characteristic Facial Retargeting",
-      "authors" : "4+24+29+1",
+      "authors" : [
+        4,
+        24,
+        29,
+        1
+      ],
       "conference" : "Computer Animation and Social Agents (CASA), 2011 ",
       "journal" : " Computer Animation and Virtual Worlds, Volume 22, Issue 2-3, p.187-194, April-May 2011",
       "thesisInfo" : "",
@@ -3034,7 +3274,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2010,
       "title" : "Sketching of Mirror Symmetric Shapes",
-      "authors" : "57+96+59+1",
+      "authors" : [
+        57,
+        96,
+        59,
+        1
+      ],
       "conference" : "",
       "journal" : "IEEE Transactions on Visualization and Computer Graphics (TVCG) Vol 17, Issue 11, p.1650-1662, 2010",
       "thesisInfo" : "",
@@ -3050,7 +3295,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2010,
       "title" : "A Smoke Visualization Model for Capturing Surface-like Features",
-      "authors" : "59+29+57+1",
+      "authors" : [
+        59,
+        29,
+        57,
+        1
+      ],
       "conference" : "",
       "journal" : " Computer Graphics Forum Volume 29, Issue 8, p.2352-2362, December 2010",
       "thesisInfo" : "",
@@ -3066,7 +3316,13 @@ export const GoogleData =
       "type" : "international",
       "year" : 2010,
       "title" : "Multilevel vorticity confinement for water turbulence simulation",
-      "authors" : "28+46+47+30+1",
+      "authors" : [
+        28,
+        46,
+        47,
+        30,
+        1
+      ],
       "conference" : "Computer Graphics International 2010",
       "journal" : "The Visual Computer, 26(6):p.873-881, 2010",
       "thesisInfo" : "",
@@ -3082,7 +3338,13 @@ export const GoogleData =
       "type" : "international",
       "year" : 2010,
       "title" : "Rigging Transfer",
-      "authors" : "30+29+3+25+1.",
+      "authors" : [
+        30,
+        29,
+        3,
+        25,
+        1
+      ],
       "conference" : "Computer Animation and Social Agents (CASA), 2010.",
       "journal" : "Computer Animation and Virtual Worlds, 21(3-4):p.375-386, 2010.",
       "thesisInfo" : "",
@@ -3098,7 +3360,10 @@ export const GoogleData =
       "type" : "international",
       "year" : 2009,
       "title" : "LightShop: An Interactive Lighting System Incorporating the 2D Image Editing Paradigm",
-      "authors" : "25+1",
+      "authors" : [
+        25,
+        1
+      ],
       "conference" : "ISVC 2009 ",
       "journal" : "Advances in Visual Computing, p.59-70, 2009",
       "thesisInfo" : "",
@@ -3114,7 +3379,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2009,
       "title" : "Cartoon Animation Style Rendering of Water",
-      "authors" : "26+59+24+1",
+      "authors" : [
+        26,
+        59,
+        24,
+        1
+      ],
       "conference" : "ISVC 2009",
       "journal" : "Advances in Visual Computing, p.67-78, 2009",
       "thesisInfo" : "",
@@ -3130,7 +3400,11 @@ export const GoogleData =
       "type" : "international",
       "year" : 2009,
       "title" : "A surface-based model for small-scale smoke visualization",
-      "authors" : "59+29+1",
+      "authors" : [
+        59,
+        29,
+        1
+      ],
       "conference" : "Poster Paper, Pacific Graphics 2009",
       "journal" : "",
       "thesisInfo" : "",
@@ -3146,7 +3420,10 @@ export const GoogleData =
       "type" : "international",
       "year" : 2009,
       "title" : "An Interactive Lighting System via Data Clustering",
-      "authors" : "25+1",
+      "authors" : [
+        25,
+        1
+      ],
       "conference" : "Poster Paper, Pacific Graphics 2009",
       "journal" : "",
       "thesisInfo" : "",
@@ -3162,7 +3439,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2009,
       "title" : "Toon Rendering of Water Animation",
-      "authors" : "26+59+24+1",
+      "authors" : [
+        26,
+        59,
+        24,
+        1
+      ],
       "conference" : "Poster Paper, Pacific Graphics 2009",
       "journal" : "",
       "thesisInfo" : "",
@@ -3178,7 +3460,10 @@ export const GoogleData =
       "type" : "international",
       "year" : 2008,
       "title" : "Deformation-based Animation of Snake Locomotion",
-      "authors" : "29+1",
+      "authors" : [
+        29,
+        1
+      ],
       "conference" : "ISVC 2008",
       "journal" : "Advances in Visual Computing, p.646-657, 2008",
       "thesisInfo" : "",
@@ -3194,7 +3479,11 @@ export const GoogleData =
       "type" : "international",
       "year" : 2008,
       "title" : "A Physcially Faithful Multigrid Method for Fast Cloth Simulation",
-      "authors" : "97+1+98",
+      "authors" : [
+        97,
+        1,
+        98
+      ],
       "conference" : "Computer Animation and Social Agents 2008 ",
       "journal" : "Computer Animation and Virtual Worlds, 19(3-4):p.479-492, 2008",
       "thesisInfo" : "",
@@ -3210,7 +3499,14 @@ export const GoogleData =
       "type" : "international",
       "year" : 2008,
       "title" : "A Unified Handling of Immiscible and Miscible Fluids",
-      "authors" : "59+25+3+82+78+1",
+      "authors" : [
+        59,
+        25,
+        3,
+        82,
+        78,
+        1
+      ],
       "conference" : "Computer Animation and Social Agents 2008 ",
       "journal" : "Computer Animation and Virtual Worlds, 19, (3-4):p.455-467, 2008",
       "thesisInfo" : "",
@@ -3226,7 +3522,11 @@ export const GoogleData =
       "type" : "international",
       "year" : 2008,
       "title" : "Extended Spatial Keyframing for Complex Character Animation",
-      "authors" : "24+26+1",
+      "authors" : [
+        24,
+        26,
+        1
+      ],
       "conference" : "CASA 2008 ",
       "journal" : "Journal of Computer Animation and Virtual Worlds, 19(3-4):175-188, 2008.",
       "thesisInfo" : "",
@@ -3242,7 +3542,12 @@ export const GoogleData =
       "type" : "international",
       "year" : 2008,
       "title" : "Low Viscosity Flow Simulations for Animation",
-      "authors" : "102+103+104+1",
+      "authors" : [
+        102,
+        103,
+        104,
+        1
+      ],
       "conference" : "Symposium on Computer Animation, ACM SIGGRAPH 2008 (Best Paper)",
       "journal" : "",
       "thesisInfo" : "",
@@ -3258,7 +3563,11 @@ export const GoogleData =
       "type" : "international",
       "year" : 2008,
       "title" : "Terrain Geometry from Monocular Image Sequences",
-      "authors" : "105+106+1",
+      "authors" : [
+        105,
+        106,
+        1
+      ],
       "conference" : "",
       "journal" : " Computing in Science and Engineering, 2(1): p.98-108, 2008",
       "thesisInfo" : "",
@@ -3274,7 +3583,10 @@ export const GoogleData =
       "type" : "international",
       "year" : 2008,
       "title" : "Deformation-Based Animation of Snake Locomotion",
-      "authors" : "29+1",
+      "authors" : [
+        29,
+        1
+      ],
       "conference" : "Poster Paper, Computer Animation and Social Agents 2008",
       "journal" : "",
       "thesisInfo" : "",
@@ -3290,7 +3602,10 @@ export const GoogleData =
       "type" : "international",
       "year" : 2008,
       "title" : "Computer Facial Animation: A Survey in the book \"Data-Driven 3D Facial Animations\"",
-      "authors" : "107+1",
+      "authors" : [
+        107,
+        1
+      ],
       "conference" : "Springer-Verlag London Limited 2008",
       "journal" : "",
       "thesisInfo" : "",
@@ -3306,7 +3621,10 @@ export const GoogleData =
       "type" : "international",
       "year" : 2008,
       "title" : "Facial Animation by Expression Cloning in the book \"Data-Driven 3D Facial Animations\"",
-      "authors" : "1+108",
+      "authors" : [
+        1,
+        108
+      ],
       "conference" : "Springer-Verlag London Limited 2008",
       "journal" : "",
       "thesisInfo" : "",
@@ -3322,7 +3640,10 @@ export const GoogleData =
       "type" : "international",
       "year" : 2007,
       "title" : "Free-Form Sketching of Self-Occluding Objects",
-      "authors" : "57+96",
+      "authors" : [
+        57,
+        96
+      ],
       "conference" : "",
       "journal" : "IEEE Computer Graphics and Applications, p. 50-59, 2007",
       "thesisInfo" : "",
@@ -3338,7 +3659,11 @@ export const GoogleData =
       "type" : "international",
       "year" : 2006,
       "title" : "Modeling of Self-Occluding Objects from 2D Drawings",
-      "authors" : "57+96+109",
+      "authors" : [
+        57,
+        96,
+        109
+      ],
       "conference" : "",
       "journal" : "KISS journal, Vol. 33, Issue 9, September 2006",
       "thesisInfo" : "",
@@ -3354,7 +3679,11 @@ export const GoogleData =
       "type" : "international",
       "year" : 2002,
       "title" : "Gesture Driven Facial Animation ",
-      "authors" : "1+110+108",
+      "authors" : [
+        1,
+        110,
+        108
+      ],
       "conference" : "USC Technical Report, 2002",
       "journal" : "",
       "thesisInfo" : "",
@@ -3370,7 +3699,13 @@ export const GoogleData =
       "type" : "international",
       "year" : 2001,
       "title" : "Performance-Driven Facial Animation: Basic Research on Human Judgments of Emotional State in Facial Avatars",
-      "authors" : "111+108+112+110+1",
+      "authors" : [
+        111,
+        108,
+        112,
+        110,
+        1
+      ],
       "conference" : "",
       "journal" : "CyberPsychology and Behavior, Vol.4, Issue 4, 471-487, August 2001",
       "thesisInfo" : "",
@@ -3386,7 +3721,10 @@ export const GoogleData =
       "type" : "international",
       "year" : 2001,
       "title" : "Expression Cloning",
-      "authors" : "1+108",
+      "authors" : [
+        1,
+        108
+      ],
       "conference" : "ACM SIGGRAPH, 277-288, USA, August 2001",
       "journal" : "",
       "thesisInfo" : "",
@@ -3402,7 +3740,11 @@ export const GoogleData =
       "type" : "international",
       "year" : 2000,
       "title" : "Animated Deformations with Radial Basis Functions",
-      "authors" : "1+110+108",
+      "authors" : [
+        1,
+        110,
+        108
+      ],
       "conference" : "ACM Virtual Reality and Software Technology, Korea, October 2000",
       "journal" : "",
       "thesisInfo" : "",
@@ -3418,7 +3760,10 @@ export const GoogleData =
       "type" : "international",
       "year" : 2000,
       "title" : "Talking Face",
-      "authors" : "1+108",
+      "authors" : [
+        1,
+        108
+      ],
       "conference" : "IEEE International Conference on Multimedia and Expo, USA, July 2000",
       "journal" : "",
       "thesisInfo" : "",
@@ -3434,7 +3779,13 @@ export const GoogleData =
       "type" : "international",
       "year" : 1999,
       "title" : "Classification and Volume Morphing for Performance-Driven Facial Animation",
-      "authors" : "110+1+113+112+108",
+      "authors" : [
+        110,
+        1,
+        113,
+        112,
+        108
+      ],
       "conference" : "Digital and Computational Video, USA, 1999",
       "journal" : "",
       "thesisInfo" : "",
@@ -3450,7 +3801,14 @@ export const GoogleData =
       "type" : "international",
       "year" : 1999,
       "title" : "Synthesis of 3D faces",
-      "authors" : "112+114+110+113+1+108",
+      "authors" : [
+        112,
+        114,
+        110,
+        113,
+        1,
+        108
+      ],
       "conference" : "Digital and Computational Video, USA, 1999",
       "journal" : "",
       "thesisInfo" : "",
@@ -3466,7 +3824,10 @@ export const GoogleData =
       "type" : "international",
       "year" : 1998,
       "title" : "A Survey of Facial Modeling and Animation Techniques",
-      "authors" : "1+108",
+      "authors" : [
+        1,
+        108
+      ],
       "conference" : "",
       "journal" : "USC Technical Report, 1998(cited 112 times)",
       "thesisInfo" : "",
@@ -3482,7 +3843,13 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2015,
       "title" : "A Study on Optical Motion Capture Process of Quadruped Animals and Motion Retargeting Pipeline of Quadruped Characters ",
-      "authors" : "4+26+100+101+1",
+      "authors" : [
+        4,
+        26,
+        100,
+        101,
+        1
+      ],
       "conference" : "",
       "journal" : "Journal Of The Animation Society of Korea Vol.11, No.5 (2015), pp.162~179",
       "thesisInfo" : "",
@@ -3498,7 +3865,11 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2015,
       "title" : "Realistic Keyboard Typing Motion Generation Based on Physics Simulation ",
-      "authors" : "99+11+1",
+      "authors" : [
+        99,
+        11,
+        1
+      ],
       "conference" : "",
       "journal" : "Journal Of The Korea Computer Graphics Society Vol.21, No.5 (2015), pp.29~36",
       "thesisInfo" : "",
@@ -3514,7 +3885,12 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2015,
       "title" : "Shadow Removal in Front Projection System using a Depth Camera ",
-      "authors" : "13+9+6+1",
+      "authors" : [
+        13,
+        9,
+        6,
+        1
+      ],
       "conference" : "",
       "journal" : " Journal Of The Korea Computer Graphics Society Vol.21, No.3 (2015), pp.1~10",
       "thesisInfo" : "",
@@ -3530,7 +3906,13 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2015,
       "title" : "Omnidirectional Environmental Projection Mapping with Single Projector and Single Spherical Mirror ",
-      "authors" : "12+5+25+15+1",
+      "authors" : [
+        12,
+        5,
+        25,
+        15,
+        1
+      ],
       "conference" : "",
       "journal" : "Journal Of The Korea Computer Graphics Society Vol.21, No.1 (2015), pp.1~11",
       "thesisInfo" : "",
@@ -3546,7 +3928,12 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2014,
       "title" : "High-Quality Depth Map Generation of Humans in Monocular Videos ",
-      "authors" : "5+7+42+1",
+      "authors" : [
+        5,
+        7,
+        42,
+        1
+      ],
       "conference" : "",
       "journal" : "Journal Of The Korea Computer Graphics Society Vol.20 No.2 (2014), pp.1-11",
       "thesisInfo" : "",
@@ -3562,7 +3949,10 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2014,
       "title" : "Body Motion Retargeting to Rig-space ",
-      "authors" : "4+1",
+      "authors" : [
+        4,
+        1
+      ],
       "conference" : "",
       "journal" : "Journal Of The Korea Computer Graphics Society Vol.20, No.3 (2014), pp.9~17",
       "thesisInfo" : "",
@@ -3578,7 +3968,13 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2013,
       "title" : "Realistic Paint Simulation based on Fludity, Diffusion and Absorption",
-      "authors" : "26+36+28+6+1",
+      "authors" : [
+        26,
+        36,
+        28,
+        6,
+        1
+      ],
       "conference" : "Korea Computer Graphics Society (KCGS), 2013",
       "journal" : "",
       "thesisInfo" : "",
@@ -3594,7 +3990,15 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2013,
       "title" : "Depth Map Generation for Building Images",
-      "authors" : "8+35+7+5+25+37+1",
+      "authors" : [
+        8,
+        35,
+        7,
+        5,
+        25,
+        37,
+        1
+      ],
       "conference" : "Korea Computer Graphics Society (KCGS), 2013",
       "journal" : "",
       "thesisInfo" : "",
@@ -3610,7 +4014,12 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2013,
       "title" : "Fluid Simulation for Realistic Paint Effects Visualization",
-      "authors" : "36+26+6+1",
+      "authors" : [
+        36,
+        26,
+        6,
+        1
+      ],
       "conference" : "",
       "journal" : "Communications of the Korea Information Science Society Vol.31 No.11, pp.29-33",
       "thesisInfo" : "",
@@ -3626,7 +4035,14 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2012,
       "title" : "A Single Image Representation Model for Efficient Stereoscopic Image Creation",
-      "authors" : "25+38+27+93+5+1",
+      "authors" : [
+        25,
+        38,
+        27,
+        93,
+        5,
+        1
+      ],
       "conference" : "Korea Computer Graphics Society (KCGS), 2012",
       "journal" : "Journal Of The Korea Computer Graphics Society 2012.6, pp.161-162",
       "thesisInfo" : "",
@@ -3642,7 +4058,13 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2012,
       "title" : "An Efficient Diffusion Model for Viscous Fingering",
-      "authors" : "6+9+59+66+1",
+      "authors" : [
+        6,
+        9,
+        59,
+        66,
+        1
+      ],
       "conference" : "Korea Computer Graphics Society (KCGS), 2012",
       "journal" : "",
       "thesisInfo" : "",
@@ -3658,7 +4080,13 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2012,
       "title" : "Characteristic Facial Retargeting",
-      "authors" : "4+24+29+39+1",
+      "authors" : [
+        4,
+        24,
+        29,
+        39,
+        1
+      ],
       "conference" : "Korea Computer Graphics Society (KCGS), 2012",
       "journal" : "",
       "thesisInfo" : "",
@@ -3674,7 +4102,11 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2011,
       "title" : "Practice and Application of Modern CG Technology for 3D Contents Making",
-      "authors" : "30+24+29",
+      "authors" : [
+        30,
+        24,
+        29
+      ],
       "conference" : "HCI KOREA, 2011",
       "journal" : "",
       "thesisInfo" : "",
@@ -3690,7 +4122,12 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2011,
       "title" : "Practice and Application of Modern CG Technology for 3D Contents Making",
-      "authors" : "24+30+29+1",
+      "authors" : [
+        24,
+        30,
+        29,
+        1
+      ],
       "conference" : "",
       "journal" : "Computer Graphics and Interaction Society (CG&I) Review 2011.4, pp.5-10",
       "thesisInfo" : "",
@@ -3706,7 +4143,15 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2009,
       "title" : "Believable 3D Tiger from modeling to rendering",
-      "authors" : "1+56+100+40+24+25+26",
+      "authors" : [
+        1,
+        56,
+        100,
+        40,
+        24,
+        25,
+        26
+      ],
       "conference" : "HCI KOREA, 2009",
       "journal" : "Communications of the Korea Information Science Society Vol.31 No.11, pp.29-33",
       "thesisInfo" : "",
@@ -3722,7 +4167,10 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2007,
       "title" : "Automatic Pattern Manipulation for Virtual Garment Design",
-      "authors" : "27+98",
+      "authors" : [
+        27,
+        98
+      ],
       "conference" : "HCI KOREA 2007",
       "journal" : "",
       "thesisInfo" : "",
@@ -3738,7 +4186,10 @@ export const GoogleData =
       "type" : "domestic",
       "year" : 2007,
       "title" : "Synthesis of Near-Regular Vector Texture Patterns",
-      "authors" : "30+57",
+      "authors" : [
+        30,
+        57
+      ],
       "conference" : "HCI KOREA, 2007",
       "journal" : " HCI 2007, pp.487-493",
       "thesisInfo" : "",
@@ -6918,7 +7369,10 @@ export const GoogleData =
       "type" : "software",
       "year" : 2012,
       "title" : "Mean Curvature Calculator",
-      "desc" : "Automated terrain model generation from SFM data(point cloud + camera). Implementation of paper \"Terrain Geometry from Monocular Image Sequences\". For further questions, please contact Kyehyun Kim.",
+      "desc" : [
+        "Automated terrain model generation from SFM data(point cloud",
+        "camera). Implementation of paper  Terrain Geometry from Monocular Image Sequences . For further questions, please contact Kyehyun Kim."
+      ],
       "additional" : "Binary : MeanCurvature.zip\r\nType : Maya Plugin\r\nVersion : Maya 2008 64bit\r\nPlatform : Microsoft Windows 7\r\n",
       "img" : "Downloads/2012_Mean Curvature Calculator/Mean Curvature Calculator.jpg",
       "file" : "Downloads/2012_Mean Curvature Calculator/Mean Curvature Calculator.zip",
@@ -6930,7 +7384,10 @@ export const GoogleData =
       "year" : 2012,
       "title" : "N_Terrain (Lite)",
       "desc" : "\r\nSmoke simulator for small scale smoke in an efficient computation time. Reduction of render time using the opacity map created by utilizing the smoke density and the characteristics of the surface contour.",
-      "additional" : "Binary : N_Terrain.zip(plugin + demo video)\r\nType : Nuke Plugin\r\nVersion : Nuke 6.3v1 64bit\r\nPlatform : Microsoft Windows 7",
+      "additional" : [
+        "Binary : N_Terrain.zip(plugin",
+        "demo video)\r\nType : Nuke Plugin\r\nVersion : Nuke 6.3v1 64bit\r\nPlatform : Microsoft Windows 7"
+      ],
       "img" : "Downloads/2012_N_Terrain (Lite)/N_Terrain (Lite).jpg",
       "file" : "Downloads/2012_N_Terrain (Lite)/N_Terrain (Lite).zip",
       "link" : ""
@@ -6941,7 +7398,11 @@ export const GoogleData =
       "year" : 2012,
       "title" : "Smoke Simulator Using Surface-like Features",
       "desc" : "This tool is an implementation of the paper -- 'A procedural flow generation method using coordinate transformation'. Using this tool will generate a uniform flow that flows around an arbitrary shaped object. For further questions, please contact Jihyung Kang.",
-      "additional" : "Binary : Smoke.zip\r\nType : Stand alone + Maya Script\r\nVersion : Visual Studio C++ 2010 (or redistributable) , Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
+      "additional" : [
+        "Binary : Smoke.zip\r\nType : Stand alone",
+        "Maya Script\r\nVersion : Visual Studio C",
+        "2010 (or redistributable) , Maya 2011 32bit\r\nPlatform : Microsoft Windows 7"
+      ],
       "img" : "Downloads/2012_Smoke Simulator Using Surface-like Features/Smoke Simulator Using Surface-like Features.jpg",
       "file" : "Downloads/2012_Smoke Simulator Using Surface-like Features/Smoke Simulator Using Surface-like Features.zip",
       "link" : ""
@@ -8000,7 +8461,10 @@ export const GoogleData =
     {
       "id" : 36,
       "date" : "2015.03.13",
-      "title" : "BaseLase: An Interactive Focus + Context Laser Floor",
+      "title" : [
+        "BaseLase: An Interactive Focus",
+        "Context Laser Floor"
+      ],
       "people_id" : 12,
       "link" : "http://youtu.be/fWQKppV1_Cs"
     },
@@ -8399,7 +8863,10 @@ export const GoogleData =
     {
       "id" : 93,
       "date" : "2013.06.26",
-      "title" : "C++ Coding Style",
+      "title" : [
+        "C",
+        "Coding Style"
+      ],
       "people_id" : 33,
       "link" : "http://youtu.be/Egj-MeZ5eiM"
     },
@@ -10751,9 +11218,19 @@ export const GoogleData =
       "shortname" : "Character",
       "fullname" : "character",
       "img" : "",
-      "area" : "Human Computer Iteration+Image Processing+Physically-based Simulation",
+      "area" : [
+        "Human Computer Iteration",
+        "Image Processing",
+        "Physically-based Simulation"
+      ],
       "desc" : "blah blash",
-      "publications" : "1+2+5+7+3+",
+      "publications" : [
+        1,
+        2,
+        5,
+        7,
+        3
+      ],
       "projects" : "projects(team:1)",
       "members" : "people(team:1)"
     },
@@ -10763,9 +11240,19 @@ export const GoogleData =
       "shortname" : "EVE",
       "fullname" : "enhanced visual experience",
       "img" : "",
-      "area" : "Human Computer Iteration+Image Processing+Physically-based Simulation",
+      "area" : [
+        "Human Computer Iteration",
+        "Image Processing",
+        "Physically-based Simulation"
+      ],
       "desc" : "blah blash",
-      "publications" : "1+2+5+7+3+",
+      "publications" : [
+        1,
+        2,
+        5,
+        7,
+        3
+      ],
       "projects" : "projects(team:2)",
       "members" : "people(team:2)"
     },
@@ -10775,9 +11262,19 @@ export const GoogleData =
       "shortname" : "CFL2",
       "fullname" : "computing for lazy life",
       "img" : "",
-      "area" : "Human Computer Iteration+Image Processing+Physically-based Simulation",
+      "area" : [
+        "Human Computer Iteration",
+        "Image Processing",
+        "Physically-based Simulation"
+      ],
       "desc" : "blah blash",
-      "publications" : "1+2+5+7+3+",
+      "publications" : [
+        1,
+        2,
+        5,
+        7,
+        3
+      ],
       "projects" : "projects(team:3)",
       "members" : "people(team:3)"
     },

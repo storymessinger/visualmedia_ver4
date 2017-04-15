@@ -2,15 +2,15 @@ import { Subscription } from 'rxjs/Rx';
 import { PageScrollService, PageScrollConfig, PageScrollInstance } from 'ng2-page-scroll';
 import { DOCUMENT } from '@angular/platform-browser';
 import { ScrollAbleService } from './../../../shared/scroll-able.service';
-import { DataService } from './../../../shared/data.service';
-import { Component, OnInit, DoCheck, Inject } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
+import { MockDataService } from './../../../shared/mockdata.service';
 
 @Component({
   selector: 'app-research-projects',
   templateUrl: './research-projects.component.html',
   styleUrls: ['./research-projects.component.scss']
 })
-export class ResearchProjectsComponent implements OnInit, DoCheck {
+export class ResearchProjectsComponent implements OnInit {
 
 
   datas:any;
@@ -19,7 +19,7 @@ export class ResearchProjectsComponent implements OnInit, DoCheck {
   imgPath:string = './assets/Contents/';
 
   constructor(
-    private dataService:DataService,
+    private mockDataService:MockDataService,
     private scrollAbleService:ScrollAbleService,
     private pageScrollService: PageScrollService, 
     @Inject(DOCUMENT) private document: any
@@ -33,11 +33,8 @@ export class ResearchProjectsComponent implements OnInit, DoCheck {
    }
 
   ngOnInit() {
-    this.dataService.getProjects();
-  }
-
-  ngDoCheck() {
-    this.datas = this.dataService.projects;
+    this.mockDataService.getProjects();
+    this.datas = this.mockDataService.projects;
   }
 
   clickScrollTo(name) {
