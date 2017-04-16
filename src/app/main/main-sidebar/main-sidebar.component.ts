@@ -35,6 +35,11 @@ export class MainSidebarComponent {
           url: "partners",
           data: "Partners",
           innerLink: []
+        },
+        { 
+          url: "sponsership",
+          data: "Sponser",
+          innerLink: []
         }
       ]
     },

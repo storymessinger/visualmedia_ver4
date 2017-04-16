@@ -2,15 +2,16 @@ import { Http } from '@angular/http';
 import { Subscription } from 'rxjs/Rx';
 import { ActivatedRoute, Router } from '@angular/router';
 import { SearchService } from './../../../shared/search.service';
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, DoCheck } from '@angular/core';
 import * as Fuse from 'fuse.js'
+import { MockDataService } from './../../../shared/mockdata.service';
 
 @Component({
   selector: 'app-search-result',
   templateUrl: './search-result.component.html',
   styleUrls: ['./search-result.component.scss']
 })
-export class SearchResultComponent implements OnInit {
+export class SearchResultComponent implements OnInit, DoCheck {
 
   private people_options = { 
       shouldSort: true,
@@ -32,8 +33,8 @@ export class SearchResultComponent implements OnInit {
       minMatchCharLength: 2,
       keys: [
         "title",
-        "teams_name",
-        "people_name"
+        "teams.shortname",
+        "authors_array"
     ]
   } 
   private projects_options= { 
@@ -44,13 +45,15 @@ export class SearchResultComponent implements OnInit {
       maxPatternLength: 32,
       minMatchCharLength: 2,
       keys: [
-        "title",
-        "teams_shortname",
-        "people_name"
+        "name",
+        "teams.shortname",
+        "people.name",
+        "partner.name"
     ]
   } 
   subscription: Subscription;
   id: string;
+  current_id;
 
   people:any;
   result_people:any;
@@ -60,6 +63,7 @@ export class SearchResultComponent implements OnInit {
   result_projects:any;
 
   constructor(
+    private mockDataService:MockDataService,
     private activatedRoute:ActivatedRoute,
     private http:Http,
     private router:Router
@@ -68,13 +72,23 @@ export class SearchResultComponent implements OnInit {
       .subscribe(
         (param:any) => {
           this.id = param['id'];
+          // if ( this.current_id == undefined ) {
+          //   this.current_id = this.id;
+          // }
+          // if (this.id != this.current_id) {
+          //   location.reload();
+          // } else {
+          //   this.current_id = this.id;
+          // }
         })
     }
 
   ngOnInit() {
-    this.getMembers();
-    this.getProjects();
-    this.getPublications();
+    this.mockDataService.getSearch();
+    this.people = this.mockDataService.search_people;
+    this.projects = this.mockDataService.search_projects;
+    this.publications = this.mockDataService.search_publications;
+
   }
 
   ngDoCheck() {
@@ -84,28 +98,7 @@ export class SearchResultComponent implements OnInit {
       this.getSearch_projects();
       this.getSearch_publications();
     }
-  }
 
-  getMembers() {
-    this.http.get('main/people-data')
-    .map(res => res.json())
-    .subscribe(items => {
-      this.people = items;
-    });
-  }
-  getProjects() {
-     this.http.get('main/projects-data')
-      .map(res => res.json())
-      .subscribe(items => {
-        this.projects = items;
-      });
-  }
-  getPublications() {
-     this.http.get('main/publication-data')
-      .map(res => res.json())
-      .subscribe(items => {
-        this.publications = items;
-      });
   }
 
   getSearch_people() {
@@ -115,6 +108,7 @@ export class SearchResultComponent implements OnInit {
   getSearch_publications() {
     var fuse = new Fuse(this.publications, this.publications_options); // "list" is the item array
     this.result_publications = fuse.search(this.id);
+    console.log(this.publications)
   }
   getSearch_projects() {
     var fuse = new Fuse(this.projects, this.projects_options); // "list" is the item array

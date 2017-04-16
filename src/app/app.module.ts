@@ -15,6 +15,7 @@ import { PageNotFoundComponent } from './page-not-found.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MaterialModule } from '@angular/material';
 import { ScrollSpyModule } from 'ng2-scrollspy';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { ScrollSpyModule } from 'ng2-scrollspy';
     routing,
     NgbModule.forRoot(), // Add Bootstrap module here.
     MaterialModule,
-    ScrollSpyModule.forRoot()
+    ScrollSpyModule.forRoot(),
+    BrowserAnimationsModule
   ],
   providers: [
     IssuesService, 

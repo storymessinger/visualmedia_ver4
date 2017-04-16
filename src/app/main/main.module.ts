@@ -49,6 +49,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { MdIconModule } from '@angular/material';
 import { MaterialModule } from '@angular/material';
+import {MdInputModule} from '@angular/material';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [ 
@@ -88,7 +90,9 @@ import { MaterialModule } from '@angular/material';
     HttpModule, 
     MainRoutingModule,
     MaterialModule,
-    MdIconModule
+    MdIconModule,
+    MdInputModule,
+    BrowserAnimationsModule
   ],
   providers: [
     MemberService, 

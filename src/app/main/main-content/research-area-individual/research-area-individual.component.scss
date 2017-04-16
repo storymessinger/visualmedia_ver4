@@ -42,79 +42,125 @@
     .links {
         color: rgba(0,0,0,0.54);
         margin-bottom: 1rem;
+        span {
+            font-weight: 500;
+        }
         &:hover {
             color: $primary_orange;
         }
     }
 }
 
-
-
-.people {
-    // row
-    display: flex;
-    flex-wrap:wrap;
-    max-width: 1250px;
-    
-    margin-bottom: 1rem;
-
-    .people-status {
-        margin-bottom: 2.5rem;
-        padding:0;
-    }
-
+.project-manager {
     .people-box {
-        margin: auto;
-        margin-bottom: 3.5rem;
-        padding: 0 1.5rem;
+        display:flex;
+        max-width:600px;
 
         .people-img {
             display: flex;
             align-items: center;
             img {
-                border-radius: 50%;
                 margin: 0 auto;
-                width: 240px;
+                width: 180px;
             }
         }
-
-        .people-img-box:hover {
-            img {
-                filter: grayscale(100%) contrast(80%);
-            }
-            a {
-                display: block;
-            }
-        }
-        .people-img-box a {
-            background-color: $primary_light_grey;
-            color: $primary_dark_grey;
-
-            position: absolute;
-            display:none;
-            left:120px; 
-            top:90px; 
-
-            box-shadow: 0 0 0 rgba(0,0,0,0);
-        }
-
-        .people-img-box a:hover {
-            box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 
-                        0 6px 10px 0 rgba(0,0,0,.14), 
-                        0 1px 18px 0 rgba(0,0,0,.12);
-        }
-
         .people-text {
-            display: flex;
-            justify-content: center;
-            flex-flow:column;
-            align-items: center;
-            .name {
-                margin-bottom:0.75rem;
-            }
-            sub {
-                color: $primary_orange;
+            margin-left:2rem;
+            padding:0;
+            .menu02 {
+                margin: 0.5rem 0;
             }
         }
+    }
+}
+
+// .people {
+//     // row
+//     display: flex;
+//     flex-wrap:wrap;
+//     max-width: 1250px;
+    
+//     margin-bottom: 1rem;
+
+//     .people-status {
+//         margin-bottom: 2.5rem;
+//         padding:0;
+//     }
+
+//     .people-box {
+//         margin: auto;
+//         margin-bottom: 3.5rem;
+//         padding: 0 1.5rem;
+
+//         .people-img {
+//             display: flex;
+//             align-items: center;
+//             img {
+//                 border-radius: 50%;
+//                 margin: 0 auto;
+//                 width: 240px;
+//             }
+//         }
+
+//         .people-img-box:hover {
+//             img {
+//                 filter: grayscale(100%) contrast(80%);
+//             }
+//             a {
+//                 display: block;
+//             }
+//         }
+//         .people-img-box a {
+//             background-color: $primary_light_grey;
+//             color: $primary_dark_grey;
+
+//             position: absolute;
+//             display:none;
+//             left:120px; 
+//             top:90px; 
+
+//             box-shadow: 0 0 0 rgba(0,0,0,0);
+//         }
+
+//         .people-img-box a:hover {
+//             box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 
+//                         0 6px 10px 0 rgba(0,0,0,.14), 
+//                         0 1px 18px 0 rgba(0,0,0,.12);
+//         }
+
+//         .people-text {
+//             display: flex;
+//             justify-content: center;
+//             flex-flow:column;
+//             align-items: center;
+//             .name {
+//                 margin-bottom:0.75rem;
+//             }
+//             sub {
+//                 color: $primary_orange;
+//             }
+//         }
+//     }
+// }
+.pad {
+    h2, h3, h5, p {
+        color:inherit;
+        p { color:inherit;}
+    }
+    padding:1rem;
+    background-color:$primary_white;
+    border: 1px solid $primary_light_grey;
+    cursor:pointer;
+    margin-right:2rem;
+    margin-bottom:2rem;
+}
+
+.pad:hover {
+    border: 1px solid rgba(240,91,40,0.8);
+    background-color: rgba(240,91,40,0.8);
+    box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.1) !important;
+    color: rgba(255,255,255,0.8);
+    img {
+        filter: grayscale(100%) contrast(80%);
     }
 }

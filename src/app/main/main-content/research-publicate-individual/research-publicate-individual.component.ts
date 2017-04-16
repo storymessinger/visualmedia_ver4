@@ -1,7 +1,7 @@
-import { DataService } from './../../../shared/data.service';
 import { Subscription } from 'rxjs/Rx';
 import { ActivatedRoute } from '@angular/router';
-import { Component, OnInit, DoCheck } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { MockDataService } from './../../../shared/mockdata.service';
 
 @Component({
   selector: 'app-research-publicate-individual',
@@ -9,7 +9,7 @@ import { Component, OnInit, DoCheck } from '@angular/core';
   styleUrls: ['./research-publicate-individual.component.scss']
 })
 
-export class ResearchPublicateIndividualComponent implements OnInit,DoCheck {
+export class ResearchPublicateIndividualComponent implements OnInit {
 
   subscription: Subscription;
   id: number;
@@ -17,7 +17,7 @@ export class ResearchPublicateIndividualComponent implements OnInit,DoCheck {
   imgPath:string = './assets/Contents/';
 
   constructor(
-    private dataService:DataService,
+    private mockDataService:MockDataService,
     private activatedRoute:ActivatedRoute
     ) { 
     this.subscription = activatedRoute.params //
@@ -28,12 +28,8 @@ export class ResearchPublicateIndividualComponent implements OnInit,DoCheck {
   }
 
   ngOnInit() {
-    this.dataService.getPublication(this.id);
-  }
-  ngDoCheck() {
-    if (this.dataService.publication_individual !== []) {
-      this.datas = this.dataService.publication_individual;
-    }
+    this.mockDataService.getPublication('whole',this.id);
+    this.datas = this.mockDataService.publication_individual;
   }
 
 

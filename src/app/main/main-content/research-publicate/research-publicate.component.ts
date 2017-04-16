@@ -1,16 +1,16 @@
-import { DataService } from './../../../shared/data.service';
 import { DOCUMENT } from '@angular/platform-browser';
 import { PageScrollService, PageScrollConfig, PageScrollInstance } from 'ng2-page-scroll';
 import { ScrollAbleService } from './../../../shared/scroll-able.service';
-import { Component, OnInit, Inject, OnDestroy, DoCheck } from '@angular/core';
+import { Component, OnInit, Inject, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs/Rx';
+import { MockDataService } from './../../../shared/mockdata.service';
 
 @Component({
   selector: 'app-research-publicate',
   templateUrl: './research-publicate.component.html',
   styleUrls: ['./research-publicate.component.scss']
 })
-export class ResearchPublicateComponent implements OnInit, DoCheck, OnDestroy {
+export class ResearchPublicateComponent implements OnInit, OnDestroy {
 
 
   datas:any;
@@ -20,7 +20,7 @@ export class ResearchPublicateComponent implements OnInit, DoCheck, OnDestroy {
 
 
   constructor(
-    private dataService:DataService,
+    private mockDataServicee:MockDataService,
     private scrollAbleService:ScrollAbleService,
     private pageScrollService: PageScrollService,
     @Inject(DOCUMENT) private document: any
@@ -34,11 +34,8 @@ export class ResearchPublicateComponent implements OnInit, DoCheck, OnDestroy {
    }
 
   ngOnInit() {
-    this.dataService.getPublication_int();
-  }
-
-  ngDoCheck() {
-    this.datas = this.dataService.publications_int;
+    this.mockDataServicee.getPublication('international')
+    this.datas = this.mockDataServicee.publications;
   }
 
   clickScrollTo(name) {

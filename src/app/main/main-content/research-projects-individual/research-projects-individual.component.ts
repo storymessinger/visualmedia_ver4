@@ -1,7 +1,8 @@
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs/Rx';
 import { DataService } from './../../../shared/data.service';
-import { Component, OnInit, DoCheck } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { MockDataService } from './../../../shared/mockdata.service';
 
 
 @Component({
@@ -9,52 +10,49 @@ import { Component, OnInit, DoCheck } from '@angular/core';
   templateUrl: './research-projects-individual.component.html',
   styleUrls: ['./research-projects-individual.component.scss']
 })
-export class ResearchProjectsIndividualComponent implements OnInit, DoCheck {
+export class ResearchProjectsIndividualComponent implements OnInit {
 
   imgPath:string = './assets/Contents/';
   subscription: Subscription;
+  current_id:number;
   id: number;
-  datas:any[] = [];
-  first_data:any = {
-    id : null,
-    type: null,
-    year: null,
-    name: null,
-    fullname: null,
-    area:null,
-    description:null,
-    partners_id:null,
-    funding_id:null,
-    teams_id:null,
-    people_id:null,
-    status:null,
-    date_start:null,
-    date_end:null,
-    teams_shortname:null,
-    people_name:null,
-    funding_name:null,
-    funding_img:null
-  }
+  datas:any;
+  related_datas:any;
 
   constructor(
-    private dataService:DataService,
-    private activatedRoute:ActivatedRoute
+    private mockDataService:MockDataService,
+    private activatedRoute:ActivatedRoute,
+    private router:Router
   ) { 
     this.subscription = activatedRoute.params //
       .subscribe(
         (param:any) => {
           this.id = parseInt(param['id']);
+          if ( this.current_id == undefined ) {
+            this.current_id = this.id;
+          }
+          if (this.id != this.current_id) {
+            location.reload();
+          } else {
+            this.current_id = this.id;
+          }
         })
   }
 
   ngOnInit() {
-    this.dataService.getProjects(this.id);
+    this.mockDataService.getProjects(this.id);
+    this.datas = this.mockDataService.projects_individual;
+    this.related_datas = this.mockDataService.projects_individual_related;
+
   }
 
-  ngDoCheck() {
-    if (this.dataService.projects_individual[0] != undefined){
-      this.datas = this.dataService.projects_individual;
-      this.first_data = this.dataService.projects_individual[0];
+  navigateTo(arg, id, link=""){
+    if (arg == "people") {
+      this.router.navigate(['/main/people/person', id])
+    } else if (arg == "project") {
+      this.router.navigateByUrl('main/projects/individual/'+ id);
+    } else if (arg == "partner") {
+      window.location.href=link;
     }
   }
 

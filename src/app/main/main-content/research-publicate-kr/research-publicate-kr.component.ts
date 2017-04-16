@@ -1,16 +1,16 @@
-import { DataService } from './../../../shared/data.service';
 import { DOCUMENT } from '@angular/platform-browser';
 import { PageScrollService, PageScrollConfig, PageScrollInstance } from 'ng2-page-scroll';
 import { ScrollAbleService } from './../../../shared/scroll-able.service';
-import { Component, OnInit, Inject, OnDestroy, DoCheck } from '@angular/core';
+import { Component, OnInit, Inject, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs/Rx';
+import { MockDataService } from './../../../shared/mockdata.service';
 
 @Component({
   selector: 'app-research-publicate-kr',
   templateUrl: './research-publicate-kr.component.html',
   styleUrls: ['./research-publicate-kr.component.scss']
 })
-export class ResearchPublicateKrComponent implements OnInit, DoCheck, OnDestroy {
+export class ResearchPublicateKrComponent implements OnInit, OnDestroy {
 
   datas:any;
   id: string;
@@ -18,7 +18,7 @@ export class ResearchPublicateKrComponent implements OnInit, DoCheck, OnDestroy 
   imgPath:string = './assets/Contents/';
 
   constructor(
-    private dataService:DataService,
+    private mockDataService:MockDataService,
     private scrollAbleService:ScrollAbleService,
     private pageScrollService: PageScrollService, 
     @Inject(DOCUMENT) private document: any
@@ -32,11 +32,8 @@ export class ResearchPublicateKrComponent implements OnInit, DoCheck, OnDestroy 
    }
 
   ngOnInit() {
-    this.dataService.getPublication_kr();
-  }
-
-  ngDoCheck() {
-    this.datas = this.dataService.publications_kr;
+    this.mockDataService.getPublication('domestic');
+    this.datas = this.mockDataService.publications;
   }
 
   clickScrollTo(name) {

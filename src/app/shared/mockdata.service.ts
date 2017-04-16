@@ -13,19 +13,68 @@ export class MockDataService {
   public people:any;
   public people_person:any;
   public publications:any;
-  public publication_individual:any = [];
-  public publications_int:any;
-  public publications_kr:any;
-  public publications_thesis:any;
+  public publication_individual:any;
+  // public publications_int:any;
+  // public publications_kr:any;
+  // public publications_thesis:any;
   public projects:any;
-  public projects_individual:any = [];
+  public projects_individual:any; 
+  public projects_individual_related:any;
   public partners:any;
   public seminars:any;
   public researchArea:any = [];
+  public search_people:any;
+  public search_projects:any;
+  public search_publications:any;
 
   constructor() { }
 
   init(){
+
+  }
+
+  getSearch() {
+    this.search_people = GoogleData.people;
+    this.search_projects = GoogleData.projects;
+    this.search_projects.forEach( project => {
+      const found_team = GoogleData.teams.find( team => team.id == project.teams_id);
+      const found_people = GoogleData.people.find( person => person.id == project.people_id);
+      const found_funding = GoogleData.partners.find( partner => partner.id == project.funding_id);
+      if ( found_team !== undefined ) {
+        project['teams'] = {
+          shortname: found_team.shortname
+        };
+      }
+      if ( found_people !== undefined ) {
+        project['people'] = {
+          name: found_people.name
+        };
+      }
+      if ( found_funding !== undefined ) {
+        project['funding'] = {
+          name: found_funding.name,
+          link: found_funding.link
+        };
+      }
+    })
+    this.search_publications= GoogleData.publications;
+    this.search_publications.forEach( pub => {
+      // add people/authors
+      pub['authors_array'] = [];
+      if( pub['authors'].length > 0 ) {
+        pub['authors'].forEach( authorid => {
+          pub['authors_array']
+            .push(GoogleData.people.find( person => person.id == authorid));
+        })
+      }
+      // add teams
+      const found_team = GoogleData.teams.find( team => team.id == pub.teams_id);
+      if ( found_team !== undefined ) {
+        pub['teams'] = {
+          shortname: found_team.shortname
+        };
+      }
+    })
 
   }
 
@@ -107,12 +156,41 @@ export class MockDataService {
 
   getProjects(id:number = null) {
     if(id) {
-    //  this.http.get('main/projects-data-individual/'+ id)
-    //   .map(res => res.json())
-    //   .subscribe(items => {
-    //     console.log('items: ' + items);
-    //     this.projects_individual = items;
-    //   });
+      const idmatch_project = GoogleData.projects.find( pro => pro.id == id);
+
+      let found_projects = [];
+      if ( idmatch_project.fullname != "" ) {
+        found_projects = GoogleData.projects.filter( pro => pro.fullname == idmatch_project.fullname );
+      } 
+
+      const found_people = GoogleData.people.find( person => person.id == idmatch_project.people_id);
+      const found_team = GoogleData.teams.find( team => team.id == idmatch_project.teams_id);
+      const found_funding = GoogleData.partners.find( partner => partner.id == idmatch_project.funding_id);
+      if ( found_team !== undefined ) {
+        idmatch_project['teams'] = {
+          shortname: found_team.shortname,
+          img: found_team.img
+        };
+      }
+      if ( found_people !== undefined ) {
+        idmatch_project['people'] = {
+          name: found_people.name,
+          img: found_people.img,
+          id: found_people.id,
+          email:found_people.email
+        };
+      }
+      if ( found_funding !== undefined ) {
+        idmatch_project['funding'] = {
+          name: found_funding.name,
+          img: found_funding.logo,
+          link: found_funding.link
+        };
+      }
+
+      this.projects_individual = idmatch_project;
+      this.projects_individual_related = found_projects;
+
   } else {
     const projects = GoogleData.projects;
 
@@ -142,97 +220,78 @@ export class MockDataService {
     }
   }
 
+  getPublication(arg, id:number = null) {
+    let publications;
+    switch(arg) {
+      case 'whole':
+        publications = GoogleData.publications;
+        break;
+      case 'international':
+        publications = GoogleData.publications.filter( pub => pub.type == 'international');
+        break;
+      case 'domestic':
+        publications = GoogleData.publications.filter( pub => pub.type == 'domestic');
+        break;
+      case 'thesis':
+        publications = GoogleData.publications.filter( pub => pub.type == 'thesis');
+        break;
+    }
 
+    if(id) {
+      console.log(publications);
+      const found_publication = publications.find( pub => pub.id == id);
+      console.log(found_publication);
 
-  // getResearchArea() {
-  //   this.http.get('main/researchArea-data')
-  //     .map(res => res.json())
-  //     .subscribe(items => {
-  //       this.researchArea = items;
-  //     });
-  // }
+      found_publication['authors_array'] = [];
+      if( found_publication['authors'].length > 0 ) {
+        found_publication['authors'].forEach( authorid => {
+          found_publication['authors_array']
+            .push(GoogleData.people.find( person => person.id == authorid));
+        })
+      }
+      this.publication_individual = found_publication;
+  } else {
+    publications.forEach( pub => {
+      // add people/authors
+      pub['authors_array'] = [];
+      if( pub['authors'].length > 0 ) {
+        pub['authors'].forEach( authorid => {
+          pub['authors_array']
+            .push(GoogleData.people.find( person => person.id == authorid));
+        })
+      }
+    })
 
+    let sub = _.values(_.groupBy(publications,"year")).reverse();
+    this.publications= sub.map( subArr => this.dateSort_descend(subArr));
 
-  // getPartners() {
-  //   this.http.get('main/partner-data')
-  //     .map(res => res.json())
-  //     .subscribe(items => {
-  //       this.partners = items;
-  //     })
-  // }
+    }
+  }
 
+  getResearchArea(id = null) {
+    if(id){
+      this.researchArea = GoogleData.teams.find( team => team.id == id);
 
-  // getPublication(id:number = null) {
-  //   if(id) {
-  //    this.http.get('main/publication-data-individual/' + id)
-  //     .map(res => res.json())
-  //     .subscribe(items => {
-  //       this.publication_individual = items[0];
-  //     })
-  //   } else {
-  //    this.http.get('main/publication-data')
-  //     .map(res => res.json())
-  //     .subscribe(items => {
-  //       let sub = _.values(_.groupBy(items,"year")).reverse();
-  //       this.publications= sub.map( subArr => this.dateSort_descend(subArr));
-  //       this.publications.forEach( items => {
-  //         items.forEach( publication => {
-  //           publication.people_name = publication.people_name.split(',');
-  //           publication.people_id = publication.people_id.split(',');
-  //         })
-  //       })
-  //     });
-  //   }
-  // }
+      // add publications
+      this.researchArea['publications_array'] = [];
+      this.researchArea['publications'].forEach( pubid => {
+        this.researchArea['publications_array']
+          .push(GoogleData.publications
+            .filter(pub => pub.type == 'international')
+            .find( pub => pub.id == pubid));
+      })
 
-  // getPublication_int() {
-  //    this.http.get('main/publication-data')
-  //     .map(res => res.json())
-  //     .subscribe(items => {
-  //       let groupedPub = items.filter( item => item.type == 'international');
-  //       let sub = _.values(_.groupBy(groupedPub,"year")).reverse();
-  //       this.publications_int = sub.map( subArr => this.dateSort_descend(subArr));
-  //       this.publications_int.forEach( items => {
-  //         items.forEach( publication => {
-  //           publication.people_name = publication.people_name.split(',');
-  //           publication.people_id = publication.people_id.split(',');
-  //         })
-  //       })
-  //     });
-  // }
+      // add people
+      this.researchArea['people_array'] = GoogleData.people.filter( person => person.teams_id == id);
+      // add projects
+      this.researchArea['projects_array'] = GoogleData.projects.filter( pro => pro.teams_id == id);
 
-  // getPublication_kr() {
-  //    this.http.get('main/publication-data')
-  //     .map(res => res.json())
-  //     .subscribe(items => {
-  //       let groupedPub = items.filter( item => item.type == 'domestic');
-  //       let sub = _.values(_.groupBy(groupedPub,"year")).reverse();
-  //       this.publications_kr= sub.map( subArr => this.dateSort_descend(subArr));
-  //       this.publications_kr.forEach( items => {
-  //         items.forEach( publication => {
-  //           publication.people_name = publication.people_name.split(',');
-  //           publication.people_id = publication.people_id.split(',');
-  //         })
-  //       })
-  //     });
-  // }
+    }
+  }
 
-  // getPublication_thesis() {
-  //    this.http.get('main/publication-data')
-  //     .map(res => res.json())
-  //     .subscribe(items => {
-  //       let groupedPub = items.filter( item => item.type == 'thesis');
-  //       let sub = _.values(_.groupBy(groupedPub,"year")).reverse();
-  //       this.publications_thesis= sub.map( subArr => this.dateSort_descend(subArr));
-  //       this.publications_thesis.forEach( items => {
-  //         items.forEach( publication => {
-  //           publication.people_name = publication.people_name.split(',');
-  //           publication.people_id = publication.people_id.split(',');
-  //         })
-  //       })
-  //     });
-  // }
-
+  getPartners() {
+    this.partners = _.groupBy(GoogleData.partners.filter( par => par.mou == 1 ), 'type');
+  }
 
   dateSort_descend(input) {
     let ascend = _.chain(input)
