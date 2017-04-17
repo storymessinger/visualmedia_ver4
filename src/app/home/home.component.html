@@ -63,9 +63,10 @@
         </div>
         <div class="card-deck-wrapper col-sm-12">
           <div class="card-deck">
-            <div *ngFor="let team of teams" class="card">
+            <div (click)='navigateTo(team.id)'*ngFor="let team of teams" class="card pad">
+
               <img class="img-fluid card-img-top" 
-                   src="http://placehold.it/400x400" [srcset]='imgPath + team.img'>
+                   default="http://placehold.it/399x399" [srcset]=" imgPath + team.img">
               <div class="card-block">
                 <h4 class="card-title">{{team.shortname}}</h4>
                 <p class="card-text">{{team.desc}}</p>
@@ -85,8 +86,7 @@
           <div class="card-columns">
             <div *ngFor="let issue of issues" class="card issueCard">
               <img class="news-img card-img-top img-fluid" 
-                  src='http://placehold.it//400x400'
-                  [srcset]='imgPath+ issue.img'>
+                   default="http://placehold.it/399x399" [srcset]=" imgPath + issue.img">
               <div class="card-block">
                 <h4 class="card-title">{{issue.title}}</h4>
                 <p class="card-text desc">{{issue.desc}}</p>

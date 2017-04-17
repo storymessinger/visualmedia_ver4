@@ -1,4 +1,3 @@
-import { DataService } from './../../shared/data.service';
 import { Component, Output, Input, EventEmitter, OnInit, ElementRef, ViewChild } from '@angular/core';
 import { Router, ActivatedRoute, Params, NavigationEnd} from '@angular/router'; 
 import "rxjs/add/operator/filter";
@@ -34,7 +33,6 @@ export class MainNavbarComponent implements OnInit {
     private router:Router, 
     private activatedRoute:ActivatedRoute, 
     private el:ElementRef,
-    private dataService:DataService
     ) {
 
       this.breadcrumbs = [];

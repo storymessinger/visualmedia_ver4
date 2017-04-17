@@ -1,9 +1,9 @@
-import { ResearchAreaService } from './shared/researchArea.service';
-import { IssuesService } from './shared/Issues.service';
+import { MockDataService } from './shared/mockdata.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { DefaultImageHomeDirective } from './shared/default-image-home.directive';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -16,6 +16,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MaterialModule } from '@angular/material';
 import { ScrollSpyModule } from 'ng2-scrollspy';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { VmlPanelComponent } from './shared/vml-panel/vml-panel.component';
 
 
 @NgModule({
@@ -23,6 +24,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     AppComponent,
     HomeComponent,
     PageNotFoundComponent,
+    DefaultImageHomeDirective,
+    VmlPanelComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,8 +39,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     BrowserAnimationsModule
   ],
   providers: [
-    IssuesService, 
-    ResearchAreaService
+    MockDataService
     ],
   bootstrap: [AppComponent]
 })

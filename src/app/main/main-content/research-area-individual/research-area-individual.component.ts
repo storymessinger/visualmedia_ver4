@@ -10,8 +10,7 @@ import { MockDataService } from './../../../shared/mockdata.service';
 })
 export class ResearchAreaIndividualComponent implements OnInit {
 
-  imgPath = "./assets/imgs/people/";
-  mainImgPath = "./assets/imgs/researchArea/";
+  imgPath = "./assets/Contents/";
 
   id:any;
   datas:any;
@@ -34,14 +33,4 @@ export class ResearchAreaIndividualComponent implements OnInit {
     this.mockDataService.getResearchArea(this.id);
     this.datas = this.mockDataService.researchArea;
   }
-  // ngDoCheck() {
-  //   this.datas= this.researchAreaService.getResearchArea(this.team);
-
-  //   this.memberId = this.datas["members"].split("+");
-  //   this.people = this.memberId.map( id => this.memberService.getMembers(parseInt(id)));
-
-  //   const papers = this.publicationsService.getPublicationsByTeam(this.team);
-  //   this.paperNames = papers.map( paper => paper.title);
-  // }
-
 }

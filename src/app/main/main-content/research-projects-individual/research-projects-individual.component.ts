@@ -1,6 +1,5 @@
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs/Rx';
-import { DataService } from './../../../shared/data.service';
 import { Component, OnInit } from '@angular/core';
 import { MockDataService } from './../../../shared/mockdata.service';
 

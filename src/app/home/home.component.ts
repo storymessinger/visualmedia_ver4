@@ -1,5 +1,6 @@
-import { DataService } from './../shared/data.service';
-import { Component, OnInit, Inject, ElementRef, DoCheck } from '@angular/core';
+import { Component, OnInit, Inject, ElementRef } from '@angular/core';
+import { MockDataService } from '../shared/mockdata.service';
+import { Router } from '@angular/router';
 
 declare var TweenLite, TweenMax, TimelineLite, TimelineMax, Ease, Expo, ScrollMagic :any;
 
@@ -8,9 +9,10 @@ declare var TweenLite, TweenMax, TimelineLite, TimelineMax, Ease, Expo, ScrollMa
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit, DoCheck {
+export class HomeComponent implements OnInit {
   
   public relPath:string = "./assets/";
+  public imgPath:string = "./assets/Contents/"
   public mainImgPath:string = this.relPath + "imgs/home_mainImg.jpg";
   public logoIconPath:string = this.relPath + "imgs/logo.svg";
   public menuIconPath:string = this.relPath + "imgs/ic_menu_orange_36px.svg";
@@ -19,23 +21,18 @@ export class HomeComponent implements OnInit, DoCheck {
   teams:any;
 
   constructor(
-    private dataService:DataService,
+    private mockDataService:MockDataService,
     private el:ElementRef,
+    private router:Router
     ) { 
   }
 
   ngOnInit() {
     this.setScrollMagic();
-    this.dataService.getIssues();
-    this.dataService.getResearchArea();
-  }
-
-  ngDoCheck() {
-    this.issues = this.dataService.issues;
-    this.teams = this.dataService.researchArea;
-    if (this.teams !== []) {
-      this.teams = this.teams.slice(0,3);
-    }
+    this.mockDataService.getIssues();
+    this.mockDataService.getResearchArea();
+    this.issues = this.mockDataService.issues;
+    this.teams = this.mockDataService.researchArea_all;
   }
 
   setScrollMagic() {
@@ -57,5 +54,9 @@ export class HomeComponent implements OnInit, DoCheck {
     controller.addScene([
       nav_scene
     ]);
+  }
+
+  navigateTo(id) {
+    this.router.navigate(['/main/area/teams', id])
   }
 }

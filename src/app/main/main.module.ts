@@ -2,17 +2,8 @@ import { MockDataService } from './../shared/mockdata.service';
 import { AboutSponserComponent } from './main-content/about-sponser/about-sponser.component';
 import { VideoThumbnailDirective } from './../shared/video-thumbnail.directive';
 import { DefaultImageDirective } from './../shared/default-image.directive';
-import { DataService } from './../shared/data.service';
 import { NumToMonthPipe } from './../shared/num-to-month.pipe';
-import { SearchService } from './../shared/search.service';
 import { PageScrollService } from 'ng2-page-scroll';
-import { PartnersService } from '../shared/partners.service';
-import { PublicationsService } from '../shared/publications.service';
-import { PostsService } from '../shared/posts.service';
-import { ProjectsService } from '../shared/projects.service';
-import { SeminarService } from '../shared/seminars.service';
-import { DownloadService } from '../shared/downloads.service';
-import { MemberService } from '../shared/member.service';
 
 import { KeysPipe } from '../shared/keys-pipe';
 
@@ -82,7 +73,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     DefaultImageDirective,
     VideoThumbnailDirective,
     SearchResultComponent,
-    AboutSponserComponent
+    AboutSponserComponent,
     ],
   imports: [
     CommonModule, 
@@ -95,17 +86,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     BrowserAnimationsModule
   ],
   providers: [
-    MemberService, 
-    DownloadService, 
-    SeminarService, 
-    ProjectsService, 
-    PostsService, 
-    PublicationsService, 
-    PartnersService, 
     ScrollAbleService,
     PageScrollService,
-    SearchService,
-    DataService,
     MockDataService]
 })
 export class MainModule { }

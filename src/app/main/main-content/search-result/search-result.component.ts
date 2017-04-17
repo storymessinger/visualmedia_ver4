@@ -1,7 +1,6 @@
 import { Http } from '@angular/http';
 import { Subscription } from 'rxjs/Rx';
 import { ActivatedRoute, Router } from '@angular/router';
-import { SearchService } from './../../../shared/search.service';
 import { Component, OnInit, Input, DoCheck } from '@angular/core';
 import * as Fuse from 'fuse.js'
 import { MockDataService } from './../../../shared/mockdata.service';

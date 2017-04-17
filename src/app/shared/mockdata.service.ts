@@ -22,7 +22,8 @@ export class MockDataService {
   public projects_individual_related:any;
   public partners:any;
   public seminars:any;
-  public researchArea:any = [];
+  public researchArea:any;
+  public researchArea_all:any;
   public search_people:any;
   public search_projects:any;
   public search_publications:any;
@@ -229,6 +230,7 @@ export class MockDataService {
       case 'international':
         publications = GoogleData.publications.filter( pub => pub.type == 'international');
         break;
+
       case 'domestic':
         publications = GoogleData.publications.filter( pub => pub.type == 'domestic');
         break;
@@ -286,6 +288,8 @@ export class MockDataService {
       // add projects
       this.researchArea['projects_array'] = GoogleData.projects.filter( pro => pro.teams_id == id);
 
+    } else {
+      this.researchArea_all = GoogleData.teams.slice(0,3);
     }
   }
 
