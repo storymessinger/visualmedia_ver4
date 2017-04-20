@@ -39,6 +39,8 @@ export class HomeComponent implements OnInit {
     const controller = new ScrollMagic.Controller();
     const navigation_tween = new TimelineMax()
       .to('#logo-animation',0.15, {filter: 'contrast(1) brightness(1)'})
+      .set('.menu_btn', {color:'#F05A29'})
+      .set('#nav-animation', { boxShadow: '0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12)'})
       .to('#nav-animation', 0.15, { backgroundColor:'white'})
       .to('.nav-item a', 0.3, {color:'#262626'})
 

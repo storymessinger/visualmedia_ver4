@@ -5,7 +5,7 @@
   <div class="content col-sm container-fluid">
     <div class="row content-row no-gutters">
 
-      <div class="people col-sm-12">
+      <div *ngIf="datas.professor" class="people col-sm-12">
         <div class="people-status col-sm-12">
           <h2 id="faculty">
             FACULTY
@@ -35,7 +35,7 @@
       </div>
 
 
-      <div class="people col-sm-12">
+      <div *ngIf="datas.postdoc" class="people col-sm-12">
         <div class="people-status col-sm-12">
           <h2 id="post">
             POST DOCTORS
@@ -63,7 +63,7 @@
       </div>
 
 
-      <div class="people col-sm-12">
+      <div *ngIf="datas.doctor" class="people col-sm-12">
         <div class="people-status col-sm-12">
           <h2 id="phd">
             PH.D STUDENT
@@ -92,7 +92,7 @@
       </div>
 
 
-      <div class="people col-sm-12">
+      <div *ngIf="datas.master" class="people col-sm-12">
         <h2 class="people-status col-sm-12" id="master">
           Master Students
         </h2>
@@ -119,7 +119,7 @@
       </div>
 
 
-      <div class="people col-sm-12">
+      <div *ngIf="datas.researcher" class="people col-sm-12">
         <h2 class="people-status col-sm-12" id="researcher">
           Researchers
         </h2>
@@ -145,7 +145,7 @@
         </div>
       </div>
 
-      <div class="people col-sm-12">
+      <div *ngIf="datas.intern" class="people col-sm-12">
         <h2 class="people-status col-sm-12" id="intern">
           Interns
         </h2>
@@ -171,7 +171,7 @@
         </div>
       </div>
 
-      <div class="people col-sm-12">
+      <div *ngIf="datas.alumni_phd" class="people col-sm-12">
         <h2 class="people-status col-sm-12" id="alumni_phd">
           Ph.D Alumni
         </h2>
@@ -196,7 +196,7 @@
         </div>
       </div>
 
-      <div class="people col-sm-12">
+      <div *ngIf="datas.alumni_master" class="people col-sm-12">
         <h2 class="people-status col-sm-12" id="alumni_master">
           Master Alumni
         </h2>
@@ -222,7 +222,7 @@
         </div>
       </div>
 
-      <div class="people col-sm-12">
+      <div *ngIf="datas.former" class="people col-sm-12">
         <h2 class="people-status col-sm-12" id="former">
           Former Members
         </h2>

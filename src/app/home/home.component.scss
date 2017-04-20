@@ -1,6 +1,10 @@
 @import '../../assets/css/_variables.scss';
 @import '../../assets/css/_materialShadow.scss';
 
+#nav-animation {
+    box-shadow: 0 0 0 0 rgba(0,0,0,0);
+}
+
 #navbar {
     opacity: 0;
 }
@@ -82,6 +86,9 @@
     ul.navbar-nav {
         flex-grow: 1;
         flex-flow:row;
+        a {
+            font-weight: 500;
+        }
     }
 
     .form {
@@ -90,7 +97,7 @@
 
     .nav-link {
         color: $primary_white;
-        padding: 0 1.5rem;
+        padding: 0 2rem;
     }
 }
 // From under 750px,
@@ -99,7 +106,9 @@
     .navbar {
         .menu_btn {
             display: unset;
-            margin: 0;
+            margin: 0 0 0 1rem;
+            color: $primary_white;
+            cursor:pointer;
         }
         .menu_btn:active {
             top: 2rem;

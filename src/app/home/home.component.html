@@ -9,13 +9,15 @@
 
 <body>
   <nav class="navbar navbar-light fixed-top" id="nav-animation">
-    <img class="menu_btn" [src]=menuIconPath fill-opacity="0" width="30px">
+    <md-icon class="menu_btn">menu</md-icon>
+
     <a routerLink="/" class="indexpage-nav-btn navbar-brand" >
       <img [src]='logoIconPath' height="56" id="logo-animation">
     </a>
     <ul class="nav navbar-nav">
       <li class="menu01 nav-item"><a class="nav-link" routerLink="/main/info" >ABOUT</a></li>
-      <li class="menu01 nav-item"><a class="nav-link" [routerLink]="['/main/people']" fragment="post">PEOPLE</a></li>
+      <!--<li class="menu01 nav-item"><a class="nav-link" [routerLink]="['/main/people']" fragment="post">PEOPLE</a></li>-->
+      <li class="menu01 nav-item"><a class="nav-link" [routerLink]="['/main/people']">PEOPLE</a></li>
       <li class="menu01 nav-item"><a class="nav-link" routerLink="/main/area">RESEARCH</a></li>
       <li class="menu01 nav-item"><a class="nav-link" routerLink="/main/news" >NEWS & EVENT</a></li>
       <li class="menu01 nav-item"><a class="nav-link" routerLink="/main/downloads">ARCHIVE</a></li>
