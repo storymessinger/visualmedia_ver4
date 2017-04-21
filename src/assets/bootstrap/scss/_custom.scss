@@ -21,6 +21,15 @@ html {
   }
 }
 
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 2;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 3;
+  }
+}
+
 
 
 // // 폰트 기본 사이즈 16에서 14로
@@ -100,7 +109,8 @@ $headings-margin-bottom: ($spacer);
 // $headings-font-weight:   400;
 // $headings-line-height:   1.1 !default;
 $headings-color:        rgba(0,0,0,0.75);
-html { .display-2, .display-4 { color: rgba(0,0,0,0.54)}};
+html { .display-2,{ color: rgba(0,0,0,0.54)}};
+html { .display-4 { color: rgba(0,0,9,0.87)}}
 
 // $display1-size: 6rem !default;
 $display2-size: 4rem;

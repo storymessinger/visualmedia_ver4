@@ -17,7 +17,8 @@
           <p class="menu01">{{download.desc}}</p>
         </div>
         <div class="data-type">
-          <h5 ><a [href]='imgPath + download.file' target="_blank">{{download.type | uppercase }}</a><md-icon class="material-icons">file_download</md-icon></h5>
+          <h5 *ngIf="download.file"><a  [href]='imgPath + download.file' target="_blank">{{download.type | uppercase }}</a><md-icon class="material-icons">file_download</md-icon></h5>
+          <h5 *ngIf="download.link"><a routerLink='/main/publicate' [fragment]="download.link">{{download.type | uppercase }}</a><md-icon class="material-icons">file_download</md-icon></h5>
           
           <p class="menu01">
             {{download.additional}}

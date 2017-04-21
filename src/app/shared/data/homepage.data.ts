@@ -6988,7 +6988,7 @@ export const GoogleData =
       "additional" : "Binary : Skinner.zip\r\nType : Maya Plugin (.mll)\r\nVersion : Maya 2008\r\nPlatform : Microsoft Windows XP",
       "img" : "Downloads/2008_Skinner/Skinner.jpg",
       "file" : "Downloads/2008_Skinner/Skinner.zip",
-      "link" : "dummy"
+      "link" : ""
     },
     {
       "id" : 2,
@@ -6999,7 +6999,7 @@ export const GoogleData =
       "additional" : "Binary : ar_fish_maya.zip\r\nType : Maya Plugin (.mll)\r\nVersion : Maya 2008\r\nPlatform : Microsoft Windows XP ",
       "img" : "Downloads/2008_AutoRigging for fish - Maya version/AutoRigging for fish - Maya version.jpg",
       "file" : "Downloads/2008_AutoRigging for fish - Maya version/AutoRigging for fish - Maya version.zip",
-      "link" : "dummy"
+      "link" : ""
     },
     {
       "id" : 3,
@@ -7010,7 +7010,7 @@ export const GoogleData =
       "additional" : "Binary : ar_max.zip\r\nType : Max script (.ms) \r\nVersion : Max 2008 \r\nPlatform : Microsoft Windows XP\r\n",
       "img" : "Downloads/2008_AutoRigging for reptile - Maya version/AutoRigging for reptile - Maya version.jpg",
       "file" : "Downloads/2008_AutoRigging for reptile - Maya version/AutoRigging for reptile - Maya version.zip",
-      "link" : "dummy"
+      "link" : ""
     },
     {
       "id" : 4,
@@ -7021,7 +7021,7 @@ export const GoogleData =
       "additional" : "Binary : auto_maya.zip \nType : Maya plug-in (.mll) \nVersion : Maya 2008 \nPlatform : Microsoft Windows XP \nManual : manual.zip ",
       "img" : "Downloads/2008_AutoRigging for reptile - 3DS Max version/AutoRigging for reptile - 3DS Max version.jpg",
       "file" : "Downloads/2008_AutoRigging for reptile - 3DS Max version/AutoRigging for reptile - 3DS Max version.zip",
-      "link" : "dummy"
+      "link" : ""
     },
     {
       "id" : 5,
@@ -11351,10 +11351,16 @@ export const GoogleData =
       "members" : ""
     }
   ],
+
+
+
+
   "lifes" : [
     {
       "id" : 1,
-      "date" : "2009.12.23",
+      "day" : 23,
+      "month" : 12,
+      "year" : 2009,
       "title" : "VML ELF movie",
       "description" : "Visual Media Lab Christmas Party",
       "link" : "https://youtu.be/rlCF3uDMxig",
@@ -11365,7 +11371,9 @@ export const GoogleData =
     },
     {
       "id" : 2,
-      "date" : "2009.12.23",
+      "day" : 23,
+      "month" : 12,
+      "year" : 2009,
       "title" : "VML 2009 movie ",
       "description" : "What happend to Visual Media Lab in 2009?",
       "link" : "https://youtu.be/-kfunnR56o0",
@@ -11376,7 +11384,9 @@ export const GoogleData =
     },
     {
       "id" : 3,
-      "date" : "2010.12.27",
+      "day" : 27,
+      "month" : 12,
+      "year" : 2010,
       "title" : "VML 2010 movie ",
       "description" : "We are so thankful for our members!",
       "link" : "https://youtu.be/JFXwZxOeiOE",
@@ -11387,7 +11397,9 @@ export const GoogleData =
     },
     {
       "id" : 4,
-      "date" : "2012.12.28",
+      "day" : 28,
+      "month" : 12,
+      "year" : 2012,
       "title" : "Year-end Party Praise ",
       "description" : "Visual Media Lab, 2012 Year-end Party",
       "link" : "https://youtu.be/TUUcYmwJ0Is",
@@ -11398,7 +11410,9 @@ export const GoogleData =
     },
     {
       "id" : 5,
-      "date" : "2012.12.28",
+      "day" : 28,
+      "month" : 12,
+      "year" : 2012,
       "title" : "Year-end Party Reception ",
       "description" : "Visual Media Lab, 2012 Year-end Party",
       "link" : "https://youtu.be/y9_RdGc0w8Y",
@@ -11409,7 +11423,9 @@ export const GoogleData =
     },
     {
       "id" : 6,
-      "date" : "2013.12.06",
+      "day" : 6,
+      "month" : 12,
+      "year" : 2013,
       "title" : "V-DAY 2013",
       "description" : "Visual Media Lab, V-DAY 2013",
       "link" : "https://youtu.be/gMPKexYMwEQ",
@@ -11420,7 +11436,9 @@ export const GoogleData =
     },
     {
       "id" : 7,
-      "date" : "2013.12.21",
+      "day" : 21,
+      "month" : 12,
+      "year" : 2013,
       "title" : "Year-end Party Praise ",
       "description" : "Visual Media Lab, 2013 Year-end Party",
       "link" : "https://youtu.be/HWpA66sY2So",
@@ -11431,7 +11449,9 @@ export const GoogleData =
     },
     {
       "id" : 8,
-      "date" : "2013.12.21",
+      "day" : 26,
+      "month" : 12,
+      "year" : 2013,
       "title" : "Year-end Party Reception ",
       "description" : "Visual Media Lab, 2013 Year-end Party",
       "link" : "https://youtu.be/Asznzfy9kZw",
@@ -11442,7 +11462,9 @@ export const GoogleData =
     },
     {
       "id" : 9,
-      "date" : "2014.12.26",
+      "day" : 26,
+      "month" : 12,
+      "year" : 2014,
       "title" : "Year-end Party Praise ",
       "description" : "Visual Media Lab, 2014 Year-end Party",
       "link" : "https://youtu.be/feQPW8fTnjg",
@@ -11453,7 +11475,9 @@ export const GoogleData =
     },
     {
       "id" : 10,
-      "date" : "2014.12.26",
+      "day" : 26,
+      "month" : 12,
+      "year" : 2014,
       "title" : "Year-end Party Reception ",
       "description" : "Visual Media Lab, 2014 Year-end Party",
       "link" : "https://youtu.be/yraH9RozCaA",
@@ -11464,7 +11488,9 @@ export const GoogleData =
     },
     {
       "id" : 11,
-      "date" : "2014.04.18",
+      "day" : 18,
+      "month" : 4,
+      "year" : 2014,
       "title" : "Dancing Machine Project ",
       "description" : "Visual Media Lab, 2014 Dancing Machine Project",
       "link" : "https://youtu.be/gW0CCcbUx5M",
@@ -11475,7 +11501,9 @@ export const GoogleData =
     },
     {
       "id" : 12,
-      "date" : "2015.12.19",
+      "day" : 19,
+      "month" : 12,
+      "year" : 2015,
       "title" : "Year-end Party Praise ",
       "description" : "Visual Media Lab, 2015 Year-end Party",
       "link" : "https://youtu.be/fyaz2ZYCGws",
@@ -11486,7 +11514,9 @@ export const GoogleData =
     },
     {
       "id" : 13,
-      "date" : "2015.12.19",
+      "day" : 19,
+      "month" : 12,
+      "year" : 2015,
       "title" : "Year-end Party Reception",
       "description" : "Visual Media Lab, 2015 Year-end Party",
       "link" : "https://youtu.be/sA2W2kWzD5k",
@@ -11497,7 +11527,9 @@ export const GoogleData =
     },
     {
       "id" : 14,
-      "date" : "2015.11.16",
+      "day" : 16,
+      "month" : 11,
+      "year" : 2015,
       "title" : "Motion Capture Project ",
       "description" : "Visual Media Lab, 2015 Motion Capture Project",
       "link" : "https://youtu.be/hijPwlGD62A",
@@ -11508,7 +11540,9 @@ export const GoogleData =
     },
     {
       "id" : 15,
-      "date" : "2016.12.23",
+      "day" : 23,
+      "month" : 12,
+      "year" : 2016,
       "title" : "Year-end Party Praise ",
       "description" : "Visual Media Lab, 2016 Year-end Party",
       "link" : "https://youtu.be/wT8CAXmH3Gw",
@@ -11519,7 +11553,9 @@ export const GoogleData =
     },
     {
       "id" : 16,
-      "date" : "2016.12.23",
+      "day" : 23,
+      "month" : 12,
+      "year" : 2016,
       "title" : "Long Time No See: 2016 VML 10th Anniversary and Reception Invitation ",
       "description" : "Visual Media Lab, 2016 Year-end Party",
       "link" : "https://youtu.be/Qq4fCLHnXwE",
@@ -11530,7 +11566,9 @@ export const GoogleData =
     },
     {
       "id" : 17,
-      "date" : 2007,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2007,
       "title" : "SIGGRAPH 2007 - San Diego",
       "description" : "",
       "link" : "",
@@ -11541,7 +11579,9 @@ export const GoogleData =
     },
     {
       "id" : 18,
-      "date" : 2008,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2008,
       "title" : "SIGGRAPH 2008 - LA",
       "description" : "",
       "link" : "",
@@ -11552,7 +11592,9 @@ export const GoogleData =
     },
     {
       "id" : 19,
-      "date" : 2008,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2008,
       "title" : "SIGGRAPH ASIA 2008 - Singapore",
       "description" : "",
       "link" : "",
@@ -11563,7 +11605,9 @@ export const GoogleData =
     },
     {
       "id" : 20,
-      "date" : 2009,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2009,
       "title" : "Workshop 2009 - Donggang",
       "description" : "",
       "link" : "",
@@ -11574,7 +11618,9 @@ export const GoogleData =
     },
     {
       "id" : 21,
-      "date" : 2009,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2009,
       "title" : "SIGGRAPH 2009 - New Orleans",
       "description" : "",
       "link" : "",
@@ -11585,7 +11631,9 @@ export const GoogleData =
     },
     {
       "id" : 22,
-      "date" : 2010,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2010,
       "title" : "SIGGRAPH 2010 - LA",
       "description" : "",
       "link" : "",
@@ -11596,7 +11644,9 @@ export const GoogleData =
     },
     {
       "id" : 23,
-      "date" : 2010,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2010,
       "title" : "SIGGRAPH ASIA 2010 - Seoul",
       "description" : "",
       "link" : "",
@@ -11607,7 +11657,9 @@ export const GoogleData =
     },
     {
       "id" : 24,
-      "date" : 2011,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2011,
       "title" : "CGI 2011 - Ottawa, Canada",
       "description" : "",
       "link" : "",
@@ -11618,7 +11670,9 @@ export const GoogleData =
     },
     {
       "id" : 25,
-      "date" : 2011,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2011,
       "title" : "SPIE Electronic Imaging 2011 - California, US",
       "description" : "",
       "link" : "",
@@ -11629,7 +11683,9 @@ export const GoogleData =
     },
     {
       "id" : 26,
-      "date" : 2011,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2011,
       "title" : "CASA 2011 - Chengdu, China",
       "description" : "",
       "link" : "",
@@ -11640,7 +11696,9 @@ export const GoogleData =
     },
     {
       "id" : 27,
-      "date" : 2011,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2011,
       "title" : "SIGGRAPH 2011 - Vancouver, Canada",
       "description" : "",
       "link" : "",
@@ -11651,7 +11709,9 @@ export const GoogleData =
     },
     {
       "id" : 28,
-      "date" : 2011,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2011,
       "title" : "SIGGRAPH ASIA 2011 - Hong Kong",
       "description" : "",
       "link" : "",
@@ -11662,7 +11722,9 @@ export const GoogleData =
     },
     {
       "id" : 29,
-      "date" : 2012,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2012,
       "title" : "CGI 2012 - Bournemouth, UK",
       "description" : "",
       "link" : "",
@@ -11673,7 +11735,9 @@ export const GoogleData =
     },
     {
       "id" : 30,
-      "date" : 2012,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2012,
       "title" : "Workshop 2012 - Muju",
       "description" : "",
       "link" : "",
@@ -11684,7 +11748,9 @@ export const GoogleData =
     },
     {
       "id" : 31,
-      "date" : 2012,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2012,
       "title" : "SIGGRAPH 2012 - LA",
       "description" : "",
       "link" : "",
@@ -11695,7 +11761,9 @@ export const GoogleData =
     },
     {
       "id" : 32,
-      "date" : 2012,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2012,
       "title" : "Pacific Graphics 2012 - Hong Kong",
       "description" : "",
       "link" : "",
@@ -11706,7 +11774,9 @@ export const GoogleData =
     },
     {
       "id" : 33,
-      "date" : 2012,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2012,
       "title" : "SIGGRAPH ASIA 2012 - Singapore",
       "description" : "",
       "link" : "",
@@ -11717,7 +11787,9 @@ export const GoogleData =
     },
     {
       "id" : 34,
-      "date" : 2012,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2012,
       "title" : "Year-end Party 2012",
       "description" : "",
       "link" : "",
@@ -11728,7 +11800,9 @@ export const GoogleData =
     },
     {
       "id" : 35,
-      "date" : 2013,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2013,
       "title" : "Workshop 2013 - Duksan",
       "description" : "",
       "link" : "",
@@ -11739,7 +11813,9 @@ export const GoogleData =
     },
     {
       "id" : 36,
-      "date" : 2013,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2013,
       "title" : "SIGGRAPH 2013 - Anaheim",
       "description" : "",
       "link" : "",
@@ -11750,7 +11826,9 @@ export const GoogleData =
     },
     {
       "id" : 37,
-      "date" : 2013,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2013,
       "title" : "BIFF 2013",
       "description" : "",
       "link" : "",
@@ -11761,7 +11839,9 @@ export const GoogleData =
     },
     {
       "id" : 38,
-      "date" : 2013,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2013,
       "title" : "Year-end Party 2013",
       "description" : "",
       "link" : "",
@@ -11772,7 +11852,9 @@ export const GoogleData =
     },
     {
       "id" : 39,
-      "date" : 2014,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2014,
       "title" : "Graduation 2014",
       "description" : "",
       "link" : "",
@@ -11783,7 +11865,9 @@ export const GoogleData =
     },
     {
       "id" : 40,
-      "date" : 2014,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2014,
       "title" : "Strawberry Party 2014",
       "description" : "",
       "link" : "",
@@ -11794,7 +11878,9 @@ export const GoogleData =
     },
     {
       "id" : 41,
-      "date" : 2014,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2014,
       "title" : "Dancing Project 2014",
       "description" : "",
       "link" : "",
@@ -11805,7 +11891,9 @@ export const GoogleData =
     },
     {
       "id" : 42,
-      "date" : 2014,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2014,
       "title" : "KCGS 2014",
       "description" : "",
       "link" : "",
@@ -11816,7 +11904,9 @@ export const GoogleData =
     },
     {
       "id" : 43,
-      "date" : 2014,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2014,
       "title" : "Fall Hiking 2014",
       "description" : "",
       "link" : "",
@@ -11827,7 +11917,9 @@ export const GoogleData =
     },
     {
       "id" : 44,
-      "date" : 2014,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2014,
       "title" : "Pacific Graphics 2014 - Seoul",
       "description" : "",
       "link" : "",
@@ -11838,7 +11930,9 @@ export const GoogleData =
     },
     {
       "id" : 45,
-      "date" : 2014,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2014,
       "title" : "SIGGRAPH ASIA 2014 - Shenzhen",
       "description" : "",
       "link" : "",
@@ -11849,7 +11943,9 @@ export const GoogleData =
     },
     {
       "id" : 46,
-      "date" : 2014,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2014,
       "title" : "Year-end Party 2014",
       "description" : "",
       "link" : "",
@@ -11860,7 +11956,9 @@ export const GoogleData =
     },
     {
       "id" : 47,
-      "date" : 2015,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2015,
       "title" : "Graduation 2015",
       "description" : "",
       "link" : "",
@@ -11871,7 +11969,9 @@ export const GoogleData =
     },
     {
       "id" : 48,
-      "date" : 2015,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2015,
       "title" : "Strawberry Party 2015",
       "description" : "",
       "link" : "",
@@ -11882,7 +11982,9 @@ export const GoogleData =
     },
     {
       "id" : 49,
-      "date" : 2015,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2015,
       "title" : "SIG-CHI 2015 - Seoul",
       "description" : "",
       "link" : "",
@@ -11893,7 +11995,9 @@ export const GoogleData =
     },
     {
       "id" : 50,
-      "date" : 2015,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2015,
       "title" : "National Teacher's Day 2015",
       "description" : "",
       "link" : "",
@@ -11904,7 +12008,9 @@ export const GoogleData =
     },
     {
       "id" : 51,
-      "date" : 2015,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2015,
       "title" : "KOBA 2015",
       "description" : "",
       "link" : "",
@@ -11915,7 +12021,9 @@ export const GoogleData =
     },
     {
       "id" : 52,
-      "date" : 2015,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2015,
       "title" : "KCGS 2015",
       "description" : "",
       "link" : "",
@@ -11926,7 +12034,9 @@ export const GoogleData =
     },
     {
       "id" : 53,
-      "date" : 2015,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2015,
       "title" : "Pacific Graphics 2015 - Beijing",
       "description" : "",
       "link" : "",
@@ -11937,7 +12047,9 @@ export const GoogleData =
     },
     {
       "id" : 54,
-      "date" : 2015,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2015,
       "title" : "Year-end Party 2015",
       "description" : "",
       "link" : "",
@@ -11948,7 +12060,9 @@ export const GoogleData =
     },
     {
       "id" : 55,
-      "date" : 2016,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2016,
       "title" : "Graduation 2016",
       "description" : "",
       "link" : "",
@@ -11959,7 +12073,9 @@ export const GoogleData =
     },
     {
       "id" : 56,
-      "date" : 2016,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2016,
       "title" : "Strawberry Party 2016",
       "description" : "",
       "link" : "",
@@ -11970,7 +12086,9 @@ export const GoogleData =
     },
     {
       "id" : 57,
-      "date" : 2016,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2016,
       "title" : "KCGS 2016",
       "description" : "",
       "link" : "",
@@ -11981,7 +12099,9 @@ export const GoogleData =
     },
     {
       "id" : 58,
-      "date" : 2016,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2016,
       "title" : "SIGGRAPH 2016 - Anaheim",
       "description" : "",
       "link" : "",
@@ -11992,7 +12112,9 @@ export const GoogleData =
     },
     {
       "id" : 59,
-      "date" : 2016,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2016,
       "title" : "KAIST-KAI Multi-projection Project Kick-off Workshop",
       "description" : "",
       "link" : "",
@@ -12003,7 +12125,9 @@ export const GoogleData =
     },
     {
       "id" : 60,
-      "date" : 2016,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2016,
       "title" : "Year-end Party 2016",
       "description" : "",
       "link" : "",
@@ -12014,7 +12138,9 @@ export const GoogleData =
     },
     {
       "id" : 61,
-      "date" : 2017,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2017,
       "title" : "HCI Korea 2017",
       "description" : "",
       "link" : "",
@@ -12025,7 +12151,9 @@ export const GoogleData =
     },
     {
       "id" : 62,
-      "date" : 2017,
+      "day" : 1,
+      "month" : 1,
+      "year" : 2017,
       "title" : "Graduation 2017",
       "description" : "",
       "link" : "",

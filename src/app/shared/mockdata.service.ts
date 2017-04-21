@@ -6,6 +6,7 @@ import { GoogleData } from './data/homepage.data';
 @Injectable()
 export class MockDataService {
 
+  public life:any;
   public downloads:any;
   public issues:any;
   public news:any;
@@ -14,9 +15,6 @@ export class MockDataService {
   public people_person:any;
   public publications:any;
   public publication_individual:any;
-  // public publications_int:any;
-  // public publications_kr:any;
-  // public publications_thesis:any;
   public projects:any;
   public projects_individual:any; 
   public projects_individual_related:any;
@@ -32,6 +30,11 @@ export class MockDataService {
 
   init(){
 
+  }
+
+  getLife() {
+    let sub = _.values(_.groupBy(GoogleData.lifes, "year")).reverse();
+    this.life = sub.map( subArr => this.dateSort_descend(subArr));
   }
 
   getSearch() {
