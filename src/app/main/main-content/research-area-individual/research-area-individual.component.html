@@ -36,7 +36,7 @@
         <h2 class="people-status col-sm-12">
           Members
         </h2>
-        <div *ngFor="let person of datas.people_array" class="people-box pad">
+        <div (click)="routing(person.id)" *ngFor="let person of datas.people_array" class="people-box pad">
           <div class="people-img">
             <div class="people-img-box">
               <img default="http://placehold.it/399x399" [srcset]=" imgPath + person.img">

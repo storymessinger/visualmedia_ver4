@@ -1,4 +1,4 @@
-import { Component, Output, Input, EventEmitter, OnInit, ElementRef, ViewChild } from '@angular/core';
+import { Component, Output, Input, EventEmitter, OnInit, ElementRef, ViewChild,Renderer } from '@angular/core';
 import { Router, ActivatedRoute, Params, NavigationEnd} from '@angular/router'; 
 import "rxjs/add/operator/filter";
 
@@ -33,6 +33,7 @@ export class MainNavbarComponent implements OnInit {
     private router:Router, 
     private activatedRoute:ActivatedRoute, 
     private el:ElementRef,
+    private renderer:Renderer
     ) {
 
       this.breadcrumbs = [];
@@ -60,12 +61,19 @@ export class MainNavbarComponent implements OnInit {
       .set('.close-search', { display: "unset" })
     this.tl_search = new TimelineLite({paused:true})
       .set('.search', { display: "unset" })
-      .to( '.breadcrumb', 0.9, {
+      .to( '.breadcrumb', 0.7, {
         opacity: "0"
       })
-      .to( '.search', 1, {
-        opacity: "1"
+      .to( '.search', 0.5, {
+        opacity: "1",
+        onComplete: test
       })
+
+    var self = this;
+    function test() {
+      self._inputElement.nativeElement.focus();
+      console.log('done??~lll');
+    }
 
     this.tl_navbar = new TimelineLite()
       .from( '#navbar-animation', 1.5, {
@@ -81,11 +89,16 @@ export class MainNavbarComponent implements OnInit {
     this.tl_navbar.play()
   }
 
+
   tweenSearch() {
     this.tl_btn.play();
     this.tl_search.play();
     // auto focus (why not work?)
-    this._inputElement.nativeElement.focus();
+    // this._inputElement.nativeElement.focus();
+    setTimeout(
+      this._inputElement.nativeElement.focus(),
+      5000
+    )
     // clear away the value
     this._inputElement.nativeElement.value = null;
   }

@@ -8,11 +8,26 @@
 </head>
 
 <body>
+   <div class="collapse fixed-top" id="navbarToggleExternalContent">
+    <div class="bg-inverse p-4">
+      <div class="btn-box">
+        <md-icon class="menu_btn" data-toggle="collapse" data-target="#navbarToggleExternalContent">menu</md-icon>
+      </div>
+      <h4 class="text-white menu-title">VISUAL MEDIA LAB</h4>
+      <div class="list-group">
+        <a routerLink="/main/info" class="list-group-item list-group-item-action">ABOUT</a>
+        <a [routerLink]="['/main/people']" class="list-group-item list-group-item-action">PEOPLE</a>
+        <a routerLink="/main/area" class="list-group-item list-group-item-action">RESEARCH</a>
+        <a routerLink="/main/news" class="list-group-item list-group-item-action">NEWS & EVENT</a>
+        <a routerLink="/main/downloads" class="list-group-item list-group-item-action">ARCHIVE</a>
+      </div>
+    </div>
+  </div>
   <nav class="navbar navbar-light fixed-top" id="nav-animation">
-    <md-icon class="menu_btn">menu</md-icon>
+    <md-icon class="menu_btn" data-toggle="collapse" data-target="#navbarToggleExternalContent">menu</md-icon>
 
     <a routerLink="/" class="indexpage-nav-btn navbar-brand" >
-      <img [src]='logoIconPath' height="56" id="logo-animation">
+      <img [src]='logoIconPath' height="66" id="logo-animation">
     </a>
     <ul class="nav navbar-nav">
       <li class="menu01 nav-item"><a class="nav-link" routerLink="/main/info" >ABOUT</a></li>
@@ -45,6 +60,7 @@
 
   <div class="main">
     <div class="col-sm">
+
       <div class="row header" [style.background-image]="'url(' + mainImgPath + ')'">
         <div class="title text-center">
           <div class="display-2 title-text">VISUAL MEDIA LAB</div>

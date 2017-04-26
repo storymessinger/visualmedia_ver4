@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit {
     this.setScrollMagic();
     this.mockDataService.getIssues();
     this.mockDataService.getResearchArea();
-    this.issues = this.mockDataService.issues;
+    this.issues = this.mockDataService.issues.slice(0,12);
     this.teams = this.mockDataService.researchArea_all;
   }
 

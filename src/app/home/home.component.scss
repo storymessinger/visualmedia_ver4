@@ -97,22 +97,22 @@
 
     .nav-link {
         color: $primary_white;
-        padding: 0 2rem;
+        padding: 0 3rem;
     }
 }
 // From under 750px,
 // Navbar leaves only the logo and the menu btn
-@media (max-width: 900px) {
+@media (max-width: 991px) {
+    .menu_btn {
+        display: unset;
+        margin: 0 0 0 1rem;
+        color: $primary_white;
+        cursor:pointer;
+    }
+    .menu_btn:active {
+        top: 2rem;
+    }
     .navbar {
-        .menu_btn {
-            display: unset;
-            margin: 0 0 0 1rem;
-            color: $primary_white;
-            cursor:pointer;
-        }
-        .menu_btn:active {
-            top: 2rem;
-        }
         .navbar-brand, .navbar-nav {
             display: none;
         }
@@ -120,7 +120,7 @@
 
 }
 
-@media (max-width: 544px) {
+@media (max-width: 575px) {
     .navbar-nav {
         display: none;
     }
@@ -247,6 +247,16 @@
         margin:auto;
     }
 }
+@media (max-width: 991px) {
+    .card {
+        .card-title {
+            font-size:20px;
+        }
+        .desc {
+            font-size:0.81rem;
+        }
+    }
+}
 
 
 .footer {
@@ -258,3 +268,56 @@
     height: 400px;
 }
 
+.menu_btn {
+    z-index: 6000;
+}
+
+.collapse, .collapsing {
+    z-index: 3001;
+
+    .menu-title {
+        padding-left:1rem;
+    }
+    .bg-inverse {
+        padding: 0 1rem 2rem 1rem !important;
+    } 
+    .btn-box {
+        height:76px;
+        display: flex;
+        align-items: center;
+    }
+    .list-group-item {
+        background-color:rgba(0,0,0,0);
+        color: rgba(255,255,255,0.6);
+    }
+    .list-group-item:hover {
+        background-color: rgba(255,255,255,0.3);
+        color:$primary_white;
+    }
+}
+
+@media (min-width: 991px) {
+    .show { display: none }
+}
+
+
+// .test { width: 100%;
+//     height: 100vh;
+// }
+// video { 
+//     position: fixed;
+//     top: 50%;
+//     left: 50%;
+//     min-width: 100%;
+//     min-height: 100%;
+//     width: auto;
+//     height: auto;
+//     z-index: 1;
+//     transform: translateX(-50%) translateY(-50%);
+//  background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+//   background-size: cover;
+//   transition: 1s opacity;
+// }
+// .stopfade { 
+//    opacity: .5;
+// }

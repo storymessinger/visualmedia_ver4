@@ -33,4 +33,8 @@ export class ResearchAreaIndividualComponent implements OnInit {
     this.mockDataService.getResearchArea(this.id);
     this.datas = this.mockDataService.researchArea;
   }
+
+  routing(id) {
+    this.router.navigate(['/main/people/person', id])
+  }
 }

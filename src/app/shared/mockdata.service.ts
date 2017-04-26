@@ -153,7 +153,15 @@ export class MockDataService {
       this.people_person = found_person;
 
     } else {
-      this.people = _.groupBy(GoogleData.people, 'type');
+      const people = GoogleData.people;
+      people.forEach(person => {
+        const found_affiliation = GoogleData.partners.find( partner => partner.id == person.affiliation );
+        if ( found_affiliation !== undefined ) {
+          people['affiliation_name'] = found_affiliation.name; 
+        }
+      })
+
+      this.people = _.groupBy(people, 'type');
     }
   }
 

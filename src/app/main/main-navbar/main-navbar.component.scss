@@ -2,6 +2,10 @@
 @import '../../../assets/css/_materialShadow.scss';
 
 
+.test {
+    cursor:pointer;
+    position: fixed;
+}
 .breadcrumb-row {
     position: fixed;
     right:0;
