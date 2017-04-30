@@ -42,6 +42,7 @@ import { MdIconModule } from '@angular/material';
 import { MaterialModule } from '@angular/material';
 import {MdInputModule} from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { MemberProfessorComponent } from './main-content/member-professor/member-professor.component';
 
 @NgModule({
   declarations: [ 
@@ -74,6 +75,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     VideoThumbnailDirective,
     SearchResultComponent,
     AboutSponserComponent,
+    MemberProfessorComponent,
     ],
   imports: [
     CommonModule, 
