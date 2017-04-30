@@ -9,7 +9,7 @@
 
       <div *ngFor="let publication of data" class="data-box">
         <div class="data-img">
-          <img default="http://placehold.it/800x600" 
+          <img default="./assets/imgs/no_image.jpg" 
               [srcset]= 'imgPath + publication.img + " 800w, " +
                         imgPath+ publication.smallimg + " 300w "'
               sizes="(min-width:990px) 300px, 800px">

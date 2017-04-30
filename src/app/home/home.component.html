@@ -8,7 +8,7 @@
 </head>
 
 <body>
-   <div class="collapse fixed-top" id="navbarToggleExternalContent">
+  <div class="collapse fixed-top" id="navbarToggleExternalContent">
     <div class="bg-inverse p-4">
       <div class="btn-box">
         <md-icon class="menu_btn" data-toggle="collapse" data-target="#navbarToggleExternalContent">menu</md-icon>
@@ -26,15 +26,15 @@
   <nav class="navbar navbar-light fixed-top" id="nav-animation">
     <md-icon class="menu_btn" data-toggle="collapse" data-target="#navbarToggleExternalContent">menu</md-icon>
 
-    <a routerLink="/" class="indexpage-nav-btn navbar-brand" >
+    <a routerLink="/" class="indexpage-nav-btn navbar-brand">
       <img [src]='logoIconPath' height="66" id="logo-animation">
     </a>
     <ul class="nav navbar-nav">
-      <li class="menu01 nav-item"><a class="nav-link" routerLink="/main/info" >ABOUT</a></li>
+      <li class="menu01 nav-item"><a class="nav-link" routerLink="/main/info">ABOUT</a></li>
       <!--<li class="menu01 nav-item"><a class="nav-link" [routerLink]="['/main/people']" fragment="post">PEOPLE</a></li>-->
       <li class="menu01 nav-item"><a class="nav-link" [routerLink]="['/main/people']">PEOPLE</a></li>
       <li class="menu01 nav-item"><a class="nav-link" routerLink="/main/area">RESEARCH</a></li>
-      <li class="menu01 nav-item"><a class="nav-link" routerLink="/main/news" >NEWS & EVENT</a></li>
+      <li class="menu01 nav-item"><a class="nav-link" routerLink="/main/news">NEWS & EVENT</a></li>
       <li class="menu01 nav-item"><a class="nav-link" routerLink="/main/downloads">ARCHIVE</a></li>
     </ul>
     <ul class="search-nav">
@@ -81,10 +81,9 @@
         </div>
         <div class="card-deck-wrapper col-sm-12">
           <div class="card-deck">
-            <div (click)='navigateTo(team.id)'*ngFor="let team of teams" class="card pad">
+            <div (click)='navigateTo(team.id)' *ngFor="let team of teams" class="card pad">
 
-              <img class="img-fluid card-img-top" 
-                   default="http://placehold.it/399x399" [srcset]=" imgPath + team.img">
+              <img class="img-fluid card-img-top" default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + team.img">
               <div class="card-block">
                 <h4 class="card-title">{{team.shortname}}</h4>
                 <p class="card-text">{{team.desc}}</p>
@@ -95,7 +94,7 @@
         </div>
 
         <div id="scale-trigger" class="col-sm-12 news">
-          <div  id="scale-animation" class="Heading text-center col-sm-12">
+          <div id="scale-animation" class="Heading text-center col-sm-12">
             <h1>Recent News and Media</h1>
             <p>The main research area includes motion and facial animation of virtual chararcter, immersive display system and
               human interaction system</p>
@@ -103,8 +102,7 @@
 
           <div class="card-columns">
             <div *ngFor="let issue of issues" class="card issueCard">
-              <img class="news-img card-img-top img-fluid" 
-                   default="http://placehold.it/399x399" [srcset]=" imgPath + issue.img">
+              <img class="news-img card-img-top img-fluid" default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + issue.img">
               <div class="card-block">
                 <h4 class="card-title">{{issue.title}}</h4>
                 <p class="card-text desc">{{issue.desc}}</p>
@@ -119,11 +117,57 @@
   </div>
 
 
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 right-border">
+          <div class="footer-about">
+            <h2 class="footer-title">About Us</h2>
+            <p>The Visual Media Lab (VML) in the Graduate School of Culture Technology (GSCT) at KAIST is where technology and creativity meet. VML focuses on developing fundamental computer graphics technology and software applications specifically for the creation of movie visual effects and animated films. The main research area includes character animation, fluid simulation, and stereoscopic visualization. </p>
+          </div>
+          <div class="copyright hidden-sm hidden-xs">
+            <p>Copyrights &copy; 2017 <a href="http://vml.kaist.ac.kr/" title="">VML KAIST</a>. All Right Reserved.</p>
+            <p>Developed By : <a href="http://sirseni.com/" title="">JJAKA</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="col-md-6 col-sm-6 ">
+            <div class="navigation">
+              <h2 class="footer-title">Navigation</h2>
+              <ul class="list-unstyled">
+                <li class=""><a class="" routerLink="/main/info">ABOUT</a></li>
+                <li class=""><a class="" [routerLink]="['/main/people']">PEOPLE</a></li>
+                <li class=""><a class="" routerLink="/main/area">RESEARCH</a></li>
+                <li class=""><a class="" routerLink="/main/news">NEWS & EVENT</a></li>
+                <li class=""><a class="" routerLink="/main/downloads">ARCHIVE</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="contact-info">
+              <h2 class="footer-title">Contact Info</h2>
+              <div class="single">
+                <md-icon class="md-light">location_on</md-icon>
+                <p>Visual Media Lab, KAIST 
+                  <br>373-1 Guseong-dong, Yuseong-gu Daejeon, 305-701, Republic of Korea
+                </p>
+              </div>
+              <div class="single">
+                <md-icon class="md-light">phone</md-icon>
+                <p>+82-42-350-5918</p>
+              </div>
 
-  <div class="footer row container-fluid">
-    <div class="col-sm-12">
+              <div class="single">
+                <md-icon class="md-light">email</md-icon>
+                <p>visualmedia@kaist.ac.kr</p>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
     </div>
-  </div>
+  </footer>
 </body>
 <!-- Core JS Files-->
 
