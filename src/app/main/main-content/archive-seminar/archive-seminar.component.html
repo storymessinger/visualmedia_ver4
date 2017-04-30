@@ -16,14 +16,13 @@
         <div class="data-desc">
           <h3 >{{seminar.title}}</h3>
           <div>
-            <p>Presenter: {{seminar.people_name}} </p>
+            <p>Presenter: {{seminar.people.name}} <span class="menu02">({{seminar.people.type | typeChange}})</span> </p>
             <p class="menu01">{{seminar.date}}</p>
 
           </div>
         </div>
         <div class="data-type">
-          <p class="menu01">{{seminar.people_type | uppercase }}</p>
-          <img default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + seminar.person_img">
+          <img default="./assets/imgs/default_person.png" [srcset]=" imgPath + seminar.people.img">
         </div>
       </div>
 

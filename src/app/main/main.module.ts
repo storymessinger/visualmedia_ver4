@@ -1,3 +1,4 @@
+import { TypeChangePipe } from './../shared/type-change';
 import { MockDataService } from './../shared/mockdata.service';
 import { AboutSponserComponent } from './main-content/about-sponser/about-sponser.component';
 import { VideoThumbnailDirective } from './../shared/video-thumbnail.directive';
@@ -74,6 +75,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     VideoThumbnailDirective,
     SearchResultComponent,
     AboutSponserComponent,
+    TypeChangePipe
     ],
   imports: [
     CommonModule, 

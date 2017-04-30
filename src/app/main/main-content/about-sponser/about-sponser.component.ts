@@ -1,4 +1,6 @@
+import { MockDataService } from './../../../shared/mockdata.service';
 import { Component, OnInit } from '@angular/core';
+import * as _ from 'underscore';
 
 @Component({
   selector: 'app-about-sponser',
@@ -7,9 +9,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutSponserComponent implements OnInit {
 
-  constructor() { }
+  datas:any;
+  platinum;
+  gold;
+  silver;
+
+  constructor(private mockDataService:MockDataService) { }
 
   ngOnInit() {
+    this.mockDataService.getSponser();
+    this.datas = this.mockDataService.sponser;
+    
+    this.platinum = _.values(_.groupBy(this.datas['platinum'], 'year'))
+    this.gold = _.values(_.groupBy(this.datas['gold'], 'year'))
+    this.silver = _.values(_.groupBy(this.datas['silver'], 'year'))
+
+
   }
 
 

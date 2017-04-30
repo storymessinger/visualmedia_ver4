@@ -1,6 +1,11 @@
 
 @import '../../../../assets/css/_variables.scss';
 
+.spon {
+    color: $primary_dark_grey;
+    display: block;
+}
+
 .row {
     justify-content: center;
 }

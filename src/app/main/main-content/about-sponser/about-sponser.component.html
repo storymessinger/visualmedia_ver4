@@ -14,44 +14,33 @@
           <sub>Donate over 1,000,000 won</sub>
           <h5>Platinum Award</h5>
         </div>
-        <div class="sponser-name text-center">
-          <sub>2016</sub>
-          <p>Byunggook Choi</p>
-          <p>Junyoun Noh</p>
+
+        <div *ngFor="let sponsers of platinum" class="sponser-name text-center">
+          <sub>{{sponsers[0].year}}</sub>
+          <a class="spon" [routerLink]="spon.link" *ngFor="let spon of sponsers">{{spon.name}}</a>
         </div>
-        <div class="sponser-name text-center">
-          <sub>2015</sub>
-          <p>Byunggook Choi</p>
-        </div>
+
       </div>
+
       <div class="sponser-box col-12 col-sm-3 ">
         <div class="sponser-title text-center">
           <sub>Donate over 500,000 won</sub>
           <h5>Gold Award</h5>
         </div>
-        <div class="sponser-name text-center">
-          <sub>2016</sub>
-          <p>Byunggook Choi</p>
-          <p>Junyoun Noh</p>
-          <p>Daehyun Wi</p>
+        <div *ngFor="let sponsers of gold" class="sponser-name text-center">
+          <sub>{{sponsers[0].year}}</sub>
+          <p *ngFor="let spon of sponsers">{{spon.name}}</p>
         </div>
       </div>
+
       <div class="sponser-box col-12 col-sm-3 ">
         <div class="sponser-title text-center">
           <sub>Donate over 300,000 won</sub>
           <h5>Silver Award</h5>
         </div>
-        <div class="sponser-name text-center">
-          <sub>2016</sub>
-          <p>Byunggook Choi</p>
-          <p>Junyoun Noh</p>
-          <p>Daehyun Wi</p>
-        </div>
-
-        <div class="sponser-name text-center">
-          <sub>2015</sub>
-          <p>Byunggook Choi</p>
-          <p>Junyoun Noh</p>
+        <div *ngFor="let sponsers of silver" class="sponser-name text-center">
+          <sub>{{sponsers[0].year}}</sub>
+          <p *ngFor="let spon of sponsers">{{spon.name}}</p>
         </div>
 
       </div>

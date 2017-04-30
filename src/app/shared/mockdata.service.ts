@@ -25,6 +25,7 @@ export class MockDataService {
   public search_people:any;
   public search_projects:any;
   public search_publications:any;
+  public sponser:any;
 
   constructor() { }
 
@@ -83,7 +84,38 @@ export class MockDataService {
   }
 
   getSeminars() {
-      this.seminars = _.values(_.groupBy(GoogleData.seminars,"date"));
+
+      let found_seminars = GoogleData.seminars;
+      found_seminars.forEach( sem => {
+        const found_person = GoogleData.people.find( person => person.id == sem.people_id );
+        if (found_person != undefined) {
+          sem['people'] = {
+            name: found_person.name,
+            img: found_person.img,
+            type: found_person.type
+          }
+        }
+      })
+      this.seminars = _.values(_.groupBy(found_seminars, "date"));
+
+  }
+
+  getSponser():any {
+    let sponser = GoogleData.sponsership;
+    sponser.forEach( spon => {
+      if(spon.type == "people") {
+        const found_person = GoogleData.people.find( person => person.id == spon.sponsor);
+        spon['name'] = found_person.name;
+        spon['link'] = "/people/person/" + found_person.id;
+      } else if (spon.type == "partners") {
+        const found_partner = GoogleData.partners.find( partner => partner.id == spon.sponsor);
+        spon['name'] = found_partner.name;
+        spon['link'] = found_partner.link;
+      }
+    })
+
+    // this.sponser = _.values(_.groupBy(sponser, "award"));
+    this.sponser = (_.groupBy(sponser, "award"));
   }
 
   getDownloads ():any {
