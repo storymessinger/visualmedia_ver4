@@ -107,7 +107,6 @@ export class SearchResultComponent implements OnInit, DoCheck {
   getSearch_publications() {
     var fuse = new Fuse(this.publications, this.publications_options); // "list" is the item array
     this.result_publications = fuse.search(this.id);
-    console.log(this.publications)
   }
   getSearch_projects() {
     var fuse = new Fuse(this.projects, this.projects_options); // "list" is the item array

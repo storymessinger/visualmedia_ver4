@@ -1,4 +1,5 @@
 <div class="flex-content">
+
   <div class="content col-sm-12 container-fluid">
     <div class="row">
       <div class="person-img">
@@ -16,68 +17,54 @@
         <p>Visual Media Lab <br> 
            Graduate School of Culture and Technology, KAIST</p>
         <hr/>
+
         <h3>Research Interest</h3>
-        <p class="topics">{{datas.topics}}</p>
-
-
-        <!--<hr/>
-        <h3>Education</h3>
-        <table class="table">
-          <tbody>
-            <tr>
-              <td class="table-year">2002</td>
-              <td>
-                Ph.D. Computer Science
-                <br> University of Southern California, advisor Prof. Ulrich Neumann
-                <br> - Thesis "Facial Animation by Expression Cloning"
-              </td>
-            </tr>
-            <tr>
-              <td class="table-year">1996</td>
-              <td>
-                M.S. Computer Engineering 
-                <br> University of Southern California, advisor Prof. George Bekey Thornton
-              </td>
-            </tr>
-            <tr>
-              <td class="table-year">1994</td>
-              <td>
-                M.S. Computer Engineering 
-                <br> University of Southern California, advisor Prof. George Bekey Thornton
-              </td>
-            </tr>
-          </tbody>
-        </table>-->
-        
+        <div>
+          <p class="topics">{{datas.topics}}</p>
+        </div>
         <hr/>
-        <h3 *ngIf="datas.id !== 1" >Publications</h3>
 
-        <table *ngIf="datas.id !== 1" class="table">
-          <tbody>
-            <tr *ngFor="let pub of datas.publications">
-              <td class="table-year">{{pub.conference}}</td>
-              <td>
-                {{pub.title}}
-              </td>
-            </tr>
-          </tbody>
-        </table>
 
-        <h3 *ngIf="datas.projects" >Projects</h3>
-        <div class="projects">
-          <div *ngIf="datas.projects" class="project-item">
-            <h5>{{datas.projects.name}} ({{datas.projects.year}})</h5>
-          </div>
+
+        <div class="test" *ngIf="datas.innerHTML" [innerHTML]="datas.innerHTML"></div>
+
+
+
+
+
+        <div *ngIf="datas.publications.length != 0 && datas.id != 1" >
+          <h3>Publications</h3>
+          <table class="table">
+            <tbody>
+              <tr *ngFor="let pub of datas.publications">
+                <td class="table-left">{{pub.conference}}</td>
+                <td>
+                  <p>{{pub.title}}</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <hr/>
         </div>
 
-        <hr/>
+        <div *ngIf="datas.projects">
+          <h3 >Projects</h3>
+          <div class="projects">
+            <div class="project-item">
+              <h5>{{datas.projects.name}} ({{datas.projects.year}})</h5>
+            </div>
+          </div>
+          <hr/>
+        </div>
 
-        <h3 *ngIf="datas.seminars.length != 0 " >Seminars</h3>
-        <div class="projects">
-          <div *ngFor="let seminar of datas.seminars " class="video-item">
-            <img videoThumbnail [videoUrl]='seminar.link' 
-                sizes="(min-width:990px) 300px, 800px" class="videos">
-            <p>{{seminar.title}}</p>
+        <div *ngIf="datas.seminars.length != 0">
+          <h3>Seminars</h3>
+          <div class="projects">
+            <div *ngFor="let seminar of datas.seminars " class="video-item">
+              <img videoThumbnail [videoUrl]='seminar.link' 
+                  sizes="(min-width:990px) 300px, 800px" class="videos">
+              <p>{{seminar.title}}</p>
+            </div>
           </div>
         </div>
 
@@ -86,3 +73,43 @@
     </div>
   </div>
 </div>
+
+
+<!--<h3>List Title</h3>
+<div>
+  <p>list one</p>
+  <p>list two</p>
+  <p>list three</p>
+</div>
+<hr/>
+
+<h3>Table Title</h3>
+<table class="table">
+  <tbody>
+    <tr>
+      <td class="table-left">Table left column</td>
+      <td>
+        <p>Table right column, first line</p>
+        <p>Table right column, second line</p>
+        <p class="menu02">Table right column, thrid line, small text</p>
+      </td>
+    </tr>
+    <tr>
+      <td class="table-left">Table left column</td>
+      <td>
+        <p>Table right column, first line</p>
+        <p>Table right column, second line</p>
+        <p class="menu02">Table right column, thrid line, small text</p>
+      </td>
+    </tr>
+    <tr>
+      <td class="table-left">Table left column</td>
+      <td>
+        <p>Table right column, first line</p>
+        <p>Table right column, second line</p>
+        <p class="menu02">Table right column, thrid line, small text</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr/>-->

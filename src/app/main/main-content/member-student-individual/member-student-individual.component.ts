@@ -6,7 +6,7 @@ import { MockDataService } from './../../../shared/mockdata.service';
 @Component({
   selector: 'app-member-student-individual',
   templateUrl: './member-student-individual.component.html',
-  styleUrls: ['./member-student-individual.component.scss']
+  styleUrls: ['./member-student-individual.component.scss'],
 })
 export class MemberStudentIndividualComponent implements OnInit {
 

@@ -1,5 +1,22 @@
 @import '../../../../assets/css/_variables.scss';
 
+// for added innerHTML
+:host /deep/ .test {
+    table {
+        max-width: 600px;
+        margin-bottom: 3.5rem;
+
+        .table-left {
+            width: 10rem;
+            padding-left: 0;
+            font-size:0.81rem;
+            color: rgba(0,0,0,0.65);
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
 
 p, td {
     color: rgba(0,0,0,0.54);
@@ -42,10 +59,13 @@ p, td {
         max-width: 600px;
         margin-bottom: 3.5rem;
 
-        .table-year {
+        .table-left {
             width: 10rem;
             padding-left: 0;
             font-size:0.81rem;
+        }
+        p {
+            margin-bottom: 0;
         }
     }
     .projects {
@@ -76,4 +96,5 @@ p, td {
         }
     }
 }
+
       

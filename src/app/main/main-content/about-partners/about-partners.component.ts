@@ -20,6 +20,5 @@ export class AboutPartnersComponent implements OnInit {
   ngOnInit() {
     this.mockDataService.getPartners();
     this.datas = this.mockDataService.partners;
-    console.log(this.datas);
   }
 }

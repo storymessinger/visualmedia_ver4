@@ -251,9 +251,7 @@ export class MockDataService {
     }
 
     if(id) {
-      console.log(publications);
       const found_publication = publications.find( pub => pub.id == id);
-      console.log(found_publication);
 
       found_publication['authors_array'] = [];
       if( found_publication['authors'].length > 0 ) {

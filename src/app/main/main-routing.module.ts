@@ -18,7 +18,6 @@ import { MemberStudentComponent } from './main-content/member-student/member-stu
 import { AboutPartnersComponent } from './main-content/about-partners/about-partners.component';
 import { AboutAdmissionComponent } from './main-content/about-admission/about-admission.component';
 import { AboutInfoComponent } from './main-content/about-info/about-info.component';
-import { MemberProfessorComponent } from './main-content/member-professor/member-professor.component';
 
 import { MainComponent } from './main.component';
 import { RouterModule } from '@angular/router';
@@ -55,10 +54,6 @@ import { NgModule } from '@angular/core';
                 {   path: 'people', 
                     data: { breadcrumb: "People" }, 
                     children: [
-                        {   path: 'person/1', 
-                            component: MemberProfessorComponent,
-                            data: { breadcrumb: "Professor" }
-                        },
                         {   path: 'person/:id', 
                             component: MemberStudentIndividualComponent,
                             data: { breadcrumb: "Individual Page" }

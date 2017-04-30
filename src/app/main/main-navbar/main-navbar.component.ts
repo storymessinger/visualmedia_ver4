@@ -13,7 +13,7 @@ interface IBreadcrumb {
 @Component({
   selector: 'app-main-navbar',
   templateUrl: './main-navbar.component.html',
-  styleUrls: ['./main-navbar.component.scss']
+  styleUrls: ['./main-navbar.component.scss'],
 })
 export class MainNavbarComponent implements OnInit { 
 
@@ -72,7 +72,6 @@ export class MainNavbarComponent implements OnInit {
     var self = this;
     function test() {
       self._inputElement.nativeElement.focus();
-      console.log('done??~lll');
     }
 
     this.tl_navbar = new TimelineLite()

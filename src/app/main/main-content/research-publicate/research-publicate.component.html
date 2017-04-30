@@ -16,7 +16,7 @@
 
         </div>
         <div class="data-desc">
-          <h3 >{{publication.title}}</h3>
+          <a [routerLink]='[ "individual", publication.id]' class="h3" >{{publication.title}}</a>
           <div class="people_name">
             <a [routerLink]='["../people", "person", author.id]' *ngFor="let author of publication.authors_array">
               {{author.name}},

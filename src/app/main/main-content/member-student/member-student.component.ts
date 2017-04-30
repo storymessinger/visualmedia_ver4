@@ -44,7 +44,6 @@ export class MemberStudentComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.mockDataService.getMembers();
     this.datas = this.mockDataService.people;
-    console.log(this.datas);
   }
 
   ngOnDestroy() {

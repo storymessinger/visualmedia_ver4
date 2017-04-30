@@ -6,14 +6,10 @@ export class SidebarBtnDirective implements AfterViewInit {
   }
   @HostListener('click', ['$event'])
   confirmFirst(event: Event) {
-    console.log(this.el.nativeElement)
-    console.log(this.el.nativeElement.children)
   }
 
   ngAfterViewInit() {
     const hostElem = this.el.nativeElement;
-    console.log(hostElem.children);
-    console.log(hostElem.parentNode);
   }
     
 }

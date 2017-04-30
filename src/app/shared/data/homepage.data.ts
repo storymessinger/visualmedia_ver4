@@ -3,10 +3,10 @@ export const GoogleData =
   "people" : [
     {
       "id" : 1,
+      "name" : "Junyong Noh",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "professor",
-      "name" : "Junyong Noh",
       "img" : "people/img/junyongnoh.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "junyongnoh@kaist.ac.kr",
@@ -19,10 +19,10 @@ export const GoogleData =
     },
     {
       "id" : 2,
+      "name" : "Roger Blanco i Ribera",
       "admission_date" : "",
       "graduation_date" : 2017.02,
       "type" : "alumni_phd",
-      "name" : "Roger Blanco i Ribera",
       "img" : "people/img/rogerribera.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "rogerBR@kaist.ac.kr",
@@ -35,10 +35,10 @@ export const GoogleData =
     },
     {
       "id" : 3,
+      "name" : "Daehyeon Wi",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "doctor",
-      "name" : "Daehyeon Wi",
       "img" : "people/img/daehyeonwi.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "neocider@kaist.ac.kr",
@@ -51,10 +51,10 @@ export const GoogleData =
     },
     {
       "id" : 4,
+      "name" : "Jaewon Song",
       "admission_date" : 2011.09,
       "graduation_date" : "",
       "type" : "doctor",
-      "name" : "Jaewon Song",
       "img" : "people/img/jaewonsong.png",
       "topics" : "Character Animation, Facial Animation, Motion Capture and Retargeting",
       "email" : "songjaewon@kaist.ac.kr",
@@ -67,10 +67,10 @@ export const GoogleData =
     },
     {
       "id" : 5,
+      "name" : "Jungjin Lee",
       "admission_date" : 2012.03,
       "graduation_date" : 2017.02,
       "type" : "allumni_phd",
-      "name" : "Jungjin Lee",
       "img" : "people/img/jungjinlee.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "jungjinlee@kaist.ac.kr",
@@ -83,10 +83,10 @@ export const GoogleData =
     },
     {
       "id" : 6,
+      "name" : "Seunghoon Cha",
       "admission_date" : 2012.09,
       "graduation_date" : "",
       "type" : "doctor",
-      "name" : "Seunghoon Cha",
       "img" : "people/img/seunghooncha.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "seunghoon.cha@kaist.ac.kr",
@@ -99,10 +99,10 @@ export const GoogleData =
     },
     {
       "id" : 7,
+      "name" : "Sangwoo Lee",
       "admission_date" : 2012.09,
       "graduation_date" : "",
       "type" : "doctor",
-      "name" : "Sangwoo Lee",
       "img" : "people/img/sangwoolee.png",
       "topics" : "Virtual Reality, Immersive Display, Video Processing",
       "email" : "sangwoolee@kaist.ac.kr",
@@ -115,10 +115,10 @@ export const GoogleData =
     },
     {
       "id" : 8,
+      "name" : "Kyehyun Kim",
       "admission_date" : 2013.03,
       "graduation_date" : "",
       "type" : "doctor",
-      "name" : "Kyehyun Kim",
       "img" : "people/img/kyehyunkim.png",
       "topics" : "Virtual Reality",
       "email" : "frodos@kaist.ac.kr",
@@ -131,10 +131,10 @@ export const GoogleData =
     },
     {
       "id" : 9,
+      "name" : "Hyunggoog Seo",
       "admission_date" : 2013.09,
       "graduation_date" : "",
       "type" : "doctor",
-      "name" : "Hyunggoog Seo",
       "img" : "people/img/hyunggoogseo.png",
       "topics" : "Human Computer Interaction, Digital Experience Design, Machine Learning",
       "email" : "hyunggoog.seo@kiast.ac.kr",
@@ -147,10 +147,10 @@ export const GoogleData =
     },
     {
       "id" : 10,
+      "name" : "Seokpyo Hong",
       "admission_date" : 2014.03,
       "graduation_date" : "",
       "type" : "doctor",
-      "name" : "Seokpyo Hong",
       "img" : "people/img/seokpyohong.png",
       "topics" : "Character Animation, Character Motion",
       "email" : "tjrvy8578@kaist.ac.kr",
@@ -163,10 +163,10 @@ export const GoogleData =
     },
     {
       "id" : 11,
+      "name" : "Haegwang Eom",
       "admission_date" : 2014.03,
       "graduation_date" : "",
       "type" : "doctor",
-      "name" : "Haegwang Eom",
       "img" : "people/img/haegwangeom.png",
       "topics" : "Character Animation, Motion Synthesis, Physics-based Simulation",
       "email" : "haegonggun@kaist.ac.kr",
@@ -179,14 +179,14 @@ export const GoogleData =
     },
     {
       "id" : 12,
+      "name" : "Bumki Kim",
       "admission_date" : 2014.09,
       "graduation_date" : "",
       "type" : "doctor",
-      "name" : "Bumki Kim",
       "img" : "people/img/bumkikim.png",
       "topics" : "Computer Graphics, Omni Projection, Panoramic Contents, Virtual Reality",
       "email" : "bumkikim@kaist.ac.kr",
-      "sub_email" : "",
+      "sub_email" : "bumkikim@outlook.com",
       "mobile" : "010-5443-4537",
       "status" : "",
       "teams_id" : 2,
@@ -195,10 +195,10 @@ export const GoogleData =
     },
     {
       "id" : 13,
+      "name" : "Jaedong Kim",
       "admission_date" : 2015.03,
       "graduation_date" : "",
       "type" : "doctor",
-      "name" : "Jaedong Kim",
       "img" : "people/img/jaedongkim.png",
       "topics" : "Computer Graphics",
       "email" : "jaedong27@kaist.ac.kr",
@@ -211,12 +211,12 @@ export const GoogleData =
     },
     {
       "id" : 14,
+      "name" : "Sanghun Park",
       "admission_date" : 2015.09,
       "graduation_date" : "",
       "type" : "doctor",
-      "name" : "Sanghun Park",
       "img" : "people/img/sanghunpark.png",
-      "topics" : "Computer Graphics, Projector-camera system, Video processing",
+      "topics" : "Computer Graphics, Projector-camera system, Video technology",
       "email" : "reversi@kaist.ac.kr",
       "sub_email" : "",
       "mobile" : "010-2736-3990",
@@ -227,10 +227,10 @@ export const GoogleData =
     },
     {
       "id" : 15,
+      "name" : "Seunghwa Jeong",
       "admission_date" : 2016.03,
       "graduation_date" : "",
       "type" : "doctor",
-      "name" : "Seunghwa Jeong",
       "img" : "people/img/seunghwajeong.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "seunghwajeong@kaist.ac.kr",
@@ -243,10 +243,10 @@ export const GoogleData =
     },
     {
       "id" : 16,
+      "name" : "Kyungmin Cho",
       "admission_date" : 2016.03,
       "graduation_date" : "",
       "type" : "doctor",
-      "name" : "Kyungmin Cho",
       "img" : "people/img/kyungmincho.png",
       "topics" : "Data Driven Character Animation and Control",
       "email" : "cluemaker@kaist.ac.kr",
@@ -259,10 +259,10 @@ export const GoogleData =
     },
     {
       "id" : 17,
+      "name" : "Hanui Lee",
       "admission_date" : 2017.03,
       "graduation_date" : "",
       "type" : "doctor",
-      "name" : "Hanui Lee",
       "img" : "people/img/hanuilee.png",
       "topics" : "Virtual Reality, Panoramic Video, Video Processing",
       "email" : "honeylee@kaist.ac.kr",
@@ -275,10 +275,10 @@ export const GoogleData =
     },
     {
       "id" : 18,
+      "name" : "Sunjin Jung",
       "admission_date" : 2017.03,
       "graduation_date" : "",
       "type" : "doctor",
-      "name" : "Sunjin Jung",
       "img" : "people/img/sunjinjung.png",
       "topics" : "Character Motion, Facial Animation",
       "email" : "sunjin225@kaist.ac.kr",
@@ -291,10 +291,10 @@ export const GoogleData =
     },
     {
       "id" : 19,
+      "name" : "Jungeun Yoo",
       "admission_date" : 2015.09,
       "graduation_date" : "",
       "type" : "master",
-      "name" : "Jungeun Yoo",
       "img" : "people/img/jungeunyoo.png",
       "topics" : "Computer Graphics",
       "email" : "jey920@kaist.ac.kr",
@@ -307,10 +307,10 @@ export const GoogleData =
     },
     {
       "id" : 20,
+      "name" : "Sanghoon Kim",
       "admission_date" : 2016.03,
       "graduation_date" : "",
       "type" : "master",
-      "name" : "Sanghoon Kim",
       "img" : "people/img/sanghoonkim.png",
       "topics" : "Computer Graphics",
       "email" : "sangh220@kaist.ac.kr",
@@ -323,10 +323,10 @@ export const GoogleData =
     },
     {
       "id" : 21,
+      "name" : "Kwanggun Seo",
       "admission_date" : 2016.09,
       "graduation_date" : "",
       "type" : "master",
-      "name" : "Kwanggun Seo",
       "img" : "people/img/kwanggunseo.png",
       "topics" : "Video Projection, Computer Vision, Human Computer Interaction",
       "email" : "skg1023@kaist.ac.kr",
@@ -339,10 +339,10 @@ export const GoogleData =
     },
     {
       "id" : 22,
+      "name" : "Jooyoung Yoo",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "researcher",
-      "name" : "Jooyoung Yoo",
       "img" : "people/img/jooyoungyoo.png",
       "topics" : "",
       "email" : "y7105kt@kaist.ac.kr",
@@ -355,10 +355,10 @@ export const GoogleData =
     },
     {
       "id" : 23,
+      "name" : "GukhoKim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "researcher",
-      "name" : "GukhoKim",
       "img" : "people/img/gukhokim.png",
       "topics" : "",
       "email" : "bhk123@kaist.ac.kr",
@@ -371,10 +371,10 @@ export const GoogleData =
     },
     {
       "id" : 24,
+      "name" : "Byungkuk Choi",
       "admission_date" : 2010.07,
       "graduation_date" : 2016.08,
       "type" : "alumni_phd",
-      "name" : "Byungkuk Choi",
       "img" : "people/img/byungkukchoi.png",
       "topics" : "Character animation and deformation, performance-driven system development ",
       "email" : "litlpoet@gmail.com",
@@ -387,10 +387,10 @@ export const GoogleData =
     },
     {
       "id" : 25,
+      "name" : "Younghui Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_phd",
-      "name" : "Younghui Kim",
       "img" : "people/img/younghuikim.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "yh.kim@kaistudio.co.kr",
@@ -403,10 +403,10 @@ export const GoogleData =
     },
     {
       "id" : 26,
+      "name" : "Mi You",
       "admission_date" : 2009.03,
       "graduation_date" : 2015.02,
       "type" : "alumni_phd",
-      "name" : "Mi You",
       "img" : "people/img/miyou.png",
       "topics" : "Fluid Simulation, VR Contents Creation",
       "email" : "anubodhih@seoularts.ac.kr",
@@ -419,10 +419,10 @@ export const GoogleData =
     },
     {
       "id" : 27,
+      "name" : "Hwiryong Jung",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_phd",
-      "name" : "Hwiryong Jung",
       "img" : "people/img/hwiryongjung.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "philix.hr@gmail.com",
@@ -435,10 +435,10 @@ export const GoogleData =
     },
     {
       "id" : 28,
+      "name" : "Taekwon Jang",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_phd",
-      "name" : "Taekwon Jang",
       "img" : "people/img/taekwonjang.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
@@ -451,10 +451,10 @@ export const GoogleData =
     },
     {
       "id" : 29,
+      "name" : "Yeongho Seol",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_phd",
-      "name" : "Yeongho Seol",
       "img" : "people/img/yeonghoseol.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "seolzzang01@naver.com",
@@ -467,10 +467,10 @@ export const GoogleData =
     },
     {
       "id" : 30,
+      "name" : "Jaewoo Seo",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_phd",
-      "name" : "Jaewoo Seo",
       "img" : "people/img/jaewooseo.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
@@ -483,10 +483,10 @@ export const GoogleData =
     },
     {
       "id" : 31,
+      "name" : "Jaehyun Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Jaehyun Kim",
       "img" : "people/img/jaehyunkim.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "chrisjkim@kaist.ac.kr",
@@ -499,10 +499,10 @@ export const GoogleData =
     },
     {
       "id" : 32,
+      "name" : "Jin Seo",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Jin Seo",
       "img" : "people/img/jinseo.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
@@ -515,10 +515,10 @@ export const GoogleData =
     },
     {
       "id" : 33,
+      "name" : "Seungbae Bang",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Seungbae Bang",
       "img" : "people/img/seungbaebang.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "be2848@kaist.ac.kr",
@@ -531,10 +531,10 @@ export const GoogleData =
     },
     {
       "id" : 34,
+      "name" : "Soyeong Youck",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Soyeong Youck",
       "img" : "people/img/soyeongyouck.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "soyoung078266@gmail.com",
@@ -547,10 +547,10 @@ export const GoogleData =
     },
     {
       "id" : 35,
+      "name" : "Jaehwan Kwon",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Jaehwan Kwon",
       "img" : "people/img/jaekwankwon.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "jh.kwon@kaistudio.co.kr",
@@ -563,10 +563,10 @@ export const GoogleData =
     },
     {
       "id" : 36,
+      "name" : "Jihwan Kim",
       "admission_date" : 2012.03,
       "graduation_date" : 2014.02,
       "type" : "alumni_master",
-      "name" : "Jihwan Kim",
       "img" : "people/img/jihwankim.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "mizeloble@gmail.com",
@@ -579,10 +579,10 @@ export const GoogleData =
     },
     {
       "id" : 37,
+      "name" : "Kyunghan Lee",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Kyunghan Lee",
       "img" : "people/img/kyunghanlee.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "kh.lee@kaistudio.co.kr",
@@ -595,10 +595,10 @@ export const GoogleData =
     },
     {
       "id" : 38,
+      "name" : "Junyoup Hwang",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Junyoup Hwang",
       "img" : "people/img/junyouphwang.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "jy.hwang@kaistudio.co.kr",
@@ -611,10 +611,10 @@ export const GoogleData =
     },
     {
       "id" : 39,
+      "name" : "Soyeong Jeon",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Soyeong Jeon",
       "img" : "people/img/soyeongjeon.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
@@ -627,10 +627,10 @@ export const GoogleData =
     },
     {
       "id" : 40,
+      "name" : "Hyungjin Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Hyungjin Kim",
       "img" : "people/img/hyungjinkim.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
@@ -643,10 +643,10 @@ export const GoogleData =
     },
     {
       "id" : 41,
+      "name" : "Jihyung Kang",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Jihyung Kang",
       "img" : "people/img/jihyungkang.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "01.kangji@gmail.com",
@@ -659,10 +659,10 @@ export const GoogleData =
     },
     {
       "id" : 42,
+      "name" : "Jongjin Park",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Jongjin Park",
       "img" : "people/img/jongjinpark.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
@@ -675,10 +675,10 @@ export const GoogleData =
     },
     {
       "id" : 43,
+      "name" : "Seongwoo Choi",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Seongwoo Choi",
       "img" : "people/img/seongwoochoi.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
@@ -691,10 +691,10 @@ export const GoogleData =
     },
     {
       "id" : 44,
+      "name" : "Paul Hyunjin Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Paul Hyunjin Kim",
       "img" : "people/img/paulhyunjinkim.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
@@ -707,10 +707,10 @@ export const GoogleData =
     },
     {
       "id" : 45,
+      "name" : "Soyoung Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Soyoung Kim",
       "img" : "people/img/soyoungkim.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
@@ -723,10 +723,10 @@ export const GoogleData =
     },
     {
       "id" : 46,
+      "name" : "Heeyoung Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Heeyoung Kim",
       "img" : "people/img/heeyoungkim.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "85khyzz@naver.com",
@@ -739,10 +739,10 @@ export const GoogleData =
     },
     {
       "id" : 47,
+      "name" : "Jinhyuk Bae",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Jinhyuk Bae",
       "img" : "people/img/jinhyukbae.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
@@ -755,10 +755,10 @@ export const GoogleData =
     },
     {
       "id" : 48,
+      "name" : "Huicheol Hwang",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Huicheol Hwang",
       "img" : "people/img/huicheolhwang.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
@@ -771,10 +771,10 @@ export const GoogleData =
     },
     {
       "id" : 49,
+      "name" : "Sehwi Park",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Sehwi Park",
       "img" : "people/img/sehwipark.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "sehwida@gmail.com",
@@ -787,10 +787,10 @@ export const GoogleData =
     },
     {
       "id" : 50,
+      "name" : "Dongock Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Dongock Kim",
       "img" : "people/img/dongockkim.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "uni2nd@kaist.ac.kr",
@@ -803,10 +803,10 @@ export const GoogleData =
     },
     {
       "id" : 51,
+      "name" : "Sara Hwang ",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Sara Hwang ",
       "img" : "people/img/sarahwang.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
@@ -819,10 +819,10 @@ export const GoogleData =
     },
     {
       "id" : 52,
+      "name" : "Hansam Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Hansam Kim",
       "img" : "people/img/hansamkim.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
@@ -835,10 +835,10 @@ export const GoogleData =
     },
     {
       "id" : 53,
+      "name" : "Jiyoung Seo",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Jiyoung Seo",
       "img" : "people/img/jiyoungseo.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "grang353@naver.com",
@@ -851,10 +851,10 @@ export const GoogleData =
     },
     {
       "id" : 54,
+      "name" : "Taesoo Jang",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "alumni_master",
-      "name" : "Taesoo Jang",
       "img" : "people/img/taesoojang.png",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
@@ -867,10 +867,10 @@ export const GoogleData =
     },
     {
       "id" : 55,
+      "name" : "Daseong Han",
       "admission_date" : 2012.07,
       "graduation_date" : 2016.02,
       "type" : "former",
-      "name" : "Daseong Han",
       "img" : "people/img/daseonghan.png",
       "topics" : "",
       "email" : "hds@kaist.ac.kr",
@@ -883,10 +883,10 @@ export const GoogleData =
     },
     {
       "id" : 56,
+      "name" : "Jiwon Paik",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Jiwon Paik",
       "img" : "people/img/jiwonpaik.png",
       "topics" : "",
       "email" : "",
@@ -899,10 +899,10 @@ export const GoogleData =
     },
     {
       "id" : 57,
+      "name" : "Frederic Cordier",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Frederic Cordier",
       "img" : "people/img/fredericcordier.png",
       "topics" : "",
       "email" : "",
@@ -915,10 +915,10 @@ export const GoogleData =
     },
     {
       "id" : 58,
+      "name" : "Shiguang Liu",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Shiguang Liu",
       "img" : "people/img/shiguangliu.png",
       "topics" : "",
       "email" : "",
@@ -931,10 +931,10 @@ export const GoogleData =
     },
     {
       "id" : 59,
+      "name" : "Jinho Park",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Jinho Park",
       "img" : "people/img/jinhopark.png",
       "topics" : "",
       "email" : "c2alpha@gmail.com",
@@ -947,10 +947,10 @@ export const GoogleData =
     },
     {
       "id" : 60,
+      "name" : "Hyukmin Kwon",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Hyukmin Kwon",
       "img" : "people/img/kyukminkwon.png",
       "topics" : "",
       "email" : "",
@@ -963,10 +963,10 @@ export const GoogleData =
     },
     {
       "id" : 61,
+      "name" : "Junghee Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Junghee Kim",
       "img" : "people/img/jungheekim.png",
       "topics" : "",
       "email" : "jheekimi@gmail.com",
@@ -979,10 +979,10 @@ export const GoogleData =
     },
     {
       "id" : 62,
+      "name" : "Hoopyung Shin",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Hoopyung Shin",
       "img" : "people/img/hoopyungshin.png",
       "topics" : "",
       "email" : "",
@@ -995,10 +995,10 @@ export const GoogleData =
     },
     {
       "id" : 63,
+      "name" : "Insik No",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Insik No",
       "img" : "people/img/insikno.png",
       "topics" : "",
       "email" : "",
@@ -1011,10 +1011,10 @@ export const GoogleData =
     },
     {
       "id" : 64,
+      "name" : "Soonghyun Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Soonghyun Kim",
       "img" : "people/img/soonghyunkim.png",
       "topics" : "",
       "email" : "soong@yu.ac.kr",
@@ -1027,10 +1027,10 @@ export const GoogleData =
     },
     {
       "id" : 65,
+      "name" : "Minjeong Shin",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Minjeong Shin",
       "img" : "people/img/minjeongshin.png",
       "topics" : "",
       "email" : "",
@@ -1043,10 +1043,10 @@ export const GoogleData =
     },
     {
       "id" : 66,
+      "name" : "Jonghyun Hwang",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Jonghyun Hwang",
       "img" : "people/img/jonghyunhwang.png",
       "topics" : "",
       "email" : "hairu0510@naver.com",
@@ -1059,10 +1059,10 @@ export const GoogleData =
     },
     {
       "id" : 67,
+      "name" : "Dongjin Shin",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Dongjin Shin",
       "img" : "people/img/dongjinshin.png",
       "topics" : "",
       "email" : "imr110@nate.com",
@@ -1075,10 +1075,10 @@ export const GoogleData =
     },
     {
       "id" : 68,
+      "name" : "Hyoin Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Hyoin Kim",
       "img" : "people/img/hyoinkim.png",
       "topics" : "",
       "email" : "",
@@ -1091,10 +1091,10 @@ export const GoogleData =
     },
     {
       "id" : 69,
+      "name" : "Jungkyung Yoon",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Jungkyung Yoon",
       "img" : "people/img/jungkyungyoon.png",
       "topics" : "",
       "email" : "",
@@ -1107,10 +1107,10 @@ export const GoogleData =
     },
     {
       "id" : 70,
+      "name" : "Jonghyun Choi",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Jonghyun Choi",
       "img" : "people/img/jonghunchoi.png",
       "topics" : "",
       "email" : "",
@@ -1123,10 +1123,10 @@ export const GoogleData =
     },
     {
       "id" : 71,
+      "name" : "Seonghwan Hong",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Seonghwan Hong",
       "img" : "people/img/seonghwanhong.png",
       "topics" : "",
       "email" : "",
@@ -1139,10 +1139,10 @@ export const GoogleData =
     },
     {
       "id" : 72,
+      "name" : "Dahee Jung",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Dahee Jung",
       "img" : "people/img/daheejung.png",
       "topics" : "",
       "email" : "jhkww04@nate.com",
@@ -1155,10 +1155,10 @@ export const GoogleData =
     },
     {
       "id" : 73,
+      "name" : "Howoon Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Howoon Kim",
       "img" : "people/img/howoonkim.png",
       "topics" : "",
       "email" : "",
@@ -1171,10 +1171,10 @@ export const GoogleData =
     },
     {
       "id" : 74,
+      "name" : "Mirae Im",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Mirae Im",
       "img" : "people/img/miraeim.png",
       "topics" : "",
       "email" : "",
@@ -1187,10 +1187,10 @@ export const GoogleData =
     },
     {
       "id" : 75,
+      "name" : "Eudard Zell",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "former",
-      "name" : "Eudard Zell",
       "img" : "people/img/eduardzell.png",
       "topics" : "",
       "email" : "",
@@ -1203,10 +1203,10 @@ export const GoogleData =
     },
     {
       "id" : 76,
+      "name" : "J.P. Lewis",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "J.P. Lewis",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1219,10 +1219,10 @@ export const GoogleData =
     },
     {
       "id" : 77,
+      "name" : "Xiaogang Jin",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Xiaogang Jin",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1235,10 +1235,10 @@ export const GoogleData =
     },
     {
       "id" : 78,
+      "name" : "Joseph S. Shin(formerly Sung Yong Shin)",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Joseph S. Shin(formerly Sung Yong Shin)",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1251,10 +1251,10 @@ export const GoogleData =
     },
     {
       "id" : 79,
+      "name" : "Meekyoung Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Meekyoung Kim",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1267,10 +1267,10 @@ export const GoogleData =
     },
     {
       "id" : 80,
+      "name" : "Sung-Hee Lee",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Sung-Hee Lee",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1283,10 +1283,10 @@ export const GoogleData =
     },
     {
       "id" : 81,
+      "name" : "Donghoon Sagong",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Donghoon Sagong",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1299,10 +1299,10 @@ export const GoogleData =
     },
     {
       "id" : 82,
+      "name" : "Nahyup Kang",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Nahyup Kang",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1315,10 +1315,10 @@ export const GoogleData =
     },
     {
       "id" : 83,
+      "name" : "Eunjung Ju",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Eunjung Ju",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1331,10 +1331,10 @@ export const GoogleData =
     },
     {
       "id" : 84,
+      "name" : "Jungdam Won",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Jungdam Won",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1347,10 +1347,10 @@ export const GoogleData =
     },
     {
       "id" : 85,
+      "name" : "Jehee Lee",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Jehee Lee",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1363,10 +1363,10 @@ export const GoogleData =
     },
     {
       "id" : 86,
+      "name" : "Min Gyu Choi",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Min Gyu Choi",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1379,10 +1379,10 @@ export const GoogleData =
     },
     {
       "id" : 87,
+      "name" : "Shiguang Liu",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Shiguang Liu",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1395,10 +1395,10 @@ export const GoogleData =
     },
     {
       "id" : 88,
+      "name" : "Yixin Xu",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Yixin Xu",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1411,10 +1411,10 @@ export const GoogleData =
     },
     {
       "id" : 89,
+      "name" : "Yiying Tong",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Yiying Tong",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1427,10 +1427,10 @@ export const GoogleData =
     },
     {
       "id" : 90,
+      "name" : "Doyub Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Doyub Kim",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1443,10 +1443,10 @@ export const GoogleData =
     },
     {
       "id" : 91,
+      "name" : "Sun-Tae kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Sun-Tae kim",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1459,10 +1459,10 @@ export const GoogleData =
     },
     {
       "id" : 92,
+      "name" : "Jeong-Mo Hong",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Jeong-Mo Hong",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1475,10 +1475,10 @@ export const GoogleData =
     },
     {
       "id" : 93,
+      "name" : "Sungwoo Choi",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Sungwoo Choi",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1491,10 +1491,10 @@ export const GoogleData =
     },
     {
       "id" : 94,
+      "name" : "Ken Anjyo",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Ken Anjyo",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1507,10 +1507,10 @@ export const GoogleData =
     },
     {
       "id" : 95,
+      "name" : "Geoffrey Irving",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Geoffrey Irving",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1523,10 +1523,10 @@ export const GoogleData =
     },
     {
       "id" : 96,
+      "name" : "Hyewon Seo",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Hyewon Seo",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1539,10 +1539,10 @@ export const GoogleData =
     },
     {
       "id" : 97,
+      "name" : "SeungWoo Oh",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "SeungWoo Oh",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1555,10 +1555,10 @@ export const GoogleData =
     },
     {
       "id" : 98,
+      "name" : "Kwangyun Wohn",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Kwangyun Wohn",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1571,10 +1571,10 @@ export const GoogleData =
     },
     {
       "id" : 99,
+      "name" : "Yongho Jang",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Yongho Jang",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1587,10 +1587,10 @@ export const GoogleData =
     },
     {
       "id" : 100,
+      "name" : "Junghee Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Junghee Kim",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1603,10 +1603,10 @@ export const GoogleData =
     },
     {
       "id" : 101,
+      "name" : "Junsk Yang",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Junsk Yang",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1619,10 +1619,10 @@ export const GoogleData =
     },
     {
       "id" : 102,
+      "name" : "Jeroen Molemaker",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Jeroen Molemaker",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1635,10 +1635,10 @@ export const GoogleData =
     },
     {
       "id" : 103,
+      "name" : "Jonathan M.Cohen",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Jonathan M.Cohen",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1651,10 +1651,10 @@ export const GoogleData =
     },
     {
       "id" : 104,
+      "name" : "Sanjit Patel",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Sanjit Patel",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1667,10 +1667,10 @@ export const GoogleData =
     },
     {
       "id" : 105,
+      "name" : "Alexander McKenzie",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Alexander McKenzie",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1683,10 +1683,10 @@ export const GoogleData =
     },
     {
       "id" : 106,
+      "name" : "Eugene Vendrovsky",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Eugene Vendrovsky",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1699,10 +1699,10 @@ export const GoogleData =
     },
     {
       "id" : 107,
+      "name" : "Zhigang Deng",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Zhigang Deng",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1715,10 +1715,10 @@ export const GoogleData =
     },
     {
       "id" : 108,
+      "name" : "Ulrich Neumann",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Ulrich Neumann",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1731,10 +1731,10 @@ export const GoogleData =
     },
     {
       "id" : 109,
+      "name" : "Young-Sang Cho",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Young-Sang Cho",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1747,10 +1747,10 @@ export const GoogleData =
     },
     {
       "id" : 110,
+      "name" : "D. Fidaleo",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "D. Fidaleo",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1763,10 +1763,10 @@ export const GoogleData =
     },
     {
       "id" : 111,
+      "name" : "AA. Rizzo",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "AA. Rizzo",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1779,10 +1779,10 @@ export const GoogleData =
     },
     {
       "id" : 112,
+      "name" : "R. Enciso",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "R. Enciso",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1795,10 +1795,10 @@ export const GoogleData =
     },
     {
       "id" : 113,
+      "name" : "T.Y. Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "T.Y. Kim",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1811,10 +1811,10 @@ export const GoogleData =
     },
     {
       "id" : 114,
+      "name" : "J. Li",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "J. Li",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1827,10 +1827,10 @@ export const GoogleData =
     },
     {
       "id" : 115,
+      "name" : "Allen Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "intern",
-      "name" : "Allen Kim",
       "img" : "people/img/allenkim.png",
       "topics" : "",
       "email" : "allensunkim@kaist.ac.kr ",
@@ -1843,10 +1843,10 @@ export const GoogleData =
     },
     {
       "id" : 116,
+      "name" : "Taeyoon Kim",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "intern",
-      "name" : "Taeyoon Kim",
       "img" : "people/img/taeyoonkim.png",
       "topics" : "",
       "email" : "rlasshi@unist.ac.kr",
@@ -1859,10 +1859,10 @@ export const GoogleData =
     },
     {
       "id" : 117,
+      "name" : "Sungwon Lee",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Sungwon Lee",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1875,10 +1875,10 @@ export const GoogleData =
     },
     {
       "id" : 118,
+      "name" : "Jihye Oh",
       "admission_date" : "",
       "graduation_date" : "",
       "type" : "",
-      "name" : "Jihye Oh",
       "img" : "",
       "topics" : "",
       "email" : "",
@@ -1888,6 +1888,288 @@ export const GoogleData =
       "teams_id" : "",
       "affiliation" : "",
       "personal_page" : ""
+    }
+  ],
+  "sponsership" : [
+    {
+      "id" : 1,
+      "year" : 2013,
+      "award" : "gold",
+      "type" : "people",
+      "sponsor" : 59,
+      "name(참고)" : "Jinho Park"
+    },
+    {
+      "id" : 2,
+      "year" : 2013,
+      "award" : "gold",
+      "type" : "people",
+      "sponsor" : 8,
+      "name(참고)" : "Kyehyun Kim"
+    },
+    {
+      "id" : 3,
+      "year" : 2013,
+      "award" : "platinum",
+      "type" : "people",
+      "sponsor" : 63,
+      "name(참고)" : "Insik No"
+    },
+    {
+      "id" : 4,
+      "year" : 2013,
+      "award" : "bronze",
+      "type" : "people",
+      "sponsor" : 4,
+      "name(참고)" : "Jaewon Song"
+    },
+    {
+      "id" : 5,
+      "year" : 2013,
+      "award" : "bronze",
+      "type" : "people",
+      "sponsor" : 41,
+      "name(참고)" : "Jihyung Kang"
+    },
+    {
+      "id" : 6,
+      "year" : 2014,
+      "award" : "silver",
+      "type" : "people",
+      "sponsor" : 29,
+      "name(참고)" : "Yeongho Seol"
+    },
+    {
+      "id" : 7,
+      "year" : 2014,
+      "award" : "platinum",
+      "type" : "people",
+      "sponsor" : 5,
+      "name(참고)" : "Jungjin Lee"
+    },
+    {
+      "id" : 8,
+      "year" : 2014,
+      "award" : "platinum",
+      "type" : "people",
+      "sponsor" : 25,
+      "name(참고)" : "Younghui Kim"
+    },
+    {
+      "id" : 9,
+      "year" : 2014,
+      "award" : "platinum",
+      "type" : "people",
+      "sponsor" : 7,
+      "name(참고)" : "Sangwoo Lee"
+    },
+    {
+      "id" : 10,
+      "year" : 2014,
+      "award" : "platinum",
+      "type" : "people",
+      "sponsor" : 9,
+      "name(참고)" : "Bumki Kim"
+    },
+    {
+      "id" : 11,
+      "year" : 2014,
+      "award" : "silver",
+      "type" : "people",
+      "sponsor" : 29,
+      "name(참고)" : "Yeongho Seol"
+    },
+    {
+      "id" : 12,
+      "year" : 2014,
+      "award" : "bronze",
+      "type" : "people",
+      "sponsor" : 26,
+      "name(참고)" : "Mi You"
+    },
+    {
+      "id" : 13,
+      "year" : 2014,
+      "award" : "bronze",
+      "type" : "people",
+      "sponsor" : 41,
+      "name(참고)" : "Jihyung Kang"
+    },
+    {
+      "id" : 14,
+      "year" : 2014,
+      "award" : "bronze",
+      "type" : "people",
+      "sponsor" : 55,
+      "name(참고)" : "Daseong Han"
+    },
+    {
+      "id" : 15,
+      "year" : 2014,
+      "award" : "bronze",
+      "type" : "people",
+      "sponsor" : 59,
+      "name(참고)" : "Jinho Park"
+    },
+    {
+      "id" : 16,
+      "year" : 2015,
+      "award" : "platinum",
+      "type" : "partners",
+      "sponsor" : 16,
+      "name(참고)" : "KAI Inc."
+    },
+    {
+      "id" : 17,
+      "year" : 2015,
+      "award" : "silver",
+      "type" : "people",
+      "sponsor" : 1,
+      "name(참고)" : "Junyong Noh"
+    },
+    {
+      "id" : 18,
+      "year" : 2015,
+      "award" : "silver",
+      "type" : "people",
+      "sponsor" : 25,
+      "name(참고)" : "Younghui Kim"
+    },
+    {
+      "id" : 19,
+      "year" : 2015,
+      "award" : "silver",
+      "type" : "people",
+      "sponsor" : 41,
+      "name(참고)" : "Jihyung Kang"
+    },
+    {
+      "id" : 20,
+      "year" : 2016,
+      "award" : "platinum",
+      "type" : "people",
+      "sponsor" : 24,
+      "name(참고)" : "Byungkuk Choi"
+    },
+    {
+      "id" : 21,
+      "year" : 2016,
+      "award" : "bronze",
+      "type" : "people",
+      "sponsor" : 41,
+      "name(참고)" : "Jihyung Kang"
+    },
+    {
+      "id" : 22,
+      "year" : 2016,
+      "award" : "gold",
+      "type" : "people",
+      "sponsor" : 3,
+      "name(참고)" : "Daehyeon Wi"
+    },
+    {
+      "id" : 23,
+      "year" : 2016,
+      "award" : "silver",
+      "type" : "people",
+      "sponsor" : 1,
+      "name(참고)" : "Junyong Noh"
+    },
+    {
+      "id" : 24,
+      "year" : 2016,
+      "award" : "platinum",
+      "type" : "partners",
+      "sponsor" : 16,
+      "name(참고)" : "KAI Inc."
+    },
+    {
+      "id" : 25,
+      "year" : 2016,
+      "award" : "",
+      "type" : "people",
+      "sponsor" : 53,
+      "name(참고)" : "Jiyoung Seo"
+    },
+    {
+      "id" : 26,
+      "year" : 2016,
+      "award" : "silver",
+      "type" : "people",
+      "sponsor" : 61,
+      "name(참고)" : "Junghee Kim"
+    },
+    {
+      "id" : 27,
+      "year" : 2016,
+      "award" : "gold",
+      "type" : "people",
+      "sponsor" : 59,
+      "name(참고)" : "Jinho Park"
+    },
+    {
+      "id" : 28,
+      "year" : "",
+      "award" : "",
+      "type" : "",
+      "sponsor" : "",
+      "name(참고)" : ""
+    },
+    {
+      "id" : 29,
+      "year" : "",
+      "award" : "",
+      "type" : "",
+      "sponsor" : "",
+      "name(참고)" : ""
+    },
+    {
+      "id" : 30,
+      "year" : "",
+      "award" : "",
+      "type" : "",
+      "sponsor" : "",
+      "name(참고)" : ""
+    },
+    {
+      "id" : 31,
+      "year" : "",
+      "award" : "",
+      "type" : "",
+      "sponsor" : "",
+      "name(참고)" : ""
+    },
+    {
+      "id" : 32,
+      "year" : "",
+      "award" : "",
+      "type" : "",
+      "sponsor" : "",
+      "name(참고)" : ""
+    },
+    {
+      "id" : 33,
+      "year" : "",
+      "award" : "",
+      "type" : "",
+      "sponsor" : "",
+      "name(참고)" : ""
+    },
+    {
+      "id" : 34,
+      "year" : "",
+      "award" : "",
+      "type" : "",
+      "sponsor" : "",
+      "name(참고)" : ""
+    },
+    {
+      "id" : 35,
+      "year" : "",
+      "award" : "",
+      "type" : "",
+      "sponsor" : "",
+      "name(참고)" : ""
     }
   ],
   "projects" : [
@@ -2093,7 +2375,7 @@ export const GoogleData =
       "name" : "Pre-visualization Project 1st Year",
       "fullname" : "Pipeline Management and On-stage Pre-visualization Technical Development for Effective Production with High Quality 3D Images",
       "area" : "",
-      "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "description" : "",
       "partners_id" : "",
       "funding_id" : 18,
       "teams_id" : 1,
@@ -2205,7 +2487,7 @@ export const GoogleData =
       "name" : "Hello(Cho Yong Pil)",
       "fullname" : "Cho Yong Pil Hello - Official Music Video",
       "area" : "",
-      "description" : "description dummy description dummy description dummy this project is something",
+      "description" : "",
       "partners_id" : "",
       "funding_id" : "",
       "teams_id" : "",
@@ -2221,7 +2503,7 @@ export const GoogleData =
       "name" : "Sweet Dream(MFBTY)",
       "fullname" : "MFBTY (Tiger JK, T- Yoon Mi Rae, Bizzy) - Sweet Dream Music Video",
       "area" : "",
-      "description" : "description dummy description dummy description dummy this project is something",
+      "description" : "",
       "partners_id" : "",
       "funding_id" : "",
       "teams_id" : "",
@@ -2237,7 +2519,7 @@ export const GoogleData =
       "name" : "Multi-View Project 1st Year",
       "fullname" : "Autostereoscopic 3D Image Acquisition System and 3D Content Production Technology",
       "area" : "",
-      "description" : "description dummy description dummy description dummy this project is something",
+      "description" : "",
       "partners_id" : "",
       "funding_id" : "",
       "teams_id" : 2,
@@ -2253,7 +2535,7 @@ export const GoogleData =
       "name" : "Kolon Project 1st Year",
       "fullname" : "The development of ‘Immersive & Interactive Space' platform",
       "area" : "",
-      "description" : "description dummy description dummy description dummy this project is something",
+      "description" : "",
       "partners_id" : "",
       "funding_id" : "",
       "teams_id" : 3,
@@ -2269,7 +2551,7 @@ export const GoogleData =
       "name" : "Pre-visualization Project 3rd Year",
       "fullname" : "Pipeline Management and On-stage Pre-visualization Technical Development for Effective Production with High Quality 3D Images",
       "area" : "",
-      "description" : "description dummy description dummy description dummy this project is something",
+      "description" : "",
       "partners_id" : "",
       "funding_id" : 18,
       "teams_id" : 1,
@@ -2285,7 +2567,7 @@ export const GoogleData =
       "name" : "Multi-View Project 2nd Year",
       "fullname" : "Multicamera based-Autostereosopic 3D acquisition System and Content Production R&D",
       "area" : "",
-      "description" : "description dummy description dummy description dummy this project is something",
+      "description" : "",
       "partners_id" : "",
       "funding_id" : "",
       "teams_id" : 2,
@@ -2301,7 +2583,7 @@ export const GoogleData =
       "name" : "Kolon Project 2nd Year",
       "fullname" : "The development of ‘Immersive & Interactive Space' platform",
       "area" : "",
-      "description" : "description dummy description dummy description dummy this project is something",
+      "description" : "",
       "partners_id" : "",
       "funding_id" : "",
       "teams_id" : 3,
@@ -2317,7 +2599,7 @@ export const GoogleData =
       "name" : "Curved Projection Project 1st Year",
       "fullname" : "",
       "area" : "",
-      "description" : "description dummy description dummy description dummy this project is something",
+      "description" : "",
       "partners_id" : "",
       "funding_id" : "",
       "teams_id" : 3,
@@ -2333,7 +2615,7 @@ export const GoogleData =
       "name" : "Stylized Animation Production Pipeline Project based on Motion Capture System",
       "fullname" : "",
       "area" : "",
-      "description" : "description dummy description dummy description dummy this project is something",
+      "description" : "",
       "partners_id" : "",
       "funding_id" : "",
       "teams_id" : 1,
@@ -2349,7 +2631,7 @@ export const GoogleData =
       "name" : "Multi-View Project 3rd Year",
       "fullname" : "Multicamera based-Autostereosopic 3D acquisition System and Content Production R&D",
       "area" : "Immersive media display system, Multi-projection contents optimization",
-      "description" : "description dummy description dummy description dummy this project is something",
+      "description" : "",
       "partners_id" : "",
       "funding_id" : "",
       "teams_id" : 2,
@@ -2365,7 +2647,7 @@ export const GoogleData =
       "name" : "Kolon Project 3rd Year",
       "fullname" : "The development of immersive & interactive display for immersive retail experiences",
       "area" : "",
-      "description" : "description dummy description dummy description dummy this project is something",
+      "description" : "",
       "partners_id" : "",
       "funding_id" : "",
       "teams_id" : 3,
@@ -2398,8 +2680,7 @@ export const GoogleData =
       "teams_id" : 1,
       "img" : "Publications/International/2017JaewonSong_CGF/2017JaewonSong_CGF.png",
       "smallImg" : "Publications/International/2017JaewonSong_CGF/2017JaewonSong_CGF_small.png",
-      "body" : "",
-      "innerHTML": "<div><p>hihihi</p><p>testtestetst</p></div>"
+      "body" : ""
     },
     {
       "id" : 2,
@@ -4922,2063 +5203,6 @@ export const GoogleData =
       "body" : ""
     }
   ],
-  "people_publications" : [
-    {
-      "id" : 1,
-      "publications_id" : 1,
-      "people_id" : 4
-    },
-    {
-      "id" : 2,
-      "publications_id" : 1,
-      "people_id" : 2
-    },
-    {
-      "id" : 3,
-      "publications_id" : 1,
-      "people_id" : 16
-    },
-    {
-      "id" : 4,
-      "publications_id" : 1,
-      "people_id" : 26
-    },
-    {
-      "id" : 5,
-      "publications_id" : 1,
-      "people_id" : 76
-    },
-    {
-      "id" : 6,
-      "publications_id" : 1,
-      "people_id" : 24
-    },
-    {
-      "id" : 7,
-      "publications_id" : 1,
-      "people_id" : 1
-    },
-    {
-      "id" : 8,
-      "publications_id" : 2,
-      "people_id" : 24
-    },
-    {
-      "id" : 9,
-      "publications_id" : 2,
-      "people_id" : 2
-    },
-    {
-      "id" : 10,
-      "publications_id" : 2,
-      "people_id" : 76
-    },
-    {
-      "id" : 11,
-      "publications_id" : 2,
-      "people_id" : 29
-    },
-    {
-      "id" : 12,
-      "publications_id" : 2,
-      "people_id" : 10
-    },
-    {
-      "id" : 13,
-      "publications_id" : 2,
-      "people_id" : 11
-    },
-    {
-      "id" : 14,
-      "publications_id" : 2,
-      "people_id" : 18
-    },
-    {
-      "id" : 15,
-      "publications_id" : 2,
-      "people_id" : 1
-    },
-    {
-      "id" : 16,
-      "publications_id" : 3,
-      "people_id" : 5
-    },
-    {
-      "id" : 17,
-      "publications_id" : 3,
-      "people_id" : 12
-    },
-    {
-      "id" : 18,
-      "publications_id" : 3,
-      "people_id" : 8
-    },
-    {
-      "id" : 19,
-      "publications_id" : 3,
-      "people_id" : 25
-    },
-    {
-      "id" : 20,
-      "publications_id" : 3,
-      "people_id" : 1
-    },
-    {
-      "id" : 21,
-      "publications_id" : 4,
-      "people_id" : 55
-    },
-    {
-      "id" : 22,
-      "publications_id" : 4,
-      "people_id" : 10
-    },
-    {
-      "id" : 23,
-      "publications_id" : 4,
-      "people_id" : 1
-    },
-    {
-      "id" : 24,
-      "publications_id" : 4,
-      "people_id" : 77
-    },
-    {
-      "id" : 25,
-      "publications_id" : 4,
-      "people_id" : 78
-    },
-    {
-      "id" : 26,
-      "publications_id" : 5,
-      "people_id" : 5
-    },
-    {
-      "id" : 27,
-      "publications_id" : 5,
-      "people_id" : 7
-    },
-    {
-      "id" : 28,
-      "publications_id" : 5,
-      "people_id" : 25
-    },
-    {
-      "id" : 29,
-      "publications_id" : 5,
-      "people_id" : 1
-    },
-    {
-      "id" : 30,
-      "publications_id" : 6,
-      "people_id" : 55
-    },
-    {
-      "id" : 31,
-      "publications_id" : 6,
-      "people_id" : 11
-    },
-    {
-      "id" : 32,
-      "publications_id" : 6,
-      "people_id" : 1
-    },
-    {
-      "id" : 33,
-      "publications_id" : 6,
-      "people_id" : 78
-    },
-    {
-      "id" : 34,
-      "publications_id" : 7,
-      "people_id" : 14
-    },
-    {
-      "id" : 35,
-      "publications_id" : 7,
-      "people_id" : 9
-    },
-    {
-      "id" : 36,
-      "publications_id" : 7,
-      "people_id" : 6
-    },
-    {
-      "id" : 37,
-      "publications_id" : 7,
-      "people_id" : 1
-    },
-    {
-      "id" : 38,
-      "publications_id" : 8,
-      "people_id" : 33
-    },
-    {
-      "id" : 39,
-      "publications_id" : 8,
-      "people_id" : 24
-    },
-    {
-      "id" : 40,
-      "publications_id" : 8,
-      "people_id" : 2
-    },
-    {
-      "id" : 41,
-      "publications_id" : 8,
-      "people_id" : 79
-    },
-    {
-      "id" : 42,
-      "publications_id" : 8,
-      "people_id" : 80
-    },
-    {
-      "id" : 43,
-      "publications_id" : 8,
-      "people_id" : 1
-    },
-    {
-      "id" : 44,
-      "publications_id" : 9,
-      "people_id" : 33
-    },
-    {
-      "id" : 45,
-      "publications_id" : 9,
-      "people_id" : 24
-    },
-    {
-      "id" : 46,
-      "publications_id" : 9,
-      "people_id" : 2
-    },
-    {
-      "id" : 47,
-      "publications_id" : 9,
-      "people_id" : 79
-    },
-    {
-      "id" : 48,
-      "publications_id" : 9,
-      "people_id" : 80
-    },
-    {
-      "id" : 49,
-      "publications_id" : 9,
-      "people_id" : 1
-    },
-    {
-      "id" : 50,
-      "publications_id" : 10,
-      "people_id" : 81
-    },
-    {
-      "id" : 51,
-      "publications_id" : 10,
-      "people_id" : 82
-    },
-    {
-      "id" : 52,
-      "publications_id" : 10,
-      "people_id" : 1
-    },
-    {
-      "id" : 53,
-      "publications_id" : 10,
-      "people_id" : 77
-    },
-    {
-      "id" : 54,
-      "publications_id" : 10,
-      "people_id" : 78
-    },
-    {
-      "id" : 55,
-      "publications_id" : 11,
-      "people_id" : 28
-    },
-    {
-      "id" : 56,
-      "publications_id" : 11,
-      "people_id" : 1
-    },
-    {
-      "id" : 57,
-      "publications_id" : 12,
-      "people_id" : 5
-    },
-    {
-      "id" : 58,
-      "publications_id" : 12,
-      "people_id" : 25
-    },
-    {
-      "id" : 59,
-      "publications_id" : 12,
-      "people_id" : 7
-    },
-    {
-      "id" : 60,
-      "publications_id" : 12,
-      "people_id" : 12
-    },
-    {
-      "id" : 61,
-      "publications_id" : 12,
-      "people_id" : 1
-    },
-    {
-      "id" : 62,
-      "publications_id" : 13,
-      "people_id" : 11
-    },
-    {
-      "id" : 63,
-      "publications_id" : 13,
-      "people_id" : 24
-    },
-    {
-      "id" : 64,
-      "publications_id" : 13,
-      "people_id" : 1
-    },
-    {
-      "id" : 65,
-      "publications_id" : 14,
-      "people_id" : 83
-    },
-    {
-      "id" : 66,
-      "publications_id" : 14,
-      "people_id" : 84
-    },
-    {
-      "id" : 67,
-      "publications_id" : 14,
-      "people_id" : 85
-    },
-    {
-      "id" : 68,
-      "publications_id" : 14,
-      "people_id" : 24
-    },
-    {
-      "id" : 69,
-      "publications_id" : 14,
-      "people_id" : 1
-    },
-    {
-      "id" : 70,
-      "publications_id" : 14,
-      "people_id" : 86
-    },
-    {
-      "id" : 71,
-      "publications_id" : 15,
-      "people_id" : 11
-    },
-    {
-      "id" : 72,
-      "publications_id" : 15,
-      "people_id" : 24
-    },
-    {
-      "id" : 73,
-      "publications_id" : 15,
-      "people_id" : 1
-    },
-    {
-      "id" : 74,
-      "publications_id" : 16,
-      "people_id" : 55
-    },
-    {
-      "id" : 75,
-      "publications_id" : 16,
-      "people_id" : 1
-    },
-    {
-      "id" : 76,
-      "publications_id" : 16,
-      "people_id" : 77
-    },
-    {
-      "id" : 77,
-      "publications_id" : 16,
-      "people_id" : 78
-    },
-    {
-      "id" : 78,
-      "publications_id" : 17,
-      "people_id" : 87
-    },
-    {
-      "id" : 79,
-      "publications_id" : 17,
-      "people_id" : 88
-    },
-    {
-      "id" : 80,
-      "publications_id" : 17,
-      "people_id" : 1
-    },
-    {
-      "id" : 81,
-      "publications_id" : 17,
-      "people_id" : 89
-    },
-    {
-      "id" : 82,
-      "publications_id" : 18,
-      "people_id" : 7
-    },
-    {
-      "id" : 83,
-      "publications_id" : 18,
-      "people_id" : 25
-    },
-    {
-      "id" : 84,
-      "publications_id" : 18,
-      "people_id" : 5
-    },
-    {
-      "id" : 85,
-      "publications_id" : 18,
-      "people_id" : 8
-    },
-    {
-      "id" : 86,
-      "publications_id" : 18,
-      "people_id" : 37
-    },
-    {
-      "id" : 87,
-      "publications_id" : 18,
-      "people_id" : 1
-    },
-    {
-      "id" : 88,
-      "publications_id" : 19,
-      "people_id" : 28
-    },
-    {
-      "id" : 89,
-      "publications_id" : 19,
-      "people_id" : 90
-    },
-    {
-      "id" : 90,
-      "publications_id" : 19,
-      "people_id" : 26
-    },
-    {
-      "id" : 91,
-      "publications_id" : 19,
-      "people_id" : 87
-    },
-    {
-      "id" : 92,
-      "publications_id" : 19,
-      "people_id" : 1
-    },
-    {
-      "id" : 93,
-      "publications_id" : 20,
-      "people_id" : 83
-    },
-    {
-      "id" : 94,
-      "publications_id" : 20,
-      "people_id" : 84
-    },
-    {
-      "id" : 95,
-      "publications_id" : 20,
-      "people_id" : 85
-    },
-    {
-      "id" : 96,
-      "publications_id" : 20,
-      "people_id" : 24
-    },
-    {
-      "id" : 97,
-      "publications_id" : 20,
-      "people_id" : 1
-    },
-    {
-      "id" : 98,
-      "publications_id" : 20,
-      "people_id" : 86
-    },
-    {
-      "id" : 99,
-      "publications_id" : 21,
-      "people_id" : 8
-    },
-    {
-      "id" : 100,
-      "publications_id" : 21,
-      "people_id" : 7
-    },
-    {
-      "id" : 101,
-      "publications_id" : 21,
-      "people_id" : 5
-    },
-    {
-      "id" : 102,
-      "publications_id" : 21,
-      "people_id" : 25
-    },
-    {
-      "id" : 103,
-      "publications_id" : 21,
-      "people_id" : 37
-    },
-    {
-      "id" : 104,
-      "publications_id" : 21,
-      "people_id" : 1
-    },
-    {
-      "id" : 105,
-      "publications_id" : 22,
-      "people_id" : 7
-    },
-    {
-      "id" : 106,
-      "publications_id" : 22,
-      "people_id" : 25
-    },
-    {
-      "id" : 107,
-      "publications_id" : 22,
-      "people_id" : 5
-    },
-    {
-      "id" : 108,
-      "publications_id" : 22,
-      "people_id" : 8
-    },
-    {
-      "id" : 109,
-      "publications_id" : 22,
-      "people_id" : 37
-    },
-    {
-      "id" : 110,
-      "publications_id" : 22,
-      "people_id" : 1
-    },
-    {
-      "id" : 111,
-      "publications_id" : 23,
-      "people_id" : 27
-    },
-    {
-      "id" : 112,
-      "publications_id" : 23,
-      "people_id" : 91
-    },
-    {
-      "id" : 113,
-      "publications_id" : 23,
-      "people_id" : 1
-    },
-    {
-      "id" : 114,
-      "publications_id" : 23,
-      "people_id" : 92
-    },
-    {
-      "id" : 115,
-      "publications_id" : 24,
-      "people_id" : 26
-    },
-    {
-      "id" : 116,
-      "publications_id" : 24,
-      "people_id" : 28
-    },
-    {
-      "id" : 117,
-      "publications_id" : 24,
-      "people_id" : 6
-    },
-    {
-      "id" : 118,
-      "publications_id" : 24,
-      "people_id" : 36
-    },
-    {
-      "id" : 119,
-      "publications_id" : 24,
-      "people_id" : 1
-    },
-    {
-      "id" : 120,
-      "publications_id" : 25,
-      "people_id" : 2
-    },
-    {
-      "id" : 121,
-      "publications_id" : 25,
-      "people_id" : 93
-    },
-    {
-      "id" : 122,
-      "publications_id" : 25,
-      "people_id" : 25
-    },
-    {
-      "id" : 123,
-      "publications_id" : 25,
-      "people_id" : 5
-    },
-    {
-      "id" : 124,
-      "publications_id" : 25,
-      "people_id" : 1
-    },
-    {
-      "id" : 125,
-      "publications_id" : 26,
-      "people_id" : 29
-    },
-    {
-      "id" : 126,
-      "publications_id" : 26,
-      "people_id" : 76
-    },
-    {
-      "id" : 127,
-      "publications_id" : 26,
-      "people_id" : 30
-    },
-    {
-      "id" : 128,
-      "publications_id" : 26,
-      "people_id" : 24
-    },
-    {
-      "id" : 129,
-      "publications_id" : 26,
-      "people_id" : 94
-    },
-    {
-      "id" : 130,
-      "publications_id" : 26,
-      "people_id" : 1
-    },
-    {
-      "id" : 131,
-      "publications_id" : 27,
-      "people_id" : 41
-    },
-    {
-      "id" : 132,
-      "publications_id" : 27,
-      "people_id" : 59
-    },
-    {
-      "id" : 133,
-      "publications_id" : 27,
-      "people_id" : 30
-    },
-    {
-      "id" : 134,
-      "publications_id" : 27,
-      "people_id" : 1
-    },
-    {
-      "id" : 135,
-      "publications_id" : 28,
-      "people_id" : 6
-    },
-    {
-      "id" : 136,
-      "publications_id" : 28,
-      "people_id" : 59
-    },
-    {
-      "id" : 137,
-      "publications_id" : 28,
-      "people_id" : 66
-    },
-    {
-      "id" : 138,
-      "publications_id" : 28,
-      "people_id" : 1
-    },
-    {
-      "id" : 139,
-      "publications_id" : 29,
-      "people_id" : 28
-    },
-    {
-      "id" : 140,
-      "publications_id" : 29,
-      "people_id" : 48
-    },
-    {
-      "id" : 141,
-      "publications_id" : 29,
-      "people_id" : 6
-    },
-    {
-      "id" : 142,
-      "publications_id" : 29,
-      "people_id" : 26
-    },
-    {
-      "id" : 143,
-      "publications_id" : 29,
-      "people_id" : 66
-    },
-    {
-      "id" : 144,
-      "publications_id" : 29,
-      "people_id" : 1
-    },
-    {
-      "id" : 145,
-      "publications_id" : 30,
-      "people_id" : 29
-    },
-    {
-      "id" : 146,
-      "publications_id" : 30,
-      "people_id" : 30
-    },
-    {
-      "id" : 147,
-      "publications_id" : 30,
-      "people_id" : 44
-    },
-    {
-      "id" : 148,
-      "publications_id" : 30,
-      "people_id" : 76
-    },
-    {
-      "id" : 149,
-      "publications_id" : 30,
-      "people_id" : 1
-    },
-    {
-      "id" : 150,
-      "publications_id" : 31,
-      "people_id" : 30
-    },
-    {
-      "id" : 151,
-      "publications_id" : 31,
-      "people_id" : 95
-    },
-    {
-      "id" : 152,
-      "publications_id" : 31,
-      "people_id" : 76
-    },
-    {
-      "id" : 153,
-      "publications_id" : 31,
-      "people_id" : 1
-    },
-    {
-      "id" : 154,
-      "publications_id" : 32,
-      "people_id" : 29
-    },
-    {
-      "id" : 155,
-      "publications_id" : 32,
-      "people_id" : 30
-    },
-    {
-      "id" : 156,
-      "publications_id" : 32,
-      "people_id" : 44
-    },
-    {
-      "id" : 157,
-      "publications_id" : 32,
-      "people_id" : 76
-    },
-    {
-      "id" : 158,
-      "publications_id" : 32,
-      "people_id" : 1
-    },
-    {
-      "id" : 159,
-      "publications_id" : 33,
-      "people_id" : 25
-    },
-    {
-      "id" : 160,
-      "publications_id" : 33,
-      "people_id" : 27
-    },
-    {
-      "id" : 161,
-      "publications_id" : 33,
-      "people_id" : 93
-    },
-    {
-      "id" : 162,
-      "publications_id" : 33,
-      "people_id" : 5
-    },
-    {
-      "id" : 163,
-      "publications_id" : 33,
-      "people_id" : 1
-    },
-    {
-      "id" : 164,
-      "publications_id" : 34,
-      "people_id" : 44
-    },
-    {
-      "id" : 165,
-      "publications_id" : 34,
-      "people_id" : 29
-    },
-    {
-      "id" : 166,
-      "publications_id" : 34,
-      "people_id" : 4
-    },
-    {
-      "id" : 167,
-      "publications_id" : 34,
-      "people_id" : 1
-    },
-    {
-      "id" : 168,
-      "publications_id" : 35,
-      "people_id" : 29
-    },
-    {
-      "id" : 169,
-      "publications_id" : 35,
-      "people_id" : 30
-    },
-    {
-      "id" : 170,
-      "publications_id" : 35,
-      "people_id" : 44
-    },
-    {
-      "id" : 171,
-      "publications_id" : 35,
-      "people_id" : 76
-    },
-    {
-      "id" : 172,
-      "publications_id" : 35,
-      "people_id" : 1
-    },
-    {
-      "id" : 173,
-      "publications_id" : 36,
-      "people_id" : 45
-    },
-    {
-      "id" : 174,
-      "publications_id" : 36,
-      "people_id" : 29
-    },
-    {
-      "id" : 175,
-      "publications_id" : 36,
-      "people_id" : 2
-    },
-    {
-      "id" : 176,
-      "publications_id" : 36,
-      "people_id" : 1
-    },
-    {
-      "id" : 177,
-      "publications_id" : 37,
-      "people_id" : 47
-    },
-    {
-      "id" : 178,
-      "publications_id" : 37,
-      "people_id" : 59
-    },
-    {
-      "id" : 179,
-      "publications_id" : 37,
-      "people_id" : 49
-    },
-    {
-      "id" : 180,
-      "publications_id" : 37,
-      "people_id" : 1
-    },
-    {
-      "id" : 181,
-      "publications_id" : 38,
-      "people_id" : 59
-    },
-    {
-      "id" : 182,
-      "publications_id" : 38,
-      "people_id" : 29
-    },
-    {
-      "id" : 183,
-      "publications_id" : 38,
-      "people_id" : 57
-    },
-    {
-      "id" : 184,
-      "publications_id" : 38,
-      "people_id" : 1
-    },
-    {
-      "id" : 185,
-      "publications_id" : 39,
-      "people_id" : 28
-    },
-    {
-      "id" : 186,
-      "publications_id" : 39,
-      "people_id" : 2
-    },
-    {
-      "id" : 187,
-      "publications_id" : 39,
-      "people_id" : 47
-    },
-    {
-      "id" : 188,
-      "publications_id" : 39,
-      "people_id" : 1
-    },
-    {
-      "id" : 189,
-      "publications_id" : 40,
-      "people_id" : 48
-    },
-    {
-      "id" : 190,
-      "publications_id" : 40,
-      "people_id" : 8
-    },
-    {
-      "id" : 191,
-      "publications_id" : 40,
-      "people_id" : 2
-    },
-    {
-      "id" : 192,
-      "publications_id" : 40,
-      "people_id" : 1
-    },
-    {
-      "id" : 193,
-      "publications_id" : 41,
-      "people_id" : 4
-    },
-    {
-      "id" : 194,
-      "publications_id" : 41,
-      "people_id" : 24
-    },
-    {
-      "id" : 195,
-      "publications_id" : 41,
-      "people_id" : 29
-    },
-    {
-      "id" : 196,
-      "publications_id" : 41,
-      "people_id" : 1
-    },
-    {
-      "id" : 197,
-      "publications_id" : 42,
-      "people_id" : 57
-    },
-    {
-      "id" : 198,
-      "publications_id" : 42,
-      "people_id" : 96
-    },
-    {
-      "id" : 199,
-      "publications_id" : 42,
-      "people_id" : 59
-    },
-    {
-      "id" : 200,
-      "publications_id" : 42,
-      "people_id" : 1
-    },
-    {
-      "id" : 201,
-      "publications_id" : 43,
-      "people_id" : 59
-    },
-    {
-      "id" : 202,
-      "publications_id" : 43,
-      "people_id" : 29
-    },
-    {
-      "id" : 203,
-      "publications_id" : 43,
-      "people_id" : 57
-    },
-    {
-      "id" : 204,
-      "publications_id" : 43,
-      "people_id" : 1
-    },
-    {
-      "id" : 205,
-      "publications_id" : 44,
-      "people_id" : 28
-    },
-    {
-      "id" : 206,
-      "publications_id" : 44,
-      "people_id" : 46
-    },
-    {
-      "id" : 207,
-      "publications_id" : 44,
-      "people_id" : 47
-    },
-    {
-      "id" : 208,
-      "publications_id" : 44,
-      "people_id" : 30
-    },
-    {
-      "id" : 209,
-      "publications_id" : 44,
-      "people_id" : 1
-    },
-    {
-      "id" : 210,
-      "publications_id" : 45,
-      "people_id" : 30
-    },
-    {
-      "id" : 211,
-      "publications_id" : 45,
-      "people_id" : 29
-    },
-    {
-      "id" : 212,
-      "publications_id" : 45,
-      "people_id" : 3
-    },
-    {
-      "id" : 213,
-      "publications_id" : 45,
-      "people_id" : 25
-    },
-    {
-      "id" : 214,
-      "publications_id" : 45,
-      "people_id" : 1
-    },
-    {
-      "id" : 215,
-      "publications_id" : 46,
-      "people_id" : 82
-    },
-    {
-      "id" : 216,
-      "publications_id" : 46,
-      "people_id" : 59
-    },
-    {
-      "id" : 217,
-      "publications_id" : 46,
-      "people_id" : 1
-    },
-    {
-      "id" : 218,
-      "publications_id" : 46,
-      "people_id" : 78
-    },
-    {
-      "id" : 219,
-      "publications_id" : 47,
-      "people_id" : 25
-    },
-    {
-      "id" : 220,
-      "publications_id" : 47,
-      "people_id" : 1
-    },
-    {
-      "id" : 221,
-      "publications_id" : 48,
-      "people_id" : 26
-    },
-    {
-      "id" : 222,
-      "publications_id" : 48,
-      "people_id" : 59
-    },
-    {
-      "id" : 223,
-      "publications_id" : 48,
-      "people_id" : 24
-    },
-    {
-      "id" : 224,
-      "publications_id" : 48,
-      "people_id" : 1
-    },
-    {
-      "id" : 225,
-      "publications_id" : 49,
-      "people_id" : 59
-    },
-    {
-      "id" : 226,
-      "publications_id" : 49,
-      "people_id" : 29
-    },
-    {
-      "id" : 227,
-      "publications_id" : 49,
-      "people_id" : 1
-    },
-    {
-      "id" : 228,
-      "publications_id" : 50,
-      "people_id" : 25
-    },
-    {
-      "id" : 229,
-      "publications_id" : 50,
-      "people_id" : 1
-    },
-    {
-      "id" : 230,
-      "publications_id" : 51,
-      "people_id" : 26
-    },
-    {
-      "id" : 231,
-      "publications_id" : 51,
-      "people_id" : 59
-    },
-    {
-      "id" : 232,
-      "publications_id" : 51,
-      "people_id" : 24
-    },
-    {
-      "id" : 233,
-      "publications_id" : 51,
-      "people_id" : 1
-    },
-    {
-      "id" : 234,
-      "publications_id" : 52,
-      "people_id" : 29
-    },
-    {
-      "id" : 235,
-      "publications_id" : 52,
-      "people_id" : 1
-    },
-    {
-      "id" : 236,
-      "publications_id" : 53,
-      "people_id" : 97
-    },
-    {
-      "id" : 237,
-      "publications_id" : 53,
-      "people_id" : 1
-    },
-    {
-      "id" : 238,
-      "publications_id" : 53,
-      "people_id" : 98
-    },
-    {
-      "id" : 239,
-      "publications_id" : 54,
-      "people_id" : 59
-    },
-    {
-      "id" : 240,
-      "publications_id" : 54,
-      "people_id" : 25
-    },
-    {
-      "id" : 241,
-      "publications_id" : 54,
-      "people_id" : 3
-    },
-    {
-      "id" : 242,
-      "publications_id" : 54,
-      "people_id" : 82
-    },
-    {
-      "id" : 243,
-      "publications_id" : 54,
-      "people_id" : 78
-    },
-    {
-      "id" : 244,
-      "publications_id" : 54,
-      "people_id" : 1
-    },
-    {
-      "id" : 245,
-      "publications_id" : 55,
-      "people_id" : 24
-    },
-    {
-      "id" : 246,
-      "publications_id" : 55,
-      "people_id" : 26
-    },
-    {
-      "id" : 247,
-      "publications_id" : 55,
-      "people_id" : 1
-    },
-    {
-      "id" : 248,
-      "publications_id" : 56,
-      "people_id" : 102
-    },
-    {
-      "id" : 249,
-      "publications_id" : 56,
-      "people_id" : 103
-    },
-    {
-      "id" : 250,
-      "publications_id" : 56,
-      "people_id" : 104
-    },
-    {
-      "id" : 251,
-      "publications_id" : 56,
-      "people_id" : 1
-    },
-    {
-      "id" : 252,
-      "publications_id" : 57,
-      "people_id" : 105
-    },
-    {
-      "id" : 253,
-      "publications_id" : 57,
-      "people_id" : 106
-    },
-    {
-      "id" : 254,
-      "publications_id" : 57,
-      "people_id" : 1
-    },
-    {
-      "id" : 255,
-      "publications_id" : 58,
-      "people_id" : 29
-    },
-    {
-      "id" : 256,
-      "publications_id" : 58,
-      "people_id" : 1
-    },
-    {
-      "id" : 257,
-      "publications_id" : 59,
-      "people_id" : 107
-    },
-    {
-      "id" : 258,
-      "publications_id" : 59,
-      "people_id" : 1
-    },
-    {
-      "id" : 259,
-      "publications_id" : 60,
-      "people_id" : 1
-    },
-    {
-      "id" : 260,
-      "publications_id" : 60,
-      "people_id" : 108
-    },
-    {
-      "id" : 261,
-      "publications_id" : 61,
-      "people_id" : 57
-    },
-    {
-      "id" : 262,
-      "publications_id" : 61,
-      "people_id" : 96
-    },
-    {
-      "id" : 263,
-      "publications_id" : 62,
-      "people_id" : 57
-    },
-    {
-      "id" : 264,
-      "publications_id" : 62,
-      "people_id" : 96
-    },
-    {
-      "id" : 265,
-      "publications_id" : 62,
-      "people_id" : 109
-    },
-    {
-      "id" : 266,
-      "publications_id" : 63,
-      "people_id" : 1
-    },
-    {
-      "id" : 267,
-      "publications_id" : 63,
-      "people_id" : 110
-    },
-    {
-      "id" : 268,
-      "publications_id" : 63,
-      "people_id" : 108
-    },
-    {
-      "id" : 269,
-      "publications_id" : 64,
-      "people_id" : 111
-    },
-    {
-      "id" : 270,
-      "publications_id" : 64,
-      "people_id" : 108
-    },
-    {
-      "id" : 271,
-      "publications_id" : 64,
-      "people_id" : 112
-    },
-    {
-      "id" : 272,
-      "publications_id" : 64,
-      "people_id" : 110
-    },
-    {
-      "id" : 273,
-      "publications_id" : 64,
-      "people_id" : 1
-    },
-    {
-      "id" : 274,
-      "publications_id" : 65,
-      "people_id" : 1
-    },
-    {
-      "id" : 275,
-      "publications_id" : 65,
-      "people_id" : 108
-    },
-    {
-      "id" : 276,
-      "publications_id" : 66,
-      "people_id" : 1
-    },
-    {
-      "id" : 277,
-      "publications_id" : 66,
-      "people_id" : 110
-    },
-    {
-      "id" : 278,
-      "publications_id" : 66,
-      "people_id" : 108
-    },
-    {
-      "id" : 279,
-      "publications_id" : 67,
-      "people_id" : 1
-    },
-    {
-      "id" : 280,
-      "publications_id" : 67,
-      "people_id" : 108
-    },
-    {
-      "id" : 281,
-      "publications_id" : 68,
-      "people_id" : 110
-    },
-    {
-      "id" : 282,
-      "publications_id" : 68,
-      "people_id" : 1
-    },
-    {
-      "id" : 283,
-      "publications_id" : 68,
-      "people_id" : 113
-    },
-    {
-      "id" : 284,
-      "publications_id" : 68,
-      "people_id" : 112
-    },
-    {
-      "id" : 285,
-      "publications_id" : 68,
-      "people_id" : 108
-    },
-    {
-      "id" : 286,
-      "publications_id" : 69,
-      "people_id" : 112
-    },
-    {
-      "id" : 287,
-      "publications_id" : 69,
-      "people_id" : 114
-    },
-    {
-      "id" : 288,
-      "publications_id" : 69,
-      "people_id" : 110
-    },
-    {
-      "id" : 289,
-      "publications_id" : 69,
-      "people_id" : 113
-    },
-    {
-      "id" : 290,
-      "publications_id" : 69,
-      "people_id" : 1
-    },
-    {
-      "id" : 291,
-      "publications_id" : 69,
-      "people_id" : 108
-    },
-    {
-      "id" : 292,
-      "publications_id" : 70,
-      "people_id" : 1
-    },
-    {
-      "id" : 293,
-      "publications_id" : 70,
-      "people_id" : 108
-    },
-    {
-      "id" : 294,
-      "publications_id" : 71,
-      "people_id" : 4
-    },
-    {
-      "id" : 295,
-      "publications_id" : 71,
-      "people_id" : 26
-    },
-    {
-      "id" : 296,
-      "publications_id" : 71,
-      "people_id" : 100
-    },
-    {
-      "id" : 297,
-      "publications_id" : 71,
-      "people_id" : 101
-    },
-    {
-      "id" : 298,
-      "publications_id" : 71,
-      "people_id" : 1
-    },
-    {
-      "id" : 299,
-      "publications_id" : 72,
-      "people_id" : 99
-    },
-    {
-      "id" : 300,
-      "publications_id" : 72,
-      "people_id" : 11
-    },
-    {
-      "id" : 301,
-      "publications_id" : 72,
-      "people_id" : 1
-    },
-    {
-      "id" : 302,
-      "publications_id" : 73,
-      "people_id" : 13
-    },
-    {
-      "id" : 303,
-      "publications_id" : 73,
-      "people_id" : 9
-    },
-    {
-      "id" : 304,
-      "publications_id" : 73,
-      "people_id" : 6
-    },
-    {
-      "id" : 305,
-      "publications_id" : 73,
-      "people_id" : 1
-    },
-    {
-      "id" : 306,
-      "publications_id" : 74,
-      "people_id" : 12
-    },
-    {
-      "id" : 307,
-      "publications_id" : 74,
-      "people_id" : 5
-    },
-    {
-      "id" : 308,
-      "publications_id" : 74,
-      "people_id" : 25
-    },
-    {
-      "id" : 309,
-      "publications_id" : 74,
-      "people_id" : 15
-    },
-    {
-      "id" : 310,
-      "publications_id" : 74,
-      "people_id" : 1
-    },
-    {
-      "id" : 311,
-      "publications_id" : 75,
-      "people_id" : 5
-    },
-    {
-      "id" : 312,
-      "publications_id" : 75,
-      "people_id" : 7
-    },
-    {
-      "id" : 313,
-      "publications_id" : 75,
-      "people_id" : 42
-    },
-    {
-      "id" : 314,
-      "publications_id" : 75,
-      "people_id" : 1
-    },
-    {
-      "id" : 315,
-      "publications_id" : 76,
-      "people_id" : 4
-    },
-    {
-      "id" : 316,
-      "publications_id" : 76,
-      "people_id" : 1
-    },
-    {
-      "id" : 317,
-      "publications_id" : 77,
-      "people_id" : 26
-    },
-    {
-      "id" : 318,
-      "publications_id" : 77,
-      "people_id" : 36
-    },
-    {
-      "id" : 319,
-      "publications_id" : 77,
-      "people_id" : 28
-    },
-    {
-      "id" : 320,
-      "publications_id" : 77,
-      "people_id" : 6
-    },
-    {
-      "id" : 321,
-      "publications_id" : 77,
-      "people_id" : 1
-    },
-    {
-      "id" : 322,
-      "publications_id" : 78,
-      "people_id" : 8
-    },
-    {
-      "id" : 323,
-      "publications_id" : 78,
-      "people_id" : 35
-    },
-    {
-      "id" : 324,
-      "publications_id" : 78,
-      "people_id" : 7
-    },
-    {
-      "id" : 325,
-      "publications_id" : 78,
-      "people_id" : 5
-    },
-    {
-      "id" : 326,
-      "publications_id" : 78,
-      "people_id" : 25
-    },
-    {
-      "id" : 327,
-      "publications_id" : 78,
-      "people_id" : 37
-    },
-    {
-      "id" : 328,
-      "publications_id" : 78,
-      "people_id" : 1
-    },
-    {
-      "id" : 329,
-      "publications_id" : 79,
-      "people_id" : 36
-    },
-    {
-      "id" : 330,
-      "publications_id" : 79,
-      "people_id" : 26
-    },
-    {
-      "id" : 331,
-      "publications_id" : 79,
-      "people_id" : 6
-    },
-    {
-      "id" : 332,
-      "publications_id" : 79,
-      "people_id" : 1
-    },
-    {
-      "id" : 333,
-      "publications_id" : 80,
-      "people_id" : 25
-    },
-    {
-      "id" : 334,
-      "publications_id" : 80,
-      "people_id" : 38
-    },
-    {
-      "id" : 335,
-      "publications_id" : 80,
-      "people_id" : 27
-    },
-    {
-      "id" : 336,
-      "publications_id" : 80,
-      "people_id" : 93
-    },
-    {
-      "id" : 337,
-      "publications_id" : 80,
-      "people_id" : 5
-    },
-    {
-      "id" : 338,
-      "publications_id" : 80,
-      "people_id" : 1
-    },
-    {
-      "id" : 339,
-      "publications_id" : 81,
-      "people_id" : 6
-    },
-    {
-      "id" : 340,
-      "publications_id" : 81,
-      "people_id" : 9
-    },
-    {
-      "id" : 341,
-      "publications_id" : 81,
-      "people_id" : 59
-    },
-    {
-      "id" : 342,
-      "publications_id" : 81,
-      "people_id" : 66
-    },
-    {
-      "id" : 343,
-      "publications_id" : 81,
-      "people_id" : 1
-    },
-    {
-      "id" : 344,
-      "publications_id" : 82,
-      "people_id" : 4
-    },
-    {
-      "id" : 345,
-      "publications_id" : 82,
-      "people_id" : 24
-    },
-    {
-      "id" : 346,
-      "publications_id" : 82,
-      "people_id" : 29
-    },
-    {
-      "id" : 347,
-      "publications_id" : 82,
-      "people_id" : 39
-    },
-    {
-      "id" : 348,
-      "publications_id" : 82,
-      "people_id" : 1
-    },
-    {
-      "id" : 349,
-      "publications_id" : 83,
-      "people_id" : 30
-    },
-    {
-      "id" : 350,
-      "publications_id" : 83,
-      "people_id" : 24
-    },
-    {
-      "id" : 351,
-      "publications_id" : 83,
-      "people_id" : 29
-    },
-    {
-      "id" : 352,
-      "publications_id" : 84,
-      "people_id" : 24
-    },
-    {
-      "id" : 353,
-      "publications_id" : 84,
-      "people_id" : 30
-    },
-    {
-      "id" : 354,
-      "publications_id" : 84,
-      "people_id" : 29
-    },
-    {
-      "id" : 355,
-      "publications_id" : 84,
-      "people_id" : 1
-    },
-    {
-      "id" : 356,
-      "publications_id" : 85,
-      "people_id" : 1
-    },
-    {
-      "id" : 357,
-      "publications_id" : 85,
-      "people_id" : 56
-    },
-    {
-      "id" : 358,
-      "publications_id" : 85,
-      "people_id" : 100
-    },
-    {
-      "id" : 359,
-      "publications_id" : 85,
-      "people_id" : 40
-    },
-    {
-      "id" : 360,
-      "publications_id" : 85,
-      "people_id" : 24
-    },
-    {
-      "id" : 361,
-      "publications_id" : 85,
-      "people_id" : 25
-    },
-    {
-      "id" : 362,
-      "publications_id" : 85,
-      "people_id" : 26
-    },
-    {
-      "id" : 363,
-      "publications_id" : 86,
-      "people_id" : 27
-    },
-    {
-      "id" : 364,
-      "publications_id" : 86,
-      "people_id" : 98
-    },
-    {
-      "id" : 365,
-      "publications_id" : 87,
-      "people_id" : 30
-    },
-    {
-      "id" : 366,
-      "publications_id" : 87,
-      "people_id" : 57
-    },
-    {
-      "id" : 367,
-      "publications_id" : 88,
-      "people_id" : 1
-    },
-    {
-      "id" : 368,
-      "publications_id" : 89,
-      "people_id" : 15
-    },
-    {
-      "id" : 369,
-      "publications_id" : 90,
-      "people_id" : 14
-    },
-    {
-      "id" : 370,
-      "publications_id" : 91,
-      "people_id" : 13
-    },
-    {
-      "id" : 371,
-      "publications_id" : 92,
-      "people_id" : 33
-    },
-    {
-      "id" : 372,
-      "publications_id" : 93,
-      "people_id" : 12
-    },
-    {
-      "id" : 373,
-      "publications_id" : 94,
-      "people_id" : 25
-    },
-    {
-      "id" : 374,
-      "publications_id" : 95,
-      "people_id" : 35
-    },
-    {
-      "id" : 375,
-      "publications_id" : 96,
-      "people_id" : 36
-    },
-    {
-      "id" : 376,
-      "publications_id" : 97,
-      "people_id" : 11
-    },
-    {
-      "id" : 377,
-      "publications_id" : 98,
-      "people_id" : 10
-    },
-    {
-      "id" : 378,
-      "publications_id" : 99,
-      "people_id" : 26
-    },
-    {
-      "id" : 379,
-      "publications_id" : 100,
-      "people_id" : 37
-    },
-    {
-      "id" : 380,
-      "publications_id" : 101,
-      "people_id" : 38
-    },
-    {
-      "id" : 381,
-      "publications_id" : 102,
-      "people_id" : 9
-    },
-    {
-      "id" : 382,
-      "publications_id" : 103,
-      "people_id" : 39
-    },
-    {
-      "id" : 383,
-      "publications_id" : 104,
-      "people_id" : 42
-    },
-    {
-      "id" : 384,
-      "publications_id" : 105,
-      "people_id" : 40
-    },
-    {
-      "id" : 385,
-      "publications_id" : 106,
-      "people_id" : 8
-    },
-    {
-      "id" : 386,
-      "publications_id" : 107,
-      "people_id" : 7
-    },
-    {
-      "id" : 387,
-      "publications_id" : 108,
-      "people_id" : 6
-    },
-    {
-      "id" : 388,
-      "publications_id" : 109,
-      "people_id" : 41
-    },
-    {
-      "id" : 389,
-      "publications_id" : 110,
-      "people_id" : 5
-    },
-    {
-      "id" : 390,
-      "publications_id" : 111,
-      "people_id" : 43
-    },
-    {
-      "id" : 391,
-      "publications_id" : 112,
-      "people_id" : 30
-    },
-    {
-      "id" : 392,
-      "publications_id" : 113,
-      "people_id" : 29
-    },
-    {
-      "id" : 393,
-      "publications_id" : 114,
-      "people_id" : 44
-    },
-    {
-      "id" : 394,
-      "publications_id" : 115,
-      "people_id" : 48
-    },
-    {
-      "id" : 395,
-      "publications_id" : 116,
-      "people_id" : 47
-    },
-    {
-      "id" : 396,
-      "publications_id" : 117,
-      "people_id" : 4
-    },
-    {
-      "id" : 397,
-      "publications_id" : 118,
-      "people_id" : 45
-    },
-    {
-      "id" : 398,
-      "publications_id" : 119,
-      "people_id" : 46
-    },
-    {
-      "id" : 399,
-      "publications_id" : 120,
-      "people_id" : 50
-    },
-    {
-      "id" : 400,
-      "publications_id" : 121,
-      "people_id" : 49
-    },
-    {
-      "id" : 401,
-      "publications_id" : 122,
-      "people_id" : 3
-    },
-    {
-      "id" : 402,
-      "publications_id" : 123,
-      "people_id" : 25
-    },
-    {
-      "id" : 403,
-      "publications_id" : 124,
-      "people_id" : 26
-    },
-    {
-      "id" : 404,
-      "publications_id" : 125,
-      "people_id" : 51
-    },
-    {
-      "id" : 405,
-      "publications_id" : 126,
-      "people_id" : 29
-    },
-    {
-      "id" : 406,
-      "publications_id" : 127,
-      "people_id" : 24
-    },
-    {
-      "id" : 407,
-      "publications_id" : 128,
-      "people_id" : 53
-    },
-    {
-      "id" : 408,
-      "publications_id" : 129,
-      "people_id" : 28
-    },
-    {
-      "id" : 409,
-      "publications_id" : 130,
-      "people_id" : 54
-    },
-    {
-      "id" : 410,
-      "publications_id" : 131,
-      "people_id" : 27
-    },
-    {
-      "id" : 411,
-      "publications_id" : 132,
-      "people_id" : 30
-    }
-  ],
   "downloads" : [
     {
       "id" : 1,
@@ -6989,7 +5213,7 @@ export const GoogleData =
       "additional" : "Binary : Skinner.zip\r\nType : Maya Plugin (.mll)\r\nVersion : Maya 2008\r\nPlatform : Microsoft Windows XP",
       "img" : "Downloads/2008_Skinner/Skinner.jpg",
       "file" : "Downloads/2008_Skinner/Skinner.zip",
-      "link" : ""
+      "link" : "dummy"
     },
     {
       "id" : 2,
@@ -6998,9 +5222,9 @@ export const GoogleData =
       "title" : "AutoRigging for fish - Maya version",
       "desc" : "AutoRigging for fish' is XSIⓒFaceRobot like feature-point based rigging tool that help to generate basic rigging(skeletal system, skinned mesh) of fish. It support only stereotype of fish such as 'Prussian carp' which is streamline shaped with some scales and gills. For further questions, please contact Taekwon Chang.",
       "additional" : "Binary : ar_fish_maya.zip\r\nType : Maya Plugin (.mll)\r\nVersion : Maya 2008\r\nPlatform : Microsoft Windows XP ",
-      "img" : "Downloads/2008_AutoRigging for fish - Maya version/AutoRigging for fish - Maya version.jpg",
+      "img" : "Downloads/2008_AutoRigging%20for%20fish%20-%20Maya%20version/AutoRigging%20for%20fish%20-%20Maya%20version.jpg",
       "file" : "Downloads/2008_AutoRigging for fish - Maya version/AutoRigging for fish - Maya version.zip",
-      "link" : ""
+      "link" : "dummy"
     },
     {
       "id" : 3,
@@ -7009,9 +5233,9 @@ export const GoogleData =
       "title" : "AutoRigging for reptile - Maya version",
       "desc" : "Reptile Rigger for 3DS MAX. For further questions, please contact Jaewoo seo.",
       "additional" : "Binary : ar_max.zip\r\nType : Max script (.ms) \r\nVersion : Max 2008 \r\nPlatform : Microsoft Windows XP\r\n",
-      "img" : "Downloads/2008_AutoRigging for reptile - Maya version/AutoRigging for reptile - Maya version.jpg",
+      "img" : "Downloads/2008_AutoRigging%20for%20reptile%20-%20Maya%20version/AutoRigging%20for%20reptile%20-%20Maya%20version.jpg",
       "file" : "Downloads/2008_AutoRigging for reptile - Maya version/AutoRigging for reptile - Maya version.zip",
-      "link" : ""
+      "link" : "dummy"
     },
     {
       "id" : 4,
@@ -7020,9 +5244,9 @@ export const GoogleData =
       "title" : "AutoRigging for reptile - 3DS Max version",
       "desc" : "AutoRigging for maya' supports 5 types of prototype including Prussian carp, Globe fish, shark, snake and crocodile. User can build high quality rigging(Skinning/IK/Controller) for digital creatures in short time with intuitive feature-point base interface. For further questions, please contact Taekwon Chang.",
       "additional" : "Binary : auto_maya.zip \nType : Maya plug-in (.mll) \nVersion : Maya 2008 \nPlatform : Microsoft Windows XP \nManual : manual.zip ",
-      "img" : "Downloads/2008_AutoRigging for reptile - 3DS Max version/AutoRigging for reptile - 3DS Max version.jpg",
+      "img" : "Downloads/2008_AutoRigging%20for%20reptile%20-%203DS%20Max%20version/AutoRigging%20for%20reptile%20-%203DS%20Max%20version.jpg",
       "file" : "Downloads/2008_AutoRigging for reptile - 3DS Max version/AutoRigging for reptile - 3DS Max version.zip",
-      "link" : ""
+      "link" : "dummy"
     },
     {
       "id" : 5,
@@ -7031,7 +5255,7 @@ export const GoogleData =
       "title" : "AutoRigging for Maya",
       "desc" : "AutoRigging for maya' supports 5 types of prototype including Prussian carp, Globe fish, shark, snake and crocodile. User can build high quality rigging(Skinning/IK/Controller) for digital creatures in short time with intuitive feature-point base interface. For further questions, please contact Taekwon Chang.",
       "additional" : "Binary : auto_maya.zip \r\nType : Maya plug-in (.mll) \r\nVersion : Maya 2008 \r\nPlatform : Microsoft Windows XP \r\nManual : manual.zip ",
-      "img" : "Downloads/2008_AutoRigging for Maya/AutoRigging for Maya.jpg",
+      "img" : "Downloads/2008_AutoRigging%20for%20Maya/AutoRigging%20for%20Maya.jpg",
       "file" : "Downloads/2008_AutoRigging for Maya/AutoRigging for Maya.zip",
       "link" : ""
     },
@@ -7042,7 +5266,7 @@ export const GoogleData =
       "title" : "AutoRigging for 3ds Max",
       "desc" : "AutoRigging for 3ds max' supports 5 types of prototype including Prussian carp, Globe fish, shark, snake and crocodile. User can build high quality rigging(Skinning/IK/Controller) for digital creatures in short time with intuitive feature-point base interface. For further questions, please contact Jaewoo Seo .",
       "additional" : "Binary : auto_max.zip\r\nType : Max plug-in\r\nVersion : 3ds Max 9 \r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2008_AutoRigging for 3ds Max/AutoRigging for 3ds Max.jpg",
+      "img" : "Downloads/2008_AutoRigging%20for%203ds%20Max/AutoRigging%20for%203ds%20Max.jpg",
       "file" : "Downloads/2008_AutoRigging for 3ds Max/AutoRigging for 3ds Max.zip",
       "link" : ""
     },
@@ -7053,7 +5277,7 @@ export const GoogleData =
       "title" : "Construction Kit for Maya",
       "desc" : "Shading part of \"An Anisotropic Phong BRDF Model\" by Michael Ashikhmin is Maya implemented. For further questions, please contact Mi You.",
       "additional" : "Binary :CK.zip \r\nType : Maya plug-in \r\nVersion : Maya 2009 64bit \r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2009_Construction Kit for Maya/Construction Kit for Maya.jpg",
+      "img" : "Downloads/2009_Construction%20Kit%20for%20Maya/Construction%20Kit%20for%20Maya.jpg",
       "file" : "Downloads/2009_Construction Kit for Maya/Construction Kit for Maya.zip",
       "link" : ""
     },
@@ -7064,7 +5288,7 @@ export const GoogleData =
       "title" : "Anisotropic BRDF Phong",
       "desc" : "Maya implemented version of \"Transferring the Rig and Animation from a Character to Different Face Models\" by Orvalho. This program tranfers facial rigging(joint, skin weight, and blendshapes) of source model to target facial mesh. For further questions, please contact Yeongho Seol.",
       "additional" : "Binary : ABP.zip\r\nType : Maya plug-in\r\nVersion : Maya 2009 64bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2009_Anisotropic BRDF Phong/Anisotropic BRDF Phong.jpg",
+      "img" : "Downloads/2009_Anisotropic%20BRDF%20Phong/Anisotropic%20BRDF%20Phong.jpg",
       "file" : "Downloads/2009_Anisotropic BRDF Phong/Anisotropic BRDF Phong.zip",
       "link" : ""
     },
@@ -7075,7 +5299,7 @@ export const GoogleData =
       "title" : "Facial Rigging Tranfer",
       "desc" : "There are two deformers implemented. The \"simpleDeformer\" is Maya implemented version of \"As rigid as possible surface manipulation\" by Igarhashi. The \"surfaceModeling\" is Maya implemented version of \"Laplacian Surface Editing\" by Sorkine",
       "additional" : "Binary : FRT.zip\r\nType : Maya plug-in\r\nVersion : Maya(all version)\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2009_Facial Rigging Tranfer/Facial Rigging Tranfer.jpg",
+      "img" : "Downloads/2009_Facial%20Rigging%20Tranfer/Facial%20Rigging%20Tranfer.jpg",
       "file" : "Downloads/2009_Facial Rigging Tranfer/Facial Rigging Tranfer.zip",
       "link" : ""
     },
@@ -7086,7 +5310,7 @@ export const GoogleData =
       "title" : "Laplacian Surface Modeling Tools",
       "desc" : "FeatherRigger consists of two different parts. First one is the Vector Field Designer, a stand alone program. User can make the vector field by using the Vector Field Designer for a bird's feather direction. Second one is the FeatherPainter, Maya and Max script. For further questions, please contact Jaewoo Seo.",
       "additional" : "Binary : LSMT.zip\r\nType : Maya plug-in\r\nVersion : Maya 2009 64bit,32bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2009_Laplacian Surface Modeling Tools/Laplacian Surface Modeling Tools.jpg",
+      "img" : "Downloads/2009_Laplacian%20Surface%20Modeling%20Tools/Laplacian%20Surface%20Modeling%20Tools.jpg",
       "file" : "Downloads/2009_Laplacian Surface Modeling Tools/Laplacian Surface Modeling Tools.zip",
       "link" : ""
     },
@@ -7097,7 +5321,7 @@ export const GoogleData =
       "title" : "Feather Rigger",
       "desc" : "Meta Rigger for 3ds Max' supports automatic rigging (Skinning/IK/Controller) for several kinds of birds. For further questions, please contact Yeongho Seol.",
       "additional" : "Binary : FeatherRigger.py\r\nType : Stand Alone (Vector Field Designer), Maya and Max Script (FeatherPainter)\r\nVersion : Maya 2010 64bit, 32bit Max 2010 64bit, 32bit\r\nPlatform : Microsoft Windows 7\r\n",
-      "img" : "Downloads/2010_Feather Rigger/Feather Rigger.jpg",
+      "img" : "Downloads/2010_Feather%20Rigger/Feather%20Rigger.jpg",
       "file" : "Downloads/2010_Feather Rigger/Feather Rigger.zip",
       "link" : ""
     },
@@ -7108,7 +5332,7 @@ export const GoogleData =
       "title" : "Meta Rigger for 3ds Max",
       "desc" : "Meta Rigger for Maya' supports automatic rigging (Skinning/IK/Controller) for several kinds of birds.",
       "additional" : "Binary : MetaRigger_Max.py\r\nType : Max Script\r\nVersion : Max 2010 64bit, 32bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2010_Meta Rigger for 3ds Max/Meta Rigger for 3ds Max.jpg",
+      "img" : "Downloads/2010_Meta%20Rigger%20for%203ds%20Max/Meta%20Rigger%20for%203ds%20Max.jpg",
       "file" : "Downloads/2010_Meta Rigger for 3ds Max/Meta Rigger for 3ds Max.zip",
       "link" : ""
     },
@@ -7119,7 +5343,7 @@ export const GoogleData =
       "title" : "Meta Rigger for Maya",
       "desc" : "Solid Skeleton for Maya' supports automatic generating meshes for rendering the joints in Maya. For further questions, please contact Jaewon Song.",
       "additional" : "Binary : MetaRigger_Maya.py\r\nType : Maya Script\r\nVersion : Maya 2010 64bit, 32bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2010_Meta Rigger for Maya/Meta Rigger for Maya.jpg",
+      "img" : "Downloads/2010_Meta%20Rigger%20for%20Maya/Meta%20Rigger%20for%20Maya.jpg",
       "file" : "Downloads/2010_Meta Rigger for Maya/Meta Rigger for Maya.zip",
       "link" : ""
     },
@@ -7130,7 +5354,7 @@ export const GoogleData =
       "title" : "Solid Skeleton for Maya",
       "desc" : "Graph simplifier (vmGS) plugin allows effective simplification for dense animation graphs (e.g. dense graphs from motion capture). Note that this is a distribution version. For further questions, please contact Yeongho Seol or Jaewoo Seo.",
       "additional" : "Binary : SolidJoint.py\r\nType : Maya Python Script\r\nVersion : Maya 2011 64bit, 32bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2011_Solid Skeleton for Maya/Solid Skeleton for Maya.jpg",
+      "img" : "Downloads/2011_Solid%20Skeleton%20for%20Maya/Solid%20Skeleton%20for%20Maya.jpg",
       "file" : "Downloads/2011_Solid Skeleton for Maya/Solid Skeleton for Maya.zip",
       "link" : ""
     },
@@ -7141,7 +5365,7 @@ export const GoogleData =
       "title" : "Graph Simplifier for Maya",
       "desc" : "Particle generator from image' suggests a creating particle technique from image specified by user. This tool reads a bitmap file containing the RGB values. Based on the loading pixel value, particles are made on the each position which is set by resolution defined by user. For further questions, please contact Mi You.",
       "additional" : "Binary : vmGS.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011/2011 64bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Graph Simplifier for Maya/Graph Simplifier for Maya.jpg",
+      "img" : "Downloads/2012_Graph%20Simplifier%20for%20Maya/Graph%20Simplifier%20for%20Maya.jpg",
       "file" : "Downloads/2012_Graph Simplifier for Maya/Graph Simplifier for Maya.zip",
       "link" : ""
     },
@@ -7152,7 +5376,7 @@ export const GoogleData =
       "title" : "Particle generator from image",
       "desc" : "Intuitive and automated texture mapping tool using sketching interface. Implementation of master thesis \"Automatic Generation of Feature Point on Texture Mapping Contours\" For further questions, please contact Taekwon Jang.",
       "additional" : "\r\nBinary : PGI.7z\r\nType : RealFlow Plugin\r\nVersion : RealFlow x86_64 2012\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Particle generator from image/Particle generator from image.jpg",
+      "img" : "Downloads/2012_Particle%20generator%20from%20image/Particle%20generator%20from%20image.jpg",
       "file" : "Downloads/2012_Particle generator from image/Particle generator from image.7z",
       "link" : ""
     },
@@ -7163,7 +5387,7 @@ export const GoogleData =
       "title" : "Texture Sketching Tool",
       "desc" : "Automatic generation of scales for digital creatures (fish and snake). Implementation of master thesis \"Geometric texture placement for digital creatures\". For further questions, please contact Taekwon Jang .",
       "additional" : "Binary : TextureSketching.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Texture Sketching Tool/Texture Sketching Tool.jpg",
+      "img" : "Downloads/2012_Texture%20Sketching%20Tool/Texture%20Sketching%20Tool.jpg",
       "file" : "Downloads/2012_Texture Sketching Tool/Texture Sketching Tool.zip",
       "link" : ""
     },
@@ -7174,7 +5398,7 @@ export const GoogleData =
       "title" : "Geometric Texture Placement Tool",
       "desc" : "Basic code framework for developing a muscle system in Maya similar to 'cMuscleSystem'. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : geometricTexture.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Geometric Texture Placement Tool/Geometric Texture Placement Tool.jpg",
+      "img" : "Downloads/2012_Geometric%20Texture%20Placement%20Tool/Geometric%20Texture%20Placement%20Tool.jpg",
       "file" : "Downloads/2012_Geometric Texture Placement Tool/Geometric Texture Placement Tool.zip",
       "link" : ""
     },
@@ -7185,7 +5409,7 @@ export const GoogleData =
       "title" : "Basic muscle",
       "desc" : "Custom sculpt deformer for maya that supports a weight based keyframe animation. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : ActionMuscle.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Basic muscle/Basic muscle.jpg",
+      "img" : "Downloads/2012_Basic%20muscle/Basic%20muscle.jpg",
       "file" : "Downloads/2012_Basic muscle/Basic muscle.zip",
       "link" : ""
     },
@@ -7196,7 +5420,7 @@ export const GoogleData =
       "title" : "Custom Sculpt Deformer",
       "desc" : "Framework for realistic modeling of forest ecosystem, which support intra- and inter-specific competition among the species. Implementation of master thesis \"Realistic Modeling of Forest Ecosystems\". For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : bok.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Custom Sculpt Deformer/Custom Sculpt Deformer.jpg",
+      "img" : "Downloads/2012_Custom%20Sculpt%20Deformer/Custom%20Sculpt%20Deformer.jpg",
       "file" : "Downloads/2012_Custom Sculpt Deformer/Custom Sculpt Deformer.zip",
       "link" : ""
     },
@@ -7207,7 +5431,7 @@ export const GoogleData =
       "title" : "Ecosystem Simulation",
       "desc" : "Extract original maya muscle, export/import muscle data, create guiding curves, create Maya muscle and attatch muscle to rig using MEL command. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : ecosystem.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Ecosystem Simulation/Ecosystem Simulation.jpg",
+      "img" : "Downloads/2012_Ecosystem%20Simulation/Ecosystem%20Simulation.jpg",
       "file" : "Downloads/2012_Ecosystem Simulation/Ecosystem Simulation.zip",
       "link" : ""
     },
@@ -7218,7 +5442,7 @@ export const GoogleData =
       "title" : "Muscle Helper",
       "desc" : "Compute a score to evaluate the matching status between given 2 joint hierarchies. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : muscleHelper.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Muscle Helper/Muscle Helper.jpg",
+      "img" : "Downloads/2012_Muscle%20Helper/Muscle%20Helper.jpg",
       "file" : "Downloads/2012_Muscle Helper/Muscle Helper.zip",
       "link" : ""
     },
@@ -7229,7 +5453,7 @@ export const GoogleData =
       "title" : "Joint Angle Matching",
       "desc" : "A weight painting tool for intuitive control of splash effect. Artist can adjust the degree of splash by painting weights on colliding objects. This tool provides an artisan style tool for the painting. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : DCJointMatch.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Joint Angle Matching/Joint Angle Matching.jpg",
+      "img" : "Downloads/2012_Joint%20Angle%20Matching/Joint%20Angle%20Matching.jpg",
       "file" : "Downloads/2012_Joint Angle Matching/Joint Angle Matching.zip",
       "link" : ""
     },
@@ -7240,7 +5464,7 @@ export const GoogleData =
       "title" : "Splash Painter",
       "desc" : "Convert a maya scene into multiple level-set(distance) fields and export them as text files. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : splashPainter.zip\r\nType : Maya Embedded Language\r\nVersion : Maya\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Splash Painter/Splash Painter.jpg",
+      "img" : "Downloads/2012_Splash%20Painter/Splash%20Painter.jpg",
       "file" : "Downloads/2012_Splash Painter/Splash Painter.zip",
       "link" : ""
     },
@@ -7251,7 +5475,7 @@ export const GoogleData =
       "title" : "Maya to Nile",
       "desc" : "OpenGL based Obj file viewer that supports multi-threaded file loading. For further questions, please contact Taekwon Jang.\t",
       "additional" : "Binary : MayaToNile.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Maya to Nile/Maya to Nile.jpg",
+      "img" : "Downloads/2012_Maya%20to%20Nile/Maya%20to%20Nile.jpg",
       "file" : "Downloads/2012_Maya to Nile/Maya to Nile.zip",
       "link" : ""
     },
@@ -7262,7 +5486,7 @@ export const GoogleData =
       "title" : "Nile Player",
       "desc" : "Implementation of a stable fluid(Stam 1999) in 2D. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : NilePlayer.zip\r\nType : Standalone\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Nile Player/Nile Player.jpg",
+      "img" : "Downloads/2012_Nile%20Player/Nile%20Player.jpg",
       "file" : "Downloads/2012_Nile Player/Nile Player.zip",
       "link" : ""
     },
@@ -7273,7 +5497,7 @@ export const GoogleData =
       "title" : "2D Grid Based Fluid Simulator",
       "desc" : "OpenGL based viewer that visualizes the level-set field converted from a mesh via CPU-based marching-cube algorithm. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : 2Dgrid.zip\r\nType : Standalone\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_2D Grid Based Fluid Simulator/2D Grid Based Fluid Simulator.jpg",
+      "img" : "Downloads/2012_2D%20Grid%20Based%20Fluid%20Simulator/2D%20Grid%20Based%20Fluid%20Simulator.jpg",
       "file" : "Downloads/2012_2D Grid Based Fluid Simulator/2D Grid Based Fluid Simulator.zip",
       "link" : ""
     },
@@ -7284,7 +5508,7 @@ export const GoogleData =
       "title" : "Marching Cube Viewer",
       "desc" : "Simple plug-in that embeds MEL script that support batch rendering with customized render options. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : NileMarchCube.zip\r\nType : Standalone\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Marching Cube Viewer/Marching Cube Viewer.jpg",
+      "img" : "Downloads/2012_Marching%20Cube%20Viewer/Marching%20Cube%20Viewer.jpg",
       "file" : "Downloads/2012_Marching Cube Viewer/Marching Cube Viewer.zip",
       "link" : ""
     },
@@ -7295,7 +5519,7 @@ export const GoogleData =
       "title" : "Nile Render",
       "desc" : "Converts realflow emitters and realwave into level-set fields and merges them into a single scalar field. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : NileRender.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 64bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Nile Render/Nile Render.jpg",
+      "img" : "Downloads/2012_Nile%20Render/Nile%20Render.jpg",
       "file" : "Downloads/2012_Nile Render/Nile Render.zip",
       "link" : ""
     },
@@ -7306,7 +5530,7 @@ export const GoogleData =
       "title" : "Level Set Merge",
       "desc" : "Nuke plug-in rendering stereoscopic image from 3D geometry scene. For further information, please contact Younghui Kim.",
       "additional" : "Binary : LSMerge.zip\r\nType : Realflow Plugin\r\nVersion : Realflow 2012\r\nPlatform : Microsoft Windows 7\r\n",
-      "img" : "Downloads/2012_Level Set Merge/Level Set Merge.jpg",
+      "img" : "Downloads/2012_Level%20Set%20Merge/Level%20Set%20Merge.jpg",
       "file" : "Downloads/2012_Level Set Merge/Level Set Merge.zip",
       "link" : ""
     },
@@ -7317,7 +5541,7 @@ export const GoogleData =
       "title" : "Stereo Renderer v1.0 Lite",
       "desc" : "Nuke plug-in generating stereoscopic views including \"anaglyph\", \"side by side\", \"top and bottom\" and \"polarized 3D\" which is fit to LG FPR stereo display. For further information, please contact Younghui Kim.",
       "additional" : "Binary : N_StereoRender.zip\r\nType : Type : Nuke Plug-in (Gizmo)\r\nVersion : Nuke 6\r\nPlatform : Cross-platform",
-      "img" : "Downloads/2012_Stereo Renderer v1.0 Lite/Stereo Renderer v1.0 Lite.jpg",
+      "img" : "Downloads/2012_Stereo%20Renderer%20v1.0%20Lite/Stereo%20Renderer%20v1.0%20Lite.jpg",
       "file" : "Downloads/2012_Stereo Renderer v1.0 Lite/Stereo Renderer v1.0 Lite.zip",
       "link" : ""
     },
@@ -7328,7 +5552,7 @@ export const GoogleData =
       "title" : "Stereo Viewer v1.0",
       "desc" : "This is Nuke plugin for creating mesh surface from 2D image which has depth channel information. It is one part of 2D to 3D conversion process. For further questions, please contact Sangwoo Lee.",
       "additional" : "Binary : N_StereoViewer.zip\r\nType : Nuke Plug-in (Gizmo)\r\nVersion : Nuke 6\r\nPlatform : Cross-platform",
-      "img" : "Downloads/2012_Stereo Viewer v1.0/Stereo Viewer v1.0.jpg",
+      "img" : "Downloads/2012_Stereo%20Viewer%20v1.0/Stereo%20Viewer%20v1.0.jpg",
       "file" : "Downloads/2012_Stereo Viewer v1.0/Stereo Viewer v1.0.zip",
       "link" : ""
     },
@@ -7350,7 +5574,7 @@ export const GoogleData =
       "title" : "Gaussian Curvature Calculator",
       "desc" : "This tool is the shader of the paper, 'Cartoon Animation Style Rendering of Water', ISVC '09 Proceedings of the 5th International Symposium on Advances in Visual Computing. For water animation, we make a specific type of cartoon shader. For further questions, please contact Mi You.",
       "additional" : "Binary : GaussianCurvature.zip\r\nType : Maya Plugin\r\nVersion : Maya 2008 64bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Gaussian Curvature Calculator/Gaussian Curvature Calculator.jpg",
+      "img" : "Downloads/2012_Gaussian%20Curvature%20Calculator/Gaussian%20Curvature%20Calculator.jpg",
       "file" : "Downloads/2012_Gaussian Curvature Calculator/Gaussian Curvature Calculator.zip",
       "link" : ""
     },
@@ -7361,7 +5585,7 @@ export const GoogleData =
       "title" : "Water Cartoon Shader",
       "desc" : "This tool generates the Mean curvature of mesh. After reading the vertex information, the value is expressed by color, depending on the magnitude. For further questions, please contact Mi You.\t",
       "additional" : "Binary : cartoonWater.zip\r\nType : Maya Plugin\r\nVersion : Maya 2008 64bit\r\nPlatform : Microsoft Windows 7\r\n",
-      "img" : "Downloads/2012_Water Cartoon Shader/Water Cartoon Shader.jpg",
+      "img" : "Downloads/2012_Water%20Cartoon%20Shader/Water%20Cartoon%20Shader.jpg",
       "file" : "Downloads/2012_Water Cartoon Shader/Water Cartoon Shader.zip",
       "link" : ""
     },
@@ -7375,7 +5599,7 @@ export const GoogleData =
         "camera). Implementation of paper  Terrain Geometry from Monocular Image Sequences . For further questions, please contact Kyehyun Kim."
       ],
       "additional" : "Binary : MeanCurvature.zip\r\nType : Maya Plugin\r\nVersion : Maya 2008 64bit\r\nPlatform : Microsoft Windows 7\r\n",
-      "img" : "Downloads/2012_Mean Curvature Calculator/Mean Curvature Calculator.jpg",
+      "img" : "Downloads/2012_Mean%20Curvature%20Calculator/Mean%20Curvature%20Calculator.jpg",
       "file" : "Downloads/2012_Mean Curvature Calculator/Mean Curvature Calculator.zip",
       "link" : ""
     },
@@ -7389,7 +5613,7 @@ export const GoogleData =
         "Binary : N_Terrain.zip(plugin",
         "demo video)\r\nType : Nuke Plugin\r\nVersion : Nuke 6.3v1 64bit\r\nPlatform : Microsoft Windows 7"
       ],
-      "img" : "Downloads/2012_N_Terrain (Lite)/N_Terrain (Lite).jpg",
+      "img" : "Downloads/2012_N_Terrain%20(Lite)/N_Terrain%20(Lite).jpg",
       "file" : "Downloads/2012_N_Terrain (Lite)/N_Terrain (Lite).zip",
       "link" : ""
     },
@@ -7404,7 +5628,7 @@ export const GoogleData =
         "Maya Script\r\nVersion : Visual Studio C",
         "2010 (or redistributable) , Maya 2011 32bit\r\nPlatform : Microsoft Windows 7"
       ],
-      "img" : "Downloads/2012_Smoke Simulator Using Surface-like Features/Smoke Simulator Using Surface-like Features.jpg",
+      "img" : "Downloads/2012_Smoke%20Simulator%20Using%20Surface-like%20Features/Smoke%20Simulator%20Using%20Surface-like%20Features.jpg",
       "file" : "Downloads/2012_Smoke Simulator Using Surface-like Features/Smoke Simulator Using Surface-like Features.zip",
       "link" : ""
     },
@@ -7415,7 +5639,7 @@ export const GoogleData =
       "title" : "Procedural Flow Generator",
       "desc" : "This is Nuke plugin for filling the hole in the video sequence by gathering corresponding regions in neighbor frames. It is one part of 2D to 3D conversion process. For further questions, please contact YoungHui Kim.",
       "additional" : "Binary : proceduralFlowGenerator.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 64bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Procedural Flow Generator/Procedural Flow Generator.jpg",
+      "img" : "Downloads/2012_Procedural%20Flow%20Generator/Procedural%20Flow%20Generator.jpg",
       "file" : "Downloads/2012_Procedural Flow Generator/Procedural Flow Generator.zip",
       "link" : ""
     },
@@ -7426,7 +5650,7 @@ export const GoogleData =
       "title" : "N_HoleFiller (Lite)",
       "desc" : "This is Nuke plugin for filling the hole in the video sequence by gathering corresponding regions in neighbor frames. It is one part of 2D to 3D conversion process. For further questions, please contact YoungHui Kim.",
       "additional" : "Binary : N_HoleFiller.zip\r\nType : Nuke Plug-in\r\nVersion : Nuke 6.3v1 64bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_N_HoleFiller (Lite)/N_HoleFiller (Lite).jpg",
+      "img" : "Downloads/2012_N_HoleFiller%20(Lite)/N_HoleFiller%20(Lite).jpg",
       "file" : "Downloads/2012_N_HoleFiller (Lite)/N_HoleFiller (Lite).zip",
       "link" : ""
     },
@@ -7437,7 +5661,7 @@ export const GoogleData =
       "title" : "N_BasicFiller (Lite)",
       "desc" : "Nuke plug-in fitting a 3D generic face to a 2D face in an image based on tracked correspondences between them. As lite version tool, the pose of an target face is not estimated and the core algorithms for fine results are omitted. For further questions or full version tool, please contact Jungjin Lee.",
       "additional" : "Binary : N_BasicFiller.zip\r\nType : Nuke Plugin\r\nVersion :Nuke 6.3v1 64bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_N_BasicFiller (Lite)/N_BasicFiller (Lite).jpg",
+      "img" : "Downloads/2012_N_BasicFiller%20(Lite)/N_BasicFiller%20(Lite).jpg",
       "file" : "Downloads/2012_N_BasicFiller (Lite)/N_BasicFiller (Lite).zip",
       "link" : ""
     },
@@ -7448,7 +5672,7 @@ export const GoogleData =
       "title" : "N_FaceMatcher (Lite)",
       "desc" : "Nuke plug-in fitting a 3D template model to a 2D object in an image based on tracked correspondences between them. As lite version tool, only car objects can be handled and the pose of an target object is not estimated. The full version tool can handle any rigid objects. For further questions or full version tool, please contact Jungjin Lee.",
       "additional" : "Binary : N_FaceMatcher_6v3(Lite).zip\nType : Nuke Plugin\nVersion :Nuke 6.3v1 64bit\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_N_FaceMatcher (Lite)/N_FaceMatcher (Lite).jpg",
+      "img" : "Downloads/2012_N_FaceMatcher%20(Lite)/N_FaceMatcher%20(Lite).jpg",
       "file" : "Downloads/2012_N_FaceMatcher (Lite)/N_FaceMatcher (Lite).zip",
       "link" : ""
     },
@@ -7459,7 +5683,7 @@ export const GoogleData =
       "title" : "N_ObjectMatcher (Lite)",
       "desc" : "A maya plug-in that embeds MEL script that support batch rendering of MAXWELL with customizable render options. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : N_ObjectMatcher_6v3(Lite).zip\r\nType : Nuke Plugin\r\nVersion :Nuke 6.3v1 64bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_N_ObjectMatcher (Lite)/N_ObjectMatcher (Lite).jpg",
+      "img" : "Downloads/2012_N_ObjectMatcher%20(Lite)/N_ObjectMatcher%20(Lite).jpg",
       "file" : "Downloads/2012_N_ObjectMatcher (Lite)/N_ObjectMatcher (Lite).zip",
       "link" : ""
     },
@@ -7470,7 +5694,7 @@ export const GoogleData =
       "title" : "MAXWELL batch Render",
       "desc" : "The extended version of ‘procedural flow generator’ including UI. The tool deals the numerous particles flowing potential flow in grid. This is a lite version of maya plugin. For further questions or full version tool, please contact Mi You.",
       "additional" : "Binary : MaxwellBatchRenderCommand.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 64bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_MAXWELL batch Render/MAXWELL batch Render.jpg",
+      "img" : "Downloads/2012_MAXWELL%20batch%20Render/MAXWELL%20batch%20Render.jpg",
       "file" : "Downloads/2012_MAXWELL batch Render/MAXWELL batch Render.zip",
       "link" : ""
     },
@@ -7525,7 +5749,7 @@ export const GoogleData =
       "title" : "FootMatcher (Lite)",
       "desc" : "This plug-in is developed for snow scenes that snow particles interact with fur or hair NURBS curves.If the snow particles come close to NURBS curve, particles will follow the curve as long as a considerable displacement of particle occurs.",
       "additional" : "Binary : footMatcher.zip\r\nType : Nuke Plugin\r\nVersion : Nuke 64bit\r\nPlatform : Microsoft Windows 7\r\n",
-      "img" : "Downloads/2012_FootMatcher (Lite)/FootMatcher (Lite).jpg",
+      "img" : "Downloads/2012_FootMatcher%20(Lite)/FootMatcher%20(Lite).jpg",
       "file" : "Downloads/2012_FootMatcher (Lite)/FootMatcher (Lite).zip",
       "link" : ""
     },
@@ -7580,7 +5804,7 @@ export const GoogleData =
       "title" : "IRB(Interactive Region Based Face Model)",
       "desc" : "Face Blender BS - Written by Meekyoung Kim (koms1701_at_gmail.com)",
       "additional" : "Binary : IRB.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 64bit\r\nPlatform : Microsoft Windows 7\r\n",
-      "img" : "Downloads/2012_IRB(Interactive Region Based Face Model)/IRB(Interactive Region Based Face Model).jpg",
+      "img" : "Downloads/2012_IRB(Interactive%20Region%20Based%20Face%20Model)/IRB(Interactive%20Region%20Based%20Face%20Model).jpg",
       "file" : "Downloads/2012_IRB(Interactive Region Based Face Model)/IRB(Interactive Region Based Face Model).zip",
       "link" : ""
     },
@@ -7591,7 +5815,7 @@ export const GoogleData =
       "title" : "Face Blender BS",
       "desc" : "Fast PSD is a Maya plugin that is much faster version of famous PSD(Pose Space Deformation) which was implemented by Michael Comet. PSD itself is a tool which can give corrective shape sculpting at particular pose of Joint.",
       "additional" : "Binary : dmanip.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 64bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2012_Face Blender BS/Face Blender BS.jpg",
+      "img" : "Downloads/2012_Face%20Blender%20BS/Face%20Blender%20BS.jpg",
       "file" : "Downloads/2012_Face Blender BS/Face Blender BS.zip",
       "link" : ""
     },
@@ -7602,7 +5826,7 @@ export const GoogleData =
       "title" : "Fast PSD",
       "desc" : "\"Cutseperator\" is a stand-alone utility for any user who want to separate sequential images automatically. Also, it has a very user -friendly interface.",
       "additional" : "Binary : fastPSD.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 64bit\r\nPlatform : Microsoft Windows 7\r\n",
-      "img" : "Downloads/2012_Fast PSD/Fast PSD.jpg",
+      "img" : "Downloads/2012_Fast%20PSD/Fast%20PSD.jpg",
       "file" : "Downloads/2012_Fast PSD/Fast PSD.zip",
       "link" : ""
     },
@@ -7668,7 +5892,7 @@ export const GoogleData =
       "title" : "Terrain Generator",
       "desc" : "This plug-in makes symmetric blendshape automatically. By selecting the neutral face and counter blendshape, it creates the other side on the copied face. Developed by Byungkuk Choi(litlpoet_at_kaist.ac.kr) and Jihye Oh (ojh1016_at_hotmail.com).",
       "additional" : "Binary : TGen.zip\r\nType : Maya Plugin\r\nVersion : Maya 2012 64bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2013_Terrain Generator/Terrain Generator.jpg",
+      "img" : "Downloads/2013_Terrain%20Generator/Terrain%20Generator.jpg",
       "file" : "Downloads/2013_Terrain Generator/Terrain Generator.zip",
       "link" : ""
     },
@@ -7679,7 +5903,7 @@ export const GoogleData =
       "title" : "Face Mirror",
       "desc" : "PhotoMapper is a multi-purpose Maya plug-in for the projection of images onto existing geometry. It can be used for creating and texturing virtual sets or setting up your matte paintings in the scene. PhotoMapper offers 3 different modes of real-time visualization of the projections.\r\nDeveloped by Roger Blanco Ribera (rogerbr_at_kaist.ac.kr), Jaewon Song (jaewonsong_at_kaist.ac.kr) and Byungguk Choi (litlpoet_at_kaist.ac.kr)",
       "additional" : "Binary : facemirror.zip\r\nType : Maya Plugin\r\nVersion : Maya 2012 64bit\r\nPlatform : Microsoft Windows 7",
-      "img" : "Downloads/2013_Face Mirror/Face Mirror.jpg",
+      "img" : "Downloads/2013_Face%20Mirror/Face%20Mirror.jpg",
       "file" : "Downloads/2013_Face Mirror/Face Mirror.zip",
       "link" : ""
     },
@@ -7690,7 +5914,7 @@ export const GoogleData =
       "title" : "Photo Mapper",
       "desc" : "Disparity adjustment tool can control the disparity of stereoscopic contents. This tool consists of two nuke plugins. For further questions, please contact Sangwoo Lee(sangwoolee_at_kaist.ac.kr).",
       "additional" : "Binary : photoMapper.zip\r\nType : Maya Plugin\r\nVersion : Maya 2012 64bit\r\nPlatform : Linux x64",
-      "img" : "Downloads/2013_Photo Mapper/Photo Mapper.jpg",
+      "img" : "Downloads/2013_Photo%20Mapper/Photo%20Mapper.jpg",
       "file" : "Downloads/2013_Photo Mapper/Photo Mapper.zip",
       "link" : ""
     },
@@ -7701,7 +5925,7 @@ export const GoogleData =
       "title" : "Disparity Adjustment Tool",
       "desc" : "Corresponding UI helps you to match point of a facial model with easy interface. This tool consist of 2 maya script “Marker_matcher.py” and “Marker_reader.py. With “Marker_matcher.py”, user can save the marker’s template with color information and symmetry information. With “Marker_reader.py”, user can load a template that has been saved by “Marker_matcher.py” and provide intuitive tool to match to each corresponding point of facial model.",
       "additional" : "Binary : DisparityAdjustment.zip\r\nType : Nuke Plugin\r\nVersion : Nuke 6.3v1 64 bit\r\nPlatform : Microsoft Windows 7\r\n",
-      "img" : "Downloads/2013_Disparity Adjustment Tool/Disparity Adjustment Tool.jpg",
+      "img" : "Downloads/2013_Disparity%20Adjustment%20Tool/Disparity%20Adjustment%20Tool.jpg",
       "file" : "Downloads/2013_Disparity Adjustment Tool/Disparity Adjustment Tool.zip",
       "link" : ""
     },
@@ -7712,7 +5936,7 @@ export const GoogleData =
       "title" : "Corresponding Matching UI",
       "desc" : "Multi-view content editing tool can manipulate the multi-view auto-stereoscopic content based on 3D mesh surfaces as various compositing methods such as physical-based simulation, lighting, etc. 3D mesh is created by input 2D image including depth information. This tool is a stand-alone program using Qt. For further questions or the full version tool, please contact Sangwoo Lee.",
       "additional" : "Binary : CorrespondingUI.zip\r\nType : Maya Script\r\nVersion : Any Maya\r\nPlatform : Any OS",
-      "img" : "Downloads/2014_Corresponding Matching UI/Corresponding Matching UI.png",
+      "img" : "Downloads/2014_Corresponding%20Matching%20UI/Corresponding%20Matching%20UI.png",
       "file" : "Downloads/2014_Corresponding Matching UI/Corresponding Matching UI.zip",
       "link" : ""
     },
@@ -7723,7 +5947,7 @@ export const GoogleData =
       "title" : "Multi-view Content Editing Tool",
       "desc" : "Multi-view Geometry Correction Tool can rectify geometrty error corresponding to reference view image using scale-invariant feature transform(SIFT). To compensate this gemometric errors, our tool transform the source views with salient area of reference vew. Therefore, it tracks the salient areas of reference view from each frame. It can also apply to image sequences by using tempolar filter. This tool is a stand-alone program using Qt. For further questions or the full version tool, please contact Bumki Kim(bumkikim_at_kaist.ac.kr).",
       "additional" : "\r\nBinary : MultiViewEdit.zip\r\nType : Standalone\r\nVersion : NA\r\nPlatform : Microsoft Windows 7, 8",
-      "img" : "Downloads/2014_Multi-view Content Editing Tool/Multi-view Content Editing Tool.png",
+      "img" : "Downloads/2014_Multi-view%20Content%20Editing%20Tool/Multi-view%20Content%20Editing%20Tool.png",
       "file" : "Downloads/2014_Multi-view Content Editing Tool/Multi-view Content Editing Tool.zip",
       "link" : ""
     },
@@ -7734,7 +5958,7 @@ export const GoogleData =
       "title" : "Multi-view Geometry Correction Tool",
       "desc" : "Multi-view Color Correction Tool can correct color information of multi-view images corresponding to reference view image using color compensation algorithm based on image features. To compensate this color difference, first we model the characteristics of cameras based on frame’s feature from each camera and then correct the color difference. This tool is a stand-alone program using Qt. For further questions or the full version tool, please contact Bumki Kim(bumkikim_at_kaist.ac.kr).",
       "additional" : "Binary : MULVW_Geometry_Correction.zip\r\nType : Standalone\r\nVersion : NA\r\nPlatform : Microsoft Windows 7, 8",
-      "img" : "Downloads/2015_Multi-view Geometry Correction Tool/Multi-view Geometry Correction Tool.png",
+      "img" : "Downloads/2015_Multi-view%20Geometry%20Correction%20Tool/Multi-view%20Geometry%20Correction%20Tool.png",
       "file" : "Downloads/2015_Multi-view Geometry Correction Tool/Multi-view Geometry Correction Tool.zip",
       "link" : ""
     },
@@ -7745,7 +5969,7 @@ export const GoogleData =
       "title" : "Multi-view Color Correction Tool",
       "desc" : "Depth Correction Tool can upsample low resolution depth data into high resolution depth data corresponding to reference color image using joint bilateral filter. It can also generate and correct optical flow. By using this, it can remove the temporal noise near the edges and preserve temporal consistency using t-directional joint bilateral filter. This tool is a stand-alone program using Qt. For further questions or the full version tool, please contact Seunghwa Jeong(seunghwajeong_at_kaist.ac.kr).\t",
       "additional" : "Binary : MULVW_Color_Correction.zip\r\nType : Standalone\r\nVersion : NA\r\nPlatform : Microsoft Windows 7, 8",
-      "img" : "Downloads/2015_Multi-view Color Correction Tool/Multi-view Color Correction Tool.png",
+      "img" : "Downloads/2015_Multi-view%20Color%20Correction%20Tool/Multi-view%20Color%20Correction%20Tool.png",
       "file" : "Downloads/2015_Multi-view Color Correction Tool/Multi-view Color Correction Tool.zip",
       "link" : ""
     },
@@ -7756,7 +5980,7 @@ export const GoogleData =
       "title" : "Multi-view Depth Correction Tool",
       "desc" : "Direct facial retargeting tool is Maya Python script for the facial retargeting from captured facial markers to target facial rig. You can train mocap markers and facial rig directly with an intuitive process. If you want to know how to use, watch the two videos, 'https://youtu.be/xb691H8O0dg' and 'https://youtu.be/ChxpyoDQXxM'. This software is a demo version because the retargeting function is limited. For further questions, please contact Jaewon Song(songjaewon_at_kaist.ac.kr).",
       "additional" : "Binary : MULVW_Depth_Correction.zip\r\nType : Standalone\r\nVersion : NA\r\nPlatform : Microsoft Windows 7, 8\r\n",
-      "img" : "Downloads/2015_Multi-view Depth Correction Tool/Multi-view Depth Correction Tool.png",
+      "img" : "Downloads/2015_Multi-view%20Depth%20Correction%20Tool/Multi-view%20Depth%20Correction%20Tool.png",
       "file" : "Downloads/2015_Multi-view Depth Correction Tool/Multi-view Depth Correction Tool.zip",
       "link" : ""
     },
@@ -7767,7 +5991,7 @@ export const GoogleData =
       "title" : "Direct facial retargeting tool",
       "desc" : "Multi-vew Correction Tool is an intergrated software of Multi-view Geometry Correction Tool, Multi-view Color Correction Tool and Multi-view Depth Correction Tool. This software has improved the performance of entire multi-view correction process. This tool is a stand-alone program using Qt. For further questions or the full version tool, please contact Bumki Kim(bumkikim_at_kaist.ac.kr).",
       "additional" : "Binary : DirectFacialRetargeting_distribute.zip\nType : Autodesk Maya Python Script\nVersion : Maya 2014 or higher\nPlatform : Microsoft Windows 7, 8, 10\n\n",
-      "img" : "Downloads/2015_Direct facial retargeting tool/Direct facial retargeting tool.png",
+      "img" : "Downloads/2015_Direct%20facial%20retargeting%20tool/Direct%20facial%20retargeting%20tool.png",
       "file" : "Downloads/2015_Direct facial retargeting tool/Direct facial retargeting tool.zip",
       "link" : ""
     },
@@ -7778,7 +6002,7 @@ export const GoogleData =
       "title" : "Multi-vew Correction Tool v3",
       "desc" : "Multi-view player plays multi-view content that is created by our lab's unique multi-view video format. The player not only plays the loaded videos but also creates inter-view videos based on the information saved in the file format. For further questions, please contact Kyehyun Kim(frodos_at_kaist.ac.kr).",
       "additional" : "Binary : MULVW_Correction_v3.zip\r\nType : Standalone\r\nVersion : NA\r\nPlatform : Microsoft Windows 8, 10",
-      "img" : "Downloads/2016_Multi-vew Correction Tool v3/Multi-vew Correction Tool v3.jpg",
+      "img" : "Downloads/2016_Multi-vew%20Correction%20Tool%20v3/Multi-vew%20Correction%20Tool%20v3.jpg",
       "file" : "Downloads/2016_Multi-vew Correction Tool v3/Multi-vew Correction Tool v3.zip",
       "link" : ""
     },
@@ -7789,7 +6013,7 @@ export const GoogleData =
       "title" : "Multi-view player",
       "desc" : "Dataset consisting of input/output data and camera parameters used for stitching results in Rich360: Optimized Spherical Representation from Structured Panoramic Camera Arrays",
       "additional" : "\r\nBinary : vmMVPlayer_exe.zip\r\nType : Standalone\r\nVersion : NA\r\nPlatform : Microsoft Windows 8, 10",
-      "img" : "Downloads/2016_Multi-view player/Multi-view player.png",
+      "img" : "Downloads/2016_Multi-view%20player/Multi-view%20player.png",
       "file" : "Downloads/2016_Multi-view player/Multi-view player.zip",
       "link" : ""
     },
@@ -7802,7 +6026,7 @@ export const GoogleData =
       "additional" : "Input: set of input images for each camera (JPG sequence)\r\nOutput: stitching results from Rich360 (the equirectangular projection with linear blending, non-uniform ray sampling was not applied.)\r\nCamParams.txt: 3D calibration data of all cameras.",
       "img" : "",
       "file" : "",
-      "link" : ""
+      "link" : "/main/publicate/17"
     },
     {
       "id" : 75,
@@ -7811,7 +6035,7 @@ export const GoogleData =
       "title" : "Group motion recognizer - lite",
       "desc" : "\r\nThis software recognizes the gesture of multiple users. Basically, the recognizer classifies the pose of each user through the Support Vector Machine(SVM). Motions are registered in advance as a sequence of poses. If a pose sequence is matched with registered motion, the recognizer returns the motion as a retrieved result. In this version, 4 poses are registered(Rest, Ready, Left zap, Right zap), so that this software is able to recognize simple “Zap” motion of boxing. For further questions, please contact Hyunggoog Seo (hyunggoog.seo_at_kaist.ac.kr).",
       "additional" : "Binary : recognizer_module_exe.zip\r\nType : Standalone\r\nVersion : NA\r\nPlatform : Microsoft Windows 8, 10, Kinect SDK 2.0 required",
-      "img" : "Downloads/2017_Group motion recognizer - lite/Group motion recognizer - lite.png",
+      "img" : "Downloads/2017_Group%20motion%20recognizer%20-%20lite/Group%20motion%20recognizer%20-%20lite.png",
       "file" : "Downloads/2017_Group motion recognizer - lite/Group motion recognizer - lite.zip",
       "link" : ""
     },
@@ -7822,7 +6046,7 @@ export const GoogleData =
       "title" : "Motion Database",
       "desc" : "VML motion database contains human motion data with various activities. \r\nThis data is free for use in research projects, but resell and redistribution is strictly forbidden.\r\nIf you publish results obtained using this data, please let us know the citation to your paper.\r\nFor further questions, please contact visualmedia_at_kaist.ac.kr.",
       "additional" : "",
-      "img" : "Downloads/2014_Motion Database/Motion Database.jpg",
+      "img" : "Downloads/2014_Motion%20Database/Motion%20Database.jpg",
       "file" : "",
       "link" : ""
     }
@@ -7830,385 +6054,385 @@ export const GoogleData =
   "partners" : [
     {
       "id" : 1,
+      "name" : "Ministry of Culture, Sports and Tourism",
       "mou" : 1,
       "type" : "Government",
-      "name" : "Ministry of Culture, Sports and Tourism",
       "logo" : "Partners/logo/Government_1.png",
       "link" : "http://www.mcst.go.kr/main.jsp"
     },
     {
       "id" : 2,
+      "name" : "KOCCA (Korea Creative Content Agency)",
       "mou" : 1,
       "type" : "Government",
-      "name" : "KOCCA (Korea Creative Content Agency)",
       "logo" : "Partners/logo/Government_2.png",
       "link" : "http://www.kocca.kr/cop/main.do"
     },
     {
       "id" : 3,
+      "name" : "Chungcheongnam-Do",
       "mou" : 1,
       "type" : "Government",
-      "name" : "Chungcheongnam-Do",
       "logo" : "Partners/logo/Government_3.png",
       "link" : "http://http://www.chungnam.go.kr/"
     },
     {
       "id" : 4,
+      "name" : "DICA (Daejeon Information & Culture Industry Promotion Agency)",
       "mou" : 1,
       "type" : "Government",
-      "name" : "DICA (Daejeon Information & Culture Industry Promotion Agency)",
       "logo" : "Partners/logo/Government_4.png",
       "link" : "http://dicia.or.kr"
     },
     {
       "id" : 5,
+      "name" : "ETRI (Electronics and Telecommunications Research Institute)",
       "mou" : 1,
       "type" : "Institutions",
-      "name" : "ETRI (Electronics and Telecommunications Research Institute)",
       "logo" : "Partners/logo/Institutions_1.png",
       "link" : "https://www.etri.re.kr/eng/main/main.etri"
     },
     {
       "id" : 6,
+      "name" : "SK Telecom",
       "mou" : 1,
       "type" : "Institutions",
-      "name" : "SK Telecom",
       "logo" : "Partners/logo/Institutions_2.png",
       "link" : "http://www.sktelecom.com/index_real.html"
     },
     {
       "id" : 7,
+      "name" : "CJ",
       "mou" : 1,
       "type" : "Institutions",
-      "name" : "CJ",
       "logo" : "Partners/logo/Institutions_3.png",
       "link" : "http://http://english.cj.net/"
     },
     {
       "id" : 8,
+      "name" : "UHA (University of Haute-Alsace, France)",
       "mou" : 1,
       "type" : "Academies",
-      "name" : "UHA (University of Haute-Alsace, France)",
       "logo" : "Partners/logo/Academies_1.png",
       "link" : "http://www.uha.fr"
     },
     {
       "id" : 9,
+      "name" : "Dept. Multimedia, Namseoul University, Korea",
       "mou" : 1,
       "type" : "Academies",
-      "name" : "Dept. Multimedia, Namseoul University, Korea",
       "logo" : "Partners/logo/Academies_2.png",
       "link" : "http://nsu.ac.kr"
     },
     {
       "id" : 10,
+      "name" : "Bielefeld University, Germany",
       "mou" : 1,
       "type" : "Academies",
-      "name" : "Bielefeld University, Germany",
       "logo" : "Partners/logo/Academies_3.png",
       "link" : "http://graphics.uni-bielefeld.de/"
     },
     {
       "id" : 11,
+      "name" : "WETA Digital",
       "mou" : 1,
       "type" : "Productions",
-      "name" : "WETA Digital",
       "logo" : "Partners/logo/Productions_1.png",
       "link" : "http://www.wetafx.co.nz/"
     },
     {
       "id" : 12,
+      "name" : "GearRobot",
       "mou" : 1,
       "type" : "Productions",
-      "name" : "GearRobot",
       "logo" : "Partners/logo/Productions_2.png",
       "link" : "http://www.gearrobot.com/"
     },
     {
       "id" : 13,
+      "name" : "AR Vision",
       "mou" : 1,
       "type" : "Productions",
-      "name" : "AR Vision",
       "logo" : "Partners/logo/Productions_3.png",
       "link" : "http://www.ar-vision.com/"
     },
     {
       "id" : 14,
+      "name" : "Dreamsearch C&C",
       "mou" : 1,
       "type" : "Productions",
-      "name" : "Dreamsearch C&C",
       "logo" : "Partners/logo/Productions_4.png",
       "link" : "http://www.dreamsearchcnc.com/"
     },
     {
       "id" : 15,
+      "name" : "SBS",
       "mou" : 1,
       "type" : "Productions",
-      "name" : "SBS",
       "logo" : "Partners/logo/Productions_5.png",
       "link" : "http://www.sbs.co.kr/"
     },
     {
       "id" : 16,
+      "name" : "KAI Inc.",
       "mou" : 1,
       "type" : "Productions",
-      "name" : "KAI Studio",
       "logo" : "Partners/logo/Productions_6.png",
       "link" : "http://www.kaistudio.co.kr/"
     },
     {
       "id" : 17,
+      "name" : "Macrograph",
       "mou" : 1,
       "type" : "Productions",
-      "name" : "Macrograph",
       "logo" : "Partners/logo/Productions_7.png",
       "link" : "http://www.macrograph.co.kr/"
     },
     {
       "id" : 18,
+      "name" : "Olive Studio",
       "mou" : 1,
       "type" : "Productions",
-      "name" : "Olive Studio",
       "logo" : "Partners/logo/Productions_8.png",
       "link" : "http://www.olivestudio.co.kr/"
     },
     {
       "id" : 19,
+      "name" : "Digital Idea",
       "mou" : 1,
       "type" : "Productions",
-      "name" : "Digital Idea",
       "logo" : "Partners/logo/Productions_9.png",
       "link" : "http://www.digitalidea.co.kr/main"
     },
     {
       "id" : 20,
+      "name" : "OLM Digital",
       "mou" : 1,
       "type" : "Productions",
-      "name" : "OLM Digital",
       "logo" : "Partners/logo/Productions_10.png",
       "link" : "http://olm.co.jp/?lang=en"
     },
     {
       "id" : 21,
+      "name" : "IITP (Institute for Information & communications Technology Promotion)",
       "mou" : 0,
       "type" : "Government",
-      "name" : "IITP (Institute for Information & communications Technology Promotion)",
       "logo" : "Partners/logo/Funding_1.png",
       "link" : "https://www.iitp.kr/main.it"
     },
     {
       "id" : 22,
+      "name" : "Samsung",
       "mou" : 0,
       "type" : "",
-      "name" : "Samsung",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 23,
+      "name" : "KAIST",
       "mou" : 0,
       "type" : "",
-      "name" : "KAIST",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 24,
+      "name" : "POSTECH",
       "mou" : 0,
       "type" : "",
-      "name" : "POSTECH",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 25,
+      "name" : "Seoul Institute of the Arts",
       "mou" : 0,
       "type" : "",
-      "name" : "Seoul Institute of the Arts",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 26,
+      "name" : "Pinscreen",
       "mou" : 0,
       "type" : "",
-      "name" : "Pinscreen",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 27,
+      "name" : "38c Animation Studio",
       "mou" : 0,
       "type" : "",
-      "name" : "38c Animation Studio",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 28,
+      "name" : "CJ E&M",
       "mou" : 0,
       "type" : "",
-      "name" : "CJ E&M",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 29,
+      "name" : "Spheregram",
       "mou" : 0,
       "type" : "",
-      "name" : "Spheregram",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 30,
+      "name" : "Motif Imagenary",
       "mou" : 0,
       "type" : "",
-      "name" : "Motif Imagenary",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 31,
+      "name" : "Ohio State University",
       "mou" : 0,
       "type" : "",
-      "name" : "Ohio State University",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 32,
+      "name" : "Dexter Digital",
       "mou" : 0,
       "type" : "",
-      "name" : "Dexter Digital",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 33,
+      "name" : "Scanline VFX",
       "mou" : 0,
       "type" : "",
-      "name" : "Scanline VFX",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 34,
+      "name" : "Method Studios",
       "mou" : 0,
       "type" : "",
-      "name" : "Method Studios",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 35,
+      "name" : "SK Planet",
       "mou" : 0,
       "type" : "",
-      "name" : "SK Planet",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 36,
+      "name" : "LG",
       "mou" : 0,
       "type" : "",
-      "name" : "LG",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 37,
+      "name" : "National Cancer Center",
       "mou" : 0,
       "type" : "",
-      "name" : "National Cancer Center",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 38,
+      "name" : "Handong University",
       "mou" : 0,
       "type" : "",
-      "name" : "Handong University",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 39,
+      "name" : "Daejeon University",
       "mou" : 0,
       "type" : "",
-      "name" : "Daejeon University",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 40,
+      "name" : "University of Haute-Alsace",
       "mou" : 0,
       "type" : "",
-      "name" : "University of Haute-Alsace",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 41,
+      "name" : "Tianjin University",
       "mou" : 0,
       "type" : "",
-      "name" : "Tianjin University",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 42,
+      "name" : "Soongsil University",
       "mou" : 0,
       "type" : "",
-      "name" : "Soongsil University",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 43,
+      "name" : "Yeungnam University",
       "mou" : 0,
       "type" : "",
-      "name" : "Yeungnam University",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 44,
+      "name" : "Dongseo University",
       "mou" : 0,
       "type" : "",
-      "name" : "Dongseo University",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 45,
+      "name" : "Studio Gale",
       "mou" : 0,
       "type" : "",
-      "name" : "Studio Gale",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 46,
+      "name" : "Sungshin Women's University",
       "mou" : 0,
       "type" : "",
-      "name" : "Sungshin Women's University",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 47,
+      "name" : "University Bielefeld",
       "mou" : 0,
       "type" : "",
-      "name" : "University Bielefeld",
       "logo" : "",
       "link" : ""
     },
     {
       "id" : 48,
+      "name" : "KBS",
       "mou" : 0,
       "type" : "",
-      "name" : "KBS",
       "logo" : "",
       "link" : ""
     }
@@ -9395,12 +7619,12 @@ export const GoogleData =
       "id" : 1,
       "type" : "news",
       "title" : "December 21, 2007",
+      "year" : 2007,
+      "month" : 12,
+      "day" : 21,
       "desc" : "3D Character Animator - We are looking for a skilled Junior 3D Character Animator. The ideal candidate has experience animating both human and non-humanoid characters. A solid grasp of the principles of body movement, anticipation, overshoot, follow-through, squash and stretch, forward and inverse kinematics and other facets of both 2D and 3D animation is essential. Please send your resume to Junghee Kim.",
       "img" : "Issues/img/news_20071221.png",
-      "date" : "2007.12.21",
-      "day" : 21,
-      "month" : 12,
-      "year" : 2007,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9408,12 +7632,12 @@ export const GoogleData =
       "id" : 2,
       "type" : "news",
       "title" : "February 8, 2008",
+      "year" : 2008,
+      "month" : 2,
+      "day" : 8,
       "desc" : "Graphics programmer - We are seeking an experienced graphics programmer. The ideal applicant should be proficient in graphics programming and have familiarity with 3DS Max or Maya. Please send your resume to Junyong Noh.",
       "img" : "Issues/img/news_20080208.png",
-      "date" : "2008.02.08",
-      "day" : 8,
-      "month" : 2,
-      "year" : 2008,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9421,12 +7645,12 @@ export const GoogleData =
       "id" : 3,
       "type" : "news",
       "title" : "February 9, 2008",
+      "year" : 2008,
+      "month" : 2,
+      "day" : 9,
       "desc" : "Postdocs - We are seeking postdoc researchers. Please send your resume to Junyong Noh",
       "img" : "Issues/img/news_20080209.png",
-      "date" : "2008.02.09",
-      "day" : 9,
-      "month" : 2,
-      "year" : 2008,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9434,12 +7658,12 @@ export const GoogleData =
       "id" : 4,
       "type" : "news",
       "title" : "July 3, 2008",
+      "year" : 2008,
+      "month" : 7,
+      "day" : 3,
       "desc" : "Chanho Lee from Nexon America gave a seminar on concept art and visual developement for feature films and games. He had worked in various major companies in Hollywood such as Disney, Rythm & Hues, and Electroic Arts as Visual Artist.",
       "img" : "Issues/img/news_20080703.png",
-      "date" : "2008.07.03",
-      "day" : 3,
-      "month" : 7,
-      "year" : 2008,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9447,12 +7671,12 @@ export const GoogleData =
       "id" : 5,
       "type" : "news",
       "title" : "September 23, 2008",
+      "year" : 2008,
+      "month" : 9,
+      "day" : 23,
       "desc" : "Wook Kim from DTI Pictures gave a seminar on several cases related Korean VFX market. He had worked in DTI Picutres as VFX supervisor.",
       "img" : "Issues/img/news_20080923.png",
-      "date" : "2008.09.23",
-      "day" : 23,
-      "month" : 9,
-      "year" : 2008,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9460,12 +7684,12 @@ export const GoogleData =
       "id" : 6,
       "type" : "news",
       "title" : "October 6, 2008",
+      "year" : 2008,
+      "month" : 10,
+      "day" : 6,
       "desc" : "Jay Jang from THQ gave a seminar on animation strategies in game and movie. He had worked in various major VFX & game companies in Hollywood, and now he works in THQ as animation supervisor.",
       "img" : "Issues/img/news_20081006.png",
-      "date" : "2008.10.06",
-      "day" : 6,
-      "month" : 10,
-      "year" : 2008,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9473,12 +7697,12 @@ export const GoogleData =
       "id" : 7,
       "type" : "news",
       "title" : "October 28, 2008",
+      "year" : 2008,
+      "month" : 10,
+      "day" : 28,
       "desc" : "Sihyoung Kim from Rythm & Hues gave a seminar on 3D character setup. His recent work includes the Incredible Hulk(2008) as a character rigger and technical animator.",
       "img" : "Issues/img/news_20081028.png",
-      "date" : "2008.10.28",
-      "day" : 28,
-      "month" : 10,
-      "year" : 2008,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9486,12 +7710,12 @@ export const GoogleData =
       "id" : 8,
       "type" : "news",
       "title" : "December 6, 2008",
+      "year" : 2008,
+      "month" : 12,
+      "day" : 6,
       "desc" : "Jaewook Park from EA Korea gave a seminar on rendering process. His recent work includes StarCraft II(2008), Pirates of the Caribbean III(2007), the Host(2006) and King Kong(2005) as a VFX technical director.",
       "img" : "Issues/img/news_20081206.png",
-      "date" : "2008.12.06",
-      "day" : 6,
-      "month" : 12,
-      "year" : 2008,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9499,12 +7723,12 @@ export const GoogleData =
       "id" : 9,
       "type" : "news",
       "title" : "April 8, 2009",
+      "year" : 2009,
+      "month" : 4,
+      "day" : 8,
       "desc" : "\"Taming the Cat\" was accepted to Siggraph 2009 Computer Animation Festival. Most of the visual media lab members participated in this project.",
       "img" : "Issues/img/news_20090408.png",
-      "date" : "2009.04.08",
-      "day" : 8,
-      "month" : 4,
-      "year" : 2009,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9512,12 +7736,12 @@ export const GoogleData =
       "id" : 10,
       "type" : "news",
       "title" : "April 14, 2009",
+      "year" : 2009,
+      "month" : 4,
+      "day" : 14,
       "desc" : "Sungwook Seo from Sony Pictures Animation gave a seminar on FX focusing on various particle animation and fluid simulation in realflow.",
       "img" : "Issues/img/news_20090414.png",
-      "date" : "2009.04.14",
-      "day" : 14,
-      "month" : 4,
-      "year" : 2009,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9525,12 +7749,12 @@ export const GoogleData =
       "id" : 11,
       "type" : "news",
       "title" : "April 21, 2009",
+      "year" : 2009,
+      "month" : 4,
+      "day" : 21,
       "desc" : "Chansoo Kim from Rhythm & Hues Studios gave a seminar on detailed process of animation making, and history of animation/ VFX.",
       "img" : "Issues/img/news_20090421.png",
-      "date" : "2009.04.21",
-      "day" : 21,
-      "month" : 4,
-      "year" : 2009,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9538,12 +7762,12 @@ export const GoogleData =
       "id" : 12,
       "type" : "news",
       "title" : "July 6, 2009",
+      "year" : 2009,
+      "month" : 7,
+      "day" : 6,
       "desc" : "VML Freshman Orientation was held. 6 VML candidates for spring 2010 have participated the orientation.",
       "img" : "Issues/img/news_20090706.png",
-      "date" : "2009.07.06",
-      "day" : 6,
-      "month" : 7,
-      "year" : 2009,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9551,12 +7775,12 @@ export const GoogleData =
       "id" : 13,
       "type" : "news",
       "title" : "November 30, 2009",
+      "year" : 2009,
+      "month" : 11,
+      "day" : 30,
       "desc" : "Tae-yong Kim from Rhythm & Hues Studios gave a seminar on VFX Production focusing on R&D, technology, and challenges.",
       "img" : "Issues/img/news_20091130.png",
-      "date" : "2009.11.30",
-      "day" : 30,
-      "month" : 11,
-      "year" : 2009,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9564,12 +7788,12 @@ export const GoogleData =
       "id" : 14,
       "type" : "news",
       "title" : "December 6, 2009",
+      "year" : 2009,
+      "month" : 12,
+      "day" : 6,
       "desc" : "Youngsam Suh from Rhythm & Hues Studios gave a seminar on Rhythm & hues Studio's FX works and pipeline.",
       "img" : "Issues/img/news_20091206.png",
-      "date" : "2009.12.06",
-      "day" : 6,
-      "month" : 12,
-      "year" : 2009,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9577,12 +7801,12 @@ export const GoogleData =
       "id" : 15,
       "type" : "news",
       "title" : "December 9, 2009",
+      "year" : 2009,
+      "month" : 12,
+      "day" : 9,
       "desc" : "J.P.Lewis from Weta Digital gave a seminar on \"Why academic research is important for Weta Digital\" & shared several research ideas.",
       "img" : "Issues/img/news_20091209.png",
-      "date" : "2009.12.09",
-      "day" : 9,
-      "month" : 12,
-      "year" : 2009,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9590,12 +7814,12 @@ export const GoogleData =
       "id" : 16,
       "type" : "news",
       "title" : "December 15, 2009",
+      "year" : 2009,
+      "month" : 12,
+      "day" : 15,
       "desc" : "Byungha Kim from BH Sculpture & Figure visited VML. Anatomy based realistic character modeling and rigging issues are discussed.",
       "img" : "Issues/img/news_20091215.png",
-      "date" : "2009.12.15",
-      "day" : 15,
-      "month" : 12,
-      "year" : 2009,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9603,12 +7827,12 @@ export const GoogleData =
       "id" : 17,
       "type" : "news",
       "title" : "February 1, 2010",
+      "year" : 2010,
+      "month" : 2,
+      "day" : 1,
       "desc" : "1 Ph.D student and 6 master students become new member of Visual Media Lab.",
       "img" : "Issues/img/news_20100201.png",
-      "date" : "2010.02.01",
-      "day" : 1,
-      "month" : 2,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9616,12 +7840,12 @@ export const GoogleData =
       "id" : 18,
       "type" : "news",
       "title" : "February 16, 2010",
+      "year" : 2010,
+      "month" : 2,
+      "day" : 16,
       "desc" : "\"Rigging Transfer\" was accepted to CASA(Computer Animation and Social Agents) 2010 conference.",
       "img" : "Issues/img/news_20100216.png",
-      "date" : "2010.02.16",
-      "day" : 16,
-      "month" : 2,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9629,12 +7853,12 @@ export const GoogleData =
       "id" : 19,
       "type" : "news",
       "title" : "March 3, 2010",
+      "year" : 2010,
+      "month" : 3,
+      "day" : 3,
       "desc" : "\"Taming the Cat\" was invited to Melbourne Animation Festival 2010, New Zealand Film Festival 2010 and Anibar Animation Festival 2010 in Kosovo.",
       "img" : "Issues/img/news_20100303.png",
-      "date" : "2010.03.03",
-      "day" : 3,
-      "month" : 3,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9642,12 +7866,12 @@ export const GoogleData =
       "id" : 20,
       "type" : "news",
       "title" : "March 11, 2010",
+      "year" : 2010,
+      "month" : 3,
+      "day" : 11,
       "desc" : "Multilevel vorticity confinement for water turbulence simulator\" was accepted to CGI(Computer Graphics International)2010 conference.",
       "img" : "Issues/img/news_20100311.png",
-      "date" : "2010.03.11",
-      "day" : 11,
-      "month" : 3,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9655,12 +7879,12 @@ export const GoogleData =
       "id" : 21,
       "type" : "news",
       "title" : "March 12, 2010",
+      "year" : 2010,
+      "month" : 3,
+      "day" : 12,
       "desc" : "Welcome everybody! Brand new VML web site was launched.",
       "img" : "Issues/img/news_20100312.png",
-      "date" : "2010.03.12",
-      "day" : 12,
-      "month" : 3,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9668,12 +7892,12 @@ export const GoogleData =
       "id" : 22,
       "type" : "news",
       "title" : "March 26, 2010",
+      "year" : 2010,
+      "month" : 3,
+      "day" : 26,
       "desc" : "Visual Media Lab and \"Taming the Cat\" were introduced in KBS NEWS.",
       "img" : "Issues/img/news_20100326.png",
-      "date" : "2010.03.26",
-      "day" : 26,
-      "month" : 3,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9681,12 +7905,12 @@ export const GoogleData =
       "id" : 23,
       "type" : "news",
       "title" : "March 30, 2010",
+      "year" : 2010,
+      "month" : 3,
+      "day" : 30,
       "desc" : "As a result of collaboration efforts between VML and Weta, Jaewoo Seo, Ph.D. student, will work as a summer intern at WETA Digital, New Zealand.",
       "img" : "Issues/img/news_20100330.png",
-      "date" : "2010.03.30",
-      "day" : 30,
-      "month" : 3,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9694,12 +7918,12 @@ export const GoogleData =
       "id" : 24,
       "type" : "news",
       "title" : "April 22, 2010",
+      "year" : 2010,
+      "month" : 4,
+      "day" : 22,
       "desc" : "\"Taming the Cat\" was invited to London International Animation Festival(LIAF) 2010 in London, UK.",
       "img" : "Issues/img/news_20100422.png",
-      "date" : "2010.04.22",
-      "day" : 22,
-      "month" : 4,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9707,12 +7931,12 @@ export const GoogleData =
       "id" : 25,
       "type" : "news",
       "title" : "May 7, 2010",
+      "year" : 2010,
+      "month" : 5,
+      "day" : 7,
       "desc" : "\"A Smoke Visualization Model for Capturing Surface-like Features\" was accepted to Computer Graphics Forum, 2010.",
       "img" : "Issues/img/news_20100507.png",
-      "date" : "2010.05.07",
-      "day" : 7,
-      "month" : 5,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9720,12 +7944,12 @@ export const GoogleData =
       "id" : 26,
       "type" : "news",
       "title" : "May 20, 2010",
+      "year" : 2010,
+      "month" : 5,
+      "day" : 20,
       "desc" : "The MOU between GSCT and Odyssey Pictures was signed on 17th May. Visual media lab will support Odyssey Pictures's future films with its CG technologies.",
       "img" : "Issues/img/news_20100520.png",
-      "date" : "2010.05.20",
-      "day" : 20,
-      "month" : 5,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9733,12 +7957,12 @@ export const GoogleData =
       "id" : 27,
       "type" : "news",
       "title" : "May 29, 2010",
+      "year" : 2010,
+      "month" : 5,
+      "day" : 29,
       "desc" : "Songgang integrated social welfare center' visited VML. Children had experience the motion capture system of VML.",
       "img" : "Issues/img/news_20100529.png",
-      "date" : "2010.05.29",
-      "day" : 29,
-      "month" : 5,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9746,12 +7970,12 @@ export const GoogleData =
       "id" : 28,
       "type" : "news",
       "title" : "June 7, 2010",
+      "year" : 2010,
+      "month" : 6,
+      "day" : 7,
       "desc" : "Domin Lee from Dreamworks visited VML. He gave a seminar on effects in 3D animation focusing on pipeline of animation, FX process, stereo process and challenges.",
       "img" : "Issues/img/news_20100607.png",
-      "date" : "2010.06.07",
-      "day" : 7,
-      "month" : 6,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9759,12 +7983,12 @@ export const GoogleData =
       "id" : 29,
       "type" : "news",
       "title" : "June 15, 2010",
+      "year" : 2010,
+      "month" : 7,
+      "day" : 15,
       "desc" : "Visual Media Lab and Prof.Noh were introduced in MBC Prime, the premium documentary program of MBC.",
       "img" : "Issues/img/news_20100715.png",
-      "date" : "2010.06.15",
-      "day" : 15,
-      "month" : 7,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9772,12 +7996,12 @@ export const GoogleData =
       "id" : 30,
       "type" : "news",
       "title" : "June 17, 2010",
+      "year" : 2010,
+      "month" : 7,
+      "day" : 17,
       "desc" : "Jongjin Choi, a lead lighting Technical Director of Psyop West visited VML. He gave a seminar on rendering pipeline of huge production and new shading/lighting models of major visual effects studio.",
       "img" : "Issues/img/news_20100717.png",
-      "date" : "2010.06.17",
-      "day" : 17,
-      "month" : 7,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9785,12 +8009,12 @@ export const GoogleData =
       "id" : 31,
       "type" : "news",
       "title" : "July 9, 2010",
+      "year" : 2010,
+      "month" : 7,
+      "day" : 9,
       "desc" : "Visual Media Lab joined making of the KBS summer horror drama, 'Gumiho 2010'(구미호 여우누이뎐). The digital tigers and ravens were made by our digital creature technology.",
       "img" : "Issues/img/news_20100709.png",
-      "date" : "2010.07.09",
-      "day" : 9,
-      "month" : 7,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9798,12 +8022,12 @@ export const GoogleData =
       "id" : 32,
       "type" : "news",
       "title" : "August 19, 2010",
+      "year" : 2010,
+      "month" : 8,
+      "day" : 19,
       "desc" : "ACM SIGGRAPH 2010 was held in Los Angeles, USA from 25th to 29th of July, 2010. 12 members of VML attended the conference.",
       "img" : "Issues/img/news_20100819.png",
-      "date" : "2010.08.19",
-      "day" : 19,
-      "month" : 8,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9811,12 +8035,12 @@ export const GoogleData =
       "id" : 33,
       "type" : "news",
       "title" : "August 26, 2010",
+      "year" : 2010,
+      "month" : 8,
+      "day" : 26,
       "desc" : "Captain Banana\" was accepted to SIGGRAPH ASIA 2010 Computer Animation Festival. Animated short films by VML were accepted to the international animation festival for 2 years in a row.",
       "img" : "Issues/img/news_20100826.png",
-      "date" : "2010.08.26",
-      "day" : 26,
-      "month" : 8,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9824,12 +8048,12 @@ export const GoogleData =
       "id" : 34,
       "type" : "news",
       "title" : "September 18, 2010",
+      "year" : 2010,
+      "month" : 9,
+      "day" : 18,
       "desc" : "Sungwook Seo, a CEO of Gear Robot visited VML. He gave a seminar on stereoscopic, FX and rendering.",
       "img" : "Issues/img/news_20100918.png",
-      "date" : "2010.09.18",
-      "day" : 18,
-      "month" : 9,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9837,12 +8061,12 @@ export const GoogleData =
       "id" : 35,
       "type" : "news",
       "title" : "September 25, 2010",
+      "year" : 2010,
+      "month" : 9,
+      "day" : 25,
       "desc" : "Kuihan Lee, a CEO of Gear Robot visited VML. He gave a seminar on stereoscopic image making and modeling.",
       "img" : "Issues/img/news_20100925.png",
-      "date" : "2010.09.25",
-      "day" : 25,
-      "month" : 9,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9850,12 +8074,12 @@ export const GoogleData =
       "id" : 36,
       "type" : "news",
       "title" : "November 8, 2010",
+      "year" : 2010,
+      "month" : 11,
+      "day" : 8,
       "desc" : "Hyunseung Kim, a character technical director of Dreamworks visited VML. He gave a seminar on character rigging, character FX and new techical issues about stereoscopic image making on animation film.",
       "img" : "Issues/img/news_20101108.png",
-      "date" : "2010.11.08",
-      "day" : 8,
-      "month" : 11,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9863,12 +8087,12 @@ export const GoogleData =
       "id" : 37,
       "type" : "news",
       "title" : "December 13, 2010",
+      "year" : 2010,
+      "month" : 12,
+      "day" : 13,
       "desc" : "Ramon Montoya-vozmediano, a render optimization lead of Walt Disney Animation Studios visited VML. He gave a seminar on stereoscopic image making on current Walt Disney's character animation.",
       "img" : "Issues/img/news_20101213.png",
-      "date" : "2010.12.13",
-      "day" : 13,
-      "month" : 12,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9876,12 +8100,12 @@ export const GoogleData =
       "id" : 38,
       "type" : "news",
       "title" : "December 18, 2010",
+      "year" : 2010,
+      "month" : 12,
+      "day" : 18,
       "desc" : "ACM SIGGRAPH ASIA 2010 was held in Seoul, Korea from 15th to 18th of December, 2010. We presented our research topics and results of stereoscopic project at the exhibition. Many attendees showed an interest in our varied works.",
       "img" : "Issues/img/news_20101218.png",
-      "date" : "2010.12.18",
-      "day" : 18,
-      "month" : 12,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9889,12 +8113,12 @@ export const GoogleData =
       "id" : 39,
       "type" : "news",
       "title" : "December 21, 2010",
+      "year" : 2010,
+      "month" : 12,
+      "day" : 21,
       "desc" : "The MOU between GSCT and KAI Studio was signed on 21th December. Visual media lab will supports KAI Studio's new computer animation and films with its technologies.",
       "img" : "Issues/img/news_20101221.png",
-      "date" : "2010.12.21",
-      "day" : 21,
-      "month" : 12,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9902,12 +8126,12 @@ export const GoogleData =
       "id" : 40,
       "type" : "news",
       "title" : "December 23, 2010",
+      "year" : 2010,
+      "month" : 12,
+      "day" : 23,
       "desc" : "Nicholas Kim(Junyong Kim), a compositing supervisor of Digital Domain visited VML. He gave a seminar on how to composite 3D images with source films to get a realistic stereoscopic image.",
       "img" : "Issues/img/news_20101223.png",
-      "date" : "2010.12.23",
-      "day" : 23,
-      "month" : 12,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9915,12 +8139,12 @@ export const GoogleData =
       "id" : 41,
       "type" : "news",
       "title" : "December 29, 2010",
+      "year" : 2010,
+      "month" : 12,
+      "day" : 29,
       "desc" : "Prof. Junyong Noh awarded the 'Prize of Innovations in Technologies' of KAIST. The award is given annually to person who have shown outstanding ability in innovative technology.",
       "img" : "Issues/img/news_20101229.png",
-      "date" : "2010.12.29",
-      "day" : 29,
-      "month" : 12,
-      "year" : 2010,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9928,12 +8152,12 @@ export const GoogleData =
       "id" : 42,
       "type" : "news",
       "title" : "January 30, 2011",
+      "year" : 2011,
+      "month" : 1,
+      "day" : 30,
       "desc" : "Korea Human Computer Interaction Conference 2011 (HCI 2011) was held in Alpensia resort convention center, Gangwon-do, Korea from 26th to 28th of January, 2011. We gave the seminar about CG technologies of 3D characters, and presented our new stereoscopic technologies at the exhibition.",
       "img" : "Issues/img/news_20110130.png",
-      "date" : "2011.01.30",
-      "day" : 30,
-      "month" : 1,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9941,12 +8165,12 @@ export const GoogleData =
       "id" : 43,
       "type" : "news",
       "title" : "January 31, 2011",
+      "year" : 2011,
+      "month" : 1,
+      "day" : 31,
       "desc" : "VML participated in the IS&T/SPIE Electronic Imaging 2011 conference. The conference was held in San Francisco, USA from 23rd to 27th of January, 2011. We presented our latest stereoscopic technologies for attendees.",
       "img" : "Issues/img/news_20110131.png",
-      "date" : "2011.01.31",
-      "day" : 31,
-      "month" : 1,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9954,12 +8178,12 @@ export const GoogleData =
       "id" : 44,
       "type" : "news",
       "title" : "January 31, 2011",
+      "year" : 2011,
+      "month" : 1,
+      "day" : 31,
       "desc" : "VML participated in the IS&T/SPIE Electronic Imaging 2011 conference. The conference was held in San Francisco, USA from 23rd to 27th of January, 2011. We presented our latest stereoscopic technologies for attendees.",
       "img" : "Issues/img/news_20110131.png",
-      "date" : "2011.01.31",
-      "day" : 31,
-      "month" : 1,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9967,12 +8191,12 @@ export const GoogleData =
       "id" : 45,
       "type" : "news",
       "title" : "February 21, 2011",
+      "year" : 2011,
+      "month" : 2,
+      "day" : 21,
       "desc" : "Culture Technology Fair 2011 was held in COEX, Seoul, Korea from 16th to 17th of February, 2011. We presented our 2D to 3D conversion technology at 'Image Technology Presentation A' and demonstrated our 'StereoMaker' at the exhibition.",
       "img" : "Issues/img/news_20110221.png",
-      "date" : "2011.02.21",
-      "day" : 21,
-      "month" : 2,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9980,12 +8204,12 @@ export const GoogleData =
       "id" : 46,
       "type" : "news",
       "title" : "March 18, 2011",
+      "year" : 2011,
+      "month" : 3,
+      "day" : 18,
       "desc" : "Ken Anjyo, CTO Visual Effects / R&D Supervisior of OLM Digital Inc. visited VML to discuss research collaboration in the field of character animation and fluid simulation. He gave a seminar on mathematics for expressive image synthesis and art direction techniques.",
       "img" : "Issues/img/news_20110318.png",
-      "date" : "2011.03.18",
-      "day" : 18,
-      "month" : 3,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -9993,12 +8217,12 @@ export const GoogleData =
       "id" : 47,
       "type" : "news",
       "title" : "April 16, 2011",
+      "year" : 2011,
+      "month" : 4,
+      "day" : 16,
       "desc" : "Banseok elementary school students visited VML. Children had experience the motion capture system and stereoscopic movies of VML.",
       "img" : "Issues/img/news_20110416.png",
-      "date" : "2011.04.16",
-      "day" : 16,
-      "month" : 4,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10006,12 +8230,12 @@ export const GoogleData =
       "id" : 48,
       "type" : "news",
       "title" : "May 3, 2011",
+      "year" : 2011,
+      "month" : 5,
+      "day" : 3,
       "desc" : "Prof. Junyong Noh was appointed as a chair professor of KAIST. The chair professorship is given to people who make outstanding achievement in their research field.",
       "img" : "Issues/img/news_20110503.png",
-      "date" : "2011.05.03",
-      "day" : 3,
-      "month" : 5,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10019,12 +8243,12 @@ export const GoogleData =
       "id" : 49,
       "type" : "news",
       "title" : "May 31, 2011",
+      "year" : 2011,
+      "month" : 5,
+      "day" : 31,
       "desc" : "CASA 2011 (International Conference on Computer Animation and Social Agents) was held in Cheng-du, China from 26th to 28th of May, 2011. Two full papers and one short paper from VML was presented on the technical paper and poster session respectively.",
       "img" : "Issues/img/news_20110531.png",
-      "date" : "2011.05.31",
-      "day" : 31,
-      "month" : 5,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10032,12 +8256,12 @@ export const GoogleData =
       "id" : 50,
       "type" : "news",
       "title" : "June 17, 2011",
+      "year" : 2011,
+      "month" : 6,
+      "day" : 17,
       "desc" : "CGI Workshop 2011 (Computer Graphics International Workshop) was held in Ottawa, Ontario, Canada on 12th of June, 2011. Prof. Junyong Noh attended as workshop chair and two technical papers from VML were presented.",
       "img" : "Issues/img/news_20110617.png",
-      "date" : "2011.06.17",
-      "day" : 17,
-      "month" : 6,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10045,12 +8269,12 @@ export const GoogleData =
       "id" : 51,
       "type" : "news",
       "title" : "July 29, 2011",
+      "year" : 2011,
+      "month" : 7,
+      "day" : 29,
       "desc" : "Prof. Jeongmo Hong from Dongguk University visited VML. He gave a seminar on the latest VFX and fluid simulation technologies.",
       "img" : "Issues/img/news_20110729.png",
-      "date" : "2011.07.29",
-      "day" : 29,
-      "month" : 7,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10058,12 +8282,12 @@ export const GoogleData =
       "id" : 52,
       "type" : "news",
       "title" : "July 30, 2011",
+      "year" : 2011,
+      "month" : 7,
+      "day" : 30,
       "desc" : "Chansoo Kim, a layer artist and animator of ILM visited VML. He provided advice and suggestion for our stereoscopic contents.",
       "img" : "Issues/img/news_20110730.png",
-      "date" : "2011.07.30",
-      "day" : 30,
-      "month" : 7,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10071,12 +8295,12 @@ export const GoogleData =
       "id" : 53,
       "type" : "news",
       "title" : "July 26, 2011",
+      "year" : 2011,
+      "month" : 7,
+      "day" : 26,
       "desc" : "Visual Media Lab was introduced in 'Science Cafe', a cultural program of KBS 1TV. They reported that VML is one of the best example of academic-industrial cooperation.",
       "img" : "Issues/img/news_20110726.png",
-      "date" : "2011.07.26",
-      "day" : 26,
-      "month" : 7,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10084,12 +8308,12 @@ export const GoogleData =
       "id" : 54,
       "type" : "news",
       "title" : "August 18, 2011",
+      "year" : 2011,
+      "month" : 8,
+      "day" : 18,
       "desc" : "ACM SIGGRAPH 2011 was held in Vancouver, Canada from 7th to 11st of August, 2011. 6 members of VML presented our research topics and results of stereoscopic project at the exhibition.",
       "img" : "Issues/img/news_20110818.png",
-      "date" : "2011.08.18",
-      "day" : 18,
-      "month" : 8,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10097,12 +8321,12 @@ export const GoogleData =
       "id" : 55,
       "type" : "news",
       "title" : "September 26, 2011",
+      "year" : 2011,
+      "month" : 9,
+      "day" : 26,
       "desc" : "Pacific Graphics 2011 was held in Kaohsiung, Taiwan from 21st to 23rd of September, 2011. One full paper and one short paper from VML were presented at the conference.",
       "img" : "Issues/img/news_20110926.png",
-      "date" : "2011.09.26",
-      "day" : 26,
-      "month" : 9,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10110,12 +8334,12 @@ export const GoogleData =
       "id" : 56,
       "type" : "news",
       "title" : "November 7, 2011",
+      "year" : 2011,
+      "month" : 11,
+      "day" : 7,
       "desc" : "Jusub Kim, a rendering artist of R&H Studios visited VML. He gave a seminar on rendering and stereoscopic image generation in hollywood movies.",
       "img" : "Issues/img/news_20111107.png",
-      "date" : "2011.11.07",
-      "day" : 7,
-      "month" : 11,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10123,12 +8347,12 @@ export const GoogleData =
       "id" : 57,
       "type" : "news",
       "title" : "November 28, 2011",
+      "year" : 2011,
+      "month" : 11,
+      "day" : 28,
       "desc" : "Taeyong Kim from PhysiX R&D Department of NVIDIA gave a seminar on high-ended physics simulation technology in recent movies and games.",
       "img" : "Issues/img/news_20111128.png",
-      "date" : "2011.11.28",
-      "day" : 28,
-      "month" : 11,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10136,12 +8360,12 @@ export const GoogleData =
       "id" : 58,
       "type" : "news",
       "title" : "December 5, 2011",
+      "year" : 2011,
+      "month" : 12,
+      "day" : 5,
       "desc" : "Sungwook Seo from Gear Robot visited VML. He gave a seminar on visual effects and stereoscopic image generation of hollywood feature films.",
       "img" : "Issues/img/news_20111205.png",
-      "date" : "2011.12.05",
-      "day" : 5,
-      "month" : 12,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10149,12 +8373,12 @@ export const GoogleData =
       "id" : 59,
       "type" : "news",
       "title" : "December 19, 2011",
+      "year" : 2011,
+      "month" : 12,
+      "day" : 19,
       "desc" : "ACM SIGGRAPH ASIA 2011 was held in Hongkong from 12nd to 15th of December, 2011. Two technical papers from VML were presented at the conference, and our 27 studnets and researchers presented our research results and creative contents at the exhibition.",
       "img" : "Issues/img/news_20111219.png",
-      "date" : "2011.12.19",
-      "day" : 19,
-      "month" : 12,
-      "year" : 2011,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10162,12 +8386,12 @@ export const GoogleData =
       "id" : 60,
       "type" : "news",
       "title" : "February 2, 2012",
+      "year" : 2012,
+      "month" : 2,
+      "day" : 2,
       "desc" : "The MOU between VML and Studio LOFT was signed on 2nd February. 2D to 3D stereoscopic conversion technologies of VML will support Studio LOFT's future animation.",
       "img" : "Issues/img/news_20120202.png",
-      "date" : "2012.02.02",
-      "day" : 2,
-      "month" : 2,
-      "year" : 2012,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10175,12 +8399,12 @@ export const GoogleData =
       "id" : 61,
       "type" : "news",
       "title" : "February 20, 2012",
+      "year" : 2012,
+      "month" : 2,
+      "day" : 20,
       "desc" : "Three executives of Marza Animation Planet (Subsidiary company of SEGA Corporation) visited VML. They showed higher interest in character animation technologies of VML.",
       "img" : "Issues/img/news_20120220.png",
-      "date" : "2012.02.20",
-      "day" : 20,
-      "month" : 2,
-      "year" : 2012,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10188,12 +8412,12 @@ export const GoogleData =
       "id" : 62,
       "type" : "news",
       "title" : "March 23, 2012",
+      "year" : 2012,
+      "month" : 3,
+      "day" : 23,
       "desc" : "VML visited the world first '4D Live Park' in Il-san, Korea. There are hologram performances, 360-degree stereoscopic cinema, projection square game and AR with avatar in a huge space. It was very helpful to learn how the stereoscopic technologies are used for immersive contents.",
       "img" : "Issues/img/news_20120323.png",
-      "date" : "2012.03.23",
-      "day" : 23,
-      "month" : 3,
-      "year" : 2012,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10201,12 +8425,12 @@ export const GoogleData =
       "id" : 63,
       "type" : "news",
       "title" : "March 29, 2012",
+      "year" : 2012,
+      "month" : 3,
+      "day" : 29,
       "desc" : "Ken Anjyo, a Visual Effects / R&D Supervisor of OLM Digital visited VML. He presented his current research issues and digital contents planning.",
       "img" : "Issues/img/news_20120329.png",
-      "date" : "2012.03.29",
-      "day" : 29,
-      "month" : 3,
-      "year" : 2012,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10214,12 +8438,12 @@ export const GoogleData =
       "id" : 64,
       "type" : "news",
       "title" : "April 13, 2012",
+      "year" : 2012,
+      "month" : 4,
+      "day" : 13,
       "desc" : "CEOs the member of KAIST Creative Techno-Leaders's Program for CEO visited VML. They showed an interest in commercial value of our CG technologies and our ongoing national projects.",
       "img" : "Issues/img/news_20120413.png",
-      "date" : "2012.04.13",
-      "day" : 13,
-      "month" : 4,
-      "year" : 2012,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10227,12 +8451,12 @@ export const GoogleData =
       "id" : 65,
       "type" : "news",
       "title" : "April 20, 2012",
+      "year" : 2012,
+      "month" : 4,
+      "day" : 20,
       "desc" : "Banseok elementary school students visited VML. They had experience a 3D stereoscopic conetents generation process and digital motion capture system of VML.",
       "img" : "Issues/img/news_20120420.png",
-      "date" : "2012.04.20",
-      "day" : 20,
-      "month" : 4,
-      "year" : 2012,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10240,12 +8464,12 @@ export const GoogleData =
       "id" : 66,
       "type" : "news",
       "title" : "May 4, 2012",
+      "year" : 2012,
+      "month" : 5,
+      "day" : 4,
       "desc" : "Prof. Sunghee Lee from GIST(Gwangju Institute of Science and Technology) visited VML. He gave a seminar on Lie algebra which is basic theory of physical based character animation.",
       "img" : "Issues/img/news_20120504.png",
-      "date" : "2012.05.04",
-      "day" : 4,
-      "month" : 5,
-      "year" : 2012,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10253,12 +8477,12 @@ export const GoogleData =
       "id" : 67,
       "type" : "news",
       "title" : "June 15, 2012",
+      "year" : 2012,
+      "month" : 6,
+      "day" : 15,
       "desc" : "CGI2012(Computer Graphics International 2012) was held in Bournemouth, UK from 12nd to 15th June, 2012. 3 papers from VML were presented at the conference.",
       "img" : "Issues/img/news_20120615.png",
-      "date" : "2012.06.15",
-      "day" : 15,
-      "month" : 6,
-      "year" : 2012,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10266,12 +8490,12 @@ export const GoogleData =
       "id" : 68,
       "type" : "news",
       "title" : "June 27, 2012",
+      "year" : 2012,
+      "month" : 6,
+      "day" : 27,
       "desc" : "KCGS2012(Korea Computer Graphics Society Conference 2012) was held in Jeju, Korea from 25th to 27th June, 2012. 3 papers from VML were presented at the conference.",
       "img" : "Issues/img/news_20120627.png",
-      "date" : "2012.06.27",
-      "day" : 27,
-      "month" : 6,
-      "year" : 2012,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10279,12 +8503,12 @@ export const GoogleData =
       "id" : 69,
       "type" : "news",
       "title" : "July 29, 2012",
+      "year" : 2012,
+      "month" : 7,
+      "day" : 29,
       "desc" : "VML held a workshop at Moozu for the project, \"High-quality 2D to 3D stereoscopic movie conversion\". (29th~30th of July)",
       "img" : "Issues/img/news_20120729.png",
-      "date" : "2012.07.29",
-      "day" : 29,
-      "month" : 7,
-      "year" : 2012,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10292,12 +8516,12 @@ export const GoogleData =
       "id" : 70,
       "type" : "news",
       "title" : "August 6, 2012",
+      "year" : 2012,
+      "month" : 8,
+      "day" : 6,
       "desc" : "VML participated in SIGGRAPH 2012. 1 paper from VML was presented at technical paper session. Exhibition booth of VML attracted various professional around the world with character/fluid/stereoscopic technologies.",
       "img" : "Issues/img/news_20120806.png",
-      "date" : "2012.08.06",
-      "day" : 6,
-      "month" : 8,
-      "year" : 2012,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10305,12 +8529,12 @@ export const GoogleData =
       "id" : 71,
       "type" : "news",
       "title" : "September 15, 2012",
+      "year" : 2012,
+      "month" : 9,
+      "day" : 15,
       "desc" : "Pacific Graphics 2012 was held in Hongkong, from 12nd to 14th September, 2012. 1 paper (Video Panorama for 2D to 3D Conversion) from VML were presented at the conference.",
       "img" : "Issues/img/news_20120915.png",
-      "date" : "2012.09.15",
-      "day" : 15,
-      "month" : 9,
-      "year" : 2012,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10318,12 +8542,12 @@ export const GoogleData =
       "id" : 72,
       "type" : "news",
       "title" : "September 28, 2012",
+      "year" : 2012,
+      "month" : 9,
+      "day" : 28,
       "desc" : "Jaemin Lee [open profile] donated 6,000,000 won to the Visual Media Lab. We are very glad to announce the first official donation from an international specialist.",
       "img" : "Issues/img/news_20120928.png",
-      "date" : "2012.09.28",
-      "day" : 28,
-      "month" : 9,
-      "year" : 2012,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10331,12 +8555,12 @@ export const GoogleData =
       "id" : 73,
       "type" : "news",
       "title" : "November 20, 2012",
+      "year" : 2012,
+      "month" : 11,
+      "day" : 20,
       "desc" : "CJ company donated hundreds of movie tickets to the Visual Media Lab. We are very glad to announce the first official donation from a domestic company.",
       "img" : "Issues/img/news_20121120.png",
-      "date" : "2012.11.20",
-      "day" : 20,
-      "month" : 11,
-      "year" : 2012,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10344,12 +8568,12 @@ export const GoogleData =
       "id" : 74,
       "type" : "news",
       "title" : "November 28, 2012",
+      "year" : 2012,
+      "month" : 11,
+      "day" : 28,
       "desc" : "VML participated in SIGGRAPH ASIA 2012. Exhibition booth of VML attracted various professional around the world with character/fluid/stereoscopic technologies.",
       "img" : "Issues/img/news_20121128.png",
-      "date" : "2012.11.28",
-      "day" : 28,
-      "month" : 11,
-      "year" : 2012,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10357,12 +8581,12 @@ export const GoogleData =
       "id" : 75,
       "type" : "news",
       "title" : "December 6, 2012",
+      "year" : 2012,
+      "month" : 12,
+      "day" : 6,
       "desc" : "VML participated in 2012 LSI Innovator held by KOLON KAIST LIFESTYLE INNOVATION CENTER. Project name is \"Family Stream\". VML won a participation prize in the contest.",
       "img" : "Issues/img/news_20121206.png",
-      "date" : "2012.12.06",
-      "day" : 6,
-      "month" : 12,
-      "year" : 2012,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10370,12 +8594,12 @@ export const GoogleData =
       "id" : 76,
       "type" : "news",
       "title" : "March 28, 2013",
+      "year" : 2013,
+      "month" : 3,
+      "day" : 28,
       "desc" : "MFBTY(Tiger JK, Yoon Mirae, Bizzy) visited VML for face motion capture that will be used in their new M/V.",
       "img" : "Issues/img/news_20130328.png",
-      "date" : "2013.03.28",
-      "day" : 28,
-      "month" : 3,
-      "year" : 2013,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10383,12 +8607,12 @@ export const GoogleData =
       "id" : 77,
       "type" : "news",
       "title" : "April 5, 2013",
+      "year" : 2013,
+      "month" : 4,
+      "day" : 5,
       "desc" : "Leon Jeong Wook Park from Pixar visited VML. He gave a seminar on VFX industry trend and work process guideline used in Pixar.",
       "img" : "Issues/img/news_20130405.png",
-      "date" : "2013.04.05",
-      "day" : 5,
-      "month" : 4,
-      "year" : 2013,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10396,12 +8620,12 @@ export const GoogleData =
       "id" : 78,
       "type" : "news",
       "title" : "April 5, 2013",
+      "year" : 2013,
+      "month" : 4,
+      "day" : 5,
       "desc" : "Domin Lee from Dreamworks visited VML and gave a seminar about effects design in animation, overall pipeline and workflow used in Dreamworks.",
       "img" : "Issues/img/news_20130405.png",
-      "date" : "2013.04.05",
-      "day" : 5,
-      "month" : 4,
-      "year" : 2013,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10409,12 +8633,12 @@ export const GoogleData =
       "id" : 79,
       "type" : "news",
       "title" : "November 8, 2013",
+      "year" : 2013,
+      "month" : 11,
+      "day" : 8,
       "desc" : "Robert Nuemann from Walt Disney Animation Studios visited VML and gave a seminar titled \"Stereoscopics as a creative medium\".",
       "img" : "Issues/img/news_20131108.png",
-      "date" : "2013.11.08",
-      "day" : 8,
-      "month" : 11,
-      "year" : 2013,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10422,12 +8646,12 @@ export const GoogleData =
       "id" : 80,
       "type" : "news",
       "title" : "December 2, 2013",
+      "year" : 2013,
+      "month" : 12,
+      "day" : 2,
       "desc" : "Jaemin Lee from KAI studio visited VML and gave a seminar.",
       "img" : "Issues/img/news_20131202.png",
-      "date" : "2013.12.02",
-      "day" : 2,
-      "month" : 12,
-      "year" : 2013,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10435,12 +8659,12 @@ export const GoogleData =
       "id" : 81,
       "type" : "news",
       "title" : "December 11, 2013",
+      "year" : 2013,
+      "month" : 12,
+      "day" : 11,
       "desc" : "Tae-Yong Kim from NVIDIA visited VML and gave a seminar titled \"Introduction to Modern GPU architecture\".",
       "img" : "Issues/img/news_20131211.png",
-      "date" : "2013.12.11",
-      "day" : 11,
-      "month" : 12,
-      "year" : 2013,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10448,12 +8672,12 @@ export const GoogleData =
       "id" : 82,
       "type" : "news",
       "title" : "December 17, 2013",
+      "year" : 2013,
+      "month" : 12,
+      "day" : 17,
       "desc" : "Taehyeon Rhee from Victoria University, NZ visited VML and gave a seminar titled \"Deformable Human Body Modeling from Real Image Scans\".",
       "img" : "Issues/img/news_20131217.png",
-      "date" : "2013.12.17",
-      "day" : 17,
-      "month" : 12,
-      "year" : 2013,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10461,12 +8685,12 @@ export const GoogleData =
       "id" : 83,
       "type" : "news",
       "title" : "February 7, 2014",
+      "year" : 2014,
+      "month" : 2,
+      "day" : 7,
       "desc" : "The 'ScreenX' is selected as one of top 10 Researches of KAIST in 2013.",
       "img" : "Issues/img/news_20140207.png",
-      "date" : "2014.02.07",
-      "day" : 7,
-      "month" : 2,
-      "year" : 2014,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10474,12 +8698,12 @@ export const GoogleData =
       "id" : 84,
       "type" : "news",
       "title" : "September 1, 2014",
+      "year" : 2014,
+      "month" : 9,
+      "day" : 1,
       "desc" : "Prof. Junyong Noh is promoted to be a tenured full professor starting from 09/2014.",
       "img" : "Issues/img/news_20140901.png",
-      "date" : "2014.09.01",
-      "day" : 1,
-      "month" : 9,
-      "year" : 2014,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10487,12 +8711,12 @@ export const GoogleData =
       "id" : 85,
       "type" : "news",
       "title" : "August 6, 2015",
+      "year" : 2015,
+      "month" : 8,
+      "day" : 6,
       "desc" : "VML has hold laboratory tour for families of Kolon executives and staff members.",
       "img" : "Issues/img/news_20150806.png",
-      "date" : "2015.08.06",
-      "day" : 6,
-      "month" : 8,
-      "year" : 2015,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10500,12 +8724,12 @@ export const GoogleData =
       "id" : 86,
       "type" : "news",
       "title" : "August 13, 2015",
+      "year" : 2015,
+      "month" : 8,
+      "day" : 13,
       "desc" : "Seungbae Bang won the first prize in the Student Research Competition of Siggraph 2015 with his poster, Interactive Rigging with Intuitive Tools.",
       "img" : "Issues/img/news_20150813.png",
-      "date" : "2015.08.13",
-      "day" : 13,
-      "month" : 8,
-      "year" : 2015,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10513,12 +8737,12 @@ export const GoogleData =
       "id" : 87,
       "type" : "news",
       "title" : "October 13, 2015",
+      "year" : 2015,
+      "month" : 10,
+      "day" : 13,
       "desc" : "Seungbae Bang won the best student paper award in Pacific Graphics 2015.",
       "img" : "Issues/img/news_20151013.png",
-      "date" : "2015.10.13",
-      "day" : 13,
-      "month" : 10,
-      "year" : 2015,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10526,12 +8750,12 @@ export const GoogleData =
       "id" : 88,
       "type" : "news",
       "title" : "October 28, 2015",
+      "year" : 2015,
+      "month" : 10,
+      "day" : 28,
       "desc" : "An alumnus of VML, Yeongho Seol from Weta Digital visited GSCT and gave a lecture on motion capture systems.",
       "img" : "Issues/img/news_20151028.png",
-      "date" : "2015.10.28",
-      "day" : 28,
-      "month" : 10,
-      "year" : 2015,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10539,12 +8763,12 @@ export const GoogleData =
       "id" : 89,
       "type" : "news",
       "title" : "November 30, 2015",
+      "year" : 2015,
+      "month" : 11,
+      "day" : 30,
       "desc" : "An alumnus of VML, Sehwi Park from Method Studio visited GSCT and gave a lecture on VFX pipeline.",
       "img" : "Issues/img/news_20151130.png",
-      "date" : "2015.11.30",
-      "day" : 30,
-      "month" : 11,
-      "year" : 2015,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10552,12 +8776,12 @@ export const GoogleData =
       "id" : 90,
       "type" : "news",
       "title" : "December 2, 2015",
+      "year" : 2015,
+      "month" : 12,
+      "day" : 2,
       "desc" : "An alumnus of VML, Jaewoo Seo from ILM visited GSCT and gave a lecture on facial animation.",
       "img" : "Issues/img/news_20151202.png",
-      "date" : "2015.12.02",
-      "day" : 2,
-      "month" : 12,
-      "year" : 2015,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10565,12 +8789,12 @@ export const GoogleData =
       "id" : 91,
       "type" : "news",
       "title" : "January 7, 2016",
+      "year" : 2016,
+      "month" : 1,
+      "day" : 7,
       "desc" : "VML demonstrated motion capture system, ScreenX, and IIS for 30 Middle school students from LG-KAIST English-Science camp.",
       "img" : "Issues/img/news_20160107.png",
-      "date" : "2016.01.07",
-      "day" : 7,
-      "month" : 1,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10578,12 +8802,12 @@ export const GoogleData =
       "id" : 92,
       "type" : "news",
       "title" : "February 29, 2016",
+      "year" : 2016,
+      "month" : 2,
+      "day" : 29,
       "desc" : "VML demonstrated ScreenX and IIS for 15 students and professors from Keio university.",
       "img" : "Issues/img/news_20160229.png",
-      "date" : "2016.02.29",
-      "day" : 29,
-      "month" : 2,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10591,12 +8815,12 @@ export const GoogleData =
       "id" : 93,
       "type" : "news",
       "title" : "April 22, 2016",
+      "year" : 2016,
+      "month" : 4,
+      "day" : 22,
       "desc" : "VML demonstrated ScreenX, IIS and the latest papers for  Yongki Yoon(Chef Executive Officer in Barunson E&A), Jaewook Park(Director in EVR Studio),  Kenneth Min(Director in EVR Studio) and Bryan Ku(Photograph/Director in Vibe Studio).  They are from Barunson Games Corporation.",
       "img" : "Issues/img/news_20160422.png",
-      "date" : "2016.04.22",
-      "day" : 22,
-      "month" : 4,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10604,12 +8828,12 @@ export const GoogleData =
       "id" : 94,
       "type" : "news",
       "title" : "May 1, 2016",
+      "year" : 2016,
+      "month" : 5,
+      "day" : 1,
       "desc" : "Professor Junyong Noh has been appointed as the 4th chairman of the Graduate School of Culture Technology.",
       "img" : "Issues/img/news_20160501.png",
-      "date" : "2016.05.01",
-      "day" : 1,
-      "month" : 5,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10617,12 +8841,12 @@ export const GoogleData =
       "id" : 95,
       "type" : "news",
       "title" : "June 2, 2016",
+      "year" : 2016,
+      "month" : 6,
+      "day" : 2,
       "desc" : "Professor J.P.Lewis visited GSCT and gave a lecture. He is from Weta digital and Vitoria university of Wellington, New Zealand. Personal: http://www.scribblethink.org/  Vitoria University: http://ecs.victoria.ac.nz/Main/JohnLewis  Weta: https://www.wetafx.co.nz/research",
       "img" : "Issues/img/news_20160602.png",
-      "date" : "2016.06.02",
-      "day" : 2,
-      "month" : 6,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10630,12 +8854,12 @@ export const GoogleData =
       "id" : 96,
       "type" : "news",
       "title" : "June 8, 2016",
+      "year" : 2016,
+      "month" : 6,
+      "day" : 8,
       "desc" : "Caleb T. Carr (Illinois State University) Rebecca Hayes (Illinois State University) Donghee Yvette Wohn (New Jersey Institute of Technology) VML demonstrated ScreenX for speakers of Special Colloquium on Social Media.",
       "img" : "Issues/img/news_20160608.png",
-      "date" : "2016.06.08",
-      "day" : 8,
-      "month" : 6,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10643,12 +8867,12 @@ export const GoogleData =
       "id" : 97,
       "type" : "news",
       "title" : "June 13, 2016",
+      "year" : 2016,
+      "month" : 6,
+      "day" : 13,
       "desc" : "Dr. Larry R. Thompson President of Ringling College of Art and Design VML demonstrated ScreenX for President of Ringling College of Art and Design.",
       "img" : "Issues/img/news_20160613.png",
-      "date" : "2016.06.13",
-      "day" : 13,
-      "month" : 6,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10656,12 +8880,12 @@ export const GoogleData =
       "id" : 98,
       "type" : "news",
       "title" : "July 28, 2016",
+      "year" : 2016,
+      "month" : 7,
+      "day" : 28,
       "desc" : "René sultra, French Photo Artist VML demonstrated ScreenX for René sultra who exhibits RétinA in Lee UngNo Museum of Art.",
       "img" : "Issues/img/news_20160728.png",
-      "date" : "2016.07.28",
-      "day" : 28,
-      "month" : 7,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10669,12 +8893,12 @@ export const GoogleData =
       "id" : 99,
       "type" : "news",
       "title" : "July 4, 2016",
+      "year" : 2016,
+      "month" : 7,
+      "day" : 4,
       "desc" : "90 students from Gwangju Science Academy For The Gifted visited VML.  We demonstrated ScreenX three times.",
       "img" : "Issues/img/news_20160704.png",
-      "date" : "2016.07.04",
-      "day" : 4,
-      "month" : 7,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10682,12 +8906,12 @@ export const GoogleData =
       "id" : 100,
       "type" : "news",
       "title" : "July 5, 2016",
+      "year" : 2016,
+      "month" : 7,
+      "day" : 5,
       "desc" : "Jongcheol Lee, ambassador to Bolivia VML demonstrated ScreenX, IIS and the latest papers for Jongcheol Lee who is an ambassador to Bolivia.",
       "img" : "Issues/img/news_20160705.png",
-      "date" : "2016.07.05",
-      "day" : 5,
-      "month" : 7,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10695,12 +8919,12 @@ export const GoogleData =
       "id" : 101,
       "type" : "news",
       "title" : "July 6, 2016",
+      "year" : 2016,
+      "month" : 7,
+      "day" : 6,
       "desc" : "7 students from Daejeon Middle School visited VML with professor Youngjoon Cho, Chungnam National University. We demonstrated motion capture system, ScreenX, and IIS.",
       "img" : "Issues/img/news_20160706.png",
-      "date" : "2016.07.06",
-      "day" : 6,
-      "month" : 7,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10708,12 +8932,12 @@ export const GoogleData =
       "id" : 102,
       "type" : "news",
       "title" : "July 6, 2016",
+      "year" : 2016,
+      "month" : 7,
+      "day" : 6,
       "desc" : "40 middle school students visited Visual Media Lab. We demonstrated motion capture system and ScreenX.",
       "img" : "Issues/img/news_20160706_2.png",
-      "date" : "2016.07.06",
-      "day" : 6,
-      "month" : 7,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10721,12 +8945,12 @@ export const GoogleData =
       "id" : 103,
       "type" : "news",
       "title" : "July 9, 2016",
+      "year" : 2016,
+      "month" : 7,
+      "day" : 9,
       "desc" : "68 students from Shinmok and Moonil high school visited Visual Media Lab. We demonstrated ScreenX three times.",
       "img" : "Issues/img/news_20160709.png",
-      "date" : "2016.07.09",
-      "day" : 9,
-      "month" : 7,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10734,12 +8958,12 @@ export const GoogleData =
       "id" : 104,
       "type" : "news",
       "title" : "July 14, 2016",
+      "year" : 2016,
+      "month" : 7,
+      "day" : 14,
       "desc" : "Byungkuk Choi won the Changhae rising researcher award in Korea Computer Graphics Society.",
       "img" : "Issues/img/news_20160714.png",
-      "date" : "2016.07.14",
-      "day" : 14,
-      "month" : 7,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10747,12 +8971,12 @@ export const GoogleData =
       "id" : 105,
       "type" : "news",
       "title" : "July 14, 2016",
+      "year" : 2016,
+      "month" : 7,
+      "day" : 14,
       "desc" : "Jungjin Lee won the Changhae rising researcher award in Korea Computer Graphics Society.",
       "img" : "Issues/img/news_20160714_2.png",
-      "date" : "2016.07.14",
-      "day" : 14,
-      "month" : 7,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10760,12 +8984,12 @@ export const GoogleData =
       "id" : 106,
       "type" : "news",
       "title" : "July 27, 2016",
+      "year" : 2016,
+      "month" : 7,
+      "day" : 27,
       "desc" : "96 middle school students visited Visual Media Lab. We demonstrated ScreenX three times.",
       "img" : "Issues/img/news_20160727.png",
-      "date" : "2016.07.27",
-      "day" : 27,
-      "month" : 7,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10773,12 +8997,12 @@ export const GoogleData =
       "id" : 107,
       "type" : "news",
       "title" : "July 30, 2016",
+      "year" : 2016,
+      "month" : 7,
+      "day" : 30,
       "desc" : "39 middle school students from KAIST Science Outreach Program visited Visual Media Lab. We demonstrated ScreenX.",
       "img" : "Issues/img/news_20160730.png",
-      "date" : "2016.07.30",
-      "day" : 30,
-      "month" : 7,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10786,12 +9010,12 @@ export const GoogleData =
       "id" : 108,
       "type" : "news",
       "title" : "August 2, 2016",
+      "year" : 2016,
+      "month" : 8,
+      "day" : 2,
       "desc" : "44 middle school students from hanhwa-KAIST program fostering local talent visited VML. We demonstrated motion capture system, ScreenX, and IIS.",
       "img" : "Issues/img/news_20160802.png",
-      "date" : "2016.08.02",
-      "day" : 2,
-      "month" : 8,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10799,12 +9023,12 @@ export const GoogleData =
       "id" : 109,
       "type" : "news",
       "title" : "August 4, 2016",
+      "year" : 2016,
+      "month" : 8,
+      "day" : 4,
       "desc" : "80 students from Gyeongsangbuk-do Education Camp for gifted children visited VML. We demonstrated ScreenX and IIS.",
       "img" : "Issues/img/news_20160804.png",
-      "date" : "2016.08.04",
-      "day" : 4,
-      "month" : 8,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10812,12 +9036,12 @@ export const GoogleData =
       "id" : 110,
       "type" : "news",
       "title" : "August 26, 2016",
+      "year" : 2016,
+      "month" : 8,
+      "day" : 26,
       "desc" : "90 elementary school students from KAIST Future science camp visited VML. We demonstrated motion capture system, ScreenX, and IIS.",
       "img" : "Issues/img/news_20160826.png",
-      "date" : "2016.08.26",
-      "day" : 26,
-      "month" : 8,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10825,12 +9049,12 @@ export const GoogleData =
       "id" : 111,
       "type" : "news",
       "title" : "August 30, 2016",
+      "year" : 2016,
+      "month" : 8,
+      "day" : 30,
       "desc" : "Ali Khaki-Sedigh, president of K.N. Toosi University(KNTU) Abolghasem Sadeghi, KNTU Professor VML demonstrated ScreenX and IIS for presidents of K.N. Toosi University(KNTU) from Iran.",
       "img" : "Issues/img/news_20160830.png",
-      "date" : "2016.08.30",
-      "day" : 30,
-      "month" : 8,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10838,12 +9062,12 @@ export const GoogleData =
       "id" : 112,
       "type" : "news",
       "title" : "September 23, 2016",
+      "year" : 2016,
+      "month" : 9,
+      "day" : 23,
       "desc" : "The 31st Advanced Program for Innovation & Change Management(AIC) trainee from KAIST Business school visited VML. We demonstrated ScreenX.",
       "img" : "Issues/img/news_20160923.png",
-      "date" : "2016.09.23",
-      "day" : 23,
-      "month" : 9,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10851,12 +9075,12 @@ export const GoogleData =
       "id" : 113,
       "type" : "news",
       "title" : "September 27, 2016",
+      "year" : 2016,
+      "month" : 9,
+      "day" : 27,
       "desc" : "Yongjoon Jeon, the president of Taejin international co. Manu Park, the director of Platform-L Contemporary Art Center VML demonstrated ScreenX and IIS for Taejin international flatform.",
       "img" : "Issues/img/news_20160927.png",
-      "date" : "2016.09.27",
-      "day" : 27,
-      "month" : 9,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10864,12 +9088,12 @@ export const GoogleData =
       "id" : 114,
       "type" : "news",
       "title" : "November 2, 2016",
+      "year" : 2016,
+      "month" : 11,
+      "day" : 2,
       "desc" : "Taehyun Rhee, professor of Victoria University of Wellington Vitoria University: http://ecs.victoria.ac.nz/Main/TaehyunRhee Professor Taehyun Rhee visited GSCT and gave a lecture. The topic was 'Perceptually Based Lighting and Rendering for Mixed Reality'.",
       "img" : "Issues/img/news_20161102.png",
-      "date" : "2016.11.02",
-      "day" : 2,
-      "month" : 11,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10877,12 +9101,12 @@ export const GoogleData =
       "id" : 115,
       "type" : "news",
       "title" : "November 12, 2016",
+      "year" : 2016,
+      "month" : 11,
+      "day" : 12,
       "desc" : "72 middle school students from Chungnam excellent student invitation camp visited VML. We demonstrated motion capture system, ScreenX, and IIS.",
       "img" : "Issues/img/news_20161112.png",
-      "date" : "2016.11.12",
-      "day" : 12,
-      "month" : 11,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10890,12 +9114,12 @@ export const GoogleData =
       "id" : 116,
       "type" : "news",
       "title" : "November 30, 2016",
+      "year" : 2016,
+      "month" : 11,
+      "day" : 30,
       "desc" : "Jaewook Park, Technical Art Director of EVR Studio EVR Studio: www.evrstudio.com  Jaewook Park visited GSCT and gave a seminar. He introduced EVR Studio, and explained how to make a realistic character in virtual reality.",
       "img" : "Issues/img/news_20161130.png",
-      "date" : "2016.11.30",
-      "day" : 30,
-      "month" : 11,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10903,12 +9127,12 @@ export const GoogleData =
       "id" : 117,
       "type" : "news",
       "title" : "December 12, 2016",
+      "year" : 2016,
+      "month" : 12,
+      "day" : 12,
       "desc" : "Wanho Choi, Chief Technology Officer of Dexter Studios Dexter studios: http://dexterstudios.com Wanho Choi visited GSCT and gave a seminar. The topic of seminar was about the development and application of the in-house software of Dexter Studios. He introduced Dexter studios, and explained what the R & D team has developed and applied to the real project.",
       "img" : "Issues/img/news_20161212.png",
-      "date" : "2016.12.12",
-      "day" : 12,
-      "month" : 12,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10916,12 +9140,12 @@ export const GoogleData =
       "id" : 118,
       "type" : "news",
       "title" : "December 30, 2016",
+      "year" : 2016,
+      "month" : 12,
+      "day" : 30,
       "desc" : "Changyong Ahn, Manager of Creative Convergence Planning Division, MSIP  Youngeun Sa-Gong, Action Officer of Creative Convergence Planning Division, MSIP  Ministry of Science, ICT and Future Planning (MSIP): http://www.msip.go.kr People from Creative Convertgence Planning Division of MSIP visited CT. We demonstrated ScreenX and Immerspin.",
       "img" : "Issues/img/news_20161230.png",
-      "date" : "2016.12.30",
-      "day" : 30,
-      "month" : 12,
-      "year" : 2016,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10929,12 +9153,12 @@ export const GoogleData =
       "id" : 119,
       "type" : "news",
       "title" : "January 11, 2017",
+      "year" : 2017,
+      "month" : 1,
+      "day" : 11,
       "desc" : "Interviewers from Monthly Art megazine Monthly Art: http://monthlyart.com Interviewers from Monthly Art megazine visited VML. We demonstrated ScreenX and Immerspin.",
       "img" : "Issues/img/news_20170111.png",
-      "date" : "2017.01.11",
-      "day" : 11,
-      "month" : 1,
-      "year" : 2017,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10942,12 +9166,12 @@ export const GoogleData =
       "id" : 120,
       "type" : "news",
       "title" : "January 25, 2017",
+      "year" : 2017,
+      "month" : 1,
+      "day" : 25,
       "desc" : "Sehoon Oh, Chief of Convention Attraction Team, DIME Soohyeon Park, Manager of Convention Attraction Team, DIME Daejeon International Marketing Enterprise (DIME): http://www.dime.or.kr Sehoon Oh and Soohyeon Park from Daejeon International Marketing Enterprise visited VML. We demonstrated ScreenX and Immerspin.",
       "img" : "Issues/img/news_20170125.png",
-      "date" : "2017.01.25",
-      "day" : 25,
-      "month" : 1,
-      "year" : 2017,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10955,12 +9179,12 @@ export const GoogleData =
       "id" : 121,
       "type" : "news",
       "title" : "February 16, 2017",
+      "year" : 2017,
+      "month" : 2,
+      "day" : 16,
       "desc" : "At KAIST 46th Anniversary Ceremony, Jungjin Lee and Seokpyo Hong won KAIST Creative Challenge Award and Special Student Award respectively.",
       "img" : "Issues/img/news_20170216.png",
-      "date" : "2017.02.16",
-      "day" : 16,
-      "month" : 2,
-      "year" : 2017,
+      "img_original" : "",
       "source" : "",
       "sourcelink" : ""
     },
@@ -10968,12 +9192,12 @@ export const GoogleData =
       "id" : 122,
       "type" : "media",
       "title" : "3D 영화, 이제는 ‘명품’ 아니면 ‘죽음’이다 ",
-      "desc" : "지난해 1월 온 세계는 <아바타>에 열광했다. <아바타>는 거의 모든 나라의 박스 오피스 1위를 점령하며 3D 입체 영화 시대가 시작되었음을 알렸다. 1년이 지난 지금도 <아바타>를 뛰어넘는 3D 콘텐츠는 등장하지 않고 있다. 그 사이 3D TV가 본격적으로 시장을 형성했고 수많은 수입 3D 영화가 극장에 걸렸지만 <아바타>를 능가하는 완성도를 지닌 작품은 등장하지 않았다. 그러면서 3D 붐도 주춤해지고 있다. 시장에서는 2D로 만들어져 후반 작업을 통해 3D로 변환된 몇몇 영화가 오히려 3D 붐에 찬물을 끼얹었다는 비난이 나오고 있다.",
-      "img" : "Issues/img/media_20110128.png",
-      "date" : "2011.01.28",
-      "day" : 28,
-      "month" : 1,
       "year" : 2011,
+      "month" : 1,
+      "day" : 28,
+      "desc" : "지난해 1월 온 세계는 <아바타>에 열광했다. <아바타>는 거의 모든 나라의 박스 오피스 1위를 점령하며 3D 입체 영화 시대가 시작되었음을 알렸다. 1년이 지난 지금도 <아바타>를 뛰어넘는 3D 콘텐츠는 등장하지 않고 있다. 그 사이 3D TV가 본격적으로 시장을 형성했고 수많은 수입 3D 영화가 극장에 걸렸지만 <아바타>를 능가하는 완성도를 지닌 작품은 등장하지 않았다. 그러면서 3D 붐도 주춤해지고 있다. 시장에서는 2D로 만들어져 후반 작업을 통해 3D로 변환된 몇몇 영화가 오히려 3D 붐에 찬물을 끼얹었다는 비난이 나오고 있다.",
+      "img" : "Issues/img/media_20110128_sisa.png",
+      "img_original" : "",
       "source" : "시사저널",
       "sourcelink" : "http://www.sisapress.com/journal/article/131203"
     },
@@ -10981,12 +9205,12 @@ export const GoogleData =
       "id" : 123,
       "type" : "media",
       "title" : "KAIST 학생 \"뉴질랜드서 꿩먹고 알먹고\" ",
-      "desc" : "해외에 나가 첨단기술도 배우면서 3개월 동안 2000만원의 급여까지 챙기는 KAIST 학생인턴이 화제다. KAIST 문화기술대학원(원장 신성용)은 지난해에 이어 올 여름에도 뉴질랜드 웨타 디지털(WETA Digital)에 고액의 유급 학생인턴을 파견한다고 23일 밝혔다. 웨타 디지털은 영화 ‘반지의 제왕’, ‘킹콩’, ‘아바타’ 등의 영화제작으로 잘 알려진 세계적인 컴퓨터그래픽(CG) 특수효과 전문 업체다. 최근엔 3D 영화 제작도 많이 한다.\n화제의 주인공은 문화기술대학원 비주얼 미디어 랩 소속의 설영호(박사과정)씨다. 설 씨는 여름방학(6~8월) 동안 뉴질랜드에 머물며 웨타 디지털의 기술개발에 직접 참여할 예정이다.",
-      "img" : "Issues/img/media_20110223.png",
-      "date" : "2011.02.23",
-      "day" : 23,
-      "month" : 2,
       "year" : 2011,
+      "month" : 2,
+      "day" : 23,
+      "desc" : "해외에 나가 첨단기술도 배우면서 3개월 동안 2000만원의 급여까지 챙기는 KAIST 학생인턴이 화제다. KAIST 문화기술대학원(원장 신성용)은 지난해에 이어 올 여름에도 뉴질랜드 웨타 디지털(WETA Digital)에 고액의 유급 학생인턴을 파견한다고 23일 밝혔다. 웨타 디지털은 영화 ‘반지의 제왕’, ‘킹콩’, ‘아바타’ 등의 영화제작으로 잘 알려진 세계적인 컴퓨터그래픽(CG) 특수효과 전문 업체다. 최근엔 3D 영화 제작도 많이 한다.\n화제의 주인공은 문화기술대학원 비주얼 미디어 랩 소속의 설영호(박사과정)씨다. 설 씨는 여름방학(6~8월) 동안 뉴질랜드에 머물며 웨타 디지털의 기술개발에 직접 참여할 예정이다.",
+      "img" : "Issues/img/media_20110223_etnews.png",
+      "img_original" : "",
       "source" : "전자신문",
       "sourcelink" : "http://www.etnews.com/201102230077"
     },
@@ -10994,12 +9218,12 @@ export const GoogleData =
       "id" : 124,
       "type" : "media",
       "title" : "\"한반도의 공룡3D, 알고보니 KAIST 인재들도 참여한 수작 ",
-      "desc" : "26일 개봉 예정인 영화 ‘점박이: 한반도의 공룡 3D’(이하 점박이)에 KAIST 공학연구소팀이 참여해 눈길을 끈다. \n‘점박이’는 미국과 독일, 인도 등 세계 33개국에 선판매된 작품. 8000만년 전 백악기 시대 한반도를 지배한 공룡 타르보사우루스 점박이의 모험을 담았다.\nEBS 다큐멘터리 ‘한반도의 공룡’을 만든 한상호 감독이 연출을 맡아 3년간 공을 들인 작품에는 무려 500명의 전문 스태프가 프로젝트에 참여했다. \n‘점박이’는 미국과 독일, 인도 등 세계 33개국에 선판매된 작품. 8000만년 전 백악기 시대 한반도를 지배한 공룡 타르보사우루스 점박이의 모험을 담았다.\nEBS 다큐멘터리 ‘한반도의 공룡’을 만든 한상호 감독이 연출을 맡아 3년간 공을 들인 작품에는 무려 500명의 전문 스태프가 프로젝트에 참여했다. ",
-      "img" : "Issues/img/media_20120104.png",
-      "date" : "2012.01.04",
-      "day" : 4,
-      "month" : 1,
       "year" : 2012,
+      "month" : 1,
+      "day" : 4,
+      "desc" : "26일 개봉 예정인 영화 ‘점박이: 한반도의 공룡 3D’(이하 점박이)에 KAIST 공학연구소팀이 참여해 눈길을 끈다. \n‘점박이’는 미국과 독일, 인도 등 세계 33개국에 선판매된 작품. 8000만년 전 백악기 시대 한반도를 지배한 공룡 타르보사우루스 점박이의 모험을 담았다.\nEBS 다큐멘터리 ‘한반도의 공룡’을 만든 한상호 감독이 연출을 맡아 3년간 공을 들인 작품에는 무려 500명의 전문 스태프가 프로젝트에 참여했다. \n‘점박이’는 미국과 독일, 인도 등 세계 33개국에 선판매된 작품. 8000만년 전 백악기 시대 한반도를 지배한 공룡 타르보사우루스 점박이의 모험을 담았다.\nEBS 다큐멘터리 ‘한반도의 공룡’을 만든 한상호 감독이 연출을 맡아 3년간 공을 들인 작품에는 무려 500명의 전문 스태프가 프로젝트에 참여했다. ",
+      "img" : "Issues/img/media_20120104_mk.png",
+      "img_original" : "",
       "source" : "매일경제",
       "sourcelink" : "http://star.mk.co.kr/new/view.php?mc=ST&no=7518&year=2012"
     },
@@ -11007,12 +9231,12 @@ export const GoogleData =
       "id" : 125,
       "type" : "media",
       "title" : "2D 콘텐츠를 3D로 변환해 주는 소프트웨어 개발 ",
-      "desc" : "2D 콘텐츠를 3D 콘텐츠로 변환할 수 있는 소프트웨어가 국내 연구진에 의해 개발됐다. 적은 비용을 들어 보다 쉽게 3D 콘텐츠를 제작할 수 있는 기술을 확보하게 됐다.\nKAIST 문화기술대학원 노준용 교수 연구팀은 반자동 3D 입체변환 효율을 3배 이상 향상시킨 소프트웨어 `내키드(NAKiD)'를 개발하는데 성공했다고 11일 밝혔다.",
-      "img" : "Issues/img/media_20121011.png",
-      "date" : "2012.10.11",
-      "day" : 11,
-      "month" : 10,
       "year" : 2012,
+      "month" : 10,
+      "day" : 11,
+      "desc" : "2D 콘텐츠를 3D 콘텐츠로 변환할 수 있는 소프트웨어가 국내 연구진에 의해 개발됐다. 적은 비용을 들어 보다 쉽게 3D 콘텐츠를 제작할 수 있는 기술을 확보하게 됐다.\nKAIST 문화기술대학원 노준용 교수 연구팀은 반자동 3D 입체변환 효율을 3배 이상 향상시킨 소프트웨어 `내키드(NAKiD)'를 개발하는데 성공했다고 11일 밝혔다.",
+      "img" : "Issues/img/media_20121011_digitaltimes.png",
+      "img_original" : "",
       "source" : "디지털타임즈",
       "sourcelink" : "http://www.dt.co.kr/contents.html?article_no=2012101102019957731003"
     },
@@ -11020,12 +9244,12 @@ export const GoogleData =
       "id" : 126,
       "type" : "media",
       "title" : "[BIFF] 3면 스크린 강동원 주연 '더 엑스' 직접 보니 ",
-      "desc" : "상영관의 정면 메인 스크린은 물론 양쪽 벽면까지 스크린으로 쓰는 기술인 스크린X. 이를 활용한 세계 첫 극영화 '더 엑스(The X)'가 제18회 부산영화제에서 베일을 벗었다.\n김지운 감독이 연출을 맡고 강동원 신민아가 주연한 이 영화는 4일 부산 해운대에 있는 신세계 센텀시티 CGV에서 기자시사를 통해 첫 공개됐다.\n더 엑스는 요원 X(강동원)가 위기를 극복하는 과정을 그리면서 스크린X 기술의 효과적인 활용법을 모색하는 실험 영화 성격이 짙다.",
-      "img" : "Issues/img/media_20131005.png",
-      "date" : "2013.10.05",
-      "day" : 5,
-      "month" : 10,
       "year" : 2013,
+      "month" : 10,
+      "day" : 5,
+      "desc" : "상영관의 정면 메인 스크린은 물론 양쪽 벽면까지 스크린으로 쓰는 기술인 스크린X. 이를 활용한 세계 첫 극영화 '더 엑스(The X)'가 제18회 부산영화제에서 베일을 벗었다.\n김지운 감독이 연출을 맡고 강동원 신민아가 주연한 이 영화는 4일 부산 해운대에 있는 신세계 센텀시티 CGV에서 기자시사를 통해 첫 공개됐다.\n더 엑스는 요원 X(강동원)가 위기를 극복하는 과정을 그리면서 스크린X 기술의 효과적인 활용법을 모색하는 실험 영화 성격이 짙다.",
+      "img" : "Issues/img/media_20131005_nocut.png",
+      "img_original" : "",
       "source" : "노컷뉴스",
       "sourcelink" : "http://www.nocutnews.co.kr/news/1109038"
     },
@@ -11033,12 +9257,12 @@ export const GoogleData =
       "id" : 127,
       "type" : "media",
       "title" : "3D 효과 멀티프로젝션 상영관 뜬다 ",
-      "desc" : "요즘, 3D 영화가 뜨고 있습니다만 전용안경을 착용해야 하는 데다 어지럼증 등 불편을 호소하는 사례가 많습니다.\n3D 효과를 느끼면서 영화의 몰입감을 높일 수 있는 멀티프로젝션기술이 국내 연구진이 개발해 할리우드에 역수출하는 쾌거를 올렸습니다. \n이정우 기자가 보도합니다.",
-      "img" : "Issues/img/media_20131022.png",
-      "date" : "2013.10.22",
-      "day" : 22,
-      "month" : 10,
       "year" : 2013,
+      "month" : 10,
+      "day" : 22,
+      "desc" : "요즘, 3D 영화가 뜨고 있습니다만 전용안경을 착용해야 하는 데다 어지럼증 등 불편을 호소하는 사례가 많습니다.\n3D 효과를 느끼면서 영화의 몰입감을 높일 수 있는 멀티프로젝션기술이 국내 연구진이 개발해 할리우드에 역수출하는 쾌거를 올렸습니다. \n이정우 기자가 보도합니다.",
+      "img" : "Issues/img/media_20131022_YTN.png",
+      "img_original" : "",
       "source" : "YTN",
       "sourcelink" : "http://www.ytn.co.kr/_ln/0115_201310220224021431"
     },
@@ -11046,12 +9270,12 @@ export const GoogleData =
       "id" : 128,
       "type" : "media",
       "title" : "\"비둘기 비행 가상으로 재현 가능\" …애니메이션 등에 활용 기대 ",
-      "desc" : "국내 연구진이 비둘기의 비행 원리를 밝히고, 컴퓨터 시뮬레이션을 통해 새의 비행을 가상으로 재현하는 기술을 개발했다. 이 기술은 사실적인 날개 짓의 묘사가 필요한 애니메이션 등 엔터테인먼트 분야나 생체모방로봇 설계 분야 등에 활용될 것으로 기대된다.",
-      "img" : "Issues/img/media_20131023.png",
-      "date" : "2013.10.23",
-      "day" : 23,
-      "month" : 10,
       "year" : 2013,
+      "month" : 10,
+      "day" : 23,
+      "desc" : "국내 연구진이 비둘기의 비행 원리를 밝히고, 컴퓨터 시뮬레이션을 통해 새의 비행을 가상으로 재현하는 기술을 개발했다. 이 기술은 사실적인 날개 짓의 묘사가 필요한 애니메이션 등 엔터테인먼트 분야나 생체모방로봇 설계 분야 등에 활용될 것으로 기대된다.",
+      "img" : "Issues/img/media_20131023_asiae.png",
+      "img_original" : "",
       "source" : "아시아 경제",
       "sourcelink" : "http://view.asiae.co.kr/news/view.htm?idxno=2013102308443684791"
     },
@@ -11059,12 +9283,12 @@ export const GoogleData =
       "id" : 129,
       "type" : "media",
       "title" : "[Interview] (77) 고개를 돌려라, 시선이 닿는 모든 곳이 영화다‘스크린 엑스’ ",
-      "desc" : "영화관은 진화하고 있습니다. 2009년 <아바타>를 기점으로 평면의 스크린으로 즐기는 이차원적 영상에서 특수 안경을 쓰고 즐기는 삼차원적 영상까지. 영화는 이제 관객들에게 영상 속 움직임과 감각까지 제공하고 있습니다. 영화관은 관객들에게 더 새롭고 즐거운 경험을 선사하기 위해 '가만히 앉아본다'는 영화에 대한 기존의 인식을 끊임없이 깨고 있는 중입니다.",
-      "img" : "Issues/img/media_20131209.png",
-      "date" : "2013.12.09",
-      "day" : 9,
-      "month" : 12,
       "year" : 2013,
+      "month" : 12,
+      "day" : 9,
+      "desc" : "영화관은 진화하고 있습니다. 2009년 <아바타>를 기점으로 평면의 스크린으로 즐기는 이차원적 영상에서 특수 안경을 쓰고 즐기는 삼차원적 영상까지. 영화는 이제 관객들에게 영상 속 움직임과 감각까지 제공하고 있습니다. 영화관은 관객들에게 더 새롭고 즐거운 경험을 선사하기 위해 '가만히 앉아본다'는 영화에 대한 기존의 인식을 끊임없이 깨고 있는 중입니다.",
+      "img" : "Issues/img/media_20131209_WIKITREE.png",
+      "img_original" : "",
       "source" : "위키트리",
       "sourcelink" : "http://www.wikitree.co.kr/main/news_view.php?id=150408"
     },
@@ -11072,12 +9296,12 @@ export const GoogleData =
       "id" : 130,
       "type" : "media",
       "title" : "[창경궁으로의 초대]산업·과학기술 융합, 창조경제를 실현하다 - 미래형 상영관·의약품 추적관리 시스템 ",
-      "desc" : "창조경제가 최근의 화두로 떠오르면서 산업계에서도 창조경제의 핵심인 융합에 대한 관심이 높아지고 있다.\n영화산업에 첨단 과학기술을 도입, 영화의 제작과 소비에 있어 새로운 시장을 창출하는가 하면, 의약품과 IT기술이 만나 기존의 의약품 유통 방식에 획기적인 변화를 꾀하고 있다는데...\n산업기술 간 융합으로 창조경제를 실현하고 있는 그 현장을 찾아간다.",
-      "img" : "Issues/img/media_20140121.png",
-      "date" : "2014.01.21",
-      "day" : 21,
-      "month" : 1,
       "year" : 2014,
+      "month" : 1,
+      "day" : 21,
+      "desc" : "창조경제가 최근의 화두로 떠오르면서 산업계에서도 창조경제의 핵심인 융합에 대한 관심이 높아지고 있다.\n영화산업에 첨단 과학기술을 도입, 영화의 제작과 소비에 있어 새로운 시장을 창출하는가 하면, 의약품과 IT기술이 만나 기존의 의약품 유통 방식에 획기적인 변화를 꾀하고 있다는데...\n산업기술 간 융합으로 창조경제를 실현하고 있는 그 현장을 찾아간다.",
+      "img" : "Issues/img/media_20140121_SBS.png",
+      "img_original" : "",
       "source" : "YTN Science",
       "sourcelink" : "http://science.ytn.co.kr/program/program_view.php?s_mcd=1087&s_hcd=&key=201401211017104953&page=1"
     },
@@ -11085,12 +9309,12 @@ export const GoogleData =
       "id" : 131,
       "type" : "media",
       "title" : "[KOREA REPORT] 소녀시대가 눈앞에?..무궁무진한 문화기술 ",
+      "year" : 2014,
+      "month" : 2,
+      "day" : 5,
       "desc" : "우리는 다양한 문화를 만나기 위해 영화를 보고 박물관을 갑니다. 이런 다양한 문화들이 발전된 기술에 힘입어 문화의 형태까지도 바꾸고 있다고 합니다. 윤혜준 기자와 함게 알아보시죠.\n\n<윤혜준 / SBSCNBC 기자>\n단순히 보고 즐기는 것을 뛰어 넘어 문화는 당당히 하나의 산업으로 자리 잡았습니다. 각종 콘텐츠와 결합하여 부가가치를 실현해내는 문화산업은 최근 다양한 기술과 결합하여 문화기술이라는 새로운 영역을 탄생, 발전시켰습니다.",
       "img" : "Issues/img/media_20140205.png",
-      "date" : "2014.02.05",
-      "day" : 5,
-      "month" : 2,
-      "year" : 2014,
+      "img_original" : "",
       "source" : "SBS CNBC",
       "sourcelink" : "http://sbscnbc.sbs.co.kr/read.jsp?pmArticleId=10000626179"
     },
@@ -11098,12 +9322,12 @@ export const GoogleData =
       "id" : 132,
       "type" : "media",
       "title" : "TV Tokyo 취재영상 ",
-      "desc" : "",
-      "img" : "Issues/img/media_20140221.png",
-      "date" : "2014.02.21",
-      "day" : 21,
-      "month" : 2,
       "year" : 2014,
+      "month" : 2,
+      "day" : 21,
+      "desc" : "",
+      "img" : "Issues/img/media_20140221_TOKYO.png",
+      "img_original" : "",
       "source" : "TV Tokyo",
       "sourcelink" : "http://www.tv-tokyo.co.jp/mv/wbs/globalwatch/"
     },
@@ -11111,12 +9335,12 @@ export const GoogleData =
       "id" : 133,
       "type" : "media",
       "title" : "[YTN 스페셜] 문화산업이 미래다 3부 : 문화 없이 강국 없다 ",
+      "year" : 2014,
+      "month" : 5,
+      "day" : 26,
       "desc" : "경제력만이 국력을 말해주는 시대는 갔습니다. \n이제 문화강국이 진짜 강국이 되는 시대.\n\n[인터뷰:최일규, 대한무역투자진흥공사]\n\"국제화도 중요하지만, 정체성을 유지하면서도 현지화된 모습을 같이 보일 때만 장기적인 생존력을 가질 수 있습니다.\"",
       "img" : "Issues/img/media_20140526.png",
-      "date" : "2014.05.26",
-      "day" : 26,
-      "month" : 5,
-      "year" : 2014,
+      "img_original" : "",
       "source" : "YTN",
       "sourcelink" : "http://www.ytn.co.kr/_pn/0465_201405261959571398"
     },
@@ -11124,12 +9348,12 @@ export const GoogleData =
       "id" : 134,
       "type" : "media",
       "title" : "BBC Click - South Korea ",
-      "desc" : "Click goes robot mad in South Korea, meeting one doing DIY for DARPA challenge, taking a drone for a spin and steering well clear of bots hunting jellyfish.",
-      "img" : "Issues/img/media_20150530.png",
-      "date" : "2015.05.30",
-      "day" : 30,
-      "month" : 5,
       "year" : 2015,
+      "month" : 5,
+      "day" : 30,
+      "desc" : "Click goes robot mad in South Korea, meeting one doing DIY for DARPA challenge, taking a drone for a spin and steering well clear of bots hunting jellyfish.",
+      "img" : "Issues/img/media_20150530_BBC.png",
+      "img_original" : "",
       "source" : "BBC",
       "sourcelink" : "http://www.bbc.co.uk/programmes/b05x86j5"
     },
@@ -11137,12 +9361,12 @@ export const GoogleData =
       "id" : 135,
       "type" : "media",
       "title" : "TJB 시사토크 공감 ",
-      "desc" : "",
-      "img" : "Issues/img/media_20150818.png",
-      "date" : "2015.08.18",
-      "day" : 18,
-      "month" : 8,
       "year" : 2015,
+      "month" : 8,
+      "day" : 18,
+      "desc" : "",
+      "img" : "Issues/img/media_20150818_TJB.png",
+      "img_original" : "",
       "source" : "TJB",
       "sourcelink" : "http://www.tjb.co.kr/sub0401/vod/view/type/1/lomd/13"
     },
@@ -11150,12 +9374,12 @@ export const GoogleData =
       "id" : 136,
       "type" : "media",
       "title" : "대전 MBC 뉴스 ",
-      "desc" : "세계과학정상회의는 마무리 단계로 접어들었지만, 대전은 과학 열기에 흠뻑 빠져 있습니다. \n카이스트는 한류를 주도하는 문화기술 전시회를 열었고, 국립중앙과학관은 대한민국 과학관의 발전 비전을 선포했습니다.",
-      "img" : "Issues/img/media_20151022.png",
-      "date" : "2015.10.22",
-      "day" : 22,
-      "month" : 10,
       "year" : 2015,
+      "month" : 10,
+      "day" : 22,
+      "desc" : "세계과학정상회의는 마무리 단계로 접어들었지만, 대전은 과학 열기에 흠뻑 빠져 있습니다. \n카이스트는 한류를 주도하는 문화기술 전시회를 열었고, 국립중앙과학관은 대한민국 과학관의 발전 비전을 선포했습니다.",
+      "img" : "Issues/img/media_20151022_DaejeonMBC.png",
+      "img_original" : "",
       "source" : "대전 MBC",
       "sourcelink" : "https://www.youtube.com/watch?v=TaYdrc4bv8I&feature=youtu.be"
     },
@@ -11163,12 +9387,12 @@ export const GoogleData =
       "id" : 137,
       "type" : "media",
       "title" : "TJB 8뉴스 ",
-      "desc" : "",
-      "img" : "Issues/img/media_20151105.png",
-      "date" : "2015.11.05",
-      "day" : 5,
-      "month" : 11,
       "year" : 2015,
+      "month" : 11,
+      "day" : 5,
+      "desc" : "",
+      "img" : "Issues/img/media_20151105_TJB.png",
+      "img_original" : "",
       "source" : "TJB",
       "sourcelink" : "http://www.tjb.co.kr/sub0401/vod/view/type/2/kind/1"
     },
@@ -11176,12 +9400,12 @@ export const GoogleData =
       "id" : 138,
       "type" : "media",
       "title" : "SBS 일요 특선 다큐멘터리 71회 - 상상을 현실로 만드는 마법 ",
-      "desc" : "",
-      "img" : "Issues/img/media_20160522.png",
-      "date" : "2016.05.22",
-      "day" : 22,
-      "month" : 5,
       "year" : 2016,
+      "month" : 5,
+      "day" : 22,
+      "desc" : "",
+      "img" : "Issues/img/media_20160522_SBS.png",
+      "img_original" : "",
       "source" : "SBS",
       "sourcelink" : "http://program.sbs.co.kr/builder/endPage.do?pgm_id=22000003708&pgm_mnu_id=15703&pgm_build_id=4401&contNo=cu0528f0007100&srs_nm=71"
     },
@@ -11189,12 +9413,12 @@ export const GoogleData =
       "id" : 139,
       "type" : "media",
       "title" : "\"AR·VR 유행 좇다간 3D TV처럼 큰코 다칠 것\" ",
-      "desc" : "할리우드 유명 제작사들이 최근 탐내는 캐스팅 1순위 인물이 있다. 노준용 한국과학기술원(KAIST) 문화기술대학원 교수가 바로 그다. 노 교수는 극장상영의 패러다임을 바꾼 ‘스크린 엑스(ScreenX)’ 기술을 세계 최초로 개발한 세계적인 컴퓨터그래픽(CG) 전문가다. 극장 3면에 걸쳐 영상을 펼쳐 보이는 스크린 엑스 방식은 극대화된 몰입감을 제공하는 것이 특징이다. ‘히말라야’, ‘검은 사제들’, ‘차이나타운’ 등의 작품에 사용됐다. ",
-      "img" : "Issues/img/media_20160729.png",
-      "date" : "2016.07.29",
-      "day" : 29,
-      "month" : 7,
       "year" : 2016,
+      "month" : 7,
+      "day" : 29,
+      "desc" : "할리우드 유명 제작사들이 최근 탐내는 캐스팅 1순위 인물이 있다. 노준용 한국과학기술원(KAIST) 문화기술대학원 교수가 바로 그다. 노 교수는 극장상영의 패러다임을 바꾼 ‘스크린 엑스(ScreenX)’ 기술을 세계 최초로 개발한 세계적인 컴퓨터그래픽(CG) 전문가다. 극장 3면에 걸쳐 영상을 펼쳐 보이는 스크린 엑스 방식은 극대화된 몰입감을 제공하는 것이 특징이다. ‘히말라야’, ‘검은 사제들’, ‘차이나타운’ 등의 작품에 사용됐다. ",
+      "img" : "Issues/img/media_20160729_moneytoday.png",
+      "img_original" : "",
       "source" : "머니투데이",
       "sourcelink" : "http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=105&oid=008&aid=0003719054&viewType=pc"
     },
@@ -11202,14 +9426,27 @@ export const GoogleData =
       "id" : 140,
       "type" : "media",
       "title" : "[탐구人] 나니아 연대기·가필드…할리우드서 활약한 국내 대표 영화 CG 기술자 ",
-      "desc" : "[YTN 사이언스] 나니아 연대기·가필드…할리우드서 활약한 국내 대표 영화 CG 기술자\n\n[앵커]\n요즘 영화를 보러 가면 컴퓨터 그래픽, 즉 CG가 없는 영화는 찾아보기가 힘듭니다. CG를 통해 새로운 생명체도 만들고 상상 속의 세계를 만들기도 합니다.\n\n오늘 '탐구 人'에서는 나니아 연대기, 가필드 등 세계적인 할리우드 영화의 CG 기술자로 활약한, 카이스트 노준용 박사와 함께 이야기 나눠보겠습니다. 안녕하세요? 본인을 표현하실 때 컴퓨터 그래픽을 공부하는 그래픽 사이언티스트라고 본인을 표현하시더라고요. 그래픽 사이언티스트는 무엇인가요?",
-      "img" : "Issues/img/media_20161012.png",
-      "date" : "2016.10.12",
-      "day" : 12,
-      "month" : 10,
       "year" : 2016,
+      "month" : 10,
+      "day" : 12,
+      "desc" : "[YTN 사이언스] 나니아 연대기·가필드…할리우드서 활약한 국내 대표 영화 CG 기술자\n\n[앵커]\n요즘 영화를 보러 가면 컴퓨터 그래픽, 즉 CG가 없는 영화는 찾아보기가 힘듭니다. CG를 통해 새로운 생명체도 만들고 상상 속의 세계를 만들기도 합니다.\n\n오늘 '탐구 人'에서는 나니아 연대기, 가필드 등 세계적인 할리우드 영화의 CG 기술자로 활약한, 카이스트 노준용 박사와 함께 이야기 나눠보겠습니다. 안녕하세요? 본인을 표현하실 때 컴퓨터 그래픽을 공부하는 그래픽 사이언티스트라고 본인을 표현하시더라고요. 그래픽 사이언티스트는 무엇인가요?",
+      "img" : "Issues/img/media_20161012_YTN.png",
+      "img_original" : "",
       "source" : "YTN Science",
       "sourcelink" : "http://science.ytn.co.kr/program/program_view.php?s_mcd=0082&key=201610121609259786&s_hcd="
+    },
+    {
+      "id" : 141,
+      "type" : "news",
+      "title" : "",
+      "year" : "",
+      "month" : "",
+      "day" : "",
+      "desc" : "",
+      "img" : "",
+      "img_original" : "",
+      "source" : "",
+      "sourcelink" : ""
     }
   ],
   "teams" : [
@@ -11352,10 +9589,6 @@ export const GoogleData =
       "members" : ""
     }
   ],
-
-
-
-
   "lifes" : [
     {
       "id" : 1,
@@ -11573,10 +9806,10 @@ export const GoogleData =
       "title" : "SIGGRAPH 2007 - San Diego",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2007_SIGGRAPH 2007 - San Diego/sig01.jpg",
-      "image2" : "Lifes/img/2007_SIGGRAPH 2007 - San Diego/sig07.jpg",
-      "image3" : "Lifes/img/2007_SIGGRAPH 2007 - San Diego/sig11.jpg",
-      "image4" : "Lifes/img/2007_SIGGRAPH 2007 - San Diego/sig15.jpg"
+      "image1" : "Lifes/img/2007_SIGGRAPH%202007%20-%20San%20Diego/sig01.jpg",
+      "image2" : "Lifes/img/2007_SIGGRAPH%202007%20-%20San%20Diego/sig07.jpg",
+      "image3" : "Lifes/img/2007_SIGGRAPH%202007%20-%20San%20Diego/sig11.jpg",
+      "image4" : "Lifes/img/2007_SIGGRAPH%202007%20-%20San%20Diego/sig15.jpg"
     },
     {
       "id" : 18,
@@ -11586,10 +9819,10 @@ export const GoogleData =
       "title" : "SIGGRAPH 2008 - LA",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2008_SIGGRAPH 2008 - LA/sig6.jpg",
-      "image2" : "Lifes/img/2008_SIGGRAPH 2008 - LA/sig10.jpg",
-      "image3" : "Lifes/img/2008_SIGGRAPH 2008 - LA/sig21.jpg",
-      "image4" : "Lifes/img/2008_SIGGRAPH 2008 - LA/sig30.jpg"
+      "image1" : "Lifes/img/2008_SIGGRAPH%202008%20-%20LA/sig6.jpg",
+      "image2" : "Lifes/img/2008_SIGGRAPH%202008%20-%20LA/sig10.jpg",
+      "image3" : "Lifes/img/2008_SIGGRAPH%202008%20-%20LA/sig21.jpg",
+      "image4" : "Lifes/img/2008_SIGGRAPH%202008%20-%20LA/sig30.jpg"
     },
     {
       "id" : 19,
@@ -11599,10 +9832,10 @@ export const GoogleData =
       "title" : "SIGGRAPH ASIA 2008 - Singapore",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2008_SIGGRAPH ASIA 2008 - Singapore/2008_SIGGRAPH_ASIA_6.jpg",
-      "image2" : "Lifes/img/2008_SIGGRAPH ASIA 2008 - Singapore/2008_SIGGRAPH_ASIA_9.jpg",
-      "image3" : "Lifes/img/2008_SIGGRAPH ASIA 2008 - Singapore/2008_SIGGRAPH_ASIA_14.jpg",
-      "image4" : "Lifes/img/2008_SIGGRAPH ASIA 2008 - Singapore/2008_SIGGRAPH_ASIA_15.jpg"
+      "image1" : "Lifes/img/2008_SIGGRAPH%20ASIA%202008%20-%20Singapore/2008_SIGGRAPH_ASIA_6.jpg",
+      "image2" : "Lifes/img/2008_SIGGRAPH%20ASIA%202008%20-%20Singapore/2008_SIGGRAPH_ASIA_9.jpg",
+      "image3" : "Lifes/img/2008_SIGGRAPH%20ASIA%202008%20-%20Singapore/2008_SIGGRAPH_ASIA_14.jpg",
+      "image4" : "Lifes/img/2008_SIGGRAPH%20ASIA%202008%20-%20Singapore/2008_SIGGRAPH_ASIA_15.jpg"
     },
     {
       "id" : 20,
@@ -11612,10 +9845,10 @@ export const GoogleData =
       "title" : "Workshop 2009 - Donggang",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2009_Workshop 2009 - Donggang/dong02.jpg",
-      "image2" : "Lifes/img/2009_Workshop 2009 - Donggang/dong12.jpg",
-      "image3" : "Lifes/img/2009_Workshop 2009 - Donggang/dong13.jpg",
-      "image4" : "Lifes/img/2009_Workshop 2009 - Donggang/dong15.jpg"
+      "image1" : "Lifes/img/2009_Workshop%202009%20-%20Donggang/dong02.jpg",
+      "image2" : "Lifes/img/2009_Workshop%202009%20-%20Donggang/dong12.jpg",
+      "image3" : "Lifes/img/2009_Workshop%202009%20-%20Donggang/dong13.jpg",
+      "image4" : "Lifes/img/2009_Workshop%202009%20-%20Donggang/dong15.jpg"
     },
     {
       "id" : 21,
@@ -11625,10 +9858,10 @@ export const GoogleData =
       "title" : "SIGGRAPH 2009 - New Orleans",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2009_SIGGRAPH 2009 - New Orleans/sig09_11.jpg",
-      "image2" : "Lifes/img/2009_SIGGRAPH 2009 - New Orleans/sig09_14.jpg",
-      "image3" : "Lifes/img/2009_SIGGRAPH 2009 - New Orleans/sig09_15.jpg",
-      "image4" : "Lifes/img/2009_SIGGRAPH 2009 - New Orleans/sig09_16.jpg"
+      "image1" : "Lifes/img/2009_SIGGRAPH%202009%20-%20New%20Orleans/sig09_11.jpg",
+      "image2" : "Lifes/img/2009_SIGGRAPH%202009%20-%20New%20Orleans/sig09_14.jpg",
+      "image3" : "Lifes/img/2009_SIGGRAPH%202009%20-%20New%20Orleans/sig09_15.jpg",
+      "image4" : "Lifes/img/2009_SIGGRAPH%202009%20-%20New%20Orleans/sig09_16.jpg"
     },
     {
       "id" : 22,
@@ -11638,10 +9871,10 @@ export const GoogleData =
       "title" : "SIGGRAPH 2010 - LA",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2010_SIGGRAPH 2010 - LA/sig2010_5.jpg",
-      "image2" : "Lifes/img/2010_SIGGRAPH 2010 - LA/sig2010_8.jpg",
-      "image3" : "Lifes/img/2010_SIGGRAPH 2010 - LA/sig2010_9.jpg",
-      "image4" : "Lifes/img/2010_SIGGRAPH 2010 - LA/sig2010_12.jpg"
+      "image1" : "Lifes/img/2010_SIGGRAPH%202010%20-%20LA/sig2010_5.jpg",
+      "image2" : "Lifes/img/2010_SIGGRAPH%202010%20-%20LA/sig2010_8.jpg",
+      "image3" : "Lifes/img/2010_SIGGRAPH%202010%20-%20LA/sig2010_9.jpg",
+      "image4" : "Lifes/img/2010_SIGGRAPH%202010%20-%20LA/sig2010_12.jpg"
     },
     {
       "id" : 23,
@@ -11651,10 +9884,10 @@ export const GoogleData =
       "title" : "SIGGRAPH ASIA 2010 - Seoul",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2010_SIGGRAPH ASIA 2010 - Seoul/2010_SIGGRAPH_ASIA_4.jpg",
-      "image2" : "Lifes/img/2010_SIGGRAPH ASIA 2010 - Seoul/2010_SIGGRAPH_ASIA_5.jpg",
-      "image3" : "Lifes/img/2010_SIGGRAPH ASIA 2010 - Seoul/2010_SIGGRAPH_ASIA_11.jpg",
-      "image4" : "Lifes/img/2010_SIGGRAPH ASIA 2010 - Seoul/2010_SIGGRAPH_ASIA_12.jpg"
+      "image1" : "Lifes/img/2010_SIGGRAPH%20ASIA%202010%20-%20Seoul/2010_SIGGRAPH_ASIA_4.jpg",
+      "image2" : "Lifes/img/2010_SIGGRAPH%20ASIA%202010%20-%20Seoul/2010_SIGGRAPH_ASIA_5.jpg",
+      "image3" : "Lifes/img/2010_SIGGRAPH%20ASIA%202010%20-%20Seoul/2010_SIGGRAPH_ASIA_11.jpg",
+      "image4" : "Lifes/img/2010_SIGGRAPH%20ASIA%202010%20-%20Seoul/2010_SIGGRAPH_ASIA_12.jpg"
     },
     {
       "id" : 24,
@@ -11664,10 +9897,10 @@ export const GoogleData =
       "title" : "CGI 2011 - Ottawa, Canada",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2011_CGI 2011 - Ottawa, Canada/2011_CGI_5.jpg",
-      "image2" : "Lifes/img/2011_CGI 2011 - Ottawa, Canada/2011_CGI_6.jpg",
-      "image3" : "Lifes/img/2011_CGI 2011 - Ottawa, Canada/2011_CGI_7.jpg",
-      "image4" : "Lifes/img/2011_CGI 2011 - Ottawa, Canada/2011_CGI_8.jpg"
+      "image1" : "Lifes/img/2011_CGI%202011%20-%20Ottawa,%20Canada/2011_CGI_5.jpg",
+      "image2" : "Lifes/img/2011_CGI%202011%20-%20Ottawa,%20Canada/2011_CGI_6.jpg",
+      "image3" : "Lifes/img/2011_CGI%202011%20-%20Ottawa,%20Canada/2011_CGI_7.jpg",
+      "image4" : "Lifes/img/2011_CGI%202011%20-%20Ottawa,%20Canada/2011_CGI_8.jpg"
     },
     {
       "id" : 25,
@@ -11677,10 +9910,10 @@ export const GoogleData =
       "title" : "SPIE Electronic Imaging 2011 - California, US",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2011_SPIE Electronic Imaging 2011 - California, US/2011_SPIE_EI_4.jpg",
-      "image2" : "Lifes/img/2011_SPIE Electronic Imaging 2011 - California, US/2011_SPIE_EI_6.jpg",
-      "image3" : "Lifes/img/2011_SPIE Electronic Imaging 2011 - California, US/2011_SPIE_EI_8.jpg",
-      "image4" : "Lifes/img/2011_SPIE Electronic Imaging 2011 - California, US/2011_SPIE_EI_10.jpg"
+      "image1" : "Lifes/img/2011_SPIE%20Electronic%20Imaging%202011%20-%20California,%20US/2011_SPIE_EI_4.jpg",
+      "image2" : "Lifes/img/2011_SPIE%20Electronic%20Imaging%202011%20-%20California,%20US/2011_SPIE_EI_6.jpg",
+      "image3" : "Lifes/img/2011_SPIE%20Electronic%20Imaging%202011%20-%20California,%20US/2011_SPIE_EI_8.jpg",
+      "image4" : "Lifes/img/2011_SPIE%20Electronic%20Imaging%202011%20-%20California,%20US/2011_SPIE_EI_10.jpg"
     },
     {
       "id" : 26,
@@ -11690,10 +9923,10 @@ export const GoogleData =
       "title" : "CASA 2011 - Chengdu, China",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2011_CASA 2011 - Chengdu, China/2011_CASA_5.jpg",
-      "image2" : "Lifes/img/2011_CASA 2011 - Chengdu, China/2011_CASA_7.jpg",
-      "image3" : "Lifes/img/2011_CASA 2011 - Chengdu, China/2011_CASA_10.jpg",
-      "image4" : "Lifes/img/2011_CASA 2011 - Chengdu, China/2011_CASA_12.jpg"
+      "image1" : "Lifes/img/2011_CASA%202011%20-%20Chengdu,%20China/2011_CASA_5.jpg",
+      "image2" : "Lifes/img/2011_CASA%202011%20-%20Chengdu,%20China/2011_CASA_7.jpg",
+      "image3" : "Lifes/img/2011_CASA%202011%20-%20Chengdu,%20China/2011_CASA_10.jpg",
+      "image4" : "Lifes/img/2011_CASA%202011%20-%20Chengdu,%20China/2011_CASA_12.jpg"
     },
     {
       "id" : 27,
@@ -11703,10 +9936,10 @@ export const GoogleData =
       "title" : "SIGGRAPH 2011 - Vancouver, Canada",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2011_SIGGRAPH 2011 - Vancouver, Canada/2011_Siggraph_Vancouver_1.jpg",
-      "image2" : "Lifes/img/2011_SIGGRAPH 2011 - Vancouver, Canada/2011_Siggraph_Vancouver_10.jpg",
-      "image3" : "Lifes/img/2011_SIGGRAPH 2011 - Vancouver, Canada/2011_Siggraph_Vancouver_17.jpg",
-      "image4" : "Lifes/img/2011_SIGGRAPH 2011 - Vancouver, Canada/2011_Siggraph_Vancouver_18.jpg"
+      "image1" : "Lifes/img/2011_SIGGRAPH%202011%20-%20Vancouver,%20Canada/2011_Siggraph_Vancouver_1.jpg",
+      "image2" : "Lifes/img/2011_SIGGRAPH%202011%20-%20Vancouver,%20Canada/2011_Siggraph_Vancouver_10.jpg",
+      "image3" : "Lifes/img/2011_SIGGRAPH%202011%20-%20Vancouver,%20Canada/2011_Siggraph_Vancouver_17.jpg",
+      "image4" : "Lifes/img/2011_SIGGRAPH%202011%20-%20Vancouver,%20Canada/2011_Siggraph_Vancouver_18.jpg"
     },
     {
       "id" : 28,
@@ -11716,10 +9949,10 @@ export const GoogleData =
       "title" : "SIGGRAPH ASIA 2011 - Hong Kong",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2011_SIGGRAPH ASIA 2011 - Hong Kong/sigAsia2011_9.jpg",
-      "image2" : "Lifes/img/2011_SIGGRAPH ASIA 2011 - Hong Kong/sigAsia2011_12.jpg",
-      "image3" : "Lifes/img/2011_SIGGRAPH ASIA 2011 - Hong Kong/sigAsia2011_15.jpg",
-      "image4" : "Lifes/img/2011_SIGGRAPH ASIA 2011 - Hong Kong/sigAsia2011_19.jpg"
+      "image1" : "Lifes/img/2011_SIGGRAPH%20ASIA%202011%20-%20Hong%20Kong/sigAsia2011_9.jpg",
+      "image2" : "Lifes/img/2011_SIGGRAPH%20ASIA%202011%20-%20Hong%20Kong/sigAsia2011_12.jpg",
+      "image3" : "Lifes/img/2011_SIGGRAPH%20ASIA%202011%20-%20Hong%20Kong/sigAsia2011_15.jpg",
+      "image4" : "Lifes/img/2011_SIGGRAPH%20ASIA%202011%20-%20Hong%20Kong/sigAsia2011_19.jpg"
     },
     {
       "id" : 29,
@@ -11729,10 +9962,10 @@ export const GoogleData =
       "title" : "CGI 2012 - Bournemouth, UK",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2012_CGI 2012 - Bournemouth, UK/2012_CGI_1.jpg",
-      "image2" : "Lifes/img/2012_CGI 2012 - Bournemouth, UK/2012_CGI_3.jpg",
-      "image3" : "Lifes/img/2012_CGI 2012 - Bournemouth, UK/2012_CGI_5.jpg",
-      "image4" : "Lifes/img/2012_CGI 2012 - Bournemouth, UK/2012_CGI_12.jpg"
+      "image1" : "Lifes/img/2012_CGI%202012%20-%20Bournemouth,%20UK/2012_CGI_1.jpg",
+      "image2" : "Lifes/img/2012_CGI%202012%20-%20Bournemouth,%20UK/2012_CGI_3.jpg",
+      "image3" : "Lifes/img/2012_CGI%202012%20-%20Bournemouth,%20UK/2012_CGI_5.jpg",
+      "image4" : "Lifes/img/2012_CGI%202012%20-%20Bournemouth,%20UK/2012_CGI_12.jpg"
     },
     {
       "id" : 30,
@@ -11742,10 +9975,10 @@ export const GoogleData =
       "title" : "Workshop 2012 - Muju",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2012_Workshop 2012 - Muju/2012_Muju_5.jpg",
-      "image2" : "Lifes/img/2012_Workshop 2012 - Muju/2012_Muju_6.jpg",
-      "image3" : "Lifes/img/2012_Workshop 2012 - Muju/2012_Muju_8.jpg",
-      "image4" : "Lifes/img/2012_Workshop 2012 - Muju/2012_Muju_14.jpg"
+      "image1" : "Lifes/img/2012_Workshop%202012%20-%20Muju/2012_Muju_5.jpg",
+      "image2" : "Lifes/img/2012_Workshop%202012%20-%20Muju/2012_Muju_6.jpg",
+      "image3" : "Lifes/img/2012_Workshop%202012%20-%20Muju/2012_Muju_8.jpg",
+      "image4" : "Lifes/img/2012_Workshop%202012%20-%20Muju/2012_Muju_14.jpg"
     },
     {
       "id" : 31,
@@ -11755,10 +9988,10 @@ export const GoogleData =
       "title" : "SIGGRAPH 2012 - LA",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2012_SIGGRAPH 2012 - LA/2012_Siggraph_LA _1.jpg",
-      "image2" : "Lifes/img/2012_SIGGRAPH 2012 - LA/2012_Siggraph_LA _2.jpg",
-      "image3" : "Lifes/img/2012_SIGGRAPH 2012 - LA/2012_Siggraph_LA _11.jpg",
-      "image4" : "Lifes/img/2012_SIGGRAPH 2012 - LA/2012_Siggraph_LA _12.jpg"
+      "image1" : "Lifes/img/2012_SIGGRAPH%202012%20-%20LA/2012_Siggraph_LA%20_1.jpg",
+      "image2" : "Lifes/img/2012_SIGGRAPH%202012%20-%20LA/2012_Siggraph_LA%20_2.jpg",
+      "image3" : "Lifes/img/2012_SIGGRAPH%202012%20-%20LA/2012_Siggraph_LA%20_11.jpg",
+      "image4" : "Lifes/img/2012_SIGGRAPH%202012%20-%20LA/2012_Siggraph_LA%20_12.jpg"
     },
     {
       "id" : 32,
@@ -11768,10 +10001,10 @@ export const GoogleData =
       "title" : "Pacific Graphics 2012 - Hong Kong",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2012_Pacific Graphics 2012 - Hong Kong/2012_Pacific_1.jpg",
-      "image2" : "Lifes/img/2012_Pacific Graphics 2012 - Hong Kong/2012_Pacific_3.jpg",
-      "image3" : "Lifes/img/2012_Pacific Graphics 2012 - Hong Kong/2012_Pacific_5.jpg",
-      "image4" : "Lifes/img/2012_Pacific Graphics 2012 - Hong Kong/2012_Pacific_6.jpg"
+      "image1" : "Lifes/img/2012_Pacific%20Graphics%202012%20-%20Hong%20Kong/2012_Pacific_1.jpg",
+      "image2" : "Lifes/img/2012_Pacific%20Graphics%202012%20-%20Hong%20Kong/2012_Pacific_3.jpg",
+      "image3" : "Lifes/img/2012_Pacific%20Graphics%202012%20-%20Hong%20Kong/2012_Pacific_5.jpg",
+      "image4" : "Lifes/img/2012_Pacific%20Graphics%202012%20-%20Hong%20Kong/2012_Pacific_6.jpg"
     },
     {
       "id" : 33,
@@ -11781,10 +10014,10 @@ export const GoogleData =
       "title" : "SIGGRAPH ASIA 2012 - Singapore",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2012_SIGGRAPH ASIA 2012 - Singapore/2012_SIGGRAPH_ASIA_8.jpg",
-      "image2" : "Lifes/img/2012_SIGGRAPH ASIA 2012 - Singapore/2012_SIGGRAPH_ASIA_14.jpg",
-      "image3" : "Lifes/img/2012_SIGGRAPH ASIA 2012 - Singapore/2012_SIGGRAPH_ASIA_17.jpg",
-      "image4" : "Lifes/img/2012_SIGGRAPH ASIA 2012 - Singapore/2012_SIGGRAPH_ASIA_19.jpg"
+      "image1" : "Lifes/img/2012_SIGGRAPH%20ASIA%202012%20-%20Singapore/2012_SIGGRAPH_ASIA_8.jpg",
+      "image2" : "Lifes/img/2012_SIGGRAPH%20ASIA%202012%20-%20Singapore/2012_SIGGRAPH_ASIA_14.jpg",
+      "image3" : "Lifes/img/2012_SIGGRAPH%20ASIA%202012%20-%20Singapore/2012_SIGGRAPH_ASIA_17.jpg",
+      "image4" : "Lifes/img/2012_SIGGRAPH%20ASIA%202012%20-%20Singapore/2012_SIGGRAPH_ASIA_19.jpg"
     },
     {
       "id" : 34,
@@ -11794,10 +10027,10 @@ export const GoogleData =
       "title" : "Year-end Party 2012",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2012_Year-end Party 2012/year-end_party_8.jpg",
-      "image2" : "Lifes/img/2012_Year-end Party 2012/year-end_party_21.jpg",
-      "image3" : "Lifes/img/2012_Year-end Party 2012/year-end_party_24.jpg",
-      "image4" : "Lifes/img/2012_Year-end Party 2012/year-end_party_29.jpg"
+      "image1" : "Lifes/img/2012_Year-end%20Party%202012/year-end_party_8.jpg",
+      "image2" : "Lifes/img/2012_Year-end%20Party%202012/year-end_party_21.jpg",
+      "image3" : "Lifes/img/2012_Year-end%20Party%202012/year-end_party_24.jpg",
+      "image4" : "Lifes/img/2012_Year-end%20Party%202012/year-end_party_29.jpg"
     },
     {
       "id" : 35,
@@ -11807,10 +10040,10 @@ export const GoogleData =
       "title" : "Workshop 2013 - Duksan",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2013_Workshop 2013 - Duksan/2013_duksan_2.jpg",
-      "image2" : "Lifes/img/2013_Workshop 2013 - Duksan/2013_duksan_9.jpg",
-      "image3" : "Lifes/img/2013_Workshop 2013 - Duksan/2013_duksan_12.jpg",
-      "image4" : "Lifes/img/2013_Workshop 2013 - Duksan/2013_duksan_18.jpg"
+      "image1" : "Lifes/img/2013_Workshop%202013%20-%20Duksan/2013_duksan_2.jpg",
+      "image2" : "Lifes/img/2013_Workshop%202013%20-%20Duksan/2013_duksan_9.jpg",
+      "image3" : "Lifes/img/2013_Workshop%202013%20-%20Duksan/2013_duksan_12.jpg",
+      "image4" : "Lifes/img/2013_Workshop%202013%20-%20Duksan/2013_duksan_18.jpg"
     },
     {
       "id" : 36,
@@ -11820,10 +10053,10 @@ export const GoogleData =
       "title" : "SIGGRAPH 2013 - Anaheim",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2013_SIGGRAPH 2013 - Anaheim/2013_SIGGRAPH_01.jpg",
-      "image2" : "Lifes/img/2013_SIGGRAPH 2013 - Anaheim/2013_SIGGRAPH_02.jpg",
-      "image3" : "Lifes/img/2013_SIGGRAPH 2013 - Anaheim/2013_SIGGRAPH_03.jpg",
-      "image4" : "Lifes/img/2013_SIGGRAPH 2013 - Anaheim/2013_SIGGRAPH_04.jpg"
+      "image1" : "Lifes/img/2013_SIGGRAPH%202013%20-%20Anaheim/2013_SIGGRAPH_01.jpg",
+      "image2" : "Lifes/img/2013_SIGGRAPH%202013%20-%20Anaheim/2013_SIGGRAPH_02.jpg",
+      "image3" : "Lifes/img/2013_SIGGRAPH%202013%20-%20Anaheim/2013_SIGGRAPH_03.jpg",
+      "image4" : "Lifes/img/2013_SIGGRAPH%202013%20-%20Anaheim/2013_SIGGRAPH_04.jpg"
     },
     {
       "id" : 37,
@@ -11833,10 +10066,10 @@ export const GoogleData =
       "title" : "BIFF 2013",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2013_BIFF 2013/1.jpg",
-      "image2" : "Lifes/img/2013_BIFF 2013/2.jpg",
-      "image3" : "Lifes/img/2013_BIFF 2013/3.jpg",
-      "image4" : "Lifes/img/2013_BIFF 2013/4.jpg"
+      "image1" : "Lifes/img/2013_BIFF%202013/1.jpg",
+      "image2" : "Lifes/img/2013_BIFF%202013/2.jpg",
+      "image3" : "Lifes/img/2013_BIFF%202013/3.jpg",
+      "image4" : "Lifes/img/2013_BIFF%202013/4.jpg"
     },
     {
       "id" : 38,
@@ -11846,10 +10079,10 @@ export const GoogleData =
       "title" : "Year-end Party 2013",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2013_Year-end Party 2013/01.jpg",
-      "image2" : "Lifes/img/2013_Year-end Party 2013/02.jpg",
-      "image3" : "Lifes/img/2013_Year-end Party 2013/03.jpg",
-      "image4" : "Lifes/img/2013_Year-end Party 2013/04.jpg"
+      "image1" : "Lifes/img/2013_Year-end%20Party%202013/01.jpg",
+      "image2" : "Lifes/img/2013_Year-end%20Party%202013/02.jpg",
+      "image3" : "Lifes/img/2013_Year-end%20Party%202013/03.jpg",
+      "image4" : "Lifes/img/2013_Year-end%20Party%202013/04.jpg"
     },
     {
       "id" : 39,
@@ -11859,10 +10092,10 @@ export const GoogleData =
       "title" : "Graduation 2014",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2014_Graduation 2014/01.jpg",
-      "image2" : "Lifes/img/2014_Graduation 2014/02.jpg",
-      "image3" : "Lifes/img/2014_Graduation 2014/03.jpg",
-      "image4" : "Lifes/img/2014_Graduation 2014/04.jpg"
+      "image1" : "Lifes/img/2014_Graduation%202014/01.jpg",
+      "image2" : "Lifes/img/2014_Graduation%202014/02.jpg",
+      "image3" : "Lifes/img/2014_Graduation%202014/03.jpg",
+      "image4" : "Lifes/img/2014_Graduation%202014/04.jpg"
     },
     {
       "id" : 40,
@@ -11872,10 +10105,10 @@ export const GoogleData =
       "title" : "Strawberry Party 2014",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2014_Strawberry Party 2014/01.jpg",
-      "image2" : "Lifes/img/2014_Strawberry Party 2014/02.jpg",
-      "image3" : "Lifes/img/2014_Strawberry Party 2014/03.jpg",
-      "image4" : "Lifes/img/2014_Strawberry Party 2014/04.jpg"
+      "image1" : "Lifes/img/2014_Strawberry%20Party%202014/01.jpg",
+      "image2" : "Lifes/img/2014_Strawberry%20Party%202014/02.jpg",
+      "image3" : "Lifes/img/2014_Strawberry%20Party%202014/03.jpg",
+      "image4" : "Lifes/img/2014_Strawberry%20Party%202014/04.jpg"
     },
     {
       "id" : 41,
@@ -11885,10 +10118,10 @@ export const GoogleData =
       "title" : "Dancing Project 2014",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2014_Dancing Project 2014/01.jpg",
-      "image2" : "Lifes/img/2014_Dancing Project 2014/02.jpg",
-      "image3" : "Lifes/img/2014_Dancing Project 2014/03.jpg",
-      "image4" : "Lifes/img/2014_Dancing Project 2014/04.jpg"
+      "image1" : "Lifes/img/2014_Dancing%20Project%202014/01.jpg",
+      "image2" : "Lifes/img/2014_Dancing%20Project%202014/02.jpg",
+      "image3" : "Lifes/img/2014_Dancing%20Project%202014/03.jpg",
+      "image4" : "Lifes/img/2014_Dancing%20Project%202014/04.jpg"
     },
     {
       "id" : 42,
@@ -11898,10 +10131,10 @@ export const GoogleData =
       "title" : "KCGS 2014",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2014_KCGS 2014/01.jpg",
-      "image2" : "Lifes/img/2014_KCGS 2014/02.jpg",
-      "image3" : "Lifes/img/2014_KCGS 2014/03.jpg",
-      "image4" : "Lifes/img/2014_KCGS 2014/04.jpg"
+      "image1" : "Lifes/img/2014_KCGS%202014/01.jpg",
+      "image2" : "Lifes/img/2014_KCGS%202014/02.jpg",
+      "image3" : "Lifes/img/2014_KCGS%202014/03.jpg",
+      "image4" : "Lifes/img/2014_KCGS%202014/04.jpg"
     },
     {
       "id" : 43,
@@ -11911,10 +10144,10 @@ export const GoogleData =
       "title" : "Fall Hiking 2014",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2014_Fall Hiking 2014/01.jpg",
-      "image2" : "Lifes/img/2014_Fall Hiking 2014/02.jpg",
-      "image3" : "Lifes/img/2014_Fall Hiking 2014/03.jpg",
-      "image4" : "Lifes/img/2014_Fall Hiking 2014/04.jpg"
+      "image1" : "Lifes/img/2014_Fall%20Hiking%202014/01.jpg",
+      "image2" : "Lifes/img/2014_Fall%20Hiking%202014/02.jpg",
+      "image3" : "Lifes/img/2014_Fall%20Hiking%202014/03.jpg",
+      "image4" : "Lifes/img/2014_Fall%20Hiking%202014/04.jpg"
     },
     {
       "id" : 44,
@@ -11924,10 +10157,10 @@ export const GoogleData =
       "title" : "Pacific Graphics 2014 - Seoul",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2014_Pacific Graphics 2014 - Seoul/01.jpg",
-      "image2" : "Lifes/img/2014_Pacific Graphics 2014 - Seoul/02.jpg",
-      "image3" : "Lifes/img/2014_Pacific Graphics 2014 - Seoul/03.jpg",
-      "image4" : "Lifes/img/2014_Pacific Graphics 2014 - Seoul/04.jpg"
+      "image1" : "Lifes/img/2014_Pacific%20Graphics%202014%20-%20Seoul/01.jpg",
+      "image2" : "Lifes/img/2014_Pacific%20Graphics%202014%20-%20Seoul/02.jpg",
+      "image3" : "Lifes/img/2014_Pacific%20Graphics%202014%20-%20Seoul/03.jpg",
+      "image4" : "Lifes/img/2014_Pacific%20Graphics%202014%20-%20Seoul/04.jpg"
     },
     {
       "id" : 45,
@@ -11937,10 +10170,10 @@ export const GoogleData =
       "title" : "SIGGRAPH ASIA 2014 - Shenzhen",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2014_SIGGRAPH ASIA 2014 - Shenzhen/01.jpg",
-      "image2" : "Lifes/img/2014_SIGGRAPH ASIA 2014 - Shenzhen/02.jpg",
-      "image3" : "Lifes/img/2014_SIGGRAPH ASIA 2014 - Shenzhen/03.jpg",
-      "image4" : "Lifes/img/2014_SIGGRAPH ASIA 2014 - Shenzhen/04.jpg"
+      "image1" : "Lifes/img/2014_SIGGRAPH%20ASIA%202014%20-%20Shenzhen/01.jpg",
+      "image2" : "Lifes/img/2014_SIGGRAPH%20ASIA%202014%20-%20Shenzhen/02.jpg",
+      "image3" : "Lifes/img/2014_SIGGRAPH%20ASIA%202014%20-%20Shenzhen/03.jpg",
+      "image4" : "Lifes/img/2014_SIGGRAPH%20ASIA%202014%20-%20Shenzhen/04.jpg"
     },
     {
       "id" : 46,
@@ -11950,10 +10183,10 @@ export const GoogleData =
       "title" : "Year-end Party 2014",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2014_Year-end Party 2014/01.jpg",
-      "image2" : "Lifes/img/2014_Year-end Party 2014/02.jpg",
-      "image3" : "Lifes/img/2014_Year-end Party 2014/03.jpg",
-      "image4" : "Lifes/img/2014_Year-end Party 2014/04.jpg"
+      "image1" : "Lifes/img/2014_Year-end%20Party%202014/01.jpg",
+      "image2" : "Lifes/img/2014_Year-end%20Party%202014/02.jpg",
+      "image3" : "Lifes/img/2014_Year-end%20Party%202014/03.jpg",
+      "image4" : "Lifes/img/2014_Year-end%20Party%202014/04.jpg"
     },
     {
       "id" : 47,
@@ -11963,10 +10196,10 @@ export const GoogleData =
       "title" : "Graduation 2015",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2015_Graduation 2015/01.jpg",
-      "image2" : "Lifes/img/2015_Graduation 2015/02.jpg",
-      "image3" : "Lifes/img/2015_Graduation 2015/03.jpg",
-      "image4" : "Lifes/img/2015_Graduation 2015/04.jpg"
+      "image1" : "Lifes/img/2015_Graduation%202015/01.jpg",
+      "image2" : "Lifes/img/2015_Graduation%202015/02.jpg",
+      "image3" : "Lifes/img/2015_Graduation%202015/03.jpg",
+      "image4" : "Lifes/img/2015_Graduation%202015/04.jpg"
     },
     {
       "id" : 48,
@@ -11976,10 +10209,10 @@ export const GoogleData =
       "title" : "Strawberry Party 2015",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2015_Strawberry Party 2015/01.jpg",
-      "image2" : "Lifes/img/2015_Strawberry Party 2015/02.jpg",
-      "image3" : "Lifes/img/2015_Strawberry Party 2015/03.jpg",
-      "image4" : "Lifes/img/2015_Strawberry Party 2015/04.jpg"
+      "image1" : "Lifes/img/2015_Strawberry%20Party%202015/01.jpg",
+      "image2" : "Lifes/img/2015_Strawberry%20Party%202015/02.jpg",
+      "image3" : "Lifes/img/2015_Strawberry%20Party%202015/03.jpg",
+      "image4" : "Lifes/img/2015_Strawberry%20Party%202015/04.jpg"
     },
     {
       "id" : 49,
@@ -11989,10 +10222,10 @@ export const GoogleData =
       "title" : "SIG-CHI 2015 - Seoul",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2015_SIG-CHI 2015 - Seoul/01.jpg",
-      "image2" : "Lifes/img/2015_SIG-CHI 2015 - Seoul/02.jpg",
-      "image3" : "Lifes/img/2015_SIG-CHI 2015 - Seoul/03.jpg",
-      "image4" : "Lifes/img/2015_SIG-CHI 2015 - Seoul/04.jpg"
+      "image1" : "Lifes/img/2015_SIG-CHI%202015%20-%20Seoul/01.jpg",
+      "image2" : "Lifes/img/2015_SIG-CHI%202015%20-%20Seoul/02.jpg",
+      "image3" : "Lifes/img/2015_SIG-CHI%202015%20-%20Seoul/03.jpg",
+      "image4" : "Lifes/img/2015_SIG-CHI%202015%20-%20Seoul/04.jpg"
     },
     {
       "id" : 50,
@@ -12002,10 +10235,10 @@ export const GoogleData =
       "title" : "National Teacher's Day 2015",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2015_National Teacher's Day 2015/01.jpg",
-      "image2" : "Lifes/img/2015_National Teacher's Day 2015/02.jpg",
-      "image3" : "Lifes/img/2015_National Teacher's Day 2015/03.jpg",
-      "image4" : "Lifes/img/2015_National Teacher's Day 2015/04.jpg"
+      "image1" : "Lifes/img/2015_National%20Teacher's%20Day%202015/01.jpg",
+      "image2" : "Lifes/img/2015_National%20Teacher's%20Day%202015/02.jpg",
+      "image3" : "Lifes/img/2015_National%20Teacher's%20Day%202015/03.jpg",
+      "image4" : "Lifes/img/2015_National%20Teacher's%20Day%202015/04.jpg"
     },
     {
       "id" : 51,
@@ -12015,10 +10248,10 @@ export const GoogleData =
       "title" : "KOBA 2015",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2015_KOBA 2015/01.jpg",
-      "image2" : "Lifes/img/2015_KOBA 2015/02.jpg",
-      "image3" : "Lifes/img/2015_KOBA 2015/03.jpg",
-      "image4" : "Lifes/img/2015_KOBA 2015/04.jpg"
+      "image1" : "Lifes/img/2015_KOBA%202015/01.jpg",
+      "image2" : "Lifes/img/2015_KOBA%202015/02.jpg",
+      "image3" : "Lifes/img/2015_KOBA%202015/03.jpg",
+      "image4" : "Lifes/img/2015_KOBA%202015/04.jpg"
     },
     {
       "id" : 52,
@@ -12028,10 +10261,10 @@ export const GoogleData =
       "title" : "KCGS 2015",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2015_KCGS 2015/01.jpg",
-      "image2" : "Lifes/img/2015_KCGS 2015/02.jpg",
-      "image3" : "Lifes/img/2015_KCGS 2015/03.jpg",
-      "image4" : "Lifes/img/2015_KCGS 2015/04.jpg"
+      "image1" : "Lifes/img/2015_KCGS%202015/01.jpg",
+      "image2" : "Lifes/img/2015_KCGS%202015/02.jpg",
+      "image3" : "Lifes/img/2015_KCGS%202015/03.jpg",
+      "image4" : "Lifes/img/2015_KCGS%202015/04.jpg"
     },
     {
       "id" : 53,
@@ -12041,10 +10274,10 @@ export const GoogleData =
       "title" : "Pacific Graphics 2015 - Beijing",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2015_Pacific Graphics 2015 - Beijing/01.jpg",
-      "image2" : "Lifes/img/2015_Pacific Graphics 2015 - Beijing/02.jpg",
-      "image3" : "Lifes/img/2015_Pacific Graphics 2015 - Beijing/03.jpg",
-      "image4" : "Lifes/img/2015_Pacific Graphics 2015 - Beijing/04.jpg"
+      "image1" : "Lifes/img/2015_Pacific%20Graphics%202015%20-%20Beijing/01.jpg",
+      "image2" : "Lifes/img/2015_Pacific%20Graphics%202015%20-%20Beijing/02.jpg",
+      "image3" : "Lifes/img/2015_Pacific%20Graphics%202015%20-%20Beijing/03.jpg",
+      "image4" : "Lifes/img/2015_Pacific%20Graphics%202015%20-%20Beijing/04.jpg"
     },
     {
       "id" : 54,
@@ -12054,10 +10287,10 @@ export const GoogleData =
       "title" : "Year-end Party 2015",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2015_Year-end Party 2015/01.jpg",
-      "image2" : "Lifes/img/2015_Year-end Party 2015/02.jpg",
-      "image3" : "Lifes/img/2015_Year-end Party 2015/03.jpg",
-      "image4" : "Lifes/img/2015_Year-end Party 2015/04.jpg"
+      "image1" : "Lifes/img/2015_Year-end%20Party%202015/01.jpg",
+      "image2" : "Lifes/img/2015_Year-end%20Party%202015/02.jpg",
+      "image3" : "Lifes/img/2015_Year-end%20Party%202015/03.jpg",
+      "image4" : "Lifes/img/2015_Year-end%20Party%202015/04.jpg"
     },
     {
       "id" : 55,
@@ -12067,10 +10300,10 @@ export const GoogleData =
       "title" : "Graduation 2016",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2016_Graduation 2016/01.jpg",
-      "image2" : "Lifes/img/2016_Graduation 2016/02.jpg",
-      "image3" : "Lifes/img/2016_Graduation 2016/03.jpg",
-      "image4" : "Lifes/img/2016_Graduation 2016/04.jpg"
+      "image1" : "Lifes/img/2016_Graduation%202016/01.jpg",
+      "image2" : "Lifes/img/2016_Graduation%202016/02.jpg",
+      "image3" : "Lifes/img/2016_Graduation%202016/03.jpg",
+      "image4" : "Lifes/img/2016_Graduation%202016/04.jpg"
     },
     {
       "id" : 56,
@@ -12080,10 +10313,10 @@ export const GoogleData =
       "title" : "Strawberry Party 2016",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2016_Strawberry Party 2016/01.jpg",
-      "image2" : "Lifes/img/2016_Strawberry Party 2016/02.jpg",
-      "image3" : "Lifes/img/2016_Strawberry Party 2016/03.jpg",
-      "image4" : "Lifes/img/2016_Strawberry Party 2016/04.jpg"
+      "image1" : "Lifes/img/2016_Strawberry%20Party%202016/01.jpg",
+      "image2" : "Lifes/img/2016_Strawberry%20Party%202016/02.jpg",
+      "image3" : "Lifes/img/2016_Strawberry%20Party%202016/03.jpg",
+      "image4" : "Lifes/img/2016_Strawberry%20Party%202016/04.jpg"
     },
     {
       "id" : 57,
@@ -12093,10 +10326,10 @@ export const GoogleData =
       "title" : "KCGS 2016",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2016_KCGS 2016/01.jpg",
-      "image2" : "Lifes/img/2016_KCGS 2016/02.jpg",
-      "image3" : "Lifes/img/2016_KCGS 2016/03.jpg",
-      "image4" : "Lifes/img/2016_KCGS 2016/04.jpg"
+      "image1" : "Lifes/img/2016_KCGS%202016/01.jpg",
+      "image2" : "Lifes/img/2016_KCGS%202016/02.jpg",
+      "image3" : "Lifes/img/2016_KCGS%202016/03.jpg",
+      "image4" : "Lifes/img/2016_KCGS%202016/04.jpg"
     },
     {
       "id" : 58,
@@ -12106,10 +10339,10 @@ export const GoogleData =
       "title" : "SIGGRAPH 2016 - Anaheim",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2016_SIGGRAPH 2016 - Anaheim/01.jpg",
-      "image2" : "Lifes/img/2016_SIGGRAPH 2016 - Anaheim/02.jpg",
-      "image3" : "Lifes/img/2016_SIGGRAPH 2016 - Anaheim/03.jpg",
-      "image4" : "Lifes/img/2016_SIGGRAPH 2016 - Anaheim/04.jpg"
+      "image1" : "Lifes/img/2016_SIGGRAPH%202016%20-%20Anaheim/01.jpg",
+      "image2" : "Lifes/img/2016_SIGGRAPH%202016%20-%20Anaheim/02.jpg",
+      "image3" : "Lifes/img/2016_SIGGRAPH%202016%20-%20Anaheim/03.jpg",
+      "image4" : "Lifes/img/2016_SIGGRAPH%202016%20-%20Anaheim/04.jpg"
     },
     {
       "id" : 59,
@@ -12119,10 +10352,10 @@ export const GoogleData =
       "title" : "KAIST-KAI Multi-projection Project Kick-off Workshop",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2016_KAIST-KAI Multi-projection Project Kick-off Workshop/01.jpg",
-      "image2" : "Lifes/img/2016_KAIST-KAI Multi-projection Project Kick-off Workshop/02.jpg",
-      "image3" : "Lifes/img/2016_KAIST-KAI Multi-projection Project Kick-off Workshop/03.jpg",
-      "image4" : "Lifes/img/2016_KAIST-KAI Multi-projection Project Kick-off Workshop/04.jpg"
+      "image1" : "Lifes/img/2016_KAIST-KAI%20Multi-projection%20Project%20Kick-off%20Workshop/01.jpg",
+      "image2" : "Lifes/img/2016_KAIST-KAI%20Multi-projection%20Project%20Kick-off%20Workshop/02.jpg",
+      "image3" : "Lifes/img/2016_KAIST-KAI%20Multi-projection%20Project%20Kick-off%20Workshop/03.jpg",
+      "image4" : "Lifes/img/2016_KAIST-KAI%20Multi-projection%20Project%20Kick-off%20Workshop/04.jpg"
     },
     {
       "id" : 60,
@@ -12132,10 +10365,10 @@ export const GoogleData =
       "title" : "Year-end Party 2016",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2016_Year-end Party 2016/01.jpg",
-      "image2" : "Lifes/img/2016_Year-end Party 2016/02.jpg",
-      "image3" : "Lifes/img/2016_Year-end Party 2016/03.jpg",
-      "image4" : "Lifes/img/2016_Year-end Party 2016/04.jpg"
+      "image1" : "Lifes/img/2016_Year-end%20Party%202016/01.jpg",
+      "image2" : "Lifes/img/2016_Year-end%20Party%202016/02.jpg",
+      "image3" : "Lifes/img/2016_Year-end%20Party%202016/03.jpg",
+      "image4" : "Lifes/img/2016_Year-end%20Party%202016/04.jpg"
     },
     {
       "id" : 61,
@@ -12145,10 +10378,10 @@ export const GoogleData =
       "title" : "HCI Korea 2017",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2017_HCI Korea 2017/01.jpg",
-      "image2" : "Lifes/img/2017_HCI Korea 2017/02.jpg",
-      "image3" : "Lifes/img/2017_HCI Korea 2017/03.jpg",
-      "image4" : "Lifes/img/2017_HCI Korea 2017/04.jpg"
+      "image1" : "Lifes/img/2017_HCI%20Korea%202017/01.jpg",
+      "image2" : "Lifes/img/2017_HCI%20Korea%202017/02.jpg",
+      "image3" : "Lifes/img/2017_HCI%20Korea%202017/03.jpg",
+      "image4" : "Lifes/img/2017_HCI%20Korea%202017/04.jpg"
     },
     {
       "id" : 62,
@@ -12158,10 +10391,10 @@ export const GoogleData =
       "title" : "Graduation 2017",
       "description" : "",
       "link" : "",
-      "image1" : "Lifes/img/2017_Graduation 2017/01.jpg",
-      "image2" : "Lifes/img/2017_Graduation 2017/02.jpg",
-      "image3" : "Lifes/img/2017_Graduation 2017/03.jpg",
-      "image4" : "Lifes/img/2017_Graduation 2017/04.jpg"
+      "image1" : "Lifes/img/2017_Graduation%202017/01.jpg",
+      "image2" : "Lifes/img/2017_Graduation%202017/02.jpg",
+      "image3" : "Lifes/img/2017_Graduation%202017/03.jpg",
+      "image4" : "Lifes/img/2017_Graduation%202017/04.jpg"
     }
   ],
   "FolderStructure" : [
