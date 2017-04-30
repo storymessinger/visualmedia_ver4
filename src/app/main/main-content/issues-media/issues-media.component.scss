@@ -1,5 +1,19 @@
 @import '../../../../assets/css/_variables.scss';
 
+.modal-content {
+    width: 90%;
+
+    .modal-header {
+        justify-content: flex-end;
+    }
+
+    .modal-body {
+        img {
+            width:100%;
+        }
+    }
+}
+
 .content {
     display:flex;
     flex-flow:column;

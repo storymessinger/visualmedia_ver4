@@ -17,6 +17,7 @@ export class IssuesMediaComponent implements OnInit, OnDestroy {
   datas:any;
   id: string;
   imgPath:string = './assets/Contents/';
+  selectedImage;
 
   private subscription: Subscription;
 
@@ -49,5 +50,9 @@ export class IssuesMediaComponent implements OnInit, OnDestroy {
       // unsubscribe to ensure no memory leaks
       this.subscription.unsubscribe();
   }
+
+  setSelectedImage(image){
+      this.selectedImage = image;	
+   }
 
 }

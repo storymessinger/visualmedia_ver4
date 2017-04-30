@@ -17,6 +17,7 @@ export class IssuesNewsComponent implements OnInit,  OnDestroy {
   id: string;
   subscription:Subscription;
   imgPath:string = './assets/Contents/';
+  selectedImage;
 
   constructor(
     private mockDataService:MockDataService,
@@ -46,5 +47,9 @@ export class IssuesNewsComponent implements OnInit,  OnDestroy {
       // unsubscribe to ensure no memory leaks
       this.subscription.unsubscribe();
   }
+  setSelectedImage(image){
+      this.selectedImage = image;	
+   }
+
 
 }
