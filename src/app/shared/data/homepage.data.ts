@@ -2398,7 +2398,8 @@ export const GoogleData =
       "teams_id" : 1,
       "img" : "Publications/International/2017JaewonSong_CGF/2017JaewonSong_CGF.png",
       "smallImg" : "Publications/International/2017JaewonSong_CGF/2017JaewonSong_CGF_small.png",
-      "body" : ""
+      "body" : "",
+      "innerHTML": "<div><p>hihihi</p><p>testtestetst</p></div>"
     },
     {
       "id" : 2,
