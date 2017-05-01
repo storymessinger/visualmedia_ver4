@@ -6026,7 +6026,7 @@ export const GoogleData =
       "additional" : "Input: set of input images for each camera (JPG sequence)\r\nOutput: stitching results from Rich360 (the equirectangular projection with linear blending, non-uniform ray sampling was not applied.)\r\nCamParams.txt: 3D calibration data of all cameras.",
       "img" : "",
       "file" : "",
-      "link" : "/main/publicate/17"
+      "link" : "/main/international/individual/17"
     },
     {
       "id" : 75,

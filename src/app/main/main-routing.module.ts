@@ -87,11 +87,11 @@ import { NgModule } from '@angular/core';
                         }
                     ]
                 },
-                {   path: 'publicate', 
+                {   path: 'international', 
                     component: ResearchPublicateComponent, 
                     data: { breadcrumb: "Publications" }
                 },
-                {   path: 'publicate', 
+                {   path: 'international', 
                     data: { breadcrumb: "Publications" }, 
                     children: [
                         {   path: 'individual/:id', 
@@ -100,11 +100,11 @@ import { NgModule } from '@angular/core';
                         }
                     ]
                 },
-                {   path: 'publicate_kr', 
+                {   path: 'domestic', 
                     component: ResearchPublicateKrComponent, 
                     data: { breadcrumb: "Domestic" }
                 },
-                {   path: 'publicate_kr', 
+                {   path: 'domestic', 
                     data: { breadcrumb: "Domestic" }, 
                     children: [
                         {   path: 'individual/:id', 

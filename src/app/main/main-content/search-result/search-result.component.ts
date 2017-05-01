@@ -119,10 +119,10 @@ export class SearchResultComponent implements OnInit, DoCheck {
     } else if ( arg == "publications") {
       switch(diff) {
           case "international":
-            this.router.navigate(['main/publicate/individual', id])
+            this.router.navigate(['main/international/individual', id])
             break;
           case "domestic":
-            this.router.navigate(['main/publicate_kr/individual', id])
+            this.router.navigate(['main/domestic/individual', id])
             break;
           case "thesis":
             this.router.navigate(['main/thesis/individual', id])

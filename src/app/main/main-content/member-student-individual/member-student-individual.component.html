@@ -5,7 +5,7 @@
       <div class="person-img">
         <img default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + datas.img">
 
-        <h3>E-mail</h3>
+        <h3 *ngIf="datas.email">E-mail</h3>
         <p>{{datas.email}}</p>
 
       </div>

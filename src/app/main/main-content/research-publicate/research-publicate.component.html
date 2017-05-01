@@ -24,7 +24,7 @@
           </div>
           <p class="menu01" *ngIf='publication.conference'>Conference: {{publication.conference}}</p>
           <p class="menu01" *ngIf='publication.journal'>Journal: {{publication.journal}}</p>
-          <p class="menu01"><a [routerLink]="[ '/main/publicate/individual/', publication.id ]">Project Page</a> / 
+          <p class="menu01"><a [routerLink]="[ '/main/international/individual/', publication.id ]">Project Page</a> / 
           <a *ngIf="publication.paper" target="_blank" download type="application/octet-stream" [href]='imgPath + publication.paper' target="_blank">Paper</a></p>
         </div>
       </div>
