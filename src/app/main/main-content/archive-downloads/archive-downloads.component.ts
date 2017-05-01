@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { MockDataService } from './../../../shared/mockdata.service';
 import { Subscription } from 'rxjs/Rx';
 import { DOCUMENT } from '@angular/platform-browser';
@@ -21,6 +22,7 @@ export class ArchiveDownloadsComponent implements OnInit {
     private mockDataService:MockDataService,
     private scrollAbleService:ScrollAbleService,
     private pageScrollService: PageScrollService,
+    private router: Router,
     @Inject(DOCUMENT) private document: any
     ) { 
     PageScrollConfig.defaultScrollOffset = 110;
@@ -34,12 +36,17 @@ export class ArchiveDownloadsComponent implements OnInit {
   ngOnInit() {
     this.mockDataService.getDownloads();
     this.datas = this.mockDataService.downloads;
+    console.log(this.datas);
   }
 
   clickScrollTo(name) {
     let scrollTo = '#' + name;
     let pageScrollInstance: PageScrollInstance = PageScrollInstance.simpleInstance(this.document, scrollTo);
     this.pageScrollService.start(pageScrollInstance);
+  }
+
+  navigateTo(link) {
+    this.router.navigate([link]);
   }
 
 }
