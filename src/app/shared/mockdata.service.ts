@@ -106,7 +106,7 @@ export class MockDataService {
       if(spon.type == "people") {
         const found_person = GoogleData.people.find( person => person.id == spon.sponsor);
         spon['name'] = found_person.name;
-        spon['link'] = "/people/person/" + found_person.id;
+        spon['link'] = "main/people/person/" + found_person.id;
       } else if (spon.type == "partners") {
         const found_partner = GoogleData.partners.find( partner => partner.id == spon.sponsor);
         spon['name'] = found_partner.name;

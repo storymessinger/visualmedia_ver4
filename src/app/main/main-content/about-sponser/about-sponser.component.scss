@@ -2,8 +2,10 @@
 @import '../../../../assets/css/_variables.scss';
 
 .spon {
-    color: $primary_dark_grey;
-    display: block;
+    cursor:pointer;
+}
+.spon:hover {
+    color:$primary_orange;
 }
 
 .row {

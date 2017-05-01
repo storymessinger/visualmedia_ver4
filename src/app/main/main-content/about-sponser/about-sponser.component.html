@@ -17,7 +17,7 @@
 
         <div *ngFor="let sponsers of platinum" class="sponser-name text-center">
           <sub>{{sponsers[0].year}}</sub>
-          <a class="spon" [routerLink]="spon.link" *ngFor="let spon of sponsers">{{spon.name}}</a>
+          <p (click)= 'navigateTo(spon.link, spon.type)' class="spon" *ngFor="let spon of sponsers">{{spon.name}}</p>
         </div>
 
       </div>
@@ -29,7 +29,7 @@
         </div>
         <div *ngFor="let sponsers of gold" class="sponser-name text-center">
           <sub>{{sponsers[0].year}}</sub>
-          <p *ngFor="let spon of sponsers">{{spon.name}}</p>
+          <p (click)= 'navigateTo(spon.link, spon.type)' class="spon" *ngFor="let spon of sponsers">{{spon.name}}</p>
         </div>
       </div>
 
@@ -40,7 +40,7 @@
         </div>
         <div *ngFor="let sponsers of silver" class="sponser-name text-center">
           <sub>{{sponsers[0].year}}</sub>
-          <p *ngFor="let spon of sponsers">{{spon.name}}</p>
+          <p (click)= 'navigateTo(spon.link, spon.type)' class="spon" *ngFor="let spon of sponsers">{{spon.name}}</p>
         </div>
 
       </div>
