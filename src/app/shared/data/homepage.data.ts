@@ -2718,7 +2718,7 @@ export const GoogleData =
         8,
         25,
         1
-      ],
+    ],
       "conference" : "ACM SIGGRAPH, 2016",
       "journal" : "ACM Transaction on Graphics, Volume 35, Issue 4, p.63:1-63:11, July 2016",
       "thesisInfo" : "",

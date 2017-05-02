@@ -75,7 +75,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     VideoThumbnailDirective,
     SearchResultComponent,
     AboutSponserComponent,
-    TypeChangePipe
+    TypeChangePipe,
     ],
   imports: [
     CommonModule, 
