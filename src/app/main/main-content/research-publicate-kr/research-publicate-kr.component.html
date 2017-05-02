@@ -9,11 +9,11 @@
 
       <div *ngFor="let publication of data" class="data-box">
         <div class="data-img">
-          <img default="./assets/imgs/no_image.jpg" 
+          <!--<img default="./assets/imgs/no_image.jpg" 
               [srcset]= 'imgPath + publication.img + " 800w, " +
                         imgPath+ publication.smallimg + " 300w "'
-              sizes="(min-width:990px) 300px, 800px">
-          <!--<img default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + publication.img">-->
+              sizes="(min-width:990px) 300px, 800px">-->
+          <img default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + publication.smallimg">
 
         </div>
         <div class="data-desc">
