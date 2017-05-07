@@ -12,6 +12,7 @@ export class ResearchAreaIndividualComponent implements OnInit {
 
   imgPath = "./assets/Contents/";
 
+
   id:any;
   datas:any;
 

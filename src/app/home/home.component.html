@@ -61,7 +61,13 @@
   <div class="main">
     <div class="col-sm">
 
-      <div class="row header" [style.background-image]="'url(' + mainImgPath + ')'">
+      <!--<div class="row header" [style.background-image]="'url(' + mainImgPath + ')'">-->
+      <div class="row header">
+
+        <video autoplay loop muted id="video-bg">
+          <source src="./assets/imgs/video_ScreenX.mp4" type="video/mp4" />
+        </video>
+
         <div class="title text-center">
           <div class="display-2 title-text">VISUAL MEDIA LAB</div>
           <h3 class="title-text">Where Creativity Meets Techonology</h3>
@@ -72,6 +78,8 @@
             The close relationship with industry has allowed VML to contribute its technology to recently released movies.</p>
         </div>
       </div>
+
+
       <div class="row content" id="nav-trigger">
 
         <div class="Heading col-sm-12 text-center" scrollSpy>
