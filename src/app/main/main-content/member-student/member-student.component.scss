@@ -1,5 +1,6 @@
 @import '../../../../assets/css/_variables.scss';
 
+
 .content-row {
     // fixing row under col margin bug
     justify-content: center;
@@ -23,6 +24,19 @@
         margin: auto;
         margin-bottom: 3.5rem;
         padding: 0 1.5rem;
+        position: relative;
+
+        .prof_hover {
+            position: absolute;
+            top:0;
+            width:240px;
+            height:240px;
+            opacity:0;
+            transition: opacity 0.2s ease;
+        }
+        .prof_hover:hover {
+            opacity:1;
+        }
 
         .people-img {
             display: flex;
@@ -33,6 +47,10 @@
                 margin: 0 auto;
                 width: 240px;
             }
+        }
+
+        .people-img-box {
+            cursor:pointer;
         }
 
         .people-img-box:hover {

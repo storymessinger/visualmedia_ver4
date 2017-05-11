@@ -2,6 +2,7 @@ import { Subscription } from 'rxjs/Rx';
 import { ScrollAbleService } from '../../../shared/scroll-able.service';
 import { Component, OnDestroy, ElementRef, Inject, OnInit } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
+import { Router } from '@angular/router';
 import { PageScrollConfig, PageScrollInstance, PageScrollService } from 'ng2-page-scroll';
 import { MockDataService } from './../../../shared/mockdata.service';
 import * as _ from 'underscore';
@@ -21,6 +22,7 @@ export class MemberStudentComponent implements OnInit, OnDestroy {
     private mockDataService:MockDataService,
     private scrollAbleService:ScrollAbleService,
     private pageScrollService: PageScrollService, 
+    private router:Router,
     @Inject(DOCUMENT) private document: any
     ) { 
       
@@ -49,6 +51,17 @@ export class MemberStudentComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
       // unsubscribe to ensure no memory leaks
       this.subscription.unsubscribe();
+  }
+
+
+  changeSrc(event) {
+    console.log('working');
+    console.log(event);
+
+  }
+
+  routing(id) {
+    this.router.navigate(['/main/people/person', id])
   }
 
 }
