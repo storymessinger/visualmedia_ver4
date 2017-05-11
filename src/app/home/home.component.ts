@@ -1,6 +1,7 @@
 import { Component, OnInit, Inject, ElementRef } from '@angular/core';
 import { MockDataService } from '../shared/mockdata.service';
 import { Router } from '@angular/router';
+import * as _ from 'underscore';
 
 declare var TweenLite, TweenMax, TimelineLite, TimelineMax, Ease, Expo, ScrollMagic :any;
 
@@ -19,6 +20,7 @@ export class HomeComponent implements OnInit {
 
   issues:any;
   teams:any;
+  publications:any;
 
   constructor(
     private mockDataService:MockDataService,
@@ -31,6 +33,8 @@ export class HomeComponent implements OnInit {
     this.setScrollMagic();
     this.mockDataService.getIssues();
     this.mockDataService.getResearchArea();
+    this.mockDataService.getPublication('international');
+    this.publications = this.mockDataService.publications_forHome.slice(0,12);
     this.issues = this.mockDataService.issues.slice(0,12);
     this.teams = this.mockDataService.researchArea_all;
   }

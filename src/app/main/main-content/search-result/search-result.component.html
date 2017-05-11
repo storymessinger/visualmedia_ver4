@@ -8,10 +8,11 @@
         <div (click)='routing("person", person.id)' 
             *ngFor="let person of result_people" 
             class="people-box col-sm-12 col-md-6 col-lg-4">
+
           <div class="people-desc">
             <div class="people-img">
               <div class="people-img-box">
-                <img default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + person.img">
+                <img default="./assets/imgs/no_image.jpg" [srcset]="imgPath + person.img">
               </div>
             </div>
             <h5 class="name">{{person.name}}</h5>

@@ -41,6 +41,7 @@ export class IssuesNewsComponent implements OnInit,  OnDestroy {
   ngOnInit() {
     this.mockDataService.getIssues();
     this.datas = this.mockDataService.news;
+    console.log(this.datas);
   }
 
   ngOnDestroy() {

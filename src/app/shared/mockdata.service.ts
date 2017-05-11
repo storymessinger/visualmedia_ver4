@@ -15,6 +15,7 @@ export class MockDataService {
   public people_person:any;
   public publications:any;
   public publication_individual:any;
+  public publications_forHome:any;
   public projects:any;
   public projects_individual:any; 
   public projects_individual_related:any;
@@ -69,7 +70,7 @@ export class MockDataService {
       if( pub['authors'].length > 0 ) {
         pub['authors'].forEach( authorid => {
           pub['authors_array']
-            .push(GoogleData.people.find( person => person.id == authorid));
+            .push(GoogleData.people.find( person => person.id == authorid).name);
         })
       }
       // add teams
@@ -304,6 +305,8 @@ export class MockDataService {
         })
       }
     })
+
+    this.publications_forHome = publications;
 
     let sub = _.values(_.groupBy(publications,"year")).reverse();
     this.publications= sub.map( subArr => this.dateSort_descend(subArr));

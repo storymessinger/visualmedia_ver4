@@ -101,11 +101,30 @@
           </div>
         </div>
 
-        <div id="scale-trigger" class="col-sm-12 news">
-          <div id="scale-animation" class="Heading text-center col-sm-12">
-            <h1>Recent News and Media</h1>
+<div class="col-sm-12">
+        <div class="col-sm-12 news">
+          <div class="Heading text-center col-sm-12">
+            <h1>Recent Publications</h1>
             <p>The main research area includes motion and facial animation of virtual chararcter, immersive display system and
               human interaction system</p>
+          </div>
+
+          <div class="card-columns">
+            <div *ngFor="let pub of publications" class="card issueCard">
+              <img class="news-img card-img-top img-fluid" default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + pub.img">
+              <div class="card-block">
+                <h4 class="card-title">{{pub.title}}</h4>
+                <p class="card-text desc">{{pub.conference}}</p>
+                <p class="card-text"><small class="text-muted">{{pub.year}}</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 news">
+          <div class="Heading text-center col-sm-12">
+            <h1>Recent News and Media</h1>
+            <p>Recent news related to Visual Media Lab</p>
           </div>
 
           <div class="card-columns">
@@ -119,6 +138,8 @@
             </div>
           </div>
         </div>
+</div>
+
 
       </div>
     </div>

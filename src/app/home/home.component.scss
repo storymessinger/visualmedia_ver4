@@ -176,7 +176,7 @@
 }
 
 .content {
-  padding: 0 2rem 5rem 2rem;
+  padding: 5rem 2rem 5rem 2rem;
   .news {
     max-width: 1050px;
     margin: auto;
@@ -207,6 +207,12 @@
   }
 }
 
+@media (min-width: 676px) {
+  .card-columns {
+    max-height:2300px;
+  }
+}
+
 .pad {
   max-width: 300px;
   padding: 1rem;
@@ -219,6 +225,7 @@
 
 .pad:hover {
   .card-block {
+    overflow:hidden;
     h4,
     p {
       color: inherit;
