@@ -34,7 +34,7 @@ export class HomeComponent implements OnInit {
     this.mockDataService.getIssues();
     this.mockDataService.getResearchArea();
     this.mockDataService.getPublication('international');
-    this.publications = this.mockDataService.publications_forHome.slice(0,12);
+    this.publications = this.mockDataService.publications_forHome.slice(0,5);
     this.issues = this.mockDataService.issues.slice(0,12);
     this.teams = this.mockDataService.researchArea_all;
   }

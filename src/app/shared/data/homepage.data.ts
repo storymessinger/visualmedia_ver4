@@ -15,7 +15,176 @@ export const GoogleData =
       "status" : "",
       "teams_id" : "",
       "affiliation" : "",
-      "personal_page" : ""
+      "personal_page" : "",
+      "innerHTML": 
+` 
+      <h3>Education</h3>
+      <table class="table">
+        <tbody>
+          <tr>
+            <td class="table-left">05/2002</td>
+            <td>
+              <p>Ph.D. Computer Science University of Southern California, advisor Prof. Ulrich Neumann</p>
+              <p class="menu02">- Thesis "Facial Animation by Expression Cloning</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">05/1996</td>
+            <td>
+              <p>M.S. Computer Engineering University of Southern California, advisor Prof. George Bekey</p>
+              <p class="menu02">- Robotics research laboratory</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">05/1995</td>
+            <td>
+              <p>B.S. Electrical Engineering University of Southern California</p>
+              <p class="menu02">- Magna Cum Laude, Engineering Honors Program</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr/> 
+
+      <h3>Appointments</h3>
+      <table class="table">
+        <tbody>
+          <tr>
+            <td class="table-left">05/2016-Present</td>
+            <td>
+              <p>Chairman</p>
+              <p class="menu02">- Graduate School of Culture Technology, KAIST, Korea</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">09/2014-Present</td>
+            <td>
+              <p>Full Professor</p>
+              <p class="menu02">-  Graduate School of Culture Technology, KAIST, Korea</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">11/2013-Present</td>
+            <td>
+              <p>Adjunct Professor</p>
+              <p class="menu02">- Culture Technology Research Institute, KAIST, Korea</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">04/2012-Present</td>
+            <td>
+              <p>Adjunct Professor</p>
+              <p class="menu02">- Department of Computer Science, KAIST, Korea</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">03/2012-07/2014</td>
+            <td>
+              <p>Associate Dean</p>
+              <p class="menu02">- Graduate School of Culture Technology, KAIST, Korea</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">2012-Present</td>
+            <td>
+              <p>Member of Board of Directors</p>
+              <p class="menu02">- Korea Computer Graphics Society (KCGS)</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">11/2011-08/2012</td>
+            <td>
+              <p>Industry Consultant</p>
+              <p class="menu02">- CJ PowerCast, Korea</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">09/2011-Present</td>
+            <td>
+              <p>Industry Consultant</p>
+              <p class="menu02">- Kolon, Korea</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">09/2011-Present</td>
+            <td>
+              <p>Adjunct Professor</p>
+              <p class="menu02">- Lifestyle Innovation Center, KAIST, Korea</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">05/2011-04/2014</td>
+            <td>
+              <p>KAIST Chair Professor</p>
+              <p class="menu02">- Graduate School of Culture Technology, KAIST, Korea</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">2010-Present</td>
+            <td>
+              <p>Member of Board of Directors</p>
+              <p class="menu02">- Human Computer Interaction (HCI) Korea</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">12/2009-Present</td>
+            <td>
+              <p>Industry Consultant</p>
+              <p class="menu02">- KAI Studio, Korea</p>
+            </td>
+          </tr>
+
+
+
+
+          <tr>
+            <td class="table-left">03/2009-08/2014</td>
+            <td>
+              <p>Associate Professor</p>
+              <p class="menu02">- Graduate School of Culture Technology, KAIST, Korea</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">04/2007-03/2012</td>
+            <td>
+              <p>Adjunct Professor</p>
+              <p class="menu02">- Institute for Entertainment Engineering, KAIST, Korea</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">09/2006-02/2009</td>
+            <td>
+              <p>Assistant Professor</p>
+              <p class="menu02">- Graduate School of Culture Technology, KAIST, Korea</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">04/2003-09/2006</td>
+            <td>
+              <p>Graphics Scientist for Hollywood Movie Post Production</p>
+              <p class="menu02">- Rhythm and Hues Studios Inc., Los Angeles CA, USA</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">05/2002-04/2003</td>
+            <td>
+              <p>Post Doctoral Research Associate</p>
+              <p class="menu02">- Integrated Media Systems Center, Los Angeles CA, USA</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-left">01/1999-08/1999</td>
+            <td>
+              <p>Military Service</p>
+              <p class="menu02">- Korea</p>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+
+`
+
     },
     {
       "id" : 2,
