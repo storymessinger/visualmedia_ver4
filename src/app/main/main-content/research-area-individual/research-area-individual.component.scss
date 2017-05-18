@@ -164,3 +164,15 @@
         filter: grayscale(100%) contrast(80%);
     }
 }
+
+
+.red {
+    height: 300px;
+    border: 1px solid red;
+    width: 100px;
+}
+
+.box-flex {
+    display:flex;
+    margin: 0;
+}

@@ -5,6 +5,7 @@
 
       <!--<div *ngFor="let area of datas.area" class="h1 title">{{area | uppercase }}</div>-->
     </div>
+
     <div class="row no-gutters">
 
       <div class="col-sm-12 team">
@@ -32,26 +33,30 @@
 
       </div>
 
+
       <div class="col-12 project-manager">
         <h2 class="people-status col-sm-12">
 
           Members
         </h2>
-        <div (click)="routing(person.id)" *ngFor="let person of datas.people_array" class="people-box pad">
-          <div class="people-img">
-            <div class="people-img-box">
-              <img default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + person.img">
-            </div>
-          </div>
 
-          <h5 class="people-text">
-            <p class="menu02">name</p> 
-            {{person.name}}
-            <p class="menu02">topics</p>
-            <p>{{person.topics}}</p>
-            <p class="menu02">email</p>
-            {{person.email}}
-          </h5>
+        <div class="box-flex row">
+          <div (click)="routing(person.id)" *ngFor="let person of datas.people_array" class="people-box pad col-6">
+            <div class="people-img">
+              <div class="people-img-box">
+                <img default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + person.img">
+              </div>
+            </div>
+
+            <h5 class="people-text">
+              <p class="menu02">name</p> 
+              {{person.name}}
+              <p class="menu02">topics</p>
+              <p>{{person.topics}}</p>
+              <p class="menu02">email</p>
+              {{person.email}}
+            </h5>
+          </div>
         </div>
 
       </div>
