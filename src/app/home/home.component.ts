@@ -62,7 +62,11 @@ export class HomeComponent implements OnInit {
     ]);
   }
 
-  navigateTo(id) {
-    this.router.navigate(['/main/area/teams', id])
+  navigateTo(id, arg = 0) {
+    if (arg == 0) {
+      this.router.navigate(['/main/area/teams', id])
+    } else if (arg == 1) {
+      this.router.navigate(['/main/international/individual', id]);
+    }
   }
 }

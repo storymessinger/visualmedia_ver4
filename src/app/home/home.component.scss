@@ -218,6 +218,11 @@
   }
 }
 
+.card-area {
+  max-height:400px;
+  overflow:hidden; 
+}
+
 .pad {
   max-width: 300px;
   padding: 1rem;

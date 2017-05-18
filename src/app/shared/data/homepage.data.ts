@@ -1,4 +1,5 @@
 export const GoogleData = 
+
 {
   "people" : [
     {
@@ -8,6 +9,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "professor",
       "img" : "People/img/junyongnoh.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "junyongnoh@kaist.ac.kr",
       "sub_email" : "",
@@ -15,176 +17,7 @@ export const GoogleData =
       "status" : "",
       "teams_id" : "",
       "affiliation" : "",
-      "personal_page" : "",
-      "innerHTML": 
-` 
-      <h3>Education</h3>
-      <table class="table">
-        <tbody>
-          <tr>
-            <td class="table-left">05/2002</td>
-            <td>
-              <p>Ph.D. Computer Science University of Southern California, advisor Prof. Ulrich Neumann</p>
-              <p class="menu02">- Thesis "Facial Animation by Expression Cloning</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">05/1996</td>
-            <td>
-              <p>M.S. Computer Engineering University of Southern California, advisor Prof. George Bekey</p>
-              <p class="menu02">- Robotics research laboratory</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">05/1995</td>
-            <td>
-              <p>B.S. Electrical Engineering University of Southern California</p>
-              <p class="menu02">- Magna Cum Laude, Engineering Honors Program</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <hr/> 
-
-      <h3>Appointments</h3>
-      <table class="table">
-        <tbody>
-          <tr>
-            <td class="table-left">05/2016-Present</td>
-            <td>
-              <p>Chairman</p>
-              <p class="menu02">- Graduate School of Culture Technology, KAIST, Korea</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">09/2014-Present</td>
-            <td>
-              <p>Full Professor</p>
-              <p class="menu02">-  Graduate School of Culture Technology, KAIST, Korea</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">11/2013-Present</td>
-            <td>
-              <p>Adjunct Professor</p>
-              <p class="menu02">- Culture Technology Research Institute, KAIST, Korea</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">04/2012-Present</td>
-            <td>
-              <p>Adjunct Professor</p>
-              <p class="menu02">- Department of Computer Science, KAIST, Korea</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">03/2012-07/2014</td>
-            <td>
-              <p>Associate Dean</p>
-              <p class="menu02">- Graduate School of Culture Technology, KAIST, Korea</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">2012-Present</td>
-            <td>
-              <p>Member of Board of Directors</p>
-              <p class="menu02">- Korea Computer Graphics Society (KCGS)</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">11/2011-08/2012</td>
-            <td>
-              <p>Industry Consultant</p>
-              <p class="menu02">- CJ PowerCast, Korea</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">09/2011-Present</td>
-            <td>
-              <p>Industry Consultant</p>
-              <p class="menu02">- Kolon, Korea</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">09/2011-Present</td>
-            <td>
-              <p>Adjunct Professor</p>
-              <p class="menu02">- Lifestyle Innovation Center, KAIST, Korea</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">05/2011-04/2014</td>
-            <td>
-              <p>KAIST Chair Professor</p>
-              <p class="menu02">- Graduate School of Culture Technology, KAIST, Korea</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">2010-Present</td>
-            <td>
-              <p>Member of Board of Directors</p>
-              <p class="menu02">- Human Computer Interaction (HCI) Korea</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">12/2009-Present</td>
-            <td>
-              <p>Industry Consultant</p>
-              <p class="menu02">- KAI Studio, Korea</p>
-            </td>
-          </tr>
-
-
-
-
-          <tr>
-            <td class="table-left">03/2009-08/2014</td>
-            <td>
-              <p>Associate Professor</p>
-              <p class="menu02">- Graduate School of Culture Technology, KAIST, Korea</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">04/2007-03/2012</td>
-            <td>
-              <p>Adjunct Professor</p>
-              <p class="menu02">- Institute for Entertainment Engineering, KAIST, Korea</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">09/2006-02/2009</td>
-            <td>
-              <p>Assistant Professor</p>
-              <p class="menu02">- Graduate School of Culture Technology, KAIST, Korea</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">04/2003-09/2006</td>
-            <td>
-              <p>Graphics Scientist for Hollywood Movie Post Production</p>
-              <p class="menu02">- Rhythm and Hues Studios Inc., Los Angeles CA, USA</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">05/2002-04/2003</td>
-            <td>
-              <p>Post Doctoral Research Associate</p>
-              <p class="menu02">- Integrated Media Systems Center, Los Angeles CA, USA</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="table-left">01/1999-08/1999</td>
-            <td>
-              <p>Military Service</p>
-              <p class="menu02">- Korea</p>
-            </td>
-          </tr>
-
-        </tbody>
-      </table>
-
-`
-
+      "personal_page" : ""
     },
     {
       "id" : 2,
@@ -193,6 +26,7 @@ export const GoogleData =
       "graduation_date" : 2017.02,
       "type" : "alumni_phd",
       "img" : "People/img/rogerribera.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "rogerBR@kaist.ac.kr",
       "sub_email" : "",
@@ -209,6 +43,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "doctor",
       "img" : "People/img/daehyeonwi.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "neocider@kaist.ac.kr",
       "sub_email" : "",
@@ -225,6 +60,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "doctor",
       "img" : "People/img/jaewonsong.png",
+      "img_upload" : "O",
       "topics" : "Character Animation, Facial Animation, Motion Capture and Retargeting",
       "email" : "songjaewon@kaist.ac.kr",
       "sub_email" : "jaewon.song.j1@gmail.com",
@@ -239,8 +75,9 @@ export const GoogleData =
       "name" : "Jungjin Lee",
       "admission_date" : 2012.03,
       "graduation_date" : 2017.02,
-      "type" : "allumni_phd",
+      "type" : "alumni_phd",
       "img" : "People/img/jungjinlee.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "jungjinlee@kaist.ac.kr",
       "sub_email" : "",
@@ -257,6 +94,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "doctor",
       "img" : "People/img/seunghooncha.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "seunghoon.cha@kaist.ac.kr",
       "sub_email" : "",
@@ -273,6 +111,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "doctor",
       "img" : "People/img/sangwoolee.png",
+      "img_upload" : "O",
       "topics" : "Virtual Reality, Immersive Display, Video Processing",
       "email" : "sangwoolee@kaist.ac.kr",
       "sub_email" : "leeee0417@gmail.com",
@@ -289,6 +128,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "doctor",
       "img" : "People/img/kyehyunkim.png",
+      "img_upload" : "O",
       "topics" : "Virtual Reality",
       "email" : "frodos@kaist.ac.kr",
       "sub_email" : "frodos47@gmail.com",
@@ -305,6 +145,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "doctor",
       "img" : "People/img/hyunggoogseo.png",
+      "img_upload" : "O",
       "topics" : "Human Computer Interaction, Digital Experience Design, Machine Learning",
       "email" : "hyunggoog.seo@kiast.ac.kr",
       "sub_email" : "feelfresh@naver.com",
@@ -321,6 +162,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "doctor",
       "img" : "People/img/seokpyohong.png",
+      "img_upload" : "O",
       "topics" : "Character Animation, Character Motion",
       "email" : "tjrvy8578@kaist.ac.kr",
       "sub_email" : "",
@@ -337,6 +179,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "doctor",
       "img" : "People/img/haegwangeom.png",
+      "img_upload" : "O",
       "topics" : "Character Animation, Motion Synthesis, Physics-based Simulation",
       "email" : "haegonggun@kaist.ac.kr",
       "sub_email" : "gongguri858@gmail.com",
@@ -353,6 +196,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "doctor",
       "img" : "People/img/bumkikim.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Omni Projection, Panoramic Contents, Virtual Reality",
       "email" : "bumkikim@kaist.ac.kr",
       "sub_email" : "bumkikim@outlook.com",
@@ -369,6 +213,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "doctor",
       "img" : "People/img/jaedongkim.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics",
       "email" : "jaedong27@kaist.ac.kr",
       "sub_email" : "",
@@ -385,6 +230,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "doctor",
       "img" : "People/img/sanghunpark.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Projector-camera system, Video technology",
       "email" : "reversi@kaist.ac.kr",
       "sub_email" : "",
@@ -401,6 +247,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "doctor",
       "img" : "People/img/seunghwajeong.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "seunghwajeong@kaist.ac.kr",
       "sub_email" : "",
@@ -417,6 +264,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "doctor",
       "img" : "People/img/kyungmincho.png",
+      "img_upload" : "O",
       "topics" : "Data Driven Character Animation and Control",
       "email" : "cluemaker@kaist.ac.kr",
       "sub_email" : "",
@@ -433,6 +281,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "doctor",
       "img" : "People/img/hanuilee.png",
+      "img_upload" : "O",
       "topics" : "Virtual Reality, Panoramic Video, Video Processing",
       "email" : "honeylee@kaist.ac.kr",
       "sub_email" : "cherryhanya@gmail.com",
@@ -449,6 +298,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "doctor",
       "img" : "People/img/sunjinjung.png",
+      "img_upload" : "O",
       "topics" : "Character Motion, Facial Animation",
       "email" : "sunjin225@kaist.ac.kr",
       "sub_email" : "sunjin222555@gmail.com",
@@ -465,6 +315,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "master",
       "img" : "People/img/jungeunyoo.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics",
       "email" : "jey920@kaist.ac.kr",
       "sub_email" : "ujey02@gmail.com",
@@ -481,6 +332,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "master",
       "img" : "People/img/sanghoonkim.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics",
       "email" : "sangh220@kaist.ac.kr",
       "sub_email" : "sangh220@gmail.com",
@@ -497,6 +349,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "master",
       "img" : "People/img/kwanggunseo.png",
+      "img_upload" : "O",
       "topics" : "Video Projection, Computer Vision, Human Computer Interaction",
       "email" : "skg1023@kaist.ac.kr",
       "sub_email" : "seokg1023@gmail.com",
@@ -513,6 +366,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "researcher",
       "img" : "People/img/jooyoungyoo.png",
+      "img_upload" : "O",
       "topics" : "",
       "email" : "y7105kt@kaist.ac.kr",
       "sub_email" : "",
@@ -529,6 +383,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "researcher",
       "img" : "People/img/gukhokim.png",
+      "img_upload" : "O",
       "topics" : "",
       "email" : "bhk123@kaist.ac.kr",
       "sub_email" : "",
@@ -545,6 +400,7 @@ export const GoogleData =
       "graduation_date" : 2016.08,
       "type" : "alumni_phd",
       "img" : "People/img/byungkukchoi.png",
+      "img_upload" : "O",
       "topics" : "Character animation and deformation, performance-driven system development ",
       "email" : "litlpoet@gmail.com",
       "sub_email" : "",
@@ -561,6 +417,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_phd",
       "img" : "People/img/younghuikim.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "yh.kim@kaistudio.co.kr",
       "sub_email" : "",
@@ -577,6 +434,7 @@ export const GoogleData =
       "graduation_date" : 2015.02,
       "type" : "alumni_phd",
       "img" : "People/img/miyou.png",
+      "img_upload" : "O",
       "topics" : "Fluid Simulation, VR Contents Creation",
       "email" : "anubodhih@seoularts.ac.kr",
       "sub_email" : "anubodhih@kaist.ac.kr",
@@ -593,6 +451,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_phd",
       "img" : "People/img/hwiryongjung.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "philix.hr@gmail.com",
       "sub_email" : "",
@@ -609,6 +468,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_phd",
       "img" : "People/img/taekwonjang.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
       "sub_email" : "",
@@ -625,6 +485,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_phd",
       "img" : "People/img/yeonghoseol.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "seolzzang01@naver.com",
       "sub_email" : "",
@@ -641,6 +502,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_phd",
       "img" : "People/img/jaewooseo.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
       "sub_email" : "",
@@ -657,6 +519,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/jaehyunkim.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "chrisjkim@kaist.ac.kr",
       "sub_email" : "",
@@ -673,6 +536,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/jinseo.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
       "sub_email" : "",
@@ -689,6 +553,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/seungbaebang.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "be2848@kaist.ac.kr",
       "sub_email" : "",
@@ -705,6 +570,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/soyeongyouck.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "soyoung078266@gmail.com",
       "sub_email" : "",
@@ -721,6 +587,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/jaekwankwon.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "jh.kwon@kaistudio.co.kr",
       "sub_email" : "",
@@ -737,6 +604,7 @@ export const GoogleData =
       "graduation_date" : 2014.02,
       "type" : "alumni_master",
       "img" : "People/img/jihwankim.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "mizeloble@gmail.com",
       "sub_email" : "mizeloble@naver.com",
@@ -753,6 +621,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/kyunghanlee.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "kh.lee@kaistudio.co.kr",
       "sub_email" : "",
@@ -769,6 +638,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/junyouphwang.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "jy.hwang@kaistudio.co.kr",
       "sub_email" : "",
@@ -785,6 +655,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/soyeongjeon.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
       "sub_email" : "",
@@ -801,6 +672,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/hyungjinkim.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
       "sub_email" : "",
@@ -817,6 +689,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/jihyungkang.png",
+      "img_upload" : "O",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "01.kangji@gmail.com",
       "sub_email" : "",
@@ -833,6 +706,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/jongjinpark.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
       "sub_email" : "",
@@ -849,6 +723,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/seongwoochoi.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
       "sub_email" : "",
@@ -865,6 +740,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/paulhyunjinkim.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
       "sub_email" : "",
@@ -881,6 +757,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/soyoungkim.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
       "sub_email" : "",
@@ -897,6 +774,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/heeyoungkim.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "85khyzz@naver.com",
       "sub_email" : "",
@@ -913,6 +791,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/jinhyukbae.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
       "sub_email" : "",
@@ -929,6 +808,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/huicheolhwang.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
       "sub_email" : "",
@@ -945,6 +825,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/sehwipark.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "sehwida@gmail.com",
       "sub_email" : "",
@@ -961,6 +842,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/dongockkim.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "uni2nd@kaist.ac.kr",
       "sub_email" : "",
@@ -977,6 +859,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/sarahwang.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
       "sub_email" : "",
@@ -993,6 +876,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/hansamkim.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
       "sub_email" : "",
@@ -1009,6 +893,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/jiyoungseo.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "grang353@naver.com",
       "sub_email" : "",
@@ -1025,6 +910,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "alumni_master",
       "img" : "People/img/taesoojang.png",
+      "img_upload" : "",
       "topics" : "Computer Graphics, Video Projection",
       "email" : "",
       "sub_email" : "",
@@ -1041,6 +927,7 @@ export const GoogleData =
       "graduation_date" : 2016.02,
       "type" : "former",
       "img" : "People/img/daseonghan.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "hds@kaist.ac.kr",
       "sub_email" : "",
@@ -1057,6 +944,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/jiwonpaik.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1073,6 +961,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/fredericcordier.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1089,6 +978,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/shiguangliu.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1105,6 +995,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/jinhopark.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "c2alpha@gmail.com",
       "sub_email" : "",
@@ -1121,6 +1012,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/kyukminkwon.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1137,6 +1029,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/jungheekim.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "jheekimi@gmail.com",
       "sub_email" : "",
@@ -1153,6 +1046,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/hoopyungshin.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1169,6 +1063,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/insikno.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1185,6 +1080,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/soonghyunkim.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "soong@yu.ac.kr",
       "sub_email" : "",
@@ -1201,6 +1097,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/minjeongshin.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1217,6 +1114,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/jonghyunhwang.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "hairu0510@naver.com",
       "sub_email" : "",
@@ -1233,6 +1131,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/dongjinshin.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "imr110@nate.com",
       "sub_email" : "",
@@ -1249,6 +1148,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/hyoinkim.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1265,6 +1165,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/jungkyungyoon.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1281,6 +1182,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/jonghunchoi.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1297,6 +1199,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/seonghwanhong.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1313,6 +1216,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/daheejung.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "jhkww04@nate.com",
       "sub_email" : "",
@@ -1329,6 +1233,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/howoonkim.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1345,6 +1250,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/miraeim.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1361,6 +1267,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "former",
       "img" : "People/img/eduardzell.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1377,6 +1284,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1393,6 +1301,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1409,6 +1318,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1425,6 +1335,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1441,6 +1352,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1457,6 +1369,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1473,6 +1386,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1489,6 +1403,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1505,6 +1420,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1521,6 +1437,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1537,6 +1454,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1553,6 +1471,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1569,6 +1488,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1585,6 +1505,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1601,6 +1522,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1617,6 +1539,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1633,6 +1556,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1649,6 +1573,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1665,6 +1590,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1681,6 +1607,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1697,6 +1624,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1713,6 +1641,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1729,6 +1658,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1745,6 +1675,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1761,6 +1692,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1777,6 +1709,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1793,6 +1726,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1809,6 +1743,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1825,6 +1760,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1841,6 +1777,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1857,6 +1794,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1873,6 +1811,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1889,6 +1828,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1905,6 +1845,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1921,6 +1862,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1937,6 +1879,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1953,6 +1896,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1969,6 +1913,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -1985,6 +1930,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -2001,6 +1947,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "intern",
       "img" : "People/img/allenkim.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "allensunkim@kaist.ac.kr ",
       "sub_email" : "allen.sun.kim@gmail.com",
@@ -2017,6 +1964,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "intern",
       "img" : "People/img/taeyoonkim.png",
+      "img_upload" : "",
       "topics" : "",
       "email" : "rlasshi@unist.ac.kr",
       "sub_email" : "rlasshi@gmail.com",
@@ -2033,6 +1981,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -2049,6 +1998,7 @@ export const GoogleData =
       "graduation_date" : "",
       "type" : "",
       "img" : "",
+      "img_upload" : "",
       "topics" : "",
       "email" : "",
       "sub_email" : "",
@@ -2341,491 +2291,6 @@ export const GoogleData =
       "name(참고)" : ""
     }
   ],
-  "projects" : [
-    {
-      "id" : 1,
-      "type" : "Art",
-      "year" : 2007,
-      "name" : "Captain Banana",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 4,
-      "people_id" : 3,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 2,
-      "type" : "Tech",
-      "year" : 2008,
-      "name" : "Digital Creature Project 1st Year",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : [
-        1,
-        5
-      ],
-      "funding_id" : 3,
-      "teams_id" : 1,
-      "people_id" : 4,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 3,
-      "type" : "Tech",
-      "year" : 2009,
-      "name" : "Digital Creature Project 2nd Year",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 1,
-      "people_id" : 5,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 4,
-      "type" : "Art",
-      "year" : 2009,
-      "name" : "Taming the Cat",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 5,
-      "people_id" : 6,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 5,
-      "type" : "Tech",
-      "year" : 2010,
-      "name" : "Digital Creature Project 3rd Year",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 1,
-      "people_id" : 7,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 6,
-      "type" : "Art",
-      "year" : 2010,
-      "name" : "Baekjae",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 0,
-      "people_id" : 8,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 7,
-      "type" : "Art",
-      "year" : 2010,
-      "name" : "Cumiho",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 0,
-      "people_id" : 9,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 8,
-      "type" : "Art",
-      "year" : 2010,
-      "name" : "Persepolis",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 0,
-      "people_id" : 10,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 9,
-      "type" : "Art",
-      "year" : 2010,
-      "name" : "Captain Banana",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 4,
-      "people_id" : 11,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 10,
-      "type" : "Art",
-      "year" : 2011,
-      "name" : "Tarbosaurus",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 0,
-      "people_id" : 12,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 11,
-      "type" : "Art",
-      "year" : 2011,
-      "name" : "Sector 7",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 2,
-      "people_id" : 13,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 12,
-      "type" : "Tech",
-      "year" : 2012,
-      "name" : "2D-3D Stereoscopic Conversion Project 2nd Year",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 2,
-      "people_id" : 14,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 13,
-      "type" : "Tech",
-      "year" : 2012,
-      "name" : "Pre-visualization Project 1st Year",
-      "fullname" : "Pipeline Management and On-stage Pre-visualization Technical Development for Effective Production with High Quality 3D Images",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : 18,
-      "teams_id" : 1,
-      "people_id" : 15,
-      "status" : "",
-      "date_start" : "2011-06-30T15:00:00.000Z",
-      "date_end" : "2012-03-30T15:00:00.000Z"
-    },
-    {
-      "id" : 14,
-      "type" : "Tech",
-      "year" : 2012,
-      "name" : "World Best Software Project 1st Year",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 2,
-      "people_id" : 16,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 15,
-      "type" : "Tech",
-      "year" : 2013,
-      "name" : "2D-3D Stereoscopic Conversion Project 3rd Year",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 2,
-      "people_id" : 17,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 16,
-      "type" : "Tech",
-      "year" : 2013,
-      "name" : "World Best Software Project 2nd Year",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 2,
-      "people_id" : 18,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 17,
-      "type" : "Tech",
-      "year" : 2013,
-      "name" : "ScreenX Project",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 2,
-      "people_id" : 19,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 18,
-      "type" : "Tech",
-      "year" : 2013,
-      "name" : "Pre-visualization Project 2nd Year",
-      "fullname" : "Pipeline Management and On-stage Pre-visualization Technical Development for Effective Production with High Quality 3D Images",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : 18,
-      "teams_id" : 1,
-      "people_id" : 20,
-      "status" : "",
-      "date_start" : "2012-03-31T15:00:00.000Z",
-      "date_end" : "2013-03-30T15:00:00.000Z"
-    },
-    {
-      "id" : 19,
-      "type" : "art",
-      "year" : 2013,
-      "name" : "The X(The fisrt ScreenX movie in the world)",
-      "fullname" : "\"The X\" - The first ScreenX movie in the world (invited to BIFF 2013)",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : "",
-      "people_id" : 21,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 20,
-      "type" : "art",
-      "year" : 2013,
-      "name" : "Hello(Cho Yong Pil)",
-      "fullname" : "Cho Yong Pil Hello - Official Music Video",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : "",
-      "people_id" : 22,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 21,
-      "type" : "art",
-      "year" : 2013,
-      "name" : "Sweet Dream(MFBTY)",
-      "fullname" : "MFBTY (Tiger JK, T- Yoon Mi Rae, Bizzy) - Sweet Dream Music Video",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : "",
-      "people_id" : 23,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 22,
-      "type" : "Tech",
-      "year" : 2014,
-      "name" : "Multi-View Project 1st Year",
-      "fullname" : "Autostereoscopic 3D Image Acquisition System and 3D Content Production Technology",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 2,
-      "people_id" : 24,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 23,
-      "type" : "Tech",
-      "year" : 2014,
-      "name" : "Kolon Project 1st Year",
-      "fullname" : "The development of ‘Immersive & Interactive Space' platform",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 3,
-      "people_id" : 25,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 24,
-      "type" : "Tech",
-      "year" : 2014,
-      "name" : "Pre-visualization Project 3rd Year",
-      "fullname" : "Pipeline Management and On-stage Pre-visualization Technical Development for Effective Production with High Quality 3D Images",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : 18,
-      "teams_id" : 1,
-      "people_id" : 26,
-      "status" : "",
-      "date_start" : "2013-03-31T15:00:00.000Z",
-      "date_end" : "2014-03-30T15:00:00.000Z"
-    },
-    {
-      "id" : 25,
-      "type" : "Tech",
-      "year" : 2015,
-      "name" : "Multi-View Project 2nd Year",
-      "fullname" : "Multicamera based-Autostereosopic 3D acquisition System and Content Production R&D",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 2,
-      "people_id" : 27,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 26,
-      "type" : "Tech",
-      "year" : 2015,
-      "name" : "Kolon Project 2nd Year",
-      "fullname" : "The development of ‘Immersive & Interactive Space' platform",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 3,
-      "people_id" : 28,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 27,
-      "type" : "Tech",
-      "year" : 2015,
-      "name" : "Curved Projection Project 1st Year",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 3,
-      "people_id" : 29,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 28,
-      "type" : "Tech",
-      "year" : 2015,
-      "name" : "Stylized Animation Production Pipeline Project based on Motion Capture System",
-      "fullname" : "",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 1,
-      "people_id" : 30,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 29,
-      "type" : "Tech",
-      "year" : 2016,
-      "name" : "Multi-View Project 3rd Year",
-      "fullname" : "Multicamera based-Autostereosopic 3D acquisition System and Content Production R&D",
-      "area" : "Immersive media display system, Multi-projection contents optimization",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 2,
-      "people_id" : 31,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    },
-    {
-      "id" : 30,
-      "type" : "Tech",
-      "year" : 2016,
-      "name" : "Kolon Project 3rd Year",
-      "fullname" : "The development of immersive & interactive display for immersive retail experiences",
-      "area" : "",
-      "description" : "",
-      "partners_id" : "",
-      "funding_id" : "",
-      "teams_id" : 3,
-      "people_id" : 32,
-      "status" : "",
-      "date_start" : "",
-      "date_end" : ""
-    }
-  ],
   "publications" : [
     {
       "id" : 1,
@@ -2887,7 +2352,7 @@ export const GoogleData =
         8,
         25,
         1
-    ],
+      ],
       "conference" : "ACM SIGGRAPH, 2016",
       "journal" : "ACM Transaction on Graphics, Volume 35, Issue 4, p.63:1-63:11, July 2016",
       "thesisInfo" : "",
@@ -5372,6 +4837,507 @@ export const GoogleData =
       "body" : ""
     }
   ],
+  "projects" : [
+    {
+      "id" : 1,
+      "type" : "Art",
+      "year" : 2007,
+      "name" : "Captain Banana",
+      "fullname" : "",
+      "area" : "",
+      "description" : "",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 4,
+      "people_id" : 3,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 2,
+      "type" : "Tech",
+      "year" : 2008,
+      "name" : "Digital Creature Project 1st Year",
+      "fullname" : "",
+      "area" : "",
+      "description" : "",
+      "partners_id" : [
+        1,
+        5
+      ],
+      "funding_id" : 3,
+      "teams_id" : 1,
+      "people_id" : 4,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 3,
+      "type" : "Tech",
+      "year" : 2009,
+      "name" : "Digital Creature Project 2nd Year",
+      "fullname" : "",
+      "area" : "",
+      "description" : "",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 1,
+      "people_id" : 5,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 4,
+      "type" : "Art",
+      "year" : 2009,
+      "name" : "Taming the Cat",
+      "fullname" : "",
+      "area" : "",
+      "description" : "",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 5,
+      "people_id" : 6,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 5,
+      "type" : "Tech",
+      "year" : 2010,
+      "name" : "Digital Creature Project 3rd Year",
+      "fullname" : "",
+      "area" : "",
+      "description" : "",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 1,
+      "people_id" : 7,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 6,
+      "type" : "Art",
+      "year" : 2010,
+      "name" : "Baekjae",
+      "fullname" : "",
+      "area" : "",
+      "description" : "",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 0,
+      "people_id" : 8,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 7,
+      "type" : "Art",
+      "year" : 2010,
+      "name" : "Cumiho",
+      "fullname" : "",
+      "area" : "",
+      "description" : "",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 0,
+      "people_id" : 9,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 8,
+      "type" : "Art",
+      "year" : 2010,
+      "name" : "Persepolis",
+      "fullname" : "",
+      "area" : "",
+      "description" : "",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 0,
+      "people_id" : 10,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 9,
+      "type" : "Art",
+      "year" : 2010,
+      "name" : "Captain Banana",
+      "fullname" : "[VML Contents Creation Project 2010] : Captain Banana",
+      "area" : "",
+      "description" : "In a deserted world, Catain Banana flies to the Banana swinging boat to operate it. The impatient passengers of the attraction, the so-called \"Littles\" force him to drive the boat faster and faster!\n\n▶ Official Screening & Awards\n2010, Siggraph ASIA Computer Animation Festival\nhttp://www.siggraph.org/asia2010/",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 4,
+      "people_id" : 11,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 10,
+      "type" : "Art",
+      "year" : 2011,
+      "name" : "Tarbosaurus",
+      "fullname" : "",
+      "area" : "",
+      "description" : "",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 0,
+      "people_id" : 12,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 11,
+      "type" : "Art",
+      "year" : 2011,
+      "name" : "Sector 7",
+      "fullname" : "",
+      "area" : "",
+      "description" : "",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 2,
+      "people_id" : 13,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 12,
+      "type" : "Tech",
+      "year" : 2012,
+      "name" : "2D-3D Stereoscopic Conversion Project 2nd Year",
+      "fullname" : "",
+      "area" : "",
+      "description" : "",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 2,
+      "people_id" : 14,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 13,
+      "type" : "Tech",
+      "year" : 2012,
+      "name" : "Pre-visualization Project 1st Year",
+      "fullname" : "Pipeline Management and On-stage Pre-visualization Technical Development for Effective Production with High Quality 3D Images",
+      "area" : "",
+      "description" : "",
+      "partners_id" : "",
+      "funding_id" : 18,
+      "teams_id" : 1,
+      "people_id" : 15,
+      "status" : "",
+      "date_start" : "2011-06-30T15:00:00.000Z",
+      "date_end" : "2012-03-30T15:00:00.000Z"
+    },
+    {
+      "id" : 14,
+      "type" : "Tech",
+      "year" : 2012,
+      "name" : "World Best Software Project 1st Year",
+      "fullname" : "",
+      "area" : "",
+      "description" : "World Best Software (WBS), is a strategic, three-year project in which companies from each sector join forces to develop world-class, commercial software from 2010 to 2013. A total of KRW 200 billion has been ploughed into the WBS carrying out each WBS sub-project in the form of a consortium. In this project, We develop compositing software supporting 4K images.",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 2,
+      "people_id" : 16,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 15,
+      "type" : "Tech",
+      "year" : 2013,
+      "name" : "2D-3D Stereoscopic Conversion Project 3rd Year",
+      "fullname" : "",
+      "area" : "",
+      "description" : "",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 2,
+      "people_id" : 17,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 16,
+      "type" : "Tech",
+      "year" : 2013,
+      "name" : "World Best Software Project 2nd Year",
+      "fullname" : "",
+      "area" : "",
+      "description" : "World Best Software (WBS), is a strategic, three-year project in which companies from each sector join forces to develop world-class, commercial software from 2010 to 2013. A total of KRW 200 billion has been ploughed into the WBS carrying out each WBS sub-project in the form of a consortium. In this project, We develop compositing software supporting 4K images.",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 2,
+      "people_id" : 18,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 17,
+      "type" : "Tech",
+      "year" : 2013,
+      "name" : "ScreenX Project",
+      "fullname" : "ScreenX, the world’s first multi-projection auditorium",
+      "area" : "",
+      "description" : "ScreenX is a multi-projection technology that allows the expansion of the main screen in movie theatres to the surrounding walls to convey highly immersive experiences to the audience. The developed technologies include system calibration and projector control in various theatre environments as well as a preview simulator for the creators of ScreenX contents. The ScreenX system has been successfully deployed in numerous CJ CGV theatres across the nation.",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 2,
+      "people_id" : 19,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 18,
+      "type" : "Tech",
+      "year" : 2013,
+      "name" : "Pre-visualization Project 2nd Year",
+      "fullname" : "Pipeline Management and On-stage Pre-visualization Technical Development for Effective Production with High Quality 3D Images",
+      "area" : "",
+      "description" : "",
+      "partners_id" : "",
+      "funding_id" : 18,
+      "teams_id" : 1,
+      "people_id" : 20,
+      "status" : "",
+      "date_start" : "2012-03-31T15:00:00.000Z",
+      "date_end" : "2013-03-30T15:00:00.000Z"
+    },
+    {
+      "id" : 19,
+      "type" : "art",
+      "year" : 2013,
+      "name" : "The X(The fisrt ScreenX movie in the world)",
+      "fullname" : "\"The X\" - The first ScreenX movie in the world (invited to BIFF 2013)",
+      "area" : "",
+      "description" : "",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : "",
+      "people_id" : 21,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 20,
+      "type" : "art",
+      "year" : 2013,
+      "name" : "Hello(Cho Yong Pil)",
+      "fullname" : "Cho Yong Pil Hello - Official Music Video",
+      "area" : "",
+      "description" : "가왕 조용필의 10년 만의 신보 'Hello(헬로)' 뮤직비디오!! 타이틀곡 'Hello(헬로)'의 뮤직비디오는 매력적인 스토리와 고난도의 CG작업으로 완성된 작품으로 비주얼 아티스트 룸펜스가 메가폰을 잡았다.\r\n\r\n한편, 조용필은 오는 5월 31일부터 6월 2일까지 서울 올림픽공원 내 체조경기장에서 시작하여 상반기에만 대전, 의정부, 진주, 대구 등에서 열릴 예정인 전국 투어 콘서트 '헬로(Hello)'로 활동을 이어갈 예정이다.",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : "",
+      "people_id" : 22,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 21,
+      "type" : "art",
+      "year" : 2013,
+      "name" : "Sweet Dream(MFBTY)",
+      "fullname" : "MFBTY (Tiger JK, T- Yoon Mi Rae, Bizzy) - Sweet Dream Music Video",
+      "area" : "",
+      "description" : "",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : "",
+      "people_id" : 23,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 22,
+      "type" : "Tech",
+      "year" : 2014,
+      "name" : "Multi-View Project 1st Year",
+      "fullname" : "Autostereoscopic 3D Image Acquisition System and 3D Content Production Technology",
+      "area" : "Autostereoscopic 3D, Muti Camera Based, glasses-free advertisement, digital signage",
+      "description" : "This project aims for development of efficient autostereoscopic 3D content production process including camera rig, post-processing and display.",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 2,
+      "people_id" : 24,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 23,
+      "type" : "Tech",
+      "year" : 2014,
+      "name" : "Kolon Project 1st Year",
+      "fullname" : "The development of ‘Immersive & Interactive Space' platform",
+      "area" : "",
+      "description" : "요청 필요",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 3,
+      "people_id" : 25,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 24,
+      "type" : "Tech",
+      "year" : 2014,
+      "name" : "Pre-visualization Project 3rd Year",
+      "fullname" : "Pipeline Management and On-stage Pre-visualization Technical Development for Effective Production with High Quality 3D Images",
+      "area" : "",
+      "description" : "",
+      "partners_id" : "",
+      "funding_id" : 18,
+      "teams_id" : 1,
+      "people_id" : 26,
+      "status" : "",
+      "date_start" : "2013-03-31T15:00:00.000Z",
+      "date_end" : "2014-03-30T15:00:00.000Z"
+    },
+    {
+      "id" : 25,
+      "type" : "Tech",
+      "year" : 2015,
+      "name" : "Multi-View Project 2nd Year",
+      "fullname" : "Multicamera based-Autostereosopic 3D acquisition System and Content Production R&D",
+      "area" : "Autostereoscopic 3D, Muti Camera Based, glasses-free advertisement, digital signage",
+      "description" : "This project aims for development of efficient autostereoscopic 3D content production process including camera rig, post-processing and display.",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 2,
+      "people_id" : 27,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 26,
+      "type" : "Tech",
+      "year" : 2015,
+      "name" : "Kolon Project 2nd Year",
+      "fullname" : "The development of ‘Immersive & Interactive Space' platform",
+      "area" : "",
+      "description" : "요청 필요",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 3,
+      "people_id" : 28,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 27,
+      "type" : "Tech",
+      "year" : 2015,
+      "name" : "Curved Projection Project 1st Year",
+      "fullname" : "Real-time Revision &Interaction Technology Development for Curved Screen Contents",
+      "area" : "Multi-projection, Real-time content adjustment, Immersive media, Interaction, Remote management",
+      "description" : "요청 필요",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 3,
+      "people_id" : 29,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 28,
+      "type" : "Tech",
+      "year" : 2015,
+      "name" : "Stylized Animation Prodcution Project",
+      "fullname" : "Stylized animation production pipeline based on motion capture system",
+      "area" : "요청 필요",
+      "description" : "요청 필요",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 1,
+      "people_id" : 30,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 29,
+      "type" : "Tech",
+      "year" : 2016,
+      "name" : "Multi-View Project 3rd Year",
+      "fullname" : "Multicamera based-Autostereosopic 3D acquisition System and Content Production R&D",
+      "area" : "Autostereoscopic 3D, Muti Camera Based, glasses-free advertisement, digital signage",
+      "description" : "This project aims for development of efficient autostereoscopic 3D content production process including camera rig, post-processing and display.",
+      "partners_id" : 30,
+      "funding_id" : "",
+      "teams_id" : 2,
+      "people_id" : 31,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 30,
+      "type" : "Tech",
+      "year" : 2016,
+      "name" : "Kolon Project 3rd Year",
+      "fullname" : "The development of immersive & interactive display for immersive retail experiences",
+      "area" : "",
+      "description" : "요청 필요",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : 3,
+      "people_id" : 32,
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    },
+    {
+      "id" : 31,
+      "type" : "Tech",
+      "year" : 2016,
+      "name" : "Curved Projection Project 2nd Year",
+      "fullname" : "Real-time Revision & Interaction Technology Development for Curved Screen Contents",
+      "area" : "Multi-projection, Real-time content adjustment, Immersive media, Interaction, Remote management",
+      "description" : "요청 필요",
+      "partners_id" : "",
+      "funding_id" : "",
+      "teams_id" : "",
+      "people_id" : "",
+      "status" : "",
+      "date_start" : "",
+      "date_end" : ""
+    }
+  ],
   "downloads" : [
     {
       "id" : 1,
@@ -5382,7 +5348,7 @@ export const GoogleData =
       "additional" : "Binary : Skinner.zip\r\nType : Maya Plugin (.mll)\r\nVersion : Maya 2008\r\nPlatform : Microsoft Windows XP",
       "img" : "Downloads/2008_Skinner/Skinner.jpg",
       "file" : "Downloads/2008_Skinner/Skinner.zip",
-      "link" : "dummy"
+      "link" : ""
     },
     {
       "id" : 2,
@@ -5392,8 +5358,8 @@ export const GoogleData =
       "desc" : "AutoRigging for fish' is XSIⓒFaceRobot like feature-point based rigging tool that help to generate basic rigging(skeletal system, skinned mesh) of fish. It support only stereotype of fish such as 'Prussian carp' which is streamline shaped with some scales and gills. For further questions, please contact Taekwon Chang.",
       "additional" : "Binary : ar_fish_maya.zip\r\nType : Maya Plugin (.mll)\r\nVersion : Maya 2008\r\nPlatform : Microsoft Windows XP ",
       "img" : "Downloads/2008_AutoRigging%20for%20fish%20-%20Maya%20version/AutoRigging%20for%20fish%20-%20Maya%20version.jpg",
-      "file" : "Downloads/2008_AutoRigging for fish - Maya version/AutoRigging for fish - Maya version.zip",
-      "link" : "dummy"
+      "file" : "Downloads/2008_AutoRigging%20for%20fish%20-%20Maya%20version/AutoRigging%20for%20fish%20-%20Maya%20version.zip",
+      "link" : ""
     },
     {
       "id" : 3,
@@ -5403,8 +5369,8 @@ export const GoogleData =
       "desc" : "Reptile Rigger for 3DS MAX. For further questions, please contact Jaewoo seo.",
       "additional" : "Binary : ar_max.zip\r\nType : Max script (.ms) \r\nVersion : Max 2008 \r\nPlatform : Microsoft Windows XP\r\n",
       "img" : "Downloads/2008_AutoRigging%20for%20reptile%20-%20Maya%20version/AutoRigging%20for%20reptile%20-%20Maya%20version.jpg",
-      "file" : "Downloads/2008_AutoRigging for reptile - Maya version/AutoRigging for reptile - Maya version.zip",
-      "link" : "dummy"
+      "file" : "Downloads/2008_AutoRigging%20for%20reptile%20-%20Maya%20version/AutoRigging%20for%20reptile%20-%20Maya%20version.zip",
+      "link" : ""
     },
     {
       "id" : 4,
@@ -5414,8 +5380,8 @@ export const GoogleData =
       "desc" : "AutoRigging for maya' supports 5 types of prototype including Prussian carp, Globe fish, shark, snake and crocodile. User can build high quality rigging(Skinning/IK/Controller) for digital creatures in short time with intuitive feature-point base interface. For further questions, please contact Taekwon Chang.",
       "additional" : "Binary : auto_maya.zip \nType : Maya plug-in (.mll) \nVersion : Maya 2008 \nPlatform : Microsoft Windows XP \nManual : manual.zip ",
       "img" : "Downloads/2008_AutoRigging%20for%20reptile%20-%203DS%20Max%20version/AutoRigging%20for%20reptile%20-%203DS%20Max%20version.jpg",
-      "file" : "Downloads/2008_AutoRigging for reptile - 3DS Max version/AutoRigging for reptile - 3DS Max version.zip",
-      "link" : "dummy"
+      "file" : "Downloads/2008_AutoRigging%20for%20reptile%20-%203DS%20Max%20version/AutoRigging%20for%20reptile%20-%203DS%20Max%20version.zip",
+      "link" : ""
     },
     {
       "id" : 5,
@@ -5425,7 +5391,7 @@ export const GoogleData =
       "desc" : "AutoRigging for maya' supports 5 types of prototype including Prussian carp, Globe fish, shark, snake and crocodile. User can build high quality rigging(Skinning/IK/Controller) for digital creatures in short time with intuitive feature-point base interface. For further questions, please contact Taekwon Chang.",
       "additional" : "Binary : auto_maya.zip \r\nType : Maya plug-in (.mll) \r\nVersion : Maya 2008 \r\nPlatform : Microsoft Windows XP \r\nManual : manual.zip ",
       "img" : "Downloads/2008_AutoRigging%20for%20Maya/AutoRigging%20for%20Maya.jpg",
-      "file" : "Downloads/2008_AutoRigging for Maya/AutoRigging for Maya.zip",
+      "file" : "Downloads/2008_AutoRigging%20for%20Maya/AutoRigging%20for%20Maya.zip",
       "link" : ""
     },
     {
@@ -5436,7 +5402,7 @@ export const GoogleData =
       "desc" : "AutoRigging for 3ds max' supports 5 types of prototype including Prussian carp, Globe fish, shark, snake and crocodile. User can build high quality rigging(Skinning/IK/Controller) for digital creatures in short time with intuitive feature-point base interface. For further questions, please contact Jaewoo Seo .",
       "additional" : "Binary : auto_max.zip\r\nType : Max plug-in\r\nVersion : 3ds Max 9 \r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2008_AutoRigging%20for%203ds%20Max/AutoRigging%20for%203ds%20Max.jpg",
-      "file" : "Downloads/2008_AutoRigging for 3ds Max/AutoRigging for 3ds Max.zip",
+      "file" : "Downloads/2008_AutoRigging%20for%203ds%20Max/AutoRigging%20for%203ds%20Max.zip",
       "link" : ""
     },
     {
@@ -5447,7 +5413,7 @@ export const GoogleData =
       "desc" : "Shading part of \"An Anisotropic Phong BRDF Model\" by Michael Ashikhmin is Maya implemented. For further questions, please contact Mi You.",
       "additional" : "Binary :CK.zip \r\nType : Maya plug-in \r\nVersion : Maya 2009 64bit \r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2009_Construction%20Kit%20for%20Maya/Construction%20Kit%20for%20Maya.jpg",
-      "file" : "Downloads/2009_Construction Kit for Maya/Construction Kit for Maya.zip",
+      "file" : "Downloads/2009_Construction%20Kit%20for%20Maya/Construction%20Kit%20for%20Maya.zip",
       "link" : ""
     },
     {
@@ -5458,7 +5424,7 @@ export const GoogleData =
       "desc" : "Maya implemented version of \"Transferring the Rig and Animation from a Character to Different Face Models\" by Orvalho. This program tranfers facial rigging(joint, skin weight, and blendshapes) of source model to target facial mesh. For further questions, please contact Yeongho Seol.",
       "additional" : "Binary : ABP.zip\r\nType : Maya plug-in\r\nVersion : Maya 2009 64bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2009_Anisotropic%20BRDF%20Phong/Anisotropic%20BRDF%20Phong.jpg",
-      "file" : "Downloads/2009_Anisotropic BRDF Phong/Anisotropic BRDF Phong.zip",
+      "file" : "Downloads/2009_Anisotropic%20BRDF%20Phong/Anisotropic%20BRDF%20Phong.zip",
       "link" : ""
     },
     {
@@ -5469,7 +5435,7 @@ export const GoogleData =
       "desc" : "There are two deformers implemented. The \"simpleDeformer\" is Maya implemented version of \"As rigid as possible surface manipulation\" by Igarhashi. The \"surfaceModeling\" is Maya implemented version of \"Laplacian Surface Editing\" by Sorkine",
       "additional" : "Binary : FRT.zip\r\nType : Maya plug-in\r\nVersion : Maya(all version)\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2009_Facial%20Rigging%20Tranfer/Facial%20Rigging%20Tranfer.jpg",
-      "file" : "Downloads/2009_Facial Rigging Tranfer/Facial Rigging Tranfer.zip",
+      "file" : "Downloads/2009_Facial%20Rigging%20Tranfer/Facial%20Rigging%20Tranfer.zip",
       "link" : ""
     },
     {
@@ -5480,7 +5446,7 @@ export const GoogleData =
       "desc" : "FeatherRigger consists of two different parts. First one is the Vector Field Designer, a stand alone program. User can make the vector field by using the Vector Field Designer for a bird's feather direction. Second one is the FeatherPainter, Maya and Max script. For further questions, please contact Jaewoo Seo.",
       "additional" : "Binary : LSMT.zip\r\nType : Maya plug-in\r\nVersion : Maya 2009 64bit,32bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2009_Laplacian%20Surface%20Modeling%20Tools/Laplacian%20Surface%20Modeling%20Tools.jpg",
-      "file" : "Downloads/2009_Laplacian Surface Modeling Tools/Laplacian Surface Modeling Tools.zip",
+      "file" : "Downloads/2009_Laplacian%20Surface%20Modeling%20Tools/Laplacian%20Surface%20Modeling%20Tools.zip",
       "link" : ""
     },
     {
@@ -5491,7 +5457,7 @@ export const GoogleData =
       "desc" : "Meta Rigger for 3ds Max' supports automatic rigging (Skinning/IK/Controller) for several kinds of birds. For further questions, please contact Yeongho Seol.",
       "additional" : "Binary : FeatherRigger.py\r\nType : Stand Alone (Vector Field Designer), Maya and Max Script (FeatherPainter)\r\nVersion : Maya 2010 64bit, 32bit Max 2010 64bit, 32bit\r\nPlatform : Microsoft Windows 7\r\n",
       "img" : "Downloads/2010_Feather%20Rigger/Feather%20Rigger.jpg",
-      "file" : "Downloads/2010_Feather Rigger/Feather Rigger.zip",
+      "file" : "Downloads/2010_Feather%20Rigger/Feather%20Rigger.zip",
       "link" : ""
     },
     {
@@ -5502,7 +5468,7 @@ export const GoogleData =
       "desc" : "Meta Rigger for Maya' supports automatic rigging (Skinning/IK/Controller) for several kinds of birds.",
       "additional" : "Binary : MetaRigger_Max.py\r\nType : Max Script\r\nVersion : Max 2010 64bit, 32bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2010_Meta%20Rigger%20for%203ds%20Max/Meta%20Rigger%20for%203ds%20Max.jpg",
-      "file" : "Downloads/2010_Meta Rigger for 3ds Max/Meta Rigger for 3ds Max.zip",
+      "file" : "Downloads/2010_Meta%20Rigger%20for%203ds%20Max/Meta%20Rigger%20for%203ds%20Max.zip",
       "link" : ""
     },
     {
@@ -5513,7 +5479,7 @@ export const GoogleData =
       "desc" : "Solid Skeleton for Maya' supports automatic generating meshes for rendering the joints in Maya. For further questions, please contact Jaewon Song.",
       "additional" : "Binary : MetaRigger_Maya.py\r\nType : Maya Script\r\nVersion : Maya 2010 64bit, 32bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2010_Meta%20Rigger%20for%20Maya/Meta%20Rigger%20for%20Maya.jpg",
-      "file" : "Downloads/2010_Meta Rigger for Maya/Meta Rigger for Maya.zip",
+      "file" : "Downloads/2010_Meta%20Rigger%20for%20Maya/Meta%20Rigger%20for%20Maya.zip",
       "link" : ""
     },
     {
@@ -5524,7 +5490,7 @@ export const GoogleData =
       "desc" : "Graph simplifier (vmGS) plugin allows effective simplification for dense animation graphs (e.g. dense graphs from motion capture). Note that this is a distribution version. For further questions, please contact Yeongho Seol or Jaewoo Seo.",
       "additional" : "Binary : SolidJoint.py\r\nType : Maya Python Script\r\nVersion : Maya 2011 64bit, 32bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2011_Solid%20Skeleton%20for%20Maya/Solid%20Skeleton%20for%20Maya.jpg",
-      "file" : "Downloads/2011_Solid Skeleton for Maya/Solid Skeleton for Maya.zip",
+      "file" : "Downloads/2011_Solid%20Skeleton%20for%20Maya/Solid%20Skeleton%20for%20Maya.zip",
       "link" : ""
     },
     {
@@ -5535,7 +5501,7 @@ export const GoogleData =
       "desc" : "Particle generator from image' suggests a creating particle technique from image specified by user. This tool reads a bitmap file containing the RGB values. Based on the loading pixel value, particles are made on the each position which is set by resolution defined by user. For further questions, please contact Mi You.",
       "additional" : "Binary : vmGS.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011/2011 64bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Graph%20Simplifier%20for%20Maya/Graph%20Simplifier%20for%20Maya.jpg",
-      "file" : "Downloads/2012_Graph Simplifier for Maya/Graph Simplifier for Maya.zip",
+      "file" : "Downloads/2012_Graph%20Simplifier%20for%20Maya/Graph%20Simplifier%20for%20Maya.zip",
       "link" : ""
     },
     {
@@ -5546,7 +5512,7 @@ export const GoogleData =
       "desc" : "Intuitive and automated texture mapping tool using sketching interface. Implementation of master thesis \"Automatic Generation of Feature Point on Texture Mapping Contours\" For further questions, please contact Taekwon Jang.",
       "additional" : "\r\nBinary : PGI.7z\r\nType : RealFlow Plugin\r\nVersion : RealFlow x86_64 2012\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Particle%20generator%20from%20image/Particle%20generator%20from%20image.jpg",
-      "file" : "Downloads/2012_Particle generator from image/Particle generator from image.7z",
+      "file" : "Downloads/2012_Particle%20generator%20from%20image/Particle%20generator%20from%20image.7z",
       "link" : ""
     },
     {
@@ -5557,7 +5523,7 @@ export const GoogleData =
       "desc" : "Automatic generation of scales for digital creatures (fish and snake). Implementation of master thesis \"Geometric texture placement for digital creatures\". For further questions, please contact Taekwon Jang .",
       "additional" : "Binary : TextureSketching.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Texture%20Sketching%20Tool/Texture%20Sketching%20Tool.jpg",
-      "file" : "Downloads/2012_Texture Sketching Tool/Texture Sketching Tool.zip",
+      "file" : "Downloads/2012_Texture%20Sketching%20Tool/Texture%20Sketching%20Tool.zip",
       "link" : ""
     },
     {
@@ -5568,7 +5534,7 @@ export const GoogleData =
       "desc" : "Basic code framework for developing a muscle system in Maya similar to 'cMuscleSystem'. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : geometricTexture.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Geometric%20Texture%20Placement%20Tool/Geometric%20Texture%20Placement%20Tool.jpg",
-      "file" : "Downloads/2012_Geometric Texture Placement Tool/Geometric Texture Placement Tool.zip",
+      "file" : "Downloads/2012_Geometric%20Texture%20Placement%20Tool/Geometric%20Texture%20Placement%20Tool.zip",
       "link" : ""
     },
     {
@@ -5579,7 +5545,7 @@ export const GoogleData =
       "desc" : "Custom sculpt deformer for maya that supports a weight based keyframe animation. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : ActionMuscle.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Basic%20muscle/Basic%20muscle.jpg",
-      "file" : "Downloads/2012_Basic muscle/Basic muscle.zip",
+      "file" : "Downloads/2012_Basic%20muscle/Basic%20muscle.zip",
       "link" : ""
     },
     {
@@ -5590,7 +5556,7 @@ export const GoogleData =
       "desc" : "Framework for realistic modeling of forest ecosystem, which support intra- and inter-specific competition among the species. Implementation of master thesis \"Realistic Modeling of Forest Ecosystems\". For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : bok.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Custom%20Sculpt%20Deformer/Custom%20Sculpt%20Deformer.jpg",
-      "file" : "Downloads/2012_Custom Sculpt Deformer/Custom Sculpt Deformer.zip",
+      "file" : "Downloads/2012_Custom%20Sculpt%20Deformer/Custom%20Sculpt%20Deformer.zip",
       "link" : ""
     },
     {
@@ -5601,7 +5567,7 @@ export const GoogleData =
       "desc" : "Extract original maya muscle, export/import muscle data, create guiding curves, create Maya muscle and attatch muscle to rig using MEL command. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : ecosystem.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Ecosystem%20Simulation/Ecosystem%20Simulation.jpg",
-      "file" : "Downloads/2012_Ecosystem Simulation/Ecosystem Simulation.zip",
+      "file" : "Downloads/2012_Ecosystem%20Simulation/Ecosystem%20Simulation.zip",
       "link" : ""
     },
     {
@@ -5612,7 +5578,7 @@ export const GoogleData =
       "desc" : "Compute a score to evaluate the matching status between given 2 joint hierarchies. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : muscleHelper.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Muscle%20Helper/Muscle%20Helper.jpg",
-      "file" : "Downloads/2012_Muscle Helper/Muscle Helper.zip",
+      "file" : "Downloads/2012_Muscle%20Helper/Muscle%20Helper.zip",
       "link" : ""
     },
     {
@@ -5623,7 +5589,7 @@ export const GoogleData =
       "desc" : "A weight painting tool for intuitive control of splash effect. Artist can adjust the degree of splash by painting weights on colliding objects. This tool provides an artisan style tool for the painting. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : DCJointMatch.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Joint%20Angle%20Matching/Joint%20Angle%20Matching.jpg",
-      "file" : "Downloads/2012_Joint Angle Matching/Joint Angle Matching.zip",
+      "file" : "Downloads/2012_Joint%20Angle%20Matching/Joint%20Angle%20Matching.zip",
       "link" : ""
     },
     {
@@ -5634,7 +5600,7 @@ export const GoogleData =
       "desc" : "Convert a maya scene into multiple level-set(distance) fields and export them as text files. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : splashPainter.zip\r\nType : Maya Embedded Language\r\nVersion : Maya\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Splash%20Painter/Splash%20Painter.jpg",
-      "file" : "Downloads/2012_Splash Painter/Splash Painter.zip",
+      "file" : "Downloads/2012_Splash%20Painter/Splash%20Painter.zip",
       "link" : ""
     },
     {
@@ -5645,7 +5611,7 @@ export const GoogleData =
       "desc" : "OpenGL based Obj file viewer that supports multi-threaded file loading. For further questions, please contact Taekwon Jang.\t",
       "additional" : "Binary : MayaToNile.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 32bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Maya%20to%20Nile/Maya%20to%20Nile.jpg",
-      "file" : "Downloads/2012_Maya to Nile/Maya to Nile.zip",
+      "file" : "Downloads/2012_Maya%20to%20Nile/Maya%20to%20Nile.zip",
       "link" : ""
     },
     {
@@ -5656,7 +5622,7 @@ export const GoogleData =
       "desc" : "Implementation of a stable fluid(Stam 1999) in 2D. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : NilePlayer.zip\r\nType : Standalone\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Nile%20Player/Nile%20Player.jpg",
-      "file" : "Downloads/2012_Nile Player/Nile Player.zip",
+      "file" : "Downloads/2012_Nile%20Player/Nile%20Player.zip",
       "link" : ""
     },
     {
@@ -5667,7 +5633,7 @@ export const GoogleData =
       "desc" : "OpenGL based viewer that visualizes the level-set field converted from a mesh via CPU-based marching-cube algorithm. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : 2Dgrid.zip\r\nType : Standalone\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_2D%20Grid%20Based%20Fluid%20Simulator/2D%20Grid%20Based%20Fluid%20Simulator.jpg",
-      "file" : "Downloads/2012_2D Grid Based Fluid Simulator/2D Grid Based Fluid Simulator.zip",
+      "file" : "Downloads/2012_2D%20Grid%20Based%20Fluid%20Simulator/2D%20Grid%20Based%20Fluid%20Simulator.zip",
       "link" : ""
     },
     {
@@ -5678,7 +5644,7 @@ export const GoogleData =
       "desc" : "Simple plug-in that embeds MEL script that support batch rendering with customized render options. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : NileMarchCube.zip\r\nType : Standalone\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Marching%20Cube%20Viewer/Marching%20Cube%20Viewer.jpg",
-      "file" : "Downloads/2012_Marching Cube Viewer/Marching Cube Viewer.zip",
+      "file" : "Downloads/2012_Marching%20Cube%20Viewer/Marching%20Cube%20Viewer.zip",
       "link" : ""
     },
     {
@@ -5689,7 +5655,7 @@ export const GoogleData =
       "desc" : "Converts realflow emitters and realwave into level-set fields and merges them into a single scalar field. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : NileRender.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 64bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Nile%20Render/Nile%20Render.jpg",
-      "file" : "Downloads/2012_Nile Render/Nile Render.zip",
+      "file" : "Downloads/2012_Nile%20Render/Nile%20Render.zip",
       "link" : ""
     },
     {
@@ -5700,7 +5666,7 @@ export const GoogleData =
       "desc" : "Nuke plug-in rendering stereoscopic image from 3D geometry scene. For further information, please contact Younghui Kim.",
       "additional" : "Binary : LSMerge.zip\r\nType : Realflow Plugin\r\nVersion : Realflow 2012\r\nPlatform : Microsoft Windows 7\r\n",
       "img" : "Downloads/2012_Level%20Set%20Merge/Level%20Set%20Merge.jpg",
-      "file" : "Downloads/2012_Level Set Merge/Level Set Merge.zip",
+      "file" : "Downloads/2012_Level%20Set%20Merge/Level%20Set%20Merge.zip",
       "link" : ""
     },
     {
@@ -5711,7 +5677,7 @@ export const GoogleData =
       "desc" : "Nuke plug-in generating stereoscopic views including \"anaglyph\", \"side by side\", \"top and bottom\" and \"polarized 3D\" which is fit to LG FPR stereo display. For further information, please contact Younghui Kim.",
       "additional" : "Binary : N_StereoRender.zip\r\nType : Type : Nuke Plug-in (Gizmo)\r\nVersion : Nuke 6\r\nPlatform : Cross-platform",
       "img" : "Downloads/2012_Stereo%20Renderer%20v1.0%20Lite/Stereo%20Renderer%20v1.0%20Lite.jpg",
-      "file" : "Downloads/2012_Stereo Renderer v1.0 Lite/Stereo Renderer v1.0 Lite.zip",
+      "file" : "Downloads/2012_Stereo%20Renderer%20v1.0%20Lite/Stereo%20Renderer%20v1.0%20Lite.zip",
       "link" : ""
     },
     {
@@ -5722,7 +5688,7 @@ export const GoogleData =
       "desc" : "This is Nuke plugin for creating mesh surface from 2D image which has depth channel information. It is one part of 2D to 3D conversion process. For further questions, please contact Sangwoo Lee.",
       "additional" : "Binary : N_StereoViewer.zip\r\nType : Nuke Plug-in (Gizmo)\r\nVersion : Nuke 6\r\nPlatform : Cross-platform",
       "img" : "Downloads/2012_Stereo%20Viewer%20v1.0/Stereo%20Viewer%20v1.0.jpg",
-      "file" : "Downloads/2012_Stereo Viewer v1.0/Stereo Viewer v1.0.zip",
+      "file" : "Downloads/2012_Stereo%20Viewer%20v1.0/Stereo%20Viewer%20v1.0.zip",
       "link" : ""
     },
     {
@@ -5744,7 +5710,7 @@ export const GoogleData =
       "desc" : "This tool is the shader of the paper, 'Cartoon Animation Style Rendering of Water', ISVC '09 Proceedings of the 5th International Symposium on Advances in Visual Computing. For water animation, we make a specific type of cartoon shader. For further questions, please contact Mi You.",
       "additional" : "Binary : GaussianCurvature.zip\r\nType : Maya Plugin\r\nVersion : Maya 2008 64bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Gaussian%20Curvature%20Calculator/Gaussian%20Curvature%20Calculator.jpg",
-      "file" : "Downloads/2012_Gaussian Curvature Calculator/Gaussian Curvature Calculator.zip",
+      "file" : "Downloads/2012_Gaussian%20Curvature%20Calculator/Gaussian%20Curvature%20Calculator.zip",
       "link" : ""
     },
     {
@@ -5755,7 +5721,7 @@ export const GoogleData =
       "desc" : "This tool generates the Mean curvature of mesh. After reading the vertex information, the value is expressed by color, depending on the magnitude. For further questions, please contact Mi You.\t",
       "additional" : "Binary : cartoonWater.zip\r\nType : Maya Plugin\r\nVersion : Maya 2008 64bit\r\nPlatform : Microsoft Windows 7\r\n",
       "img" : "Downloads/2012_Water%20Cartoon%20Shader/Water%20Cartoon%20Shader.jpg",
-      "file" : "Downloads/2012_Water Cartoon Shader/Water Cartoon Shader.zip",
+      "file" : "Downloads/2012_Water%20Cartoon%20Shader/Water%20Cartoon%20Shader.zip",
       "link" : ""
     },
     {
@@ -5769,7 +5735,7 @@ export const GoogleData =
       ],
       "additional" : "Binary : MeanCurvature.zip\r\nType : Maya Plugin\r\nVersion : Maya 2008 64bit\r\nPlatform : Microsoft Windows 7\r\n",
       "img" : "Downloads/2012_Mean%20Curvature%20Calculator/Mean%20Curvature%20Calculator.jpg",
-      "file" : "Downloads/2012_Mean Curvature Calculator/Mean Curvature Calculator.zip",
+      "file" : "Downloads/2012_Mean%20Curvature%20Calculator/Mean%20Curvature%20Calculator.zip",
       "link" : ""
     },
     {
@@ -5783,7 +5749,7 @@ export const GoogleData =
         "demo video)\r\nType : Nuke Plugin\r\nVersion : Nuke 6.3v1 64bit\r\nPlatform : Microsoft Windows 7"
       ],
       "img" : "Downloads/2012_N_Terrain%20(Lite)/N_Terrain%20(Lite).jpg",
-      "file" : "Downloads/2012_N_Terrain (Lite)/N_Terrain (Lite).zip",
+      "file" : "Downloads/2012_N_Terrain%20(Lite)/N_Terrain%20(Lite).zip",
       "link" : ""
     },
     {
@@ -5798,7 +5764,7 @@ export const GoogleData =
         "2010 (or redistributable) , Maya 2011 32bit\r\nPlatform : Microsoft Windows 7"
       ],
       "img" : "Downloads/2012_Smoke%20Simulator%20Using%20Surface-like%20Features/Smoke%20Simulator%20Using%20Surface-like%20Features.jpg",
-      "file" : "Downloads/2012_Smoke Simulator Using Surface-like Features/Smoke Simulator Using Surface-like Features.zip",
+      "file" : "Downloads/2012_Smoke%20Simulator%20Using%20Surface-like%20Features/Smoke%20Simulator%20Using%20Surface-like%20Features.zip",
       "link" : ""
     },
     {
@@ -5809,7 +5775,7 @@ export const GoogleData =
       "desc" : "This is Nuke plugin for filling the hole in the video sequence by gathering corresponding regions in neighbor frames. It is one part of 2D to 3D conversion process. For further questions, please contact YoungHui Kim.",
       "additional" : "Binary : proceduralFlowGenerator.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 64bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Procedural%20Flow%20Generator/Procedural%20Flow%20Generator.jpg",
-      "file" : "Downloads/2012_Procedural Flow Generator/Procedural Flow Generator.zip",
+      "file" : "Downloads/2012_Procedural%20Flow%20Generator/Procedural%20Flow%20Generator.zip",
       "link" : ""
     },
     {
@@ -5820,7 +5786,7 @@ export const GoogleData =
       "desc" : "This is Nuke plugin for filling the hole in the video sequence by gathering corresponding regions in neighbor frames. It is one part of 2D to 3D conversion process. For further questions, please contact YoungHui Kim.",
       "additional" : "Binary : N_HoleFiller.zip\r\nType : Nuke Plug-in\r\nVersion : Nuke 6.3v1 64bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_N_HoleFiller%20(Lite)/N_HoleFiller%20(Lite).jpg",
-      "file" : "Downloads/2012_N_HoleFiller (Lite)/N_HoleFiller (Lite).zip",
+      "file" : "Downloads/2012_N_HoleFiller%20(Lite)/N_HoleFiller%20(Lite).zip",
       "link" : ""
     },
     {
@@ -5831,7 +5797,7 @@ export const GoogleData =
       "desc" : "Nuke plug-in fitting a 3D generic face to a 2D face in an image based on tracked correspondences between them. As lite version tool, the pose of an target face is not estimated and the core algorithms for fine results are omitted. For further questions or full version tool, please contact Jungjin Lee.",
       "additional" : "Binary : N_BasicFiller.zip\r\nType : Nuke Plugin\r\nVersion :Nuke 6.3v1 64bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_N_BasicFiller%20(Lite)/N_BasicFiller%20(Lite).jpg",
-      "file" : "Downloads/2012_N_BasicFiller (Lite)/N_BasicFiller (Lite).zip",
+      "file" : "Downloads/2012_N_BasicFiller%20(Lite)/N_BasicFiller%20(Lite).zip",
       "link" : ""
     },
     {
@@ -5842,7 +5808,7 @@ export const GoogleData =
       "desc" : "Nuke plug-in fitting a 3D template model to a 2D object in an image based on tracked correspondences between them. As lite version tool, only car objects can be handled and the pose of an target object is not estimated. The full version tool can handle any rigid objects. For further questions or full version tool, please contact Jungjin Lee.",
       "additional" : "Binary : N_FaceMatcher_6v3(Lite).zip\nType : Nuke Plugin\nVersion :Nuke 6.3v1 64bit\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_N_FaceMatcher%20(Lite)/N_FaceMatcher%20(Lite).jpg",
-      "file" : "Downloads/2012_N_FaceMatcher (Lite)/N_FaceMatcher (Lite).zip",
+      "file" : "Downloads/2012_N_FaceMatcher%20(Lite)/N_FaceMatcher%20(Lite).zip",
       "link" : ""
     },
     {
@@ -5853,7 +5819,7 @@ export const GoogleData =
       "desc" : "A maya plug-in that embeds MEL script that support batch rendering of MAXWELL with customizable render options. For further questions, please contact Taekwon Jang.",
       "additional" : "Binary : N_ObjectMatcher_6v3(Lite).zip\r\nType : Nuke Plugin\r\nVersion :Nuke 6.3v1 64bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_N_ObjectMatcher%20(Lite)/N_ObjectMatcher%20(Lite).jpg",
-      "file" : "Downloads/2012_N_ObjectMatcher (Lite)/N_ObjectMatcher (Lite).zip",
+      "file" : "Downloads/2012_N_ObjectMatcher%20(Lite)/N_ObjectMatcher%20(Lite).zip",
       "link" : ""
     },
     {
@@ -5864,7 +5830,7 @@ export const GoogleData =
       "desc" : "The extended version of ‘procedural flow generator’ including UI. The tool deals the numerous particles flowing potential flow in grid. This is a lite version of maya plugin. For further questions or full version tool, please contact Mi You.",
       "additional" : "Binary : MaxwellBatchRenderCommand.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 64bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_MAXWELL%20batch%20Render/MAXWELL%20batch%20Render.jpg",
-      "file" : "Downloads/2012_MAXWELL batch Render/MAXWELL batch Render.zip",
+      "file" : "Downloads/2012_MAXWELL%20batch%20Render/MAXWELL%20batch%20Render.zip",
       "link" : ""
     },
     {
@@ -5919,7 +5885,7 @@ export const GoogleData =
       "desc" : "This plug-in is developed for snow scenes that snow particles interact with fur or hair NURBS curves.If the snow particles come close to NURBS curve, particles will follow the curve as long as a considerable displacement of particle occurs.",
       "additional" : "Binary : footMatcher.zip\r\nType : Nuke Plugin\r\nVersion : Nuke 64bit\r\nPlatform : Microsoft Windows 7\r\n",
       "img" : "Downloads/2012_FootMatcher%20(Lite)/FootMatcher%20(Lite).jpg",
-      "file" : "Downloads/2012_FootMatcher (Lite)/FootMatcher (Lite).zip",
+      "file" : "Downloads/2012_FootMatcher%20(Lite)/FootMatcher%20(Lite).zip",
       "link" : ""
     },
     {
@@ -5974,7 +5940,7 @@ export const GoogleData =
       "desc" : "Face Blender BS - Written by Meekyoung Kim (koms1701_at_gmail.com)",
       "additional" : "Binary : IRB.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 64bit\r\nPlatform : Microsoft Windows 7\r\n",
       "img" : "Downloads/2012_IRB(Interactive%20Region%20Based%20Face%20Model)/IRB(Interactive%20Region%20Based%20Face%20Model).jpg",
-      "file" : "Downloads/2012_IRB(Interactive Region Based Face Model)/IRB(Interactive Region Based Face Model).zip",
+      "file" : "Downloads/2012_IRB(Interactive%20Region%20Based%20Face%20Model)/IRB(Interactive%20Region%20Based%20Face%20Model).zip",
       "link" : ""
     },
     {
@@ -5985,7 +5951,7 @@ export const GoogleData =
       "desc" : "Fast PSD is a Maya plugin that is much faster version of famous PSD(Pose Space Deformation) which was implemented by Michael Comet. PSD itself is a tool which can give corrective shape sculpting at particular pose of Joint.",
       "additional" : "Binary : dmanip.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 64bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2012_Face%20Blender%20BS/Face%20Blender%20BS.jpg",
-      "file" : "Downloads/2012_Face Blender BS/Face Blender BS.zip",
+      "file" : "Downloads/2012_Face%20Blender%20BS/Face%20Blender%20BS.zip",
       "link" : ""
     },
     {
@@ -5996,7 +5962,7 @@ export const GoogleData =
       "desc" : "\"Cutseperator\" is a stand-alone utility for any user who want to separate sequential images automatically. Also, it has a very user -friendly interface.",
       "additional" : "Binary : fastPSD.zip\r\nType : Maya Plugin\r\nVersion : Maya 2011 64bit\r\nPlatform : Microsoft Windows 7\r\n",
       "img" : "Downloads/2012_Fast%20PSD/Fast%20PSD.jpg",
-      "file" : "Downloads/2012_Fast PSD/Fast PSD.zip",
+      "file" : "Downloads/2012_Fast%20PSD/Fast%20PSD.zip",
       "link" : ""
     },
     {
@@ -6062,7 +6028,7 @@ export const GoogleData =
       "desc" : "This plug-in makes symmetric blendshape automatically. By selecting the neutral face and counter blendshape, it creates the other side on the copied face. Developed by Byungkuk Choi(litlpoet_at_kaist.ac.kr) and Jihye Oh (ojh1016_at_hotmail.com).",
       "additional" : "Binary : TGen.zip\r\nType : Maya Plugin\r\nVersion : Maya 2012 64bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2013_Terrain%20Generator/Terrain%20Generator.jpg",
-      "file" : "Downloads/2013_Terrain Generator/Terrain Generator.zip",
+      "file" : "Downloads/2013_Terrain%20Generator/Terrain%20Generator.zip",
       "link" : ""
     },
     {
@@ -6073,7 +6039,7 @@ export const GoogleData =
       "desc" : "PhotoMapper is a multi-purpose Maya plug-in for the projection of images onto existing geometry. It can be used for creating and texturing virtual sets or setting up your matte paintings in the scene. PhotoMapper offers 3 different modes of real-time visualization of the projections.\r\nDeveloped by Roger Blanco Ribera (rogerbr_at_kaist.ac.kr), Jaewon Song (jaewonsong_at_kaist.ac.kr) and Byungguk Choi (litlpoet_at_kaist.ac.kr)",
       "additional" : "Binary : facemirror.zip\r\nType : Maya Plugin\r\nVersion : Maya 2012 64bit\r\nPlatform : Microsoft Windows 7",
       "img" : "Downloads/2013_Face%20Mirror/Face%20Mirror.jpg",
-      "file" : "Downloads/2013_Face Mirror/Face Mirror.zip",
+      "file" : "Downloads/2013_Face%20Mirror/Face%20Mirror.zip",
       "link" : ""
     },
     {
@@ -6084,7 +6050,7 @@ export const GoogleData =
       "desc" : "Disparity adjustment tool can control the disparity of stereoscopic contents. This tool consists of two nuke plugins. For further questions, please contact Sangwoo Lee(sangwoolee_at_kaist.ac.kr).",
       "additional" : "Binary : photoMapper.zip\r\nType : Maya Plugin\r\nVersion : Maya 2012 64bit\r\nPlatform : Linux x64",
       "img" : "Downloads/2013_Photo%20Mapper/Photo%20Mapper.jpg",
-      "file" : "Downloads/2013_Photo Mapper/Photo Mapper.zip",
+      "file" : "Downloads/2013_Photo%20Mapper/Photo%20Mapper.zip",
       "link" : ""
     },
     {
@@ -6095,7 +6061,7 @@ export const GoogleData =
       "desc" : "Corresponding UI helps you to match point of a facial model with easy interface. This tool consist of 2 maya script “Marker_matcher.py” and “Marker_reader.py. With “Marker_matcher.py”, user can save the marker’s template with color information and symmetry information. With “Marker_reader.py”, user can load a template that has been saved by “Marker_matcher.py” and provide intuitive tool to match to each corresponding point of facial model.",
       "additional" : "Binary : DisparityAdjustment.zip\r\nType : Nuke Plugin\r\nVersion : Nuke 6.3v1 64 bit\r\nPlatform : Microsoft Windows 7\r\n",
       "img" : "Downloads/2013_Disparity%20Adjustment%20Tool/Disparity%20Adjustment%20Tool.jpg",
-      "file" : "Downloads/2013_Disparity Adjustment Tool/Disparity Adjustment Tool.zip",
+      "file" : "Downloads/2013_Disparity%20Adjustment%20Tool/Disparity%20Adjustment%20Tool.zip",
       "link" : ""
     },
     {
@@ -6106,7 +6072,7 @@ export const GoogleData =
       "desc" : "Multi-view content editing tool can manipulate the multi-view auto-stereoscopic content based on 3D mesh surfaces as various compositing methods such as physical-based simulation, lighting, etc. 3D mesh is created by input 2D image including depth information. This tool is a stand-alone program using Qt. For further questions or the full version tool, please contact Sangwoo Lee.",
       "additional" : "Binary : CorrespondingUI.zip\r\nType : Maya Script\r\nVersion : Any Maya\r\nPlatform : Any OS",
       "img" : "Downloads/2014_Corresponding%20Matching%20UI/Corresponding%20Matching%20UI.png",
-      "file" : "Downloads/2014_Corresponding Matching UI/Corresponding Matching UI.zip",
+      "file" : "Downloads/2014_Corresponding%20Matching%20UI/Corresponding%20Matching%20UI.zip",
       "link" : ""
     },
     {
@@ -6117,7 +6083,7 @@ export const GoogleData =
       "desc" : "Multi-view Geometry Correction Tool can rectify geometrty error corresponding to reference view image using scale-invariant feature transform(SIFT). To compensate this gemometric errors, our tool transform the source views with salient area of reference vew. Therefore, it tracks the salient areas of reference view from each frame. It can also apply to image sequences by using tempolar filter. This tool is a stand-alone program using Qt. For further questions or the full version tool, please contact Bumki Kim(bumkikim_at_kaist.ac.kr).",
       "additional" : "\r\nBinary : MultiViewEdit.zip\r\nType : Standalone\r\nVersion : NA\r\nPlatform : Microsoft Windows 7, 8",
       "img" : "Downloads/2014_Multi-view%20Content%20Editing%20Tool/Multi-view%20Content%20Editing%20Tool.png",
-      "file" : "Downloads/2014_Multi-view Content Editing Tool/Multi-view Content Editing Tool.zip",
+      "file" : "Downloads/2014_Multi-view%20Content%20Editing%20Tool/Multi-view%20Content%20Editing%20Tool.zip",
       "link" : ""
     },
     {
@@ -6128,7 +6094,7 @@ export const GoogleData =
       "desc" : "Multi-view Color Correction Tool can correct color information of multi-view images corresponding to reference view image using color compensation algorithm based on image features. To compensate this color difference, first we model the characteristics of cameras based on frame’s feature from each camera and then correct the color difference. This tool is a stand-alone program using Qt. For further questions or the full version tool, please contact Bumki Kim(bumkikim_at_kaist.ac.kr).",
       "additional" : "Binary : MULVW_Geometry_Correction.zip\r\nType : Standalone\r\nVersion : NA\r\nPlatform : Microsoft Windows 7, 8",
       "img" : "Downloads/2015_Multi-view%20Geometry%20Correction%20Tool/Multi-view%20Geometry%20Correction%20Tool.png",
-      "file" : "Downloads/2015_Multi-view Geometry Correction Tool/Multi-view Geometry Correction Tool.zip",
+      "file" : "Downloads/2015_Multi-view%20Geometry%20Correction%20Tool/Multi-view%20Geometry%20Correction%20Tool.zip",
       "link" : ""
     },
     {
@@ -6139,7 +6105,7 @@ export const GoogleData =
       "desc" : "Depth Correction Tool can upsample low resolution depth data into high resolution depth data corresponding to reference color image using joint bilateral filter. It can also generate and correct optical flow. By using this, it can remove the temporal noise near the edges and preserve temporal consistency using t-directional joint bilateral filter. This tool is a stand-alone program using Qt. For further questions or the full version tool, please contact Seunghwa Jeong(seunghwajeong_at_kaist.ac.kr).\t",
       "additional" : "Binary : MULVW_Color_Correction.zip\r\nType : Standalone\r\nVersion : NA\r\nPlatform : Microsoft Windows 7, 8",
       "img" : "Downloads/2015_Multi-view%20Color%20Correction%20Tool/Multi-view%20Color%20Correction%20Tool.png",
-      "file" : "Downloads/2015_Multi-view Color Correction Tool/Multi-view Color Correction Tool.zip",
+      "file" : "Downloads/2015_Multi-view%20Color%20Correction%20Tool/Multi-view%20Color%20Correction%20Tool.zip",
       "link" : ""
     },
     {
@@ -6150,7 +6116,7 @@ export const GoogleData =
       "desc" : "Direct facial retargeting tool is Maya Python script for the facial retargeting from captured facial markers to target facial rig. You can train mocap markers and facial rig directly with an intuitive process. If you want to know how to use, watch the two videos, 'https://youtu.be/xb691H8O0dg' and 'https://youtu.be/ChxpyoDQXxM'. This software is a demo version because the retargeting function is limited. For further questions, please contact Jaewon Song(songjaewon_at_kaist.ac.kr).",
       "additional" : "Binary : MULVW_Depth_Correction.zip\r\nType : Standalone\r\nVersion : NA\r\nPlatform : Microsoft Windows 7, 8\r\n",
       "img" : "Downloads/2015_Multi-view%20Depth%20Correction%20Tool/Multi-view%20Depth%20Correction%20Tool.png",
-      "file" : "Downloads/2015_Multi-view Depth Correction Tool/Multi-view Depth Correction Tool.zip",
+      "file" : "Downloads/2015_Multi-view%20Depth%20Correction%20Tool/Multi-view%20Depth%20Correction%20Tool.zip",
       "link" : ""
     },
     {
@@ -6161,7 +6127,7 @@ export const GoogleData =
       "desc" : "Multi-vew Correction Tool is an intergrated software of Multi-view Geometry Correction Tool, Multi-view Color Correction Tool and Multi-view Depth Correction Tool. This software has improved the performance of entire multi-view correction process. This tool is a stand-alone program using Qt. For further questions or the full version tool, please contact Bumki Kim(bumkikim_at_kaist.ac.kr).",
       "additional" : "Binary : DirectFacialRetargeting_distribute.zip\nType : Autodesk Maya Python Script\nVersion : Maya 2014 or higher\nPlatform : Microsoft Windows 7, 8, 10\n\n",
       "img" : "Downloads/2015_Direct%20facial%20retargeting%20tool/Direct%20facial%20retargeting%20tool.png",
-      "file" : "Downloads/2015_Direct facial retargeting tool/Direct facial retargeting tool.zip",
+      "file" : "Downloads/2015_Direct%20facial%20retargeting%20tool/Direct%20facial%20retargeting%20tool.zip",
       "link" : ""
     },
     {
@@ -6172,7 +6138,7 @@ export const GoogleData =
       "desc" : "Multi-view player plays multi-view content that is created by our lab's unique multi-view video format. The player not only plays the loaded videos but also creates inter-view videos based on the information saved in the file format. For further questions, please contact Kyehyun Kim(frodos_at_kaist.ac.kr).",
       "additional" : "Binary : MULVW_Correction_v3.zip\r\nType : Standalone\r\nVersion : NA\r\nPlatform : Microsoft Windows 8, 10",
       "img" : "Downloads/2016_Multi-vew%20Correction%20Tool%20v3/Multi-vew%20Correction%20Tool%20v3.jpg",
-      "file" : "Downloads/2016_Multi-vew Correction Tool v3/Multi-vew Correction Tool v3.zip",
+      "file" : "Downloads/2016_Multi-vew%20Correction%20Tool%20v3/Multi-vew%20Correction%20Tool%20v3.zip",
       "link" : ""
     },
     {
@@ -6183,7 +6149,7 @@ export const GoogleData =
       "desc" : "Dataset consisting of input/output data and camera parameters used for stitching results in Rich360: Optimized Spherical Representation from Structured Panoramic Camera Arrays",
       "additional" : "\r\nBinary : vmMVPlayer_exe.zip\r\nType : Standalone\r\nVersion : NA\r\nPlatform : Microsoft Windows 8, 10",
       "img" : "Downloads/2016_Multi-view%20player/Multi-view%20player.png",
-      "file" : "Downloads/2016_Multi-view player/Multi-view player.zip",
+      "file" : "Downloads/2016_Multi-view%20player/Multi-view%20player.zip",
       "link" : ""
     },
     {
@@ -6195,7 +6161,7 @@ export const GoogleData =
       "additional" : "Input: set of input images for each camera (JPG sequence)\r\nOutput: stitching results from Rich360 (the equirectangular projection with linear blending, non-uniform ray sampling was not applied.)\r\nCamParams.txt: 3D calibration data of all cameras.",
       "img" : "",
       "file" : "",
-      "link" : "/main/international/individual/17"
+      "link" : "publicate/17"
     },
     {
       "id" : 75,
@@ -6205,7 +6171,7 @@ export const GoogleData =
       "desc" : "\r\nThis software recognizes the gesture of multiple users. Basically, the recognizer classifies the pose of each user through the Support Vector Machine(SVM). Motions are registered in advance as a sequence of poses. If a pose sequence is matched with registered motion, the recognizer returns the motion as a retrieved result. In this version, 4 poses are registered(Rest, Ready, Left zap, Right zap), so that this software is able to recognize simple “Zap” motion of boxing. For further questions, please contact Hyunggoog Seo (hyunggoog.seo_at_kaist.ac.kr).",
       "additional" : "Binary : recognizer_module_exe.zip\r\nType : Standalone\r\nVersion : NA\r\nPlatform : Microsoft Windows 8, 10, Kinect SDK 2.0 required",
       "img" : "Downloads/2017_Group%20motion%20recognizer%20-%20lite/Group%20motion%20recognizer%20-%20lite.png",
-      "file" : "Downloads/2017_Group motion recognizer - lite/Group motion recognizer - lite.zip",
+      "file" : "Downloads/2017_Group%20motion%20recognizer%20-%20lite/Group%20motion%20recognizer%20-%20lite.zip",
       "link" : ""
     },
     {
@@ -6224,6 +6190,7 @@ export const GoogleData =
     {
       "id" : 1,
       "name" : "Ministry of Culture, Sports and Tourism",
+      "name_kor" : "문화체육관광부",
       "mou" : 1,
       "type" : "Government",
       "logo" : "Partners/logo/Government_1.png",
@@ -6232,6 +6199,7 @@ export const GoogleData =
     {
       "id" : 2,
       "name" : "KOCCA (Korea Creative Content Agency)",
+      "name_kor" : "한국콘텐츠진흥원",
       "mou" : 1,
       "type" : "Government",
       "logo" : "Partners/logo/Government_2.png",
@@ -6240,6 +6208,7 @@ export const GoogleData =
     {
       "id" : 3,
       "name" : "Chungcheongnam-Do",
+      "name_kor" : "충청남도",
       "mou" : 1,
       "type" : "Government",
       "logo" : "Partners/logo/Government_3.png",
@@ -6248,6 +6217,7 @@ export const GoogleData =
     {
       "id" : 4,
       "name" : "DICA (Daejeon Information & Culture Industry Promotion Agency)",
+      "name_kor" : "대전정보문화산업진흥원",
       "mou" : 1,
       "type" : "Government",
       "logo" : "Partners/logo/Government_4.png",
@@ -6256,6 +6226,7 @@ export const GoogleData =
     {
       "id" : 5,
       "name" : "ETRI (Electronics and Telecommunications Research Institute)",
+      "name_kor" : "한국전자통신연구원",
       "mou" : 1,
       "type" : "Institutions",
       "logo" : "Partners/logo/Institutions_1.png",
@@ -6264,22 +6235,25 @@ export const GoogleData =
     {
       "id" : 6,
       "name" : "SK Telecom",
+      "name_kor" : "SK텔레콤㈜",
       "mou" : 1,
       "type" : "Institutions",
       "logo" : "Partners/logo/Institutions_2.png",
-      "link" : "http://www.sktelecom.com/index_real.html"
+      "link" : "http://www.sktelecom.com/en/index_real.html"
     },
     {
       "id" : 7,
       "name" : "CJ",
+      "name_kor" : "씨제이(주)",
       "mou" : 1,
       "type" : "Institutions",
       "logo" : "Partners/logo/Institutions_3.png",
-      "link" : "http://http://english.cj.net/"
+      "link" : "http://english.cj.net/"
     },
     {
       "id" : 8,
       "name" : "UHA (University of Haute-Alsace, France)",
+      "name_kor" : "프랑스, 오트알자스 대학교",
       "mou" : 1,
       "type" : "Academies",
       "logo" : "Partners/logo/Academies_1.png",
@@ -6288,6 +6262,7 @@ export const GoogleData =
     {
       "id" : 9,
       "name" : "Dept. Multimedia, Namseoul University, Korea",
+      "name_kor" : "남서울대학교",
       "mou" : 1,
       "type" : "Academies",
       "logo" : "Partners/logo/Academies_2.png",
@@ -6296,6 +6271,7 @@ export const GoogleData =
     {
       "id" : 10,
       "name" : "Bielefeld University, Germany",
+      "name_kor" : "독일, 필레펠트 대학교",
       "mou" : 1,
       "type" : "Academies",
       "logo" : "Partners/logo/Academies_3.png",
@@ -6304,6 +6280,7 @@ export const GoogleData =
     {
       "id" : 11,
       "name" : "WETA Digital",
+      "name_kor" : "웨타 디지털",
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_1.png",
@@ -6312,6 +6289,7 @@ export const GoogleData =
     {
       "id" : 12,
       "name" : "GearRobot",
+      "name_kor" : "",
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_2.png",
@@ -6320,6 +6298,7 @@ export const GoogleData =
     {
       "id" : 13,
       "name" : "AR Vision",
+      "name_kor" : "에이알비전(주)",
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_3.png",
@@ -6328,6 +6307,7 @@ export const GoogleData =
     {
       "id" : 14,
       "name" : "Dreamsearch C&C",
+      "name_kor" : "드림써치 C&C",
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_4.png",
@@ -6336,6 +6316,7 @@ export const GoogleData =
     {
       "id" : 15,
       "name" : "SBS",
+      "name_kor" : "",
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_5.png",
@@ -6344,6 +6325,7 @@ export const GoogleData =
     {
       "id" : 16,
       "name" : "KAI Inc.",
+      "name_kor" : "",
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_6.png",
@@ -6352,6 +6334,7 @@ export const GoogleData =
     {
       "id" : 17,
       "name" : "Macrograph",
+      "name_kor" : "",
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_7.png",
@@ -6360,6 +6343,7 @@ export const GoogleData =
     {
       "id" : 18,
       "name" : "Olive Studio",
+      "name_kor" : "",
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_8.png",
@@ -6368,6 +6352,7 @@ export const GoogleData =
     {
       "id" : 19,
       "name" : "Digital Idea",
+      "name_kor" : "",
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_9.png",
@@ -6376,6 +6361,7 @@ export const GoogleData =
     {
       "id" : 20,
       "name" : "OLM Digital",
+      "name_kor" : "",
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_10.png",
@@ -6384,6 +6370,7 @@ export const GoogleData =
     {
       "id" : 21,
       "name" : "IITP (Institute for Information & communications Technology Promotion)",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "Government",
       "logo" : "Partners/logo/Funding_1.png",
@@ -6392,6 +6379,7 @@ export const GoogleData =
     {
       "id" : 22,
       "name" : "Samsung",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6400,6 +6388,7 @@ export const GoogleData =
     {
       "id" : 23,
       "name" : "KAIST",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6408,6 +6397,7 @@ export const GoogleData =
     {
       "id" : 24,
       "name" : "POSTECH",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6416,6 +6406,7 @@ export const GoogleData =
     {
       "id" : 25,
       "name" : "Seoul Institute of the Arts",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6424,6 +6415,7 @@ export const GoogleData =
     {
       "id" : 26,
       "name" : "Pinscreen",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6432,6 +6424,7 @@ export const GoogleData =
     {
       "id" : 27,
       "name" : "38c Animation Studio",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6440,6 +6433,7 @@ export const GoogleData =
     {
       "id" : 28,
       "name" : "CJ E&M",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6448,6 +6442,7 @@ export const GoogleData =
     {
       "id" : 29,
       "name" : "Spheregram",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6456,6 +6451,7 @@ export const GoogleData =
     {
       "id" : 30,
       "name" : "Motif Imagenary",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6464,6 +6460,7 @@ export const GoogleData =
     {
       "id" : 31,
       "name" : "Ohio State University",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6472,6 +6469,7 @@ export const GoogleData =
     {
       "id" : 32,
       "name" : "Dexter Digital",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6480,6 +6478,7 @@ export const GoogleData =
     {
       "id" : 33,
       "name" : "Scanline VFX",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6488,6 +6487,7 @@ export const GoogleData =
     {
       "id" : 34,
       "name" : "Method Studios",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6496,6 +6496,7 @@ export const GoogleData =
     {
       "id" : 35,
       "name" : "SK Planet",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6504,6 +6505,7 @@ export const GoogleData =
     {
       "id" : 36,
       "name" : "LG",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6512,6 +6514,7 @@ export const GoogleData =
     {
       "id" : 37,
       "name" : "National Cancer Center",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6520,6 +6523,7 @@ export const GoogleData =
     {
       "id" : 38,
       "name" : "Handong University",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6528,6 +6532,7 @@ export const GoogleData =
     {
       "id" : 39,
       "name" : "Daejeon University",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6536,6 +6541,7 @@ export const GoogleData =
     {
       "id" : 40,
       "name" : "University of Haute-Alsace",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6544,6 +6550,7 @@ export const GoogleData =
     {
       "id" : 41,
       "name" : "Tianjin University",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6552,6 +6559,7 @@ export const GoogleData =
     {
       "id" : 42,
       "name" : "Soongsil University",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6560,6 +6568,7 @@ export const GoogleData =
     {
       "id" : 43,
       "name" : "Yeungnam University",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6568,6 +6577,7 @@ export const GoogleData =
     {
       "id" : 44,
       "name" : "Dongseo University",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6576,6 +6586,7 @@ export const GoogleData =
     {
       "id" : 45,
       "name" : "Studio Gale",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6584,6 +6595,7 @@ export const GoogleData =
     {
       "id" : 46,
       "name" : "Sungshin Women's University",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6592,6 +6604,7 @@ export const GoogleData =
     {
       "id" : 47,
       "name" : "University Bielefeld",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -6600,6 +6613,7 @@ export const GoogleData =
     {
       "id" : 48,
       "name" : "KBS",
+      "name_kor" : "",
       "mou" : 0,
       "type" : "",
       "logo" : "",
@@ -9603,6 +9617,19 @@ export const GoogleData =
       "img_original" : "",
       "source" : "YTN Science",
       "sourcelink" : "http://science.ytn.co.kr/program/program_view.php?s_mcd=0082&key=201610121609259786&s_hcd="
+    },
+    {
+      "id" : 141,
+      "type" : "news",
+      "title" : "March 6, 2017",
+      "year" : 2017,
+      "month" : 4,
+      "day" : 7,
+      "desc" : "Korean Tourism Information (KTO):http://kto.visitkorea.or.kr/kor.kto The head of Dejeon branch of Korean Tourism Information visited VML.  We demonstrated ScreenX and Immerspin.",
+      "img" : "Issues/img/news_20170306.png",
+      "img_original" : "Issues/img/news_20170306_original.JPG",
+      "source" : "",
+      "sourcelink" : ""
     }
   ],
   "teams" : [
@@ -9611,13 +9638,13 @@ export const GoogleData =
       "type" : "research",
       "shortname" : "Character",
       "fullname" : "character",
-      "img" : "ResearchArea/img/RA_Character.png",
+      "img" : "ResearchArea/RA_Character.png",
       "area" : [
         "Human Computer Iteration",
         "Image Processing",
         "Physically-based Simulation"
       ],
-      "desc" : "blah blash",
+      "desc" : "Strong characters, with their emotions and demeanours, are key elements in conveying compelling stories. The Character team aims to develop art-directable production friendly techniques to breathe life and presence into digital characters. Our research currently addresses the automatic setup of digital characters, efficient animation/deformation and motion editing",
       "publications" : [
         1,
         2,
@@ -9633,13 +9660,13 @@ export const GoogleData =
       "type" : "research",
       "shortname" : "EVE",
       "fullname" : "enhanced visual experience",
-      "img" : "ResearchArea/img/RA_EVE.png",
+      "img" : "ResearchArea/RA_EVE.png",
       "area" : [
         "Human Computer Iteration",
         "Image Processing",
         "Physically-based Simulation"
       ],
-      "desc" : "blah blash",
+      "desc" : "Technology such as stereoscopy, multi-view and multi-projection extends the visual experience over the boundaries of conventional screens giving more immersive environment to viewers. We develop techniques that provide the viewers with immersive experiences in a new visual media environment. Currently our research covers areas such as 2D to 3D conversion, stereoscopic manipulation, stereoscopic rendering, multi-projector calibration, production methods, multi-projection ready theatres. Technology such as stereoscopy, multi-view and multi-projection extends the visual experience over the boundaries of conventional screens giving more immersive environment to viewers. We develop techniques that provide the viewers with immersive experiences in a new visual media environment. Currently our research covers areas such as 2D to 3D conversion, stereoscopic manipulation, stereoscopic rendering, multi-projector calibration, production methods, multi-projection ready theatres. ",
       "publications" : [
         1,
         2,
@@ -9655,13 +9682,13 @@ export const GoogleData =
       "type" : "research",
       "shortname" : "CFL2",
       "fullname" : "computing for lazy life",
-      "img" : "ResearchArea/img/RA_CFL2.png",
+      "img" : "ResearchArea/RA_CFL2.png",
       "area" : [
         "Human Computer Iteration",
         "Image Processing",
         "Physically-based Simulation"
       ],
-      "desc" : "blah blash",
+      "desc" : "CFL2 stands for Computing For Lazy Life. Lazy life in this term denotes comfortable life obtained from technology. We develop interactive techniques to enrich user experiences, especially through computer graphics and vision technology. Our current research addresses modeling an immersive home entertainment environment through video analysis, 3D geometry reconstruction, new paradigm visualization, and exploration of unique hardware setups that work with human sensing-based interaction.",
       "publications" : [
         1,
         2,
@@ -10554,6 +10581,22 @@ export const GoogleData =
     }
   ],
   "FolderStructure" : [
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
     {
     },
     {

@@ -89,7 +89,7 @@
         </div>
         <div class="card-deck-wrapper col-sm-12">
           <div class="card-deck">
-            <div (click)='navigateTo(team.id)' *ngFor="let team of teams" class="card pad">
+            <div (click)='navigateTo(team.id)' *ngFor="let team of teams" class="card pad card-area">
 
               <img class="img-fluid card-img-top" default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + team.img">
               <div class="card-block">
@@ -110,7 +110,7 @@
           </div>
 
           <div class="card-columns">
-            <div *ngFor="let pub of publications" class="card issueCard">
+            <div (click)='navigateTo(pub.id, 1)' *ngFor="let pub of publications" class="card issueCard pad">
               <img class="news-img card-img-top img-fluid" default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + pub.img">
               <div class="card-block">
                 <h4 class="card-title">{{pub.title}}</h4>

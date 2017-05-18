@@ -38,7 +38,7 @@ export class MainSidebarComponent {
         },
         { 
           url: "sponsership",
-          data: "Sponser",
+          data: "Sponsership",
           innerLink: []
         }
       ]
@@ -108,17 +108,17 @@ export class MainSidebarComponent {
         },
         { 
           url: "international",
-          data: "Publications",
+          data: "Publications (Intl.)",
           innerLink: ["2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006"]
         },
         { 
           url: "domestic",
-          data: "Publications(Domestic)",
+          data: "Publications (Domestic)",
           innerLink: ["2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006"]
         },
         { 
           url: "thesis",
-          data: "Thesis",
+          data: "Theses",
           innerLink: ["2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006"]
         }
       ]
@@ -133,7 +133,7 @@ export class MainSidebarComponent {
         },
         { 
           url: "media",
-          data: "Media Report",
+          data: "Media Reports",
           innerLink: ["2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006"]
         },
         { 
@@ -147,13 +147,13 @@ export class MainSidebarComponent {
       firstLink: ["archive", "Archive", []],
       secondLink: [
         { 
-          url: "downloads",
-          data: "Downloads",
+          url: "seminar",
+          data: "Weekly Seminars",
           innerLink: ["2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006"]
         },
         { 
-          url: "seminar",
-          data: "Seminar",
+          url: "downloads",
+          data: "Downloads",
           innerLink: ["2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006"]
         }
       ]

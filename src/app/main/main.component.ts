@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   // selector: 'app-main', // you dont need this
@@ -11,11 +12,17 @@ export class MainComponent implements OnInit {
   public sidebarState:boolean = false; //default is false
   public isMouseOnSidebar:boolean;
   
-  constructor() { 
+  constructor(private router:Router) { 
   }
 
 
   ngOnInit() {
+         this.router.events.subscribe((evt) => {
+            if (!(evt instanceof NavigationEnd)) {
+                return;
+            }
+            window.scrollTo(0, 0)
+        });
   }
 
   onClicked(event) {

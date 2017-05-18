@@ -62,11 +62,11 @@ import { NgModule } from '@angular/core';
                 },
                 {   path: 'area', 
                     component: ResearchAreaComponent, 
-                    data: { breadcrumb: "Research Area" },
+                    data: { breadcrumb: "Research Areas" },
                     pathMatch: 'full'
                 },
                 {   path: 'area', 
-                    data: { breadcrumb: "Research Area" }, 
+                    data: { breadcrumb: "Research Areas" }, 
                     children: [
                         {   path: 'teams/:id', 
                             component: ResearchAreaIndividualComponent,
@@ -89,10 +89,10 @@ import { NgModule } from '@angular/core';
                 },
                 {   path: 'international', 
                     component: ResearchPublicateComponent, 
-                    data: { breadcrumb: "Publications" }
+                    data: { breadcrumb: "Publications (Intl.)" }
                 },
                 {   path: 'international', 
-                    data: { breadcrumb: "Publications" }, 
+                    data: { breadcrumb: "Publications (Intl.)" }, 
                     children: [
                         {   path: 'individual/:id', 
                             component: ResearchPublicateIndividualComponent,
@@ -102,10 +102,10 @@ import { NgModule } from '@angular/core';
                 },
                 {   path: 'domestic', 
                     component: ResearchPublicateKrComponent, 
-                    data: { breadcrumb: "Domestic" }
+                    data: { breadcrumb: "Publications (Domestic)" }
                 },
                 {   path: 'domestic', 
-                    data: { breadcrumb: "Domestic" }, 
+                    data: { breadcrumb: "Publications (Domestic)" }, 
                     children: [
                         {   path: 'individual/:id', 
                             component: ResearchPublicateIndividualComponent,
@@ -115,10 +115,10 @@ import { NgModule } from '@angular/core';
                 },
                 {   path: 'thesis', 
                     component: ResearchThesisComponent, 
-                    data: { breadcrumb: "Thesis" }
+                    data: { breadcrumb: "Theses" }
                 },
                 {   path: 'thesis', 
-                    data: { breadcrumb: "Thesis" }, 
+                    data: { breadcrumb: "Theses" }, 
                     children: [
                         {   path: 'individual/:id', 
                             component: ResearchPublicateIndividualComponent,
@@ -128,15 +128,15 @@ import { NgModule } from '@angular/core';
                 },
                 {   path: 'news', 
                     component: IssuesNewsComponent,
-                    data: { breadcrumb: "Our News" }
+                    data: { breadcrumb: "News" }
                 },
                 {   path: 'media', 
                     component: IssuesMediaComponent, 
-                    data: { breadcrumb: "In Media" }
+                    data: { breadcrumb: "Media" }
                 },
                 {   path: 'life', 
                     component: IssuesLifeComponent, 
-                    data: { breadcrumb: "Our Daily Life" }
+                    data: { breadcrumb: "VML Life" }
                 },
                 {   path: 'downloads', 
                     component: ArchiveDownloadsComponent, 
@@ -145,7 +145,7 @@ import { NgModule } from '@angular/core';
                 },
                 {   path: 'seminar', 
                     component: ArchiveSeminarComponent, 
-                    data: { breadcrumb: "Seminar" },
+                    data: { breadcrumb: "Weekly Seminars" },
                     pathMatch: 'full'
                 },
                 {   path: 'search/:id', 
