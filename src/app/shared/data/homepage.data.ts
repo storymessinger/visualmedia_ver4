@@ -9638,7 +9638,7 @@ export const GoogleData =
       "type" : "research",
       "shortname" : "Character",
       "fullname" : "character",
-      "img" : "ResearchArea/RA_Character.png",
+      "img" : "ResearchArea/img/RA_Character.png",
       "area" : [
         "Human Computer Iteration",
         "Image Processing",
@@ -9660,7 +9660,7 @@ export const GoogleData =
       "type" : "research",
       "shortname" : "EVE",
       "fullname" : "enhanced visual experience",
-      "img" : "ResearchArea/RA_EVE.png",
+      "img" : "ResearchArea/img/RA_EVE.png",
       "area" : [
         "Human Computer Iteration",
         "Image Processing",
@@ -9682,7 +9682,7 @@ export const GoogleData =
       "type" : "research",
       "shortname" : "CFL2",
       "fullname" : "computing for lazy life",
-      "img" : "ResearchArea/RA_CFL2.png",
+      "img" : "ResearchArea/img/RA_CFL2.png",
       "area" : [
         "Human Computer Iteration",
         "Image Processing",
