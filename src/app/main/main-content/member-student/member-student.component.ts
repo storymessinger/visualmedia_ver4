@@ -53,13 +53,6 @@ export class MemberStudentComponent implements OnInit, OnDestroy {
       this.subscription.unsubscribe();
   }
 
-
-  changeSrc(event) {
-    console.log('working');
-    console.log(event);
-
-  }
-
   routing(id) {
     this.router.navigate(['/main/people/person', id])
   }

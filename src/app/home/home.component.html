@@ -66,6 +66,7 @@
 
         <video autoplay loop muted id="video-bg">
           <source src="./assets/imgs/video_ScreenX.mp4" type="video/mp4" />
+          <img src="/assets/imgs/home_mainImg.jpg">
         </video>
 
         <div class="title text-center">
@@ -84,18 +85,18 @@
 
         <div class="Heading col-sm-12 text-center" scrollSpy>
           <h1>Reseach Area</h1>
-          <p>The main research area includes motion and facial animation of virtual chararcter, immersive display system and
+          <p class="section-desc" >The main research area includes motion and facial animation of virtual chararcter, immersive display system and
             human interaction system</p>
         </div>
         <div class="card-deck-wrapper col-sm-12">
           <div class="card-deck">
-            <div (click)='navigateTo(team.id)' *ngFor="let team of teams" class="card pad card-area">
+            <div (click)='navigateTo(team.id)' *ngFor="let team of teams" class="card pad card-area width300">
 
               <img class="img-fluid card-img-top" default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + team.img">
               <div class="card-block">
                 <h4 class="card-title">{{team.shortname}}</h4>
-                <p class="card-text">{{team.desc}}</p>
-                <p class="card-text"><small class="text-muted">{{team.fullname}}</small></p>
+                <p class="card-text">{{team.fullname}}</p>
+                <p class="card-text"><small class="text-muted">{{team.area}}</small></p>
               </div>
             </div>
           </div>
@@ -105,11 +106,12 @@
         <div class="col-sm-12 news">
           <div class="Heading text-center col-sm-12">
             <h1>Recent Publications</h1>
-            <p>The main research area includes motion and facial animation of virtual chararcter, immersive display system and
+            <p class="section-desc" >The main research area includes motion and facial animation of virtual chararcter, immersive display system and
               human interaction system</p>
           </div>
 
-          <div class="card-columns">
+          <div class="">
+
             <div (click)='navigateTo(pub.id, 1)' *ngFor="let pub of publications" class="card issueCard pad">
               <img class="news-img card-img-top img-fluid" default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + pub.img">
               <div class="card-block">
@@ -118,13 +120,14 @@
                 <p class="card-text"><small class="text-muted">{{pub.year}}</small></p>
               </div>
             </div>
+
           </div>
         </div>
 
         <div class="col-sm-12 news">
           <div class="Heading text-center col-sm-12">
             <h1>Recent News and Media</h1>
-            <p>Recent news related to Visual Media Lab</p>
+            <p class="section-desc" >Recent news related to Visual Media Lab</p>
           </div>
 
           <div class="card-columns">
@@ -138,6 +141,25 @@
             </div>
           </div>
         </div>
+
+
+        <div class="col-sm-12 news">
+          <div class="Heading text-center col-sm-12">
+            <h1>Partners</h1>
+            <p class="section-desc">Partners with the Visual Media Lab</p>
+          </div>
+
+          <div class="partners-columns">
+            <div *ngFor="let partner of partners" class="partner-img-box">
+              <img class="partner-img" default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + partner.logo">
+            </div>
+          </div>
+
+        </div>
+
+
+
+
 </div>
 
 

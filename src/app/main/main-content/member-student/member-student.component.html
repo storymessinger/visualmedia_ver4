@@ -15,7 +15,8 @@
         <div *ngFor="let person of datas.professor " class="people-box col-sm-12 col-md-6 col-lg-4">
           <div class="people-img">
             <div (click)="routing(person.id)" class="people-img-box">
-              <img (mouseover)="changeSrc($event)" (mouseout)="changeSrc($event)" default="./assets/imgs/default_person.png" [srcset]=" imgPath + person.img">
+
+              <img default="./assets/imgs/default_person.png" [srcset]=" imgPath + person.img">
               <img default="./assets/imgs/default_person.png" [srcset]=" imgPath + 'People/img/prof_hover.png'" class="prof_hover">
               
               <!--<a md-fab [routerLink]="[ '/main/people/person/', person.id ]" ><md-icon>add</md-icon></a>-->

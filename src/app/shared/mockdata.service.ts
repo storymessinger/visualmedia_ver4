@@ -20,6 +20,7 @@ export class MockDataService {
   public projects_individual:any; 
   public projects_individual_related:any;
   public partners:any;
+  public main_partners:any;
   public seminars:any;
   public researchArea:any;
   public researchArea_all:any;
@@ -27,6 +28,8 @@ export class MockDataService {
   public search_projects:any;
   public search_publications:any;
   public sponser:any;
+
+  public redirect:any = GoogleData.redirect;
 
   constructor() { }
 
@@ -337,8 +340,15 @@ export class MockDataService {
     }
   }
 
-  getPartners() {
+  getPartners(main = false) {
     this.partners = _.groupBy(GoogleData.partners.filter( par => par.mou == 1 ), 'type');
+    if (main == true) {
+      this.partners = GoogleData.partners.filter( par => par.mou ==1 );
+
+      this.main_partners = this.partners.filter( partner => {
+        return partner.main == 1;
+      })
+    }
   }
 
   dateSort_descend(input) {

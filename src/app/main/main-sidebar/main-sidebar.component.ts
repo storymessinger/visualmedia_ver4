@@ -37,8 +37,8 @@ export class MainSidebarComponent {
           innerLink: []
         },
         { 
-          url: "sponsership",
-          data: "Sponsership",
+          url: "sponsorship",
+          data: "Sponsorship",
           innerLink: []
         }
       ]

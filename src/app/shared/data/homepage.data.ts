@@ -1,5 +1,4 @@
 export const GoogleData = 
-
 {
   "people" : [
     {
@@ -6194,7 +6193,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Government",
       "logo" : "Partners/logo/Government_1.png",
-      "link" : "http://www.mcst.go.kr/main.jsp"
+      "link" : "http://www.mcst.go.kr/main.jsp",
+      "main" : 1
     },
     {
       "id" : 2,
@@ -6203,7 +6203,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Government",
       "logo" : "Partners/logo/Government_2.png",
-      "link" : "http://www.kocca.kr/cop/main.do"
+      "link" : "http://www.kocca.kr/cop/main.do",
+      "main" : 1
     },
     {
       "id" : 3,
@@ -6212,7 +6213,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Government",
       "logo" : "Partners/logo/Government_3.png",
-      "link" : "http://http://www.chungnam.go.kr/"
+      "link" : "http://http://www.chungnam.go.kr/",
+      "main" : ""
     },
     {
       "id" : 4,
@@ -6221,7 +6223,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Government",
       "logo" : "Partners/logo/Government_4.png",
-      "link" : "http://dicia.or.kr"
+      "link" : "http://dicia.or.kr",
+      "main" : ""
     },
     {
       "id" : 5,
@@ -6230,7 +6233,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Institutions",
       "logo" : "Partners/logo/Institutions_1.png",
-      "link" : "https://www.etri.re.kr/eng/main/main.etri"
+      "link" : "https://www.etri.re.kr/eng/main/main.etri",
+      "main" : ""
     },
     {
       "id" : 6,
@@ -6239,7 +6243,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Institutions",
       "logo" : "Partners/logo/Institutions_2.png",
-      "link" : "http://www.sktelecom.com/en/index_real.html"
+      "link" : "http://www.sktelecom.com/en/index_real.html",
+      "main" : ""
     },
     {
       "id" : 7,
@@ -6248,7 +6253,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Institutions",
       "logo" : "Partners/logo/Institutions_3.png",
-      "link" : "http://english.cj.net/"
+      "link" : "http://english.cj.net/",
+      "main" : ""
     },
     {
       "id" : 8,
@@ -6257,7 +6263,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Academies",
       "logo" : "Partners/logo/Academies_1.png",
-      "link" : "http://www.uha.fr"
+      "link" : "http://www.uha.fr",
+      "main" : ""
     },
     {
       "id" : 9,
@@ -6266,7 +6273,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Academies",
       "logo" : "Partners/logo/Academies_2.png",
-      "link" : "http://nsu.ac.kr"
+      "link" : "http://nsu.ac.kr",
+      "main" : ""
     },
     {
       "id" : 10,
@@ -6275,7 +6283,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Academies",
       "logo" : "Partners/logo/Academies_3.png",
-      "link" : "http://graphics.uni-bielefeld.de/"
+      "link" : "http://graphics.uni-bielefeld.de/",
+      "main" : ""
     },
     {
       "id" : 11,
@@ -6284,7 +6293,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_1.png",
-      "link" : "http://www.wetafx.co.nz/"
+      "link" : "http://www.wetafx.co.nz/",
+      "main" : ""
     },
     {
       "id" : 12,
@@ -6293,7 +6303,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_2.png",
-      "link" : "http://www.gearrobot.com/"
+      "link" : "http://www.gearrobot.com/",
+      "main" : ""
     },
     {
       "id" : 13,
@@ -6302,7 +6313,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_3.png",
-      "link" : "http://www.ar-vision.com/"
+      "link" : "http://www.ar-vision.com/",
+      "main" : ""
     },
     {
       "id" : 14,
@@ -6311,7 +6323,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_4.png",
-      "link" : "http://www.dreamsearchcnc.com/"
+      "link" : "http://www.dreamsearchcnc.com/",
+      "main" : ""
     },
     {
       "id" : 15,
@@ -6320,7 +6333,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_5.png",
-      "link" : "http://www.sbs.co.kr/"
+      "link" : "http://www.sbs.co.kr/",
+      "main" : ""
     },
     {
       "id" : 16,
@@ -6329,7 +6343,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_6.png",
-      "link" : "http://www.kaistudio.co.kr/"
+      "link" : "http://www.kaistudio.co.kr/",
+      "main" : ""
     },
     {
       "id" : 17,
@@ -6338,7 +6353,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_7.png",
-      "link" : "http://www.macrograph.co.kr/"
+      "link" : "http://www.macrograph.co.kr/",
+      "main" : ""
     },
     {
       "id" : 18,
@@ -6347,7 +6363,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_8.png",
-      "link" : "http://www.olivestudio.co.kr/"
+      "link" : "http://www.olivestudio.co.kr/",
+      "main" : ""
     },
     {
       "id" : 19,
@@ -6356,7 +6373,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_9.png",
-      "link" : "http://www.digitalidea.co.kr/main"
+      "link" : "http://www.digitalidea.co.kr/main",
+      "main" : ""
     },
     {
       "id" : 20,
@@ -6365,7 +6383,8 @@ export const GoogleData =
       "mou" : 1,
       "type" : "Productions",
       "logo" : "Partners/logo/Productions_10.png",
-      "link" : "http://olm.co.jp/?lang=en"
+      "link" : "http://olm.co.jp/?lang=en",
+      "main" : ""
     },
     {
       "id" : 21,
@@ -6374,7 +6393,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "Government",
       "logo" : "Partners/logo/Funding_1.png",
-      "link" : "https://www.iitp.kr/main.it"
+      "link" : "https://www.iitp.kr/main.it",
+      "main" : ""
     },
     {
       "id" : 22,
@@ -6383,7 +6403,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 23,
@@ -6392,7 +6413,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 24,
@@ -6401,7 +6423,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 25,
@@ -6410,7 +6433,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 26,
@@ -6419,7 +6443,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 27,
@@ -6428,7 +6453,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 28,
@@ -6437,7 +6463,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 29,
@@ -6446,7 +6473,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 30,
@@ -6455,7 +6483,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 31,
@@ -6464,7 +6493,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 32,
@@ -6473,7 +6503,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 33,
@@ -6482,7 +6513,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 34,
@@ -6491,7 +6523,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 35,
@@ -6500,7 +6533,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 36,
@@ -6509,7 +6543,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 37,
@@ -6518,7 +6553,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 38,
@@ -6527,7 +6563,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 39,
@@ -6536,7 +6573,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 40,
@@ -6545,7 +6583,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 41,
@@ -6554,7 +6593,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 42,
@@ -6563,7 +6603,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 43,
@@ -6572,7 +6613,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 44,
@@ -6581,7 +6623,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 45,
@@ -6590,7 +6633,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 46,
@@ -6599,7 +6643,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 47,
@@ -6608,7 +6653,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     },
     {
       "id" : 48,
@@ -6617,7 +6663,8 @@ export const GoogleData =
       "mou" : 0,
       "type" : "",
       "logo" : "",
-      "link" : ""
+      "link" : "",
+      "main" : ""
     }
   ],
   "seminars" : [
@@ -10578,6 +10625,925 @@ export const GoogleData =
       "image2" : "Lifes/img/2017_Graduation%202017/02.jpg",
       "image3" : "Lifes/img/2017_Graduation%202017/03.jpg",
       "image4" : "Lifes/img/2017_Graduation%202017/04.jpg"
+    }
+  ],
+  "redirect" : [
+    {
+      "id" : 1,
+      "type" : "publications_international",
+      "old" : "publication/journal/2017/2017JaewonSong_CGF.html",
+      "new" : "/main/international/individual/1",
+      "title" : "Sparse Rig Parameter Optimization for Character Animation"
+    },
+    {
+      "id" : 2,
+      "type" : "publications_international",
+      "old" : "publication/journal/2016/2016ByungkukChoi_TOG.html",
+      "new" : "/main/international/individual/2",
+      "title" : "SketchiMo: Sketch-based Motion Editing for Articulated Characters"
+    },
+    {
+      "id" : 3,
+      "type" : "publications_international",
+      "old" : "publication/journal/2016/2016JungjinLee_TOG.html",
+      "new" : "/main/international/individual/3",
+      "title" : "Rich360: Optimized Spherical Representation from Structured Panoramic Camera Arrays"
+    },
+    {
+      "id" : 4,
+      "type" : "publications_international",
+      "old" : "publication/journal/2016/2016DaseongHan_CASA.html",
+      "new" : "/main/international/individual/4",
+      "title" : "Online Real-time Locomotive Motion Transformation Based on Biomechanical Observations"
+    },
+    {
+      "id" : 5,
+      "type" : "publications_international",
+      "old" : "publication/journal/2016/2016JungjinLee_TVCG.html",
+      "new" : "/main/international/individual/5",
+      "title" : "ScreenX: Public Immersive Theatres with Uniform Movie Viewing Experiences"
+    },
+    {
+      "id" : 6,
+      "type" : "publications_international",
+      "old" : "publication/journal/2016/2016DaseongHan_CGF.html",
+      "new" : "/main/international/individual/6",
+      "title" : "Data-guided Model Predictive Control Based on Smoothed Contact Dynamics"
+    },
+    {
+      "id" : 7,
+      "type" : "publications_international",
+      "old" : "publication/journal/2015/2015SanghunPark_VIS.html",
+      "new" : "/main/international/individual/7",
+      "title" : "Auto-Calibration of Multi-Projector Displays with a Single Handheld Camera"
+    },
+    {
+      "id" : 8,
+      "type" : "publications_international",
+      "old" : "publication/journal/2015/2015SeungbaeBang_CGF.html",
+      "new" : "/main/international/individual/8",
+      "title" : "Interactive Rigging with Intuitive Tools"
+    },
+    {
+      "id" : 9,
+      "type" : "publications_international",
+      "old" : "publication/journal/2015/2015SeungbaeBang_CGF.html",
+      "new" : "/main/international/individual/9",
+      "title" : "Interactive Rigging with Intuitive Tools"
+    },
+    {
+      "id" : 10,
+      "type" : "publications_international",
+      "old" : "publication/journal/2015/2015Donghun_CGNA.html",
+      "new" : "/main/international/individual/10",
+      "title" : "On Simulating a Miscible Liquid Drop Settling in an Initially Still Surrounding Liquid for Mixing Pattern Generation"
+    },
+    {
+      "id" : 11,
+      "type" : "publications_international",
+      "old" : "publication/journal/2013/2013Taekwon_CASA.html",
+      "new" : "/main/international/individual/11",
+      "title" : "A Geometric Approach to Animating Thin Surface Features in Smoothed Particle Hydrodynamics Water"
+    },
+    {
+      "id" : 12,
+      "type" : "publications_international",
+      "old" : "publication/journal/2015/2015JungjinLee_TVCG.html",
+      "new" : "/main/international/individual/12",
+      "title" : "High-quality Depth Estimation Using an Exemplar 3D Model for Stereo Conversion"
+    },
+    {
+      "id" : 13,
+      "type" : "publications_international",
+      "old" : "publication/journal/2014/2014Haegwang_PG.html",
+      "new" : "/main/international/individual/13",
+      "title" : "Data-Driven Reconstruction of Human Locomotion Using a Single Smartphone"
+    },
+    {
+      "id" : 14,
+      "type" : "publications_international",
+      "old" : "publication/journal/2013/2013Bird_TOG.html",
+      "new" : "/main/international/individual/14",
+      "title" : "Data-driven Control of Flapping Flight"
+    },
+    {
+      "id" : 15,
+      "type" : "publications_international",
+      "old" : "publication/journal/2014/2014Haegwang_CGI.html",
+      "new" : "/main/international/individual/15",
+      "title" : "Data-Driven Motion Capture Using A Single Smartphone"
+    },
+    {
+      "id" : 16,
+      "type" : "publications_international",
+      "old" : "publication/journal/2014/2014Daseong_CGF.html",
+      "new" : "/main/international/individual/16",
+      "title" : "On-line Real-time Physics-based Predictive Motion Control with Balance Recovery"
+    },
+    {
+      "id" : 17,
+      "type" : "publications_international",
+      "old" : "publication/journal/2014/2014Shiguang_CAVW.html",
+      "new" : "/main/international/individual/17",
+      "title" : "Visual Fluid Animation via Lifting Wavelet Transform"
+    },
+    {
+      "id" : 18,
+      "type" : "publications_international",
+      "old" : "publication/journal/2014/2014Sangwoo_VC.html",
+      "new" : "/main/international/individual/18",
+      "title" : "Depth Manipulation using Disparity Histogram Analysis for Stereoscopic 3D"
+    },
+    {
+      "id" : 19,
+      "type" : "publications_international",
+      "old" : "publication/journal/2013/2013Taekwon_CASA.html",
+      "new" : "/main/international/individual/19",
+      "title" : "A Geometric Approach to Animating Thin Surface Features in SPH Water"
+    },
+    {
+      "id" : 20,
+      "type" : "publications_international",
+      "old" : "publication/journal/2013/2013Bird_TOG.html",
+      "new" : "/main/international/individual/20",
+      "title" : "Data-driven Control of Flapping Flight"
+    },
+    {
+      "id" : 21,
+      "type" : "publications_international",
+      "old" : "publication/journal/2013/2013Kyehyun_CGI.html",
+      "new" : "/main/international/individual/21",
+      "title" : "Depth Map Generation for Building Images"
+    },
+    {
+      "id" : 22,
+      "type" : "publications_international",
+      "old" : "publication/journal/2013/2013Sangwoo_CASA.html",
+      "new" : "/main/international/individual/22",
+      "title" : "Depth Manipulation using Disparity Histogram Analysis for Stereoscopic 3D"
+    },
+    {
+      "id" : 23,
+      "type" : "publications_international",
+      "old" : "publication/journal/2013/2013Hwiryong_CASA.html",
+      "new" : "/main/international/individual/23",
+      "title" : "Heterogeneous CPU-GPU Parallel Approach to a Multigrid Poisson Solver for Incompressible Fluid Simulation"
+    },
+    {
+      "id" : 24,
+      "type" : "publications_international",
+      "old" : "publication/journal/2013/2013Youmi_CASA.html",
+      "new" : "/main/international/individual/24",
+      "title" : "Realistic Paint Simulation based on Fluidity, Diffusion, and Absorption"
+    },
+    {
+      "id" : 25,
+      "type" : "publications_international",
+      "old" : "publication/journal/2012/2012Roger_PG.html",
+      "new" : "/main/international/individual/25",
+      "title" : "Video Panorama for 2D to 3D Conversion"
+    },
+    {
+      "id" : 26,
+      "type" : "publications_international",
+      "old" : "publication/journal/2012/2012Yeongho_TOG.html",
+      "new" : "/main/international/individual/26",
+      "title" : "Spacetime Expression Cloning for Blendshapes"
+    },
+    {
+      "id" : 27,
+      "type" : "publications_international",
+      "old" : "publication/journal/2012/2012Jihyung_CGI.html",
+      "new" : "/main/international/individual/27",
+      "title" : "A procedural flow generation method using coordinate transformation"
+    },
+    {
+      "id" : 28,
+      "type" : "publications_international",
+      "old" : "publication/journal/2012/2012Seunghoon_CGI.html",
+      "new" : "/main/international/individual/28",
+      "title" : "An Efficient Diffusion Model for Viscous Fingering"
+    },
+    {
+      "id" : 29,
+      "type" : "publications_international",
+      "old" : "publication/journal/2012/2012Taekwon_CGI.html",
+      "new" : "/main/international/individual/29",
+      "title" : "Simulating Water Turbulence in Particle Fluids"
+    },
+    {
+      "id" : 30,
+      "type" : "publications_international",
+      "old" : "publication/journal/2012/2012Yeongho_VC.html",
+      "new" : "/main/international/individual/30",
+      "title" : "Weighted Pose Space Editing for Facial Animation"
+    },
+    {
+      "id" : 31,
+      "type" : "publications_international",
+      "old" : "publication/journal/2011/2011Jaewoo_SIGASIA.html",
+      "new" : "/main/international/individual/31",
+      "title" : "Compression and Direct Manipulation of Complex Blendshape Models"
+    },
+    {
+      "id" : 32,
+      "type" : "publications_international",
+      "old" : "publication/journal/2011/2011Yeongho_SIGASIA.html",
+      "new" : "/main/international/individual/32",
+      "title" : "Artist Friendly Facial Animation Retargeting"
+    },
+    {
+      "id" : 33,
+      "type" : "publications_international",
+      "old" : "publication/journal/2011/2011Younghui_PG.html",
+      "new" : "/main/international/individual/33",
+      "title" : "A Single Image Representation Model for Efficient Stereoscopic Image Creation"
+    },
+    {
+      "id" : 34,
+      "type" : "publications_international",
+      "old" : "publication/journal/2011/2011Paul_PG.html",
+      "new" : "/main/international/individual/34",
+      "title" : "Facial Retargeting by Adding Supplemental Blendshapes"
+    },
+    {
+      "id" : 35,
+      "type" : "publications_international",
+      "old" : "publication/journal/2011/2011Yeongho_CGI.html",
+      "new" : "/main/international/individual/35",
+      "title" : "Pose Space Editing of Blendshape Based Facial Animation"
+    },
+    {
+      "id" : 36,
+      "type" : "publications_international",
+      "old" : "publication/journal/2011/2011Soyoung_CGI.html",
+      "new" : "/main/international/individual/36",
+      "title" : "Disparity Graph Editing for Stereoscopic Contents Creation"
+    },
+    {
+      "id" : 37,
+      "type" : "publications_international",
+      "old" : "publication/journal/2011/2011Jinhyuk_CASA.html",
+      "new" : "/main/international/individual/37",
+      "title" : "Multilinear Fluid Simulation with Model Reduction for Pressure Projection"
+    },
+    {
+      "id" : 38,
+      "type" : "publications_international",
+      "old" : "publication/journal/2010/2010Jinho_CGF.html",
+      "new" : "/main/international/individual/38",
+      "title" : "A Smoke Visualization Model for Capturing Surface-like Features"
+    },
+    {
+      "id" : 39,
+      "type" : "publications_international",
+      "old" : "publication/journal/2011/2011_Taekwon_VR.html",
+      "new" : "/main/international/individual/39",
+      "title" : "Simulating SPH Fluid with Multi-Level Vorticity"
+    },
+    {
+      "id" : 40,
+      "type" : "publications_international",
+      "old" : "publication/journal/2011/2011Huicheol_CASA.html",
+      "new" : "/main/international/individual/40",
+      "title" : "Stereoscopic Image Generation of Background Terrain Scenes"
+    },
+    {
+      "id" : 41,
+      "type" : "publications_international",
+      "old" : "publication/journal/2011/2011Jaewon_CASA.html",
+      "new" : "/main/international/individual/41",
+      "title" : "Characteristic Facial Retargeting"
+    },
+    {
+      "id" : 42,
+      "type" : "publications_international",
+      "old" : "publication/journal/2010/2010Frederic_IEEE.html",
+      "new" : "/main/international/individual/42",
+      "title" : "Sketching of Mirror Symmetric Shapes"
+    },
+    {
+      "id" : 43,
+      "type" : "publications_international",
+      "old" : "publication/journal/2010/2010Jinho_CGF.html",
+      "new" : "/main/international/individual/43",
+      "title" : "A Smoke Visualization Model for Capturing Surface-like Features"
+    },
+    {
+      "id" : 44,
+      "type" : "publications_international",
+      "old" : "publication/journal/2010/2010Taekwon_VC.html",
+      "new" : "/main/international/individual/44",
+      "title" : "Multilevel vorticity confinement for water turbulence simulation"
+    },
+    {
+      "id" : 45,
+      "type" : "publications_international",
+      "old" : "publication/journal/2010/2010Jaewoo_CASA.html",
+      "new" : "/main/international/individual/45",
+      "title" : "Rigging Transfer"
+    },
+    {
+      "id" : 46,
+      "type" : "publications_international",
+      "old" : "publication/journal/2009/2009Younghui_ISVC.html",
+      "new" : "/main/international/individual/46",
+      "title" : "LightShop: An Interactive Lighting System Incorporating the 2D Image Editing Paradigm"
+    },
+    {
+      "id" : 47,
+      "type" : "publications_international",
+      "old" : "publication/journal/2009/2009Mi_ISVC.html",
+      "new" : "/main/international/individual/47",
+      "title" : "Cartoon Animation Style Rendering of Water"
+    },
+    {
+      "id" : 48,
+      "type" : "publications_international",
+      "old" : "publication/journal/2009/2009Jinho_PG.html",
+      "new" : "/main/international/individual/48",
+      "title" : "A surface-based model for small-scale smoke visualization"
+    },
+    {
+      "id" : 49,
+      "type" : "publications_international",
+      "old" : "publication/journal/2009/2009Younghui_PG.html",
+      "new" : "/main/international/individual/49",
+      "title" : "An Interactive Lighting System via Data Clustering"
+    },
+    {
+      "id" : 50,
+      "type" : "publications_international",
+      "old" : "publication/journal/2009/2009Mi_PG.html",
+      "new" : "/main/international/individual/50",
+      "title" : "Toon Rendering of Water Animation"
+    },
+    {
+      "id" : 51,
+      "type" : "publications_international",
+      "old" : "publication/journal/2008/2008Yeongho_ISVC.html",
+      "new" : "/main/international/individual/51",
+      "title" : "Deformation-based Animation of Snake Locomotion"
+    },
+    {
+      "id" : 52,
+      "type" : "publications_international",
+      "old" : "publication/journal/2008/2008SeungWoo_CASA.html",
+      "new" : "/main/international/individual/52",
+      "title" : "A Physcially Faithful Multigrid Method for Fast Cloth Simulation"
+    },
+    {
+      "id" : 53,
+      "type" : "publications_international",
+      "old" : "publication/journal/2008/2008Jinho_CASA.html",
+      "new" : "/main/international/individual/53",
+      "title" : "A Unified Handling of Immiscible and Miscible Fluids"
+    },
+    {
+      "id" : 54,
+      "type" : "publications_international",
+      "old" : "publication/journal/2008/2008Byungkuk_CASA.html",
+      "new" : "/main/international/individual/54",
+      "title" : "Extended Spatial Keyframing for Complex Character Animation"
+    },
+    {
+      "id" : 55,
+      "type" : "publications_international",
+      "old" : "publication/journal/2008/2008Jeroen_SCA.html",
+      "new" : "/main/international/individual/55",
+      "title" : "Low Viscosity Flow Simulations for Animation"
+    },
+    {
+      "id" : 56,
+      "type" : "publications_international",
+      "old" : "publication/journal/2008/2008Alexander_CSE.html",
+      "new" : "/main/international/individual/56",
+      "title" : "Terrain Geometry from Monocular Image Sequences"
+    },
+    {
+      "id" : 57,
+      "type" : "publications_international",
+      "old" : "publication/journal/2008/2008Yeongho_CASA.html",
+      "new" : "/main/international/individual/57",
+      "title" : "Deformation-Based Animation of Snake Locomotion"
+    },
+    {
+      "id" : 58,
+      "type" : "publications_international",
+      "old" : "publication/journal/2008/2008Zhigang.html",
+      "new" : "/main/international/individual/58",
+      "title" : "Computer Facial Animation: A Survey in the book \"Data-Driven 3D Facial Animations\""
+    },
+    {
+      "id" : 59,
+      "type" : "publications_international",
+      "old" : "publication/journal/2008/2008Junyong.html",
+      "new" : "/main/international/individual/59",
+      "title" : "Facial Animation by Expression Cloning in the book \"Data-Driven 3D Facial Animations\""
+    },
+    {
+      "id" : 60,
+      "type" : "publications_international",
+      "old" : "publication/journal/2007/2007Frederic_IEEE.html",
+      "new" : "/main/international/individual/60",
+      "title" : "Free-Form Sketching of Self-Occluding Objects"
+    },
+    {
+      "id" : 61,
+      "type" : "publications_international",
+      "old" : "publication/journal/2006/2006Frederic_KISS.html",
+      "new" : "/main/international/individual/61",
+      "title" : "Modeling of Self-Occluding Objects from 2D Drawings"
+    },
+    {
+      "id" : 62,
+      "type" : "publications_international",
+      "old" : "publication/journal/profNoh/gdfa.pdf",
+      "new" : "/main/international/individual/62",
+      "title" : "Gesture Driven Facial Animation "
+    },
+    {
+      "id" : 63,
+      "type" : "publications_international",
+      "old" : "publication/journal/profNoh/Journal_PerformanceDrivenFacialAnimation.pdf",
+      "new" : "/main/international/individual/63",
+      "title" : "Performance-Driven Facial Animation: Basic Research on Human Judgments of Emotional State in Facial Avatars"
+    },
+    {
+      "id" : 64,
+      "type" : "publications_international",
+      "old" : "publication/journal/profNoh/ExpressionCloning.pdf",
+      "new" : "/main/international/individual/64",
+      "title" : "Expression Cloning"
+    },
+    {
+      "id" : 65,
+      "type" : "publications_international",
+      "old" : "publication/journal/profNoh/vrst_AnimatedDeformationWithRBF.pdf",
+      "new" : "/main/international/individual/65",
+      "title" : "Animated Deformations with Radial Basis Functions"
+    },
+    {
+      "id" : 66,
+      "type" : "publications_international",
+      "old" : "publication/journal/profNoh/icme_TalkingFaces.pdf",
+      "new" : "/main/international/individual/66",
+      "title" : "Talking Face"
+    },
+    {
+      "id" : 67,
+      "type" : "publications_international",
+      "old" : "publication/journal/profNoh/dcv_ClassificationAndVolumeMorphing.pdf",
+      "new" : "/main/international/individual/67",
+      "title" : "Classification and Volume Morphing for Performance-Driven Facial Animation"
+    },
+    {
+      "id" : 68,
+      "type" : "publications_international",
+      "old" : "publication/journal/profNoh/dcv_SynthesisOf3DFaces.pdf",
+      "new" : "/main/international/individual/68",
+      "title" : "Synthesis of 3D faces"
+    },
+    {
+      "id" : 69,
+      "type" : "publications_international",
+      "old" : "publication/journal/profNoh/surveyofFacialModelingAndAnimation.pdf",
+      "new" : "/main/international/individual/69",
+      "title" : "A Survey of Facial Modeling and Animation Techniques"
+    },
+    {
+      "id" : 70,
+      "type" : "publications_dom",
+      "old" : "publication/journal_domestic/2015/151209_4%EC%A1%B1%20%EB%8F%99%EB%AC%BC%EC%9D%98%20%EA%B4%91%ED%95%99%EC%8B%9D%20%EB%AA%A8%EC%85%98%20%EC%BA%A1%EC%B2%98%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4.pdf",
+      "new" : "/main/international/individual/70",
+      "title" : "A Study on Optical Motion Capture Process of Quadruped Animals and Motion Retargeting Pipeline of Quadruped Characters "
+    },
+    {
+      "id" : 71,
+      "type" : "publications_dom",
+      "old" : "publication/journal_domestic/2015/151126_Realistic_Keyboard_Typing.pdf",
+      "new" : "/main/international/individual/71",
+      "title" : "Realistic Keyboard Typing Motion Generation Based on Physics Simulation "
+    },
+    {
+      "id" : 72,
+      "type" : "publications_dom",
+      "old" : "publication/journal_domestic/2015/150715_KCGS-Shadow_Removal_in_Front_Projection_System_using_a_Depth_Camera.pdf",
+      "new" : "/main/international/individual/72",
+      "title" : "Shadow Removal in Front Projection System using a Depth Camera "
+    },
+    {
+      "id" : 73,
+      "type" : "publications_dom",
+      "old" : "publication/journal_domestic/2015/150303_JKCGS-Omnidirectional_Projection_Mapping_Final.pdf",
+      "new" : "/main/international/individual/73",
+      "title" : "Omnidirectional Environmental Projection Mapping with Single Projector and Single Spherical Mirror "
+    },
+    {
+      "id" : 74,
+      "type" : "publications_dom",
+      "old" : "publication/journal_domestic/2014/2014_KCGS_JungJin.pdf",
+      "new" : "/main/international/individual/74",
+      "title" : "High-Quality Depth Map Generation of Humans in Monocular Videos "
+    },
+    {
+      "id" : 75,
+      "type" : "publications_dom",
+      "old" : "publication/journal_domestic/2014/2014_KCGS_JaeWon.pdf",
+      "new" : "/main/international/individual/75",
+      "title" : "Body Motion Retargeting to Rig-space "
+    },
+    {
+      "id" : 76,
+      "type" : "publications_dom",
+      "old" : "publication/journal_domestic/2013/2013_KCGS_MiYou.pdf",
+      "new" : "/main/international/individual/76",
+      "title" : "Realistic Paint Simulation based on Fludity, Diffusion and Absorption"
+    },
+    {
+      "id" : 77,
+      "type" : "publications_dom",
+      "old" : "publication/journal_domestic/2013/2013_KCGS_KyeHyun.pdf",
+      "new" : "/main/international/individual/77",
+      "title" : "Depth Map Generation for Building Images"
+    },
+    {
+      "id" : 78,
+      "type" : "publications_dom",
+      "old" : "publication/article/2013_Fluid%20Simulation%20for%20Realistic%20Paint%20Effects%20Visualization.pdf",
+      "new" : "/main/international/individual/78",
+      "title" : "Fluid Simulation for Realistic Paint Effects Visualization"
+    },
+    {
+      "id" : 79,
+      "type" : "publications_dom",
+      "old" : "publication/journal_domestic/2012/2012_KCGS_YoungHui.pdf",
+      "new" : "/main/international/individual/79",
+      "title" : "A Single Image Representation Model for Efficient Stereoscopic Image Creation"
+    },
+    {
+      "id" : 80,
+      "type" : "publications_dom",
+      "old" : "publication/journal_domestic/2012/2012_KCGS_SeungHoon.pdf",
+      "new" : "/main/international/individual/80",
+      "title" : "An Efficient Diffusion Model for Viscous Fingering"
+    },
+    {
+      "id" : 81,
+      "type" : "publications_dom",
+      "old" : "publication/journal_domestic/2012/2012_KCGS_JaeWon.pdf",
+      "new" : "/main/international/individual/81",
+      "title" : "Characteristic Facial Retargeting"
+    },
+    {
+      "id" : 82,
+      "type" : "publications_dom",
+      "old" : "publication/article/2011_cgni.pdf",
+      "new" : "/main/international/individual/82",
+      "title" : "Practice and Application of Modern CG Technology for 3D Contents Making"
+    },
+    {
+      "id" : 83,
+      "type" : "publications_dom",
+      "old" : "publication/article/2011_cgni.pdf",
+      "new" : "/main/international/individual/83",
+      "title" : "Practice and Application of Modern CG Technology for 3D Contents Making"
+    },
+    {
+      "id" : 84,
+      "type" : "publications_dom",
+      "old" : "publication/article/2009_Believable%203D%20Tiger%20from%20modeling%20to%20rendering.pdf",
+      "new" : "/main/international/individual/84",
+      "title" : "Believable 3D Tiger from modeling to rendering"
+    },
+    {
+      "id" : 85,
+      "type" : "publications_dom",
+      "old" : "publication/journal/2007/2007HwiRyong_HCI.html",
+      "new" : "/main/international/individual/85",
+      "title" : "Automatic Pattern Manipulation for Virtual Garment Design"
+    },
+    {
+      "id" : 86,
+      "type" : "publications_dom",
+      "old" : "publication/journal_domestic/2007/2007_HCI%20Korea_JaeWoo.pdf",
+      "new" : "/main/international/individual/86",
+      "title" : "Synthesis of Near-Regular Vector Texture Patterns"
+    },
+    {
+      "id" : 87,
+      "type" : "publications_dom",
+      "old" : "publication/article/2007_Special%20Effects%20Overview.pdf",
+      "new" : "/main/international/individual/87",
+      "title" : "Special Effects Overview"
+    },
+    {
+      "id" : 88,
+      "type" : "thesis",
+      "old" : "",
+      "new" : "/main/international/individual/88",
+      "title" : "Sparse Multi-view Object Segmentation using Local Inter-view Consistency"
+    },
+    {
+      "id" : 89,
+      "type" : "thesis",
+      "old" : "",
+      "new" : "/main/international/individual/89",
+      "title" : "Auto-Calibration of Multi-Projector Displays with a Single Hand-Held Camera "
+    },
+    {
+      "id" : 90,
+      "type" : "thesis",
+      "old" : "",
+      "new" : "/main/international/individual/90",
+      "title" : "Shadow Removal in Front Projection System using Skeleton Model "
+    },
+    {
+      "id" : 91,
+      "type" : "thesis",
+      "old" : "publication/thesis/2014/2014SeungbaeBang.pdf",
+      "new" : "/main/international/individual/91",
+      "title" : "Interactive Rigging: Editing bone as a weighting tool "
+    },
+    {
+      "id" : 92,
+      "type" : "thesis",
+      "old" : "publication/thesis/2014/2014BumkiKim.pdf",
+      "new" : "/main/international/individual/92",
+      "title" : "Omnidirectional Environmental Projection Mapping with Single Projector and Single Spherical Mirror "
+    },
+    {
+      "id" : 93,
+      "type" : "thesis",
+      "old" : "publication/thesis/2014/2014YounghuiKim.pdf",
+      "new" : "/main/international/individual/93",
+      "title" : "A Single Image Representation Model for Efficient Multi-View Stereoscopic Content Creation "
+    },
+    {
+      "id" : 94,
+      "type" : "thesis",
+      "old" : "publication/thesis/2014/2014JaehwanKwon.pdf",
+      "new" : "/main/international/individual/94",
+      "title" : "Creation of stereoscopic movies’ previews:focus on the S3D effect with human factors "
+    },
+    {
+      "id" : 95,
+      "type" : "thesis",
+      "old" : "publication/thesis/2014/2014JihwanKim.pdf",
+      "new" : "/main/international/individual/95",
+      "title" : "Data-Driven Image Expansion Using Structure Aware Image Warping "
+    },
+    {
+      "id" : 96,
+      "type" : "thesis",
+      "old" : "publication/thesis/2014/2014HaegwangEom.pdf",
+      "new" : "/main/international/individual/96",
+      "title" : "Data-Driven Motion Capture Using a Single Smartphone "
+    },
+    {
+      "id" : 97,
+      "type" : "thesis",
+      "old" : "publication/thesis/2014/2014SeokpyoHong.pdf",
+      "new" : "/main/international/individual/97",
+      "title" : "Muscle-driven Motion Path Planning Using Reinforcement Learning "
+    },
+    {
+      "id" : 98,
+      "type" : "thesis",
+      "old" : "publication/thesis/2014/2014Youmi.pdf",
+      "new" : "/main/international/individual/98",
+      "title" : "The Creation of Realistic Paint Simulation Reﬂecting the Real Painting Characteristics"
+    },
+    {
+      "id" : 99,
+      "type" : "thesis",
+      "old" : "publication/thesis/2013/2013kyunghanlee.pdf",
+      "new" : "/main/international/individual/99",
+      "title" : "        VideoVoyage: An E\u000ecient Multi-scale Navigable Codec for Video Viewing"
+    },
+    {
+      "id" : 100,
+      "type" : "thesis",
+      "old" : "publication/thesis/2013/2013Junyouphwang.pdf",
+      "new" : "/main/international/individual/100",
+      "title" : "\tVideo Enhancement in Low-Light Condition via Interval Flash"
+    },
+    {
+      "id" : 101,
+      "type" : "thesis",
+      "old" : "publication/thesis/2013/2013hyunggoogseo.pdf",
+      "new" : "/main/international/individual/101",
+      "title" : "\tParticle Based Snow Simulation Using Dendritic Structure"
+    },
+    {
+      "id" : 102,
+      "type" : "thesis",
+      "old" : "publication/thesis/2013/2013Soyeongjeon.pdf",
+      "new" : "/main/international/individual/102",
+      "title" : "\tMotion Editing Using Three-Dimensional As-Rigid-As-Possible (ARAP) Curve Editing"
+    },
+    {
+      "id" : 103,
+      "type" : "thesis",
+      "old" : "publication/thesis/2012/2012Jongjin.pdf",
+      "new" : "/main/international/individual/103",
+      "title" : "High Quality Depth Maps Generation of Humans in Monocular Videos"
+    },
+    {
+      "id" : 104,
+      "type" : "thesis",
+      "old" : "publication/thesis/2012/2012Hyungjin.pdf",
+      "new" : "/main/international/individual/104",
+      "title" : "An Example Based Dynamic Disparity Determination from a Scene Context"
+    },
+    {
+      "id" : 105,
+      "type" : "thesis",
+      "old" : "publication/thesis/2012/2012Kyehyun.pdf",
+      "new" : "/main/international/individual/105",
+      "title" : "Depth Map Generation for Building Images"
+    },
+    {
+      "id" : 106,
+      "type" : "thesis",
+      "old" : "publication/thesis/2012/2012Sangwoo.pdf",
+      "new" : "/main/international/individual/106",
+      "title" : "Depth Manipulation using Disparity Histogram Analysis for Stereoscopic 3D"
+    },
+    {
+      "id" : 107,
+      "type" : "thesis",
+      "old" : "publication/thesis/2012/2012Seunghoon.pdf",
+      "new" : "/main/international/individual/107",
+      "title" : "\tAn Efficient Diffusion Model for Viscous Fingering"
+    },
+    {
+      "id" : 108,
+      "type" : "thesis",
+      "old" : "publication/thesis/2012/2012Jihyung.pdf",
+      "new" : "/main/international/individual/108",
+      "title" : "A Procedural Flow Generation Method using Coordinate Transformation"
+    },
+    {
+      "id" : 109,
+      "type" : "thesis",
+      "old" : "publication/thesis/2012/2012Jungjin.pdf",
+      "new" : "/main/international/individual/109",
+      "title" : "Template-Driven Depth Estimation for Stereo Conversion"
+    },
+    {
+      "id" : 110,
+      "type" : "thesis",
+      "old" : "publication/thesis/2012/2012Seongwoo.pdf",
+      "new" : "/main/international/individual/110",
+      "title" : "Video Panorama for 2D to 3D Conversion"
+    },
+    {
+      "id" : 111,
+      "type" : "thesis",
+      "old" : "publication/thesis/2012/2012Jaewoo.pdf",
+      "new" : "/main/international/individual/111",
+      "title" : "An Approach to the Efficient Creation of Creature Animation"
+    },
+    {
+      "id" : 112,
+      "type" : "thesis",
+      "old" : "publication/thesis/2012/2012Yeongho.pdf",
+      "new" : "/main/international/individual/112",
+      "title" : "Artist Friendly Retargeting and Editing in Producing High Quality Facial Animation"
+    },
+    {
+      "id" : 113,
+      "type" : "thesis",
+      "old" : "publication/thesis/2011/2011Paul.pdf",
+      "new" : "/main/international/individual/113",
+      "title" : "Facial Retargeting by Adding Supplemental Blendshapes"
+    },
+    {
+      "id" : 114,
+      "type" : "thesis",
+      "old" : "publication/thesis/2011/2011Huicheol.pdf",
+      "new" : "/main/international/individual/114",
+      "title" : "Stereoscopic Image Generation of Background Terrain Scenes"
+    },
+    {
+      "id" : 115,
+      "type" : "thesis",
+      "old" : "publication/thesis/2011/2011Jinhyuk.pdf",
+      "new" : "/main/international/individual/115",
+      "title" : "Multilinear Fluid Simulation with Model Reduction for Pressure Projection"
+    },
+    {
+      "id" : 116,
+      "type" : "thesis",
+      "old" : "publication/thesis/2011/2011Jaewon.pdf",
+      "new" : "/main/international/individual/116",
+      "title" : "\tCharacteristic Facial Retargeting"
+    },
+    {
+      "id" : 117,
+      "type" : "thesis",
+      "old" : "publication/thesis/2011/2011Soyoung.pdf",
+      "new" : "/main/international/individual/117",
+      "title" : "Disparity Graph Editing for Stereoscopic Contents Creation"
+    },
+    {
+      "id" : 118,
+      "type" : "thesis",
+      "old" : "publication/thesis/2011/2011Heeyoung.pdf",
+      "new" : "/main/international/individual/118",
+      "title" : "Position based Foam Simulation"
+    },
+    {
+      "id" : 119,
+      "type" : "thesis",
+      "old" : "publication/thesis/2010/2010Dongock.pdf",
+      "new" : "/main/international/individual/119",
+      "title" : "Multi-object Video Matting Using 2D Scatter Plot Paradigm"
+    },
+    {
+      "id" : 120,
+      "type" : "thesis",
+      "old" : "publication/thesis/2010/2010Sehwi.pdf",
+      "new" : "/main/international/individual/120",
+      "title" : "Fast Fluid Simulation with Tensor-Based Model Reduction"
+    },
+    {
+      "id" : 121,
+      "type" : "thesis",
+      "old" : "publication/thesis/2010/2010Daehyeon.pdf",
+      "new" : "/main/international/individual/121",
+      "title" : "Dynamically Evolving Fluid Simulation"
+    },
+    {
+      "id" : 122,
+      "type" : "thesis",
+      "old" : "publication/thesis/2009/2009Younghui.pdf",
+      "new" : "/main/international/individual/122",
+      "title" : "LightShop: An Interactive Lighting System Incorporating the 2D Image Editing Paradigm"
+    },
+    {
+      "id" : 123,
+      "type" : "thesis",
+      "old" : "publication/thesis/2009/2009Mi.pdf",
+      "new" : "/main/international/individual/123",
+      "title" : "Cartoon Animation Style Rendering of Water"
+    },
+    {
+      "id" : 124,
+      "type" : "thesis",
+      "old" : "publication/thesis/2009/2009Sara.pdf",
+      "new" : "/main/international/individual/124",
+      "title" : "Realistic Modeling of Forest Ecosystems"
+    },
+    {
+      "id" : 125,
+      "type" : "thesis",
+      "old" : "publication/thesis/2008/2008Yeongho.pdf",
+      "new" : "/main/international/individual/125",
+      "title" : "Deformation-based Animation of Snake Locomotion"
+    },
+    {
+      "id" : 126,
+      "type" : "thesis",
+      "old" : "publication/thesis/2008/2008Byungkuk.pdf",
+      "new" : "/main/international/individual/126",
+      "title" : "Extended Spatial Keyframing for Complex Character Animation"
+    },
+    {
+      "id" : 127,
+      "type" : "thesis",
+      "old" : "publication/thesis/2008/2008Jiyoung.pdf",
+      "new" : "/main/international/individual/127",
+      "title" : "Geometric Texture Placement for Digital Creatures"
+    },
+    {
+      "id" : 128,
+      "type" : "thesis",
+      "old" : "publication/thesis/2007/2007Taekwon.pdf",
+      "new" : "/main/international/individual/128",
+      "title" : "Automatic generation of feature point on texture mapping contours"
+    },
+    {
+      "id" : 129,
+      "type" : "thesis",
+      "old" : "publication/thesis/2007/2007Taesoo.pdf",
+      "new" : "/main/international/individual/129",
+      "title" : "Animation Character Rigging Based on Human Skeletal System"
+    },
+    {
+      "id" : 130,
+      "type" : "thesis",
+      "old" : "publication/thesis/2006/2006Hwiryong.pdf",
+      "new" : "/main/international/individual/130",
+      "title" : "Automatic Pattern Manipulation for Virtual Garment Design"
+    },
+    {
+      "id" : 131,
+      "type" : "thesis",
+      "old" : "publication/thesis/2006/2006Jaewoo.pdf",
+      "new" : "/main/international/individual/131",
+      "title" : "Synthesis of Near-Regular Vector Texture Patterns"
     }
   ],
   "FolderStructure" : [

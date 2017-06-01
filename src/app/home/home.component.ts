@@ -21,6 +21,7 @@ export class HomeComponent implements OnInit {
   issues:any;
   teams:any;
   publications:any;
+  partners:any;
 
   constructor(
     private mockDataService:MockDataService,
@@ -34,10 +35,14 @@ export class HomeComponent implements OnInit {
     this.mockDataService.getIssues();
     this.mockDataService.getResearchArea();
     this.mockDataService.getPublication('international');
-    this.publications = this.mockDataService.publications_forHome.slice(0,5);
+
+    this.mockDataService.getPartners(true);
+
+    this.publications = this.mockDataService.publications_forHome.slice(0,3);
     this.issues = this.mockDataService.issues.slice(0,12);
     this.teams = this.mockDataService.researchArea_all;
-    console.log(this.teams);
+
+    this.partners = this.mockDataService.main_partners;
   }
 
   setScrollMagic() {

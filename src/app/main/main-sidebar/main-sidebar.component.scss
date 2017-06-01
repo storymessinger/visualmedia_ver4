@@ -4,6 +4,10 @@
     color: $primary_light_grey !important;
 }
 
+.divformargin {
+    height:200px;
+    width:100%;
+}
 .sidebar {
     background-color: #fff;
     transition: all 0.5s ease;
@@ -30,6 +34,7 @@
             padding: 12px 0 10px;
             dt {
                 padding: 11px 0 11px 22px;
+                letter-spacing: 0.02em;
             }
             dt.navbar_expanded {
                 background-color: $primary_light_grey;

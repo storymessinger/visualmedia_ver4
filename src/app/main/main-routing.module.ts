@@ -42,9 +42,9 @@ import { NgModule } from '@angular/core';
                     component: AboutPartnersComponent,
                     data: { breadcrumb: "Partners" }
                 },
-                {   path: 'sponsership', 
+                {   path: 'sponsorship', 
                     component: AboutSponserComponent,
-                    data: { breadcrumb: "Sponsership" }
+                    data: { breadcrumb: "Sponsorship" }
                 },
                 {   path: 'people', 
                     component: MemberStudentComponent,

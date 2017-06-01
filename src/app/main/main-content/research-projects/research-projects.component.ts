@@ -4,6 +4,7 @@ import { DOCUMENT } from '@angular/platform-browser';
 import { ScrollAbleService } from './../../../shared/scroll-able.service';
 import { Component, OnInit, Inject } from '@angular/core';
 import { MockDataService } from './../../../shared/mockdata.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-research-projects',
@@ -22,6 +23,7 @@ export class ResearchProjectsComponent implements OnInit {
     private mockDataService:MockDataService,
     private scrollAbleService:ScrollAbleService,
     private pageScrollService: PageScrollService, 
+    private router:Router,
     @Inject(DOCUMENT) private document: any
     ) {
     PageScrollConfig.defaultScrollOffset = 110;
@@ -47,4 +49,9 @@ export class ResearchProjectsComponent implements OnInit {
       // unsubscribe to ensure no memory leaks
       this.subscription.unsubscribe();
   }
+
+  navigateTo(id) {
+    this.router.navigate(['/main/projects/individual', id])
+  }
+
 }

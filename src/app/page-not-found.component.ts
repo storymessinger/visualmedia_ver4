@@ -1,19 +1,56 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
+import { Subscription } from 'rxjs/Rx';
+import { ActivatedRoute } from '@angular/router';
+import { MockDataService } from './shared/mockdata.service';
 
 @Component({
   selector: 'app-page-not-found',
   template: `
     <p>
-      Page is not found 
+      This Page is not found 
     </p>
   `,
   styles: []
 })
 export class PageNotFoundComponent implements OnInit {
 
-  constructor() { }
+  private subscription:Subscription;
+
+  private redirect:any;
+  private snapshot:any;
+  private found:any;
+
+  constructor(
+    private activatedRoute:ActivatedRoute,
+    private mockDataService:MockDataService
+  ) { 
+    this.subscription = activatedRoute.params //
+      .subscribe(
+        (param:any) => {
+          // this.id = parseInt(param['id']);
+          console.log(activatedRoute.snapshot.url);
+
+          this.snapshot = activatedRoute.snapshot.url;
+        })
+
+  }
 
   ngOnInit() {
+
+    this.redirect = this.mockDataService.redirect;
+
+    this.found = this.redirect.find( item => {
+      return item.old == this.snapshot.join('/') 
+    }) 
+
+    if(this.found == undefined) {
+      //relocate to old homepage, with original address
+      window.location.href="http://vml2.kaist.ac.kr/" + this.snapshot.join('/');
+    } else {
+      //relocate to new homepage, with different address
+      window.location.href= this.found.new;
+    }
+
   }
 
 }

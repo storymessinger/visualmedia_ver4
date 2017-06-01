@@ -12,7 +12,7 @@
       <div *ngFor="let project of data" class="col-sm-12 project">
         <a [routerLink]="[ '/main/projects/individual/', project.id ]" class="col-sm-12 project-title h2">
           {{project.name}}
-          <md-icon class="material-icons">forward</md-icon>
+          <!--<md-icon class="material-icons">forward</md-icon>-->
         </a>
         <div class="col-sm-12 col-md-6 col-lg-5 project-desc">
           <table class="table menu01">
@@ -50,8 +50,8 @@
           </table>
         </div>
 
-        <div class="col-sm-12 col-md-6 col-lg-5 project-img">
-          <img src="http://placehold.it/800x600"> 
+        <div class="col-sm-12 col-md-6 col-lg-5 project-img" (click)="navigateTo(project.id)">
+          <img src="http://placehold.it/800x600" > 
           <!--<img default="./assets/imgs/no_image.jpg"
               [srcset]= 'imgPath + project.img + " 800w, " +
                         imgPath+ project.smallimg + " 300w "'
