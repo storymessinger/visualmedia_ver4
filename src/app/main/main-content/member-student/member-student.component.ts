@@ -36,6 +36,7 @@ export class MemberStudentComponent implements OnInit, OnDestroy {
         this.clickScrollTo(name);
       })
   }
+
   
   clickScrollTo(name) {
     let scrollTo = '#' + name;
