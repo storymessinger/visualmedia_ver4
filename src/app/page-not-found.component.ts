@@ -15,9 +15,9 @@ import { MockDataService } from './shared/mockdata.service';
 export class PageNotFoundComponent implements OnInit {
 
   private subscription:Subscription;
+  private snapshot:any;
 
   private redirect:any;
-  private snapshot:any;
   private found:any;
 
   constructor(
@@ -27,9 +27,6 @@ export class PageNotFoundComponent implements OnInit {
     this.subscription = activatedRoute.params //
       .subscribe(
         (param:any) => {
-          // this.id = parseInt(param['id']);
-          console.log(activatedRoute.snapshot.url);
-
           this.snapshot = activatedRoute.snapshot.url;
         })
 

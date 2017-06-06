@@ -11,8 +11,29 @@ export class MainComponent implements OnInit {
 
   public sidebarState:boolean = false; //default is false
   public isMouseOnSidebar:boolean;
+
+  public initLink:any;
   
   constructor(private router:Router) { 
+    switch(document.location.pathname) {
+        case '/main/info':
+          this.initLink= "About";
+          break;
+        case '/main/people':
+          this.initLink= "People";
+          break;
+        case '/main/area':
+          this.initLink= "Research";
+          break;
+        case '/main/news':
+          this.initLink= "News";
+          break;
+        case '/main/seminar':
+          this.initLink= "Archive";
+          break;
+        default:
+          break;
+    }
   }
 
 

@@ -7,7 +7,8 @@ import {
   Directive,
   ElementRef,
   Renderer,
-  HostListener
+  HostListener,
+  AfterViewInit
 } from '@angular/core';
 
 @Component({
@@ -15,11 +16,11 @@ import {
   templateUrl: './main-sidebar.component.html',
   styleUrls: ['./main-sidebar.component.scss']
 })
-export class MainSidebarComponent {
+export class MainSidebarComponent implements AfterViewInit {
 
   sbLinks: any[] = [
     {
-      firstLink: ["about", "About"],
+      firstLink: ["info", "About"],
       secondLink: [
         { 
           url: "info",
@@ -44,7 +45,7 @@ export class MainSidebarComponent {
       ]
     },
     {
-      firstLink: ["member", "People"],
+      firstLink: ["people", "People"],
       secondLink: [
         { 
           url: "people",
@@ -94,7 +95,7 @@ export class MainSidebarComponent {
       ]
     },
     {
-      firstLink: ["research", "Research"],
+      firstLink: ["area", "Research"],
       secondLink: [
         { 
           url: "area",
@@ -124,7 +125,7 @@ export class MainSidebarComponent {
       ]
     },
     {
-      firstLink: ["issues", "News and Events"],
+      firstLink: ["news", "News"],
       secondLink: [
         { 
           url: "news",
@@ -165,10 +166,19 @@ export class MainSidebarComponent {
   @Input() state;
   @Output() clicked = new EventEmitter<string>();
 
-  
-  constructor(public el:ElementRef, private scrollAbleService:ScrollAbleService){
+  @Input() initLink;
 
+  
+  constructor(
+    public el:ElementRef, 
+    private scrollAbleService:ScrollAbleService,
+    ){
   }
+
+  ngAfterViewInit() {
+      this.toggleMenu(this.initLink);
+  }
+
 
   setScroll(data) { 
     this.scrollAbleService.setScroll(data);
