@@ -164,6 +164,7 @@ export class MainSidebarComponent {
 
   @Input() state;
   @Output() clicked = new EventEmitter<string>();
+
   
   constructor(public el:ElementRef, private scrollAbleService:ScrollAbleService){
 
