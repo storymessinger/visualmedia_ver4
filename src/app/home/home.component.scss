@@ -12,10 +12,6 @@
   margin-top: 0 !important;
 }
 
-.indexPage-nav {
-  display: none;
-}
-
 .menu_btn {
   display: none;
 }
@@ -143,6 +139,15 @@
     z-index: -100;
   }
 
+  .title-arrow {
+    // cursor: pointer;
+    font-size: 4rem;
+    color: rgba(255,255,255,0.7);
+    position: absolute;
+    bottom: 5%;
+    left: 47%;
+  }
+
   .title {
     background-color: rgba(10,10,10,0.2);
     padding: 3rem;
@@ -234,6 +239,27 @@
       margin: 0 1.5rem;
     }
   }
+}
+.partners-more {
+  .myButton {
+      background-color:#848484;
+      -moz-border-radius:28px;
+      -webkit-border-radius:28px;
+      border-radius:28px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-size:0.8rem;
+      padding:13px 21px;
+      text-decoration:none;
+    }
+    .myButton:hover {
+      background-color:#565656;
+    }
+    .myButton:active {
+      position:relative;
+      top:1px;
+    }
 }
 
 

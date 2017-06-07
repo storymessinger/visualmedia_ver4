@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.setScrollMagic();
-    this.scrollDown();
+    this.arrowMove();
     this.mockDataService.getIssues();
     this.mockDataService.getResearchArea();
     this.mockDataService.getPublication('international');
@@ -44,30 +44,18 @@ export class HomeComponent implements OnInit {
     this.teams = this.mockDataService.researchArea_all;
 
     this.partners = this.mockDataService.main_partners;
+
+
+    
   }
 
-  scrollDown() {
-    // init controller
-    var controller = new ScrollMagic.Controller();
-
-    // build tween
-    var tween = TweenMax.from("#animate", 0.5, {autoAlpha: 0, scale: 0.7});
-
-    // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "a#top", duration: 200, triggerHook: "onLeave"})
-            .setTween(tween)
-            // .addIndicators() // add indicators (requires plugin)
-            // .addTo(controller);
-    controller.addScene([
-      scene
-    ]);
-
-    // change behaviour of controller to animate scroll instead of jump
-    controller.scrollTo(function (newpos) {
-      TweenMax.to(window, 0.5, {scrollTo: {y: newpos}});
-    });
-
+  arrowMove() {
+    let arrowBtn = document.getElementById("arrowBtn");
+    var tl = new TimelineMax({repeat:20});
+    tl.to(arrowBtn, 0.7, {y:30})
+      .to(arrowBtn, 1, {y:0})
   }
+
 
   setScrollMagic() {
     const controller = new ScrollMagic.Controller();

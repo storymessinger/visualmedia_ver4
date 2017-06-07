@@ -45,19 +45,6 @@
     </ul>
   </nav>
 
-
-  <div class="indexPage-nav">
-    <div class="list-group">
-      <a class="menu01 list-group-item" routerLink="/main/info">About</a>
-      <a class="menu01 list-group-item" href="/member/professor">Member</a>
-      <a class="menu01 list-group-item" href="/project">Research</a>
-      <a class="menu01 list-group-item" href="/news">News and Events</a>
-      <a class="menu01 list-group-item" href="/archive/download">Archive</a>
-    </div>
-  </div>
-
-
-
   <div class="main">
     <div class="col-sm">
 
@@ -80,8 +67,7 @@
             
         </div>
 
-
-        <md-icon>menu</md-icon>
+        <md-icon id="arrowBtn" class="title-arrow text-center">keyboard_arrow_down</md-icon>
       </div>
 
 
@@ -157,6 +143,10 @@
             <div *ngFor="let partner of partners" class="partner-img-box">
               <img class="partner-img" default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + partner.logo">
             </div>
+          </div>
+
+          <div class="partners-more text-center">
+            <a routerLink="/main/partners" class="myButton">MORE PARTNERS</a>
           </div>
 
         </div>
