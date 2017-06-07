@@ -19,11 +19,11 @@
         <div class="data-desc">
           <h3 >{{publication.title}}</h3>
           <div class="people_name">
-            <a [routerLink]='["../people", "person", publication.people_id]' *ngFor="let name of publication.people_name">
-              {{name}},
+            <a [routerLink]='["../people", "person", author.id]' *ngFor="let author of publication.authors_array">
+              {{author.name}},
             </a>
           </div>
-          <p class="menu01">Conference: {{publication.conference}}</p>
+          <p *ngIf="publication.conference" class="menu01">Conference: {{publication.conference}}</p>
           <p class="menu01">Journal: {{publication.journal}}</p>
           <p class="menu01"><a [routerLink]="[ '/main/domestic/individual/', publication.id ]">Project Page</a> / 
           <a *ngIf="publication.paper" target="_blank" download type="application/octet-stream" [href]='imgPath + publication.paper' target="_blank">Paper</a></p>

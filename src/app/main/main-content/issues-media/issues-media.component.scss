@@ -1,7 +1,12 @@
 @import '../../../../assets/css/_variables.scss';
 
+//modal
+.modal-lg {
+    max-width: 1200px;
+}
+
 .modal-content {
-    width: 90%;
+    width: 100%;
 
     .modal-header {
         justify-content: flex-end;
@@ -13,6 +18,7 @@
         }
     }
 }
+//
 
 .content {
     display:flex;
