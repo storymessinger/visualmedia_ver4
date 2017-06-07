@@ -119,8 +119,8 @@
   background-position: 50% center;
   background-size: cover; // for this page to be 'scroll-available'
   height: 100vh;
-  
   z-index: 0;
+  overflow: hidden;
 
   video {
     // display: block;
@@ -144,8 +144,10 @@
     font-size: 4rem;
     color: rgba(255,255,255,0.7);
     position: absolute;
-    bottom: 5%;
-    left: 47%;
+    bottom: 9%;
+    left: 50%;
+    width: 100px;
+    transform: translate(-50%, 0);
   }
 
   .title {
