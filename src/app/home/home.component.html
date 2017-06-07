@@ -102,12 +102,12 @@
 
           <div class="">
 
-            <div (click)='navigateTo(pub.id, 1)' *ngFor="let pub of publications" class="card issueCard pad">
+            <div (click)='navigateTo(pub.id, 1)' *ngFor="let pub of publications" class="card issueCard pad pub-pad">
               <img class="news-img card-img-top img-fluid" default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + pub.img">
               <div class="card-block">
                 <h4 class="card-title">{{pub.title}}</h4>
                 <p class="card-text desc">{{pub.conference}}</p>
-                <p class="card-text"><small class="text-muted">{{pub.year}}</small></p>
+                <!--<p class="card-text"><small class="text-muted">{{pub.year}}</small></p>-->
               </div>
             </div>
 
