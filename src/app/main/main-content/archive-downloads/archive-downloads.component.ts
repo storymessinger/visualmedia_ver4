@@ -36,7 +36,6 @@ export class ArchiveDownloadsComponent implements OnInit {
   ngOnInit() {
     this.mockDataService.getDownloads();
     this.datas = this.mockDataService.downloads;
-    console.log(this.datas);
   }
 
   clickScrollTo(name) {
