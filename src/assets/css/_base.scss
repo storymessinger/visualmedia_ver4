@@ -89,12 +89,12 @@ html {
     overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-    width: 1px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
+    width: 15px;  /* remove scrollbar space */
+    background: #eeeeee;  /* optional: just make scrollbar ligth grey*/
 }
-/* optional: show position indicator in red */
+/* optional: show position indicator in grey*/
 ::-webkit-scrollbar-thumb {
-    background: $primary_orange;
+    background: #bbbbbb;
 }
 
 
