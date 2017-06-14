@@ -40,7 +40,7 @@ export class HomeComponent implements OnInit {
     this.mockDataService.getPartners(true);
 
     this.publications = this.mockDataService.publications_forHome.slice(0,3);
-    this.issues = this.mockDataService.issues.slice(0,12);
+    this.issues = this.mockDataService.issues.slice(0,6);
     this.teams = this.mockDataService.researchArea_all;
 
     this.partners = this.mockDataService.main_partners;
