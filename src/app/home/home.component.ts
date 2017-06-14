@@ -87,4 +87,12 @@ export class HomeComponent implements OnInit {
       this.router.navigate(['/main/international/individual', id]);
     }
   }
+
+  moveTo(id) {
+    console.log(id);
+    // var controller = new ScrollMagic.Controller();
+    // var scene = new ScrollMagic.Scene({triggerElement: "a#top", duration: 200, triggerHook: "onLeave"})
+    //             .addTo(controller);
+    // controller.scrollTo(id);
+  }
 }
