@@ -4,18 +4,21 @@ import { Directive, Input, Output, Attribute } from '@angular/core';
   selector: 'img[default]',
   host: {
     '(error)':'updateUrl()',
-    '[srcset]':'srcset'
+    '[srcset]':'srcset',
+    '[src]':'src'
   }
 })
 export class DefaultImageHomeDirective {
 
   constructor(){}
 
+  @Input() src:string;
   @Input() srcset:string;
   @Input() default:string;
 
   updateUrl() {
     this.srcset = this.default;
+    this.src = this.default;
   }
 
 }

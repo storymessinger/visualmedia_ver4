@@ -1,5 +1,13 @@
 @import '../../../../assets/css/_variables.scss';
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+    .row {
+        height:50%;
+    }
+
+}
+
 .row {
     padding: 2rem 3rem 3rem;
     flex-flow:column;
@@ -30,6 +38,7 @@
             margin: 0 0.5rem 0.5rem 0.5rem;
             img {
                 width: 100%;
+                min-height:1px;
             }
         }
     }

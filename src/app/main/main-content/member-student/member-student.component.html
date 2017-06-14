@@ -16,8 +16,8 @@
           <div class="people-img">
             <div (click)="routing(person.id)" class="people-img-box">
 
-              <img default="./assets/imgs/default_person.png" [srcset]=" imgPath + person.img">
-              <img default="./assets/imgs/default_person.png" [srcset]=" imgPath + 'People/img/prof_hover.png'" class="prof_hover">
+              <img default="./assets/imgs/default_person.png" [srcset]=" imgPath + person.img" [src]=" imgPath + person.img">
+              <img default="./assets/imgs/default_person.png" [srcset]=" imgPath + 'People/img/prof_hover.png'" [src]=" imgPath + person.img" class="prof_hover">
               
               <!--<a md-fab [routerLink]="[ '/main/people/person/', person.id ]" ><md-icon>add</md-icon></a>-->
             </div>
@@ -48,7 +48,7 @@
         <div *ngFor="let person of datas.postdoc" class="people-box col-sm-12 col-md-6 col-lg-4">
           <div class="people-img">
             <div class="people-img-box">
-              <img default="./assets/imgs/default_person.png" [srcset]=" imgPath + person.img">
+              <img default="./assets/imgs/default_person.png" [srcset]=" imgPath + person.img" [src]=" imgPath + person.img">
               <a md-fab [routerLink]="[ '/main/people/person/', person.id ]" ><md-icon>add</md-icon></a>
             </div>
           </div>
@@ -76,7 +76,7 @@
         <div *ngFor="let person of datas.doctor" class="people-box col-sm-12 col-md-6 col-lg-4">
           <div class="people-img">
             <div class="people-img-box">
-              <img default="./assets/imgs/default_person.png" [srcset]=" imgPath + person.img">
+              <img default="./assets/imgs/default_person.png" [srcset]=" imgPath + person.img" [src]=" imgPath + person.img">
               <a md-fab [routerLink]="[ '/main/people/person/', person.id ]" ><md-icon>add</md-icon></a>
             </div>
           </div>
@@ -103,7 +103,8 @@
         <div *ngFor="let person of datas.master" class="people-box col-sm-12 col-md-6 col-lg-4">
           <div class="people-img">
             <div class="people-img-box">
-              <img default="./assets/imgs/default_person.png" [srcset]=" imgPath + person.img">
+              <!--<img default="./assets/imgs/default_person.png" [srcset]=" imgPath + person.img">-->
+              <img default="./assets/imgs/default_person.png" [src]=" imgPath + person.img">
               <a md-fab [routerLink]="[ '/main/people/person/', person.id ]" ><md-icon>add</md-icon></a>
             </div>
           </div>

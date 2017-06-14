@@ -33,6 +33,7 @@
         <div class="data-img">
           <img default="./assets/imgs/no_image.jpg" 
           [srcset]=" imgPath + news.img"
+          [src]=" imgPath + news.img"
           data-toggle="modal" data-target="#selectedImageModal"
           (click)=setSelectedImage(news.img)>
 

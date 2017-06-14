@@ -321,8 +321,27 @@
   }
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .ie11-issue {
+    display:inline !important;
+    text-align: center;
+    .pad {
+      display: inline-block;
+    }
+  }
+}
+.ie11-issue {
+  // display:block;
+  display:flex;
+  flex-flow:row wrap;
+}
+
+.img-fluid {
+  min-height:1px;
+}
+
 .news-img {
-  width: 100%
+  width: 100%;
 }
 
 @media (max-width: 575px) {

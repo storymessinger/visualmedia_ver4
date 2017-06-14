@@ -2,7 +2,9 @@
   <div class="content col-sm container-fluid">
     <div class="front-image-max">
       <!--<img src="./assets/imgs/about_us_intro.png">-->
-      <img default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + datas.img">
+      <img default="./assets/imgs/no_image.jpg" 
+          [srcset]=" imgPath + datas.img"
+          [src]=" imgPath + datas.img">
     </div> 
 
     <div class="row no-gutters">
@@ -20,7 +22,9 @@
         <div (click)="navigateTo('people', datas.people.id)" class="pad people-box">
           <div class="people-img">
             <div class="people-img-box">
-              <img default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + datas.people.img">
+              <img default="./assets/imgs/no_image.jpg" 
+              [srcset]=" imgPath + datas.people.img"
+              [src]=" imgPath + datas.people.img">
             </div>
           </div>
           <h5 class="people-text">
@@ -37,7 +41,9 @@
         <div (click)="navigateTo('partner', 0, datas.funding.link)" class="pad people-box">
           <div class="people-img">
             <div class="people-img-box">
-              <img default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + datas.funding.logo">
+              <img default="./assets/imgs/no_image.jpg" 
+              [srcset]=" imgPath + datas.funding.logo"
+              [src]=" imgPath + datas.funding.logo">
             </div>
           </div>
           <h5 class="people-text">

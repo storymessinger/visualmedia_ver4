@@ -31,7 +31,7 @@
         </p>
 
         <div class="imgDiv">
-          <img default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + datas.img" class="max-img">
+          <img default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + datas.img" [src]=" imgPath + datas.img" class="max-img">
         </div>
       </div>
 
@@ -43,7 +43,9 @@
       </div>
 
       <div class="col-12" *ngIf="datas.innerHTML" innerHtml="{{datas.innerHTML}}">
+
       </div>
+
 
       <!--<div class="col-sm-12 videoWrapper">
         <iframe width="1280" height="720" src="https://www.youtube.com/embed/ZVEAHutpv0M" frameborder="0" allowfullscreen="allowfullscreen"></iframe>

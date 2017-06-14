@@ -85,7 +85,7 @@ body {
 
 ///// hide the scroll but able to scroll 
 html {
-    overflow: scroll;
+    overflow-y: scroll;
     overflow-x: hidden;
 }
 ::-webkit-scrollbar {

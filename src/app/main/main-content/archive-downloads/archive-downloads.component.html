@@ -9,7 +9,7 @@
 
       <div *ngFor="let download of data" class="data-box">
         <div class="data-img">
-          <img default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + download.img">
+          <img default="./assets/imgs/no_image.jpg" [srcset]=" imgPath + download.img" [src]=" imgPath + download.img">
           
         </div>
         <div class="data-desc">
