@@ -3,7 +3,7 @@ import { MockDataService } from '../shared/mockdata.service';
 import { Router } from '@angular/router';
 import * as _ from 'underscore';
 
-declare var TweenLite, TweenMax, TimelineLite, TimelineMax, Ease, Expo, ScrollMagic :any;
+declare var TweenLite, TweenMax, TimelineLite, TimelineMax, Ease, Expo, ScrollMagic, Power2 :any;
 
 @Component({
   selector: 'app-home',
@@ -89,10 +89,12 @@ export class HomeComponent implements OnInit {
   }
 
   moveTo(id) {
-    console.log(id);
+    // console.log(id);
     // var controller = new ScrollMagic.Controller();
     // var scene = new ScrollMagic.Scene({triggerElement: "a#top", duration: 200, triggerHook: "onLeave"})
     //             .addTo(controller);
-    // controller.scrollTo(id);
+    var new_id = '#' + id + 'Place';
+    // controller.scrollTo(new_id);
+    TweenLite.to(window, 1.3, {scrollTo:{y:new_id}, ease:Power2.easeOut})
   }
 }
