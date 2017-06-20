@@ -18,6 +18,7 @@ export class MemberStudentIndividualComponent implements OnInit {
   constructor(
     private mockDataService:MockDataService,
     private activatedRoute:ActivatedRoute) { 
+
     this.subscription = activatedRoute.params //
       .subscribe(
         (param:any) => {

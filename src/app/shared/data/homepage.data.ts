@@ -17,7 +17,110 @@ export const GoogleData =
       "status" : "",
       "teams_id" : "",
       "affiliation" : "",
-      "personal_page" : ""
+      "personal_page" : "",
+      "innerHTML": `  <h3>Education</h3>
+          <table class="table">
+            <tbody>
+              <tr>
+                <td class="table-left">05/2002</td>
+                <td>
+                  <p>Ph.D. Computer Science University of Southern California, advisor Prof. Ulrich Neumann</p>
+                  <sub>- Thesis "Facial Animation by Expression Cloning"</sub>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-left">05/1996</td>
+                <td>
+                  <p>M.S. Computer Engineering University of Southern California, advisor Prof. George Bekey</p>
+                  <sub>- Robotics research laboratory</sub>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-left">05/1994</td>
+                <td>
+                  <p>B.S. Electrical Engineering University of Southern California</p>
+                  <sub>- Magna Cum Laude, Engineering Honors Program</sub>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <hr/>
+        </div>
+
+
+        <div>
+          <h3>Appointments</h3>
+          <table class="table">
+            <tbody>
+              <tr>
+                <td class="table-left">	05/2016-Present</td>
+                <td>
+                  <p>Chairman</p>
+                  <sub>- Graduate School of Culture Technology, KAIST, Korea</sub>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-left">09/2014-Present</td>
+                <td>
+                  <p>Full Professor</p>
+                  <sub>- Graduate School of Culture Technology, KAIST, Korea</sub>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-left">11/2013-Present</td>
+                <td>
+                  <p>Adjunct Professor</p>
+                  <sub>- Culture Technology Research Institute, KAIST, Korea</sub>
+                </td>
+              </tr>
+              
+              <tr>
+                <td class="table-left">04/2012-Present</td>
+                <td>
+                  <p>Adjunct Professor</p>
+                  <sub>- Department of Computer Science, KAIST, Korea</sub>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-left">03/2012-07/2014</td>
+                <td>
+                  <p>Associate Dean</p>
+                  <sub>- Graduate School of Culture Technology, KAIST, Kore</sub>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-left">2012-Present</td>
+                <td>
+                  <p>Member of Board of Directors</p>
+                  <sub>- Korea Computer Graphics Society (KCGS)</sub>
+                </td>
+              </tr>
+
+
+              <tr>
+                <td class="table-left">11/2011-08/2012</td>
+                <td>
+                  <p>Industry Consultant</p>
+                  <sub>- CJ PowerCast, Korea</sub>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-left">09/2011-Present</td>
+                <td>
+                  <p>Industry Consultant</p>
+                  <sub>- Kolon, Korea</sub>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-left">09/2011-Present</td>
+                <td>
+                  <p>Adjunct Professor</p>
+                  <sub>- Lifestyle Innovation Center, KAIST, Korea</sub>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <hr/>` 
     },
     {
       "id" : 2,
