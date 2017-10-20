@@ -39,9 +39,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { MdIconModule } from '@angular/material';
-import { MaterialModule } from '@angular/material';
-import {MdInputModule} from '@angular/material';
+// import { MdIconModule } from '@angular/material';
+// import { MaterialModule } from '@angular/material';
+// import {MdInputModule} from '@angular/material';
+import { MatInputModule } from '@angular/material'
+import { MatIconModule } from '@angular/material'
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -82,9 +84,11 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     FormsModule, 
     HttpModule, 
     MainRoutingModule,
-    MaterialModule,
-    MdIconModule,
-    MdInputModule,
+    // MaterialModule,
+    // MdIconModule,
+    // MdInputModule,
+    MatIconModule,
+    MatInputModule,
     BrowserAnimationsModule
   ],
   providers: [

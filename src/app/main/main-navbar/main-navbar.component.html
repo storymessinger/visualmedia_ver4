@@ -4,7 +4,7 @@
         <img [src]='logoIconPath' height="78" class="logo-white">
       </a>
       <li>
-        <md-icon class="sb_menu" (click)='onClicked()'>menu</md-icon>
+        <mat-icon class="sb_menu" (click)='onClicked()'>menu</mat-icon>
       </li>
       <li class="breadcrumb-item"><a class="bodyText" routerLink="">Home</a></li>
       <li class="breadcrumb-item" *ngFor="let breadcrumb of breadcrumbs">
@@ -14,8 +14,8 @@
     </ol>
 
     <div class="search-btn">
-      <md-icon class="open-search" (click)='tweenSearch()'>search</md-icon>
-      <md-icon class="close-search" (click)='closeSearch()'>clear</md-icon>
+      <mat-icon class="open-search" (click)='tweenSearch()'>search</mat-icon>
+      <mat-icon class="close-search" (click)='closeSearch()'>clear</mat-icon>
     </div>
     <div class="search">
 

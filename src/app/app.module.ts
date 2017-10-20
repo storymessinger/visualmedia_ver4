@@ -13,7 +13,8 @@ import { routing } from './app.routing';
 import { MainModule } from './main/main.module';
 import { PageNotFoundComponent } from './page-not-found.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { MaterialModule } from '@angular/material';
+// import { MaterialModule } from '@angular/material';
+import { MatIconModule } from '@angular/material'
 import { ScrollSpyModule } from 'ng2-scrollspy';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { VmlPanelComponent } from './shared/vml-panel/vml-panel.component';
@@ -34,7 +35,8 @@ import { VmlPanelComponent } from './shared/vml-panel/vml-panel.component';
     MainModule,
     routing,
     NgbModule.forRoot(), // Add Bootstrap module here.
-    MaterialModule,
+    // MaterialModule,
+    MatIconModule,
     ScrollSpyModule.forRoot(),
     BrowserAnimationsModule
   ],
