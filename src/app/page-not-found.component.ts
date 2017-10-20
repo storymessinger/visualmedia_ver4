@@ -11,7 +11,7 @@ import { MockDataService } from './shared/mockdata.service';
 export class PageNotFoundComponent implements OnInit {
 
   private subscription:Subscription;
-  private snapshot:any;
+  snapshot:any;
 
   private redirect:any;
   private found:any;
