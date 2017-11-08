@@ -42,9 +42,10 @@
         <p>{{datas.description}}</p>
       </div>
 
-      <div class="col-12" *ngIf="datas.innerHTML" innerHtml="{{datas.innerHTML}}">
+      <!--<div class="col-12" *ngIf="datas.innerHTML" innerHtml="{{datas.innerHTML}}">-->
+      <div class="col-12" [innerHTML]="(individual$ | async)?.innerHTML | safeHtml"></div>
 
-      </div>
+      <!--</div>-->
 
 
       <!--<div class="col-sm-12 videoWrapper">

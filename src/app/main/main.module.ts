@@ -1,3 +1,6 @@
+import { ProjectpageHttpService } from '../shared/projectpage-http.service';
+import { SafeHtmlPipe } from '../shared/safe-html-pipe';
+import { IndividualHttpService } from '../shared/individual-http.service';
 import { TypeChangePipe } from './../shared/type-change';
 import { MockDataService } from './../shared/mockdata.service';
 import { AboutSponserComponent } from './main-content/about-sponser/about-sponser.component';
@@ -77,7 +80,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     VideoThumbnailDirective,
     SearchResultComponent,
     AboutSponserComponent,
-    TypeChangePipe
+    TypeChangePipe,
+    SafeHtmlPipe
     ],
   imports: [
     CommonModule, 
@@ -94,6 +98,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
   providers: [
     ScrollAbleService,
     PageScrollService,
-    MockDataService]
+    MockDataService,
+    IndividualHttpService,
+    ProjectpageHttpService]
 })
 export class MainModule { }

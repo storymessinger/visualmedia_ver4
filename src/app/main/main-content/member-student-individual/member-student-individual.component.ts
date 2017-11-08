@@ -1,5 +1,6 @@
+import { IndividualHttpService } from '../../../shared/individual-http.service';
 import { ActivatedRoute } from '@angular/router';
-import { Subscription } from 'rxjs/Rx';
+import { Observable, Subscription } from 'rxjs/Rx';
 import { Component, OnInit } from '@angular/core';
 import { MockDataService } from './../../../shared/mockdata.service';
 
@@ -15,9 +16,12 @@ export class MemberStudentIndividualComponent implements OnInit {
   datas: any;
   imgPath:string = './assets/Contents/';
 
+  individual$: Observable<any>;
+
   constructor(
     private mockDataService:MockDataService,
-    private activatedRoute:ActivatedRoute) { 
+    private activatedRoute:ActivatedRoute,
+    private individualHttpService:IndividualHttpService) { 
 
     this.subscription = activatedRoute.params //
       .subscribe(
@@ -29,5 +33,9 @@ export class MemberStudentIndividualComponent implements OnInit {
   ngOnInit() {
     this.mockDataService.getMembers(this.id);
     this.datas = this.mockDataService.people_person;
+
+    this.individual$ = this.individualHttpService.findById(this.id);
+
   }
+
 }

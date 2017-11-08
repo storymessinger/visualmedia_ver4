@@ -1,4 +1,5 @@
-import { Subscription } from 'rxjs/Rx';
+import { ProjectpageHttpService } from '../../../shared/projectpage-http.service';
+import { Observable, Subscription } from 'rxjs/Rx';
 import { ActivatedRoute } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { MockDataService } from './../../../shared/mockdata.service';
@@ -15,10 +16,12 @@ export class ResearchPublicateIndividualComponent implements OnInit {
   id: number;
   datas:any;
   imgPath:string = './assets/Contents/';
+  individual$: Observable<any>;
 
   constructor(
     private mockDataService:MockDataService,
-    private activatedRoute:ActivatedRoute
+    private activatedRoute:ActivatedRoute,
+    private projectpageHttpService:ProjectpageHttpService
     ) { 
     this.subscription = activatedRoute.params //
       .subscribe(
@@ -30,6 +33,8 @@ export class ResearchPublicateIndividualComponent implements OnInit {
   ngOnInit() {
     this.mockDataService.getPublication('whole',this.id);
     this.datas = this.mockDataService.publication_individual;
+
+    this.individual$ = this.projectpageHttpService.findById(this.id);
   }
 
 
